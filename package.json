@@ -1,0 +1,25 @@
+{
+  "name": "screenshotspush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "puppeteer": "^1.11.0",
+    "pushbullet": "^2.4.0",
+    "typescript": "^3.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mor9anz/screenshotspush.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mor9anz/screenshotspush/issues"
+  },
+  "homepage": "https://github.com/mor9anz/screenshotspush#readme"
+}
