@@ -80,10 +80,12 @@ async function screenshots(
   try {
     await login(browser, pusher);
   } catch (e) {
+    console.error(`login 1`);
     try {
       await login(browser, pusher);
     } catch (e) {
-      await login(browser, pusher);
+      console.error(`login 2`);
+      await browser.close();
     }
   }
   const urls = [
@@ -94,13 +96,18 @@ async function screenshots(
   try {
     await screenshots(browser, pusher, urls);
   } catch (e) {
-    ;
+    console.error(`screenshots 1`);
   }
 
   try {
     await qiandao(browser, pusher);
   } catch (e) {
-    await qiandao(browser, pusher);
+    console.error(`qiandao 1`);
+    try {
+      await qiandao(browser, pusher);
+    } catch (e) {
+      await browser.close();
+    }
   }
   await browser.close();
 })();
