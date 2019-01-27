@@ -1,5 +1,7 @@
 node_modules/
+.vscode/
 private.ts
+cookies
 *.js
 *.map
 *.jpg
