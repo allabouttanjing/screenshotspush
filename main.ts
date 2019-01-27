@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer';
+import puppeteer, {Browser} from 'puppeteer';
 
 import {DeviceId, Password, PushBulletApiKey, Username} from './private';
 
@@ -18,9 +18,13 @@ const Headers = {
   'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7'
 };
 
-(async () => {
+function sanitizePath(path: string): string {
+  const parts = path.split('/');
+  return parts[parts.length - 1];
+}
+
+async function login(browser: Browser, pusher: PushBullet) {
   const url = 'https://www.weibo.com/login.php';
-  const browser = await puppeteer.launch(LaunchConfig);
   const page = await browser.newPage();
 
   await page.setViewport({width: 1566, height: 2366});
@@ -35,24 +39,68 @@ const Headers = {
   await Promise.all([
     page.click(
         '#pl_login_form > div > div:nth-child(3) > div.info_list.login_btn > a'),
-    page.waitForNavigation({waitUntil: 'networkidle0'})
+    page.waitForNavigation({waitUntil: 'networkidle2'})
   ]);
+  await page.screenshot({path: `${sanitizePath(url)}.jpg`, quality: 25});
+  pusher.file(DeviceId, `${sanitizePath(url)}.jpg`, sanitizePath(url));
+}
 
-  const url2 =
+async function qiandao(browser: Browser, pusher: PushBullet) {
+  const url =
       'https://www.weibo.com/p/100808f26b39724d0515ef4cbd3f366d59ce14/super_index';
-  const page2 = await browser.newPage();
-  await page2.setViewport({width: 1566, height: 2366});
-  await page2.setExtraHTTPHeaders(Headers);
-  await page2.goto(url2);
-  await page2.waitForSelector('.topic_PCD_guide_special', {visible: true});
+  const page = await browser.newPage();
+  await page.setViewport({width: 1566, height: 2366});
+  await page.setExtraHTTPHeaders(Headers);
+  await page.goto(url);
+  await page.waitForSelector('.topic_PCD_guide_special', {visible: true});
 
   // click qian dao button
-  await page2.click(
+  await page.click(
       '#Pl_Core_StuffHeader__1 > div > div.header_wrap.S_bg2.S_line2 > div > div.pf_opt > div > div:nth-child(3) > a');
-  await page2.waitForSelector('.W_layer_btn.S_bg1', {visible: true});
-  await page2.screenshot({path: 'qiandao.jpg', quality: 25});
+  await page.waitForSelector('.W_layer_btn.S_bg1', {visible: true});
+  await page.screenshot({path: `${sanitizePath(url)}.jpg`, quality: 25});
+  pusher.file(DeviceId, `${sanitizePath(url)}.jpg`, 'qiandao');
+}
 
+async function screenshots(
+    browser: Browser, pusher: PushBullet, urls: string[]) {
+  for (let url of urls) {
+    const page = await browser.newPage();
+    await page.setViewport({width: 1566, height: 2366});
+    await page.setExtraHTTPHeaders(Headers);
+    await page.goto(url, {waitUntil: 'networkidle2'});
+    await page.screenshot({path: `${sanitizePath(url)}.jpg`, quality: 25});
+    pusher.file(DeviceId, `${sanitizePath(url)}.jpg`, sanitizePath(url));
+  }
+}
+
+(async () => {
+  const browser = await puppeteer.launch(LaunchConfig);
   const pusher = new PushBullet(PushBulletApiKey);
-  pusher.file(DeviceId, './qiandao.jpg', 'qiandao');
+  try {
+    await login(browser, pusher);
+  } catch (e) {
+    try {
+      await login(browser, pusher);
+    } catch (e) {
+      await login(browser, pusher);
+    }
+  }
+  const urls = [
+    'https://www.weibo.com/tanjing?from=myfollow_all&is_all=1',
+    'https://www.weibo.com/tanjing911?from=myfollow_all',
+    'https://www.weibo.com/tanjinggemi?from=myfollow_all'
+  ];
+  try {
+    await screenshots(browser, pusher, urls);
+  } catch (e) {
+    ;
+  }
+
+  try {
+    await qiandao(browser, pusher);
+  } catch (e) {
+    await qiandao(browser, pusher);
+  }
   await browser.close();
 })();
