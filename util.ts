@@ -1,6 +1,6 @@
+import Dropbox from 'dropbox';
 import fs from 'fs';
 import {Cookie, Page} from 'puppeteer';
-
 import {ExecutionTime, imageTypeSuffix, PathWeibo} from './constants';
 
 export function sanitizeAndGeneratePath(path: string): string {
@@ -40,7 +40,8 @@ export async function loadCookies(page: Page) {
   }
 }
 
-export async function uploadDropbox(dbx: any, path: string): Promise<void> {
+export async function uploadDropbox(dbx: Dropbox.Dropbox,
+                                    path: string): Promise<void> {
   try {
     const response = await dbx.filesUpload(
         {path : `${PathWeibo}/${path}`, contents : fs.readFileSync(`${path}`)});
@@ -51,7 +52,8 @@ export async function uploadDropbox(dbx: any, path: string): Promise<void> {
   }
 }
 
-export async function getSharedLink(dbx: any, path: string): Promise<string> {
+export async function getSharedLink(dbx: Dropbox.Dropbox,
+                                    path: string): Promise<string> {
   try {
     const sharingMetadata = await dbx.sharingCreateSharedLinkWithSettings(
         {path : `${PathWeibo}/${path}`});
