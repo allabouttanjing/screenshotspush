@@ -2,25 +2,28 @@ import puppeteer from 'puppeteer';
 
 import {login, qiandao, screenshots} from './actions';
 import {LaunchConfig} from './constants';
-import {PushBulletApiKey} from './private';
+import {AccessToken, PushBulletApiKey} from './private';
 
 import PushBullet = require('pushbullet');
+import fetch from 'isomorphic-fetch';
+
+const Dropbox = require('dropbox').Dropbox;
 
 (async () => {
   const browser = await puppeteer.launch(LaunchConfig);
   const pusher = new PushBullet(PushBulletApiKey);
+  const dbx = new Dropbox({accessToken: AccessToken, fetch: fetch});
+
   try {
-    await login(browser, pusher);
+    await login(browser, pusher, dbx);
   } catch (e) {
     console.error(`[-]login 1`);
     console.error(`${e}`);
     try {
-      await login(browser, pusher);
+      await login(browser, pusher, dbx);
     } catch (e) {
       console.error(`[-]login 2`);
       console.error(`${e}`);
-
-
       await browser.close();
     }
   }
@@ -31,19 +34,19 @@ import PushBullet = require('pushbullet');
   //   'https://www.weibo.com/tanjinggemi?from=myfollow_all'
   // ];
   // try {
-  //   await screenshots(browser, pusher, urls);
+  //   await screenshots(browser, pusher, dbx, urls);
   // } catch (e) {
   //   console.error(`[-]screenshots 1`);
-  // console.error(`${e}`);
+  //   console.error(`${e}`);
   // }
 
   try {
-    await qiandao(browser, pusher);
+    await qiandao(browser, pusher, dbx);
   } catch (e) {
     console.error(`[-]qiandao 1`);
     console.error(`${e}`);
     try {
-      await qiandao(browser, pusher);
+      await qiandao(browser, pusher, dbx);
     } catch (e) {
       await browser.close();
     }

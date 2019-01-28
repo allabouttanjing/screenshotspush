@@ -4,11 +4,16 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
+    "@types/isomorphic-fetch": "0.0.34",
+    "dropbox": "^4.0.15",
+    "isomorphic-fetch": "^2.2.1",
     "puppeteer": "^1.11.0",
     "pushbullet": "^2.4.0",
     "typescript": "^3.2.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/puppeteer": "^1.11.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

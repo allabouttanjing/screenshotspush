@@ -6,3 +6,7 @@ export const LaunchConfig = {
   //  "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
   // "/usr/bin/chromium-browser",
 };
+
+export const imageTypeSuffix = '.png';
+export const ExecutionTime = new Date().toTimeString();
+export const PathWeibo = '/weibo';

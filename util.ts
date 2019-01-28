@@ -1,10 +1,12 @@
 import fs from 'fs';
 import {Cookie, Page} from 'puppeteer';
 
-export function sanitizePath(path: string): string {
+import {ExecutionTime, imageTypeSuffix, PathWeibo} from './constants';
+
+export function sanitizeAndGeneratePath(path: string): string {
   const parts = path.split('/');
   const tail = parts[parts.length - 1];
-  return tail.split('?')[0];
+  return `${tail.split('?')[0]}-${ExecutionTime}${imageTypeSuffix}`;
 }
 
 export async function loggedIn(page: Page): Promise<boolean> {
@@ -35,5 +37,39 @@ export async function loadCookies(page: Page) {
   } catch (e) {
     console.log(`[-]failed loading cookies`);
     console.log(`${e}`);
+  }
+}
+
+export async function uploadDropbox(dbx: any, path: string): Promise<void> {
+  try {
+    const response = await dbx.filesUpload(
+        {path : `${PathWeibo}/${path}`, contents : fs.readFileSync(`${path}`)});
+    const name = response.name;
+    console.log(`[+]uploading succeed: ${name}`);
+  } catch (e) {
+    console.error(`[-]uploading failed: ${name}`);
+  }
+}
+
+export async function getSharedLink(dbx: any, path: string): Promise<string> {
+  try {
+    const sharingMetadata = await dbx.sharingCreateSharedLinkWithSettings(
+        {path : `${PathWeibo}/${path}`});
+    const link = sharingMetadata.url;
+    console.log(`[+]link generated: ${link}`);
+    return link as string;
+  } catch (e) {
+    console.error(`[-]link generation error`);
+    console.error(e);
+    const sharingMetadata =
+        await dbx.sharingGetSharedLinks({path : `${PathWeibo}/${path}`});
+    const link = sharingMetadata.links[0].url;
+    if (!!link) {
+      console.log(`[+]link retrieved: ${link}`);
+    } else {
+      console.error(`[-]link retrieving failed`);
+      console.error(e);
+    }
+    return link as string;
   }
 }

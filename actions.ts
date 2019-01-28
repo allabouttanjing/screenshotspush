@@ -1,11 +1,11 @@
-import {Browser} from 'puppeteer';
+import {Browser, Page} from 'puppeteer';
 
 import {DeviceId, Password, Username} from './private';
-import {loadCookies, loggedIn, sanitizePath, saveCookies} from './util';
+import {getSharedLink, loadCookies, loggedIn, sanitizeAndGeneratePath, saveCookies, uploadDropbox} from './util';
 
 import PushBullet = require('pushbullet');
 
-export async function login(browser: Browser, pusher: PushBullet) {
+export async function login(browser: Browser, pusher: PushBullet, dbx: any) {
   const url = 'https://www.weibo.com/login.php';
   const page = await browser.newPage();
 
@@ -27,11 +27,11 @@ export async function login(browser: Browser, pusher: PushBullet) {
     ]);
   }
   await saveCookies(page);
-  await page.screenshot({path: `${sanitizePath(url)}.jpg`, quality: 25});
-  pusher.file(DeviceId, `${sanitizePath(url)}.jpg`, sanitizePath(url));
+
+  await saveAndSend(page, pusher, dbx, url);
 }
 
-export async function qiandao(browser: Browser, pusher: PushBullet) {
+export async function qiandao(browser: Browser, pusher: PushBullet, dbx: any) {
   const url =
       'https://www.weibo.com/p/100808f26b39724d0515ef4cbd3f366d59ce14/super_index';
   const page = await browser.newPage();
@@ -43,17 +43,27 @@ export async function qiandao(browser: Browser, pusher: PushBullet) {
   await page.click(
       '#Pl_Core_StuffHeader__1 > div > div.header_wrap.S_bg2.S_line2 > div > div.pf_opt > div > div:nth-child(3) > a');
   await page.waitForSelector('.W_layer_btn.S_bg1', {visible: true});
-  await page.screenshot({path: `${sanitizePath(url)}.jpg`, quality: 25});
-  pusher.file(DeviceId, `${sanitizePath(url)}.jpg`, 'qiandao');
+
+  await saveAndSend(page, pusher, dbx, url);
 }
 
 export async function screenshots(
-    browser: Browser, pusher: PushBullet, urls: string[]) {
+    browser: Browser, pusher: PushBullet, dbx: any, urls: string[]) {
   for (let url of urls) {
     const page = await browser.newPage();
     await page.setViewport({width: 1566, height: 2366});
     await page.goto(url, {waitUntil: 'networkidle2'});
-    await page.screenshot({path: `${sanitizePath(url)}.jpg`, quality: 25});
-    pusher.file(DeviceId, `${sanitizePath(url)}.jpg`, sanitizePath(url));
+
+    await saveAndSend(page, pusher, dbx, url);
   }
+}
+
+async function saveAndSend(
+    page: Page, pusher: PushBullet, dbx: any, url: string) {
+  const path = sanitizeAndGeneratePath(url);
+  await page.screenshot({path: path});
+  await uploadDropbox(dbx, path);
+  const link = await getSharedLink(dbx, path);
+  pusher.note(DeviceId, path, link);
+  // pusher.file(DeviceId, path, path);
 }
