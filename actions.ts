@@ -23,6 +23,8 @@ export async function login(browser: Browser, pusher: PushBullet,
 
   const signedIn = await loggedIn(page);
   if (!signedIn) {
+    await page.evaluate(
+        () => { (document.querySelector('#loginname') as any).value = ''; });
     await page.type('#loginname', Username);
     await page.type(
         '#pl_login_form > div > div:nth-child(3) > div.info_list.password > div > input',
