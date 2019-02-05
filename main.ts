@@ -16,12 +16,12 @@ import fetch from 'isomorphic-fetch';
     await login(browser, pusher, dbx);
   } catch (e) {
     console.error(`[-]login 1`);
-    console.error(`${e}`);
+    console.error(e);
     try {
       await login(browser, pusher, dbx);
     } catch (e) {
       console.error(`[-]login 2`);
-      console.error(`${e}`);
+      console.error(e);
       await browser.close();
     }
   }
@@ -46,6 +46,8 @@ import fetch from 'isomorphic-fetch';
     try {
       await qiandao(browser, pusher, dbx);
     } catch (e) {
+      console.error(`[-]qiandao 2`);
+      console.error(e);
       await browser.close();
     }
   }
