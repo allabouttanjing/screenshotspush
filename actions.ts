@@ -39,6 +39,8 @@ export async function login(browser: Browser, pusher: PushBullet,
   await saveCookies(page);
 
   await saveAndSend(page, pusher, dbx, url);
+
+  console.log('[+] login succeeded');
 }
 
 export async function qiandao(browser: Browser, pusher: PushBullet,
@@ -56,6 +58,8 @@ export async function qiandao(browser: Browser, pusher: PushBullet,
   await page.waitForSelector('.W_layer_btn.S_bg1', {visible : true});
 
   await saveAndSend(page, pusher, dbx, url);
+
+  console.log('[+] qiandao succeeded');
 }
 
 export async function screenshots(browser: Browser, pusher: PushBullet,
@@ -72,9 +76,16 @@ export async function screenshots(browser: Browser, pusher: PushBullet,
 async function saveAndSend(page: Page, pusher: PushBullet, dbx: Dropbox.Dropbox,
                            url: string) {
   const path = sanitizeAndGeneratePath(url);
-  await page.screenshot({path : path});
-  await uploadDropbox(dbx, path);
-  const link = await getSharedLink(dbx, path);
-  pusher.note(DeviceId, path, link);
+  try {
+    await page.screenshot({path : path});
+    await uploadDropbox(dbx, path);
+    const link = await getSharedLink(dbx, path);
+    pusher.note(DeviceId, path, link);
+    console.log('[+] save and send succeeded');
+  } catch (e) {
+    console.error('[-] save and send failed');
+    console.error(e);
+    pusher.note(DeviceId, 'Failure', `$e`);
+  }
   // pusher.file(DeviceId, path, path);
 }
