@@ -1,8 +1,10 @@
 import Dropbox from 'dropbox';
 import puppeteer from 'puppeteer';
-import {login, qiandao} from './actions';
+
+import {login, Notes, qiandao} from './actions';
 import {LaunchConfig} from './constants';
-import {AccessToken, PushBulletApiKey} from './private';
+import {AccessToken, DeviceId, PushBulletApiKey} from './private';
+
 import PushBullet = require('pushbullet');
 import fetch from 'isomorphic-fetch';
 
@@ -22,6 +24,7 @@ import fetch from 'isomorphic-fetch';
     } catch (e) {
       console.error(`[-]login 2`);
       console.error(e);
+      pusher.note(DeviceId, 'tj', Notes.join('\n'));
       await browser.close();
     }
   }
@@ -48,8 +51,10 @@ import fetch from 'isomorphic-fetch';
     } catch (e) {
       console.error(`[-]qiandao 2`);
       console.error(e);
+      pusher.note(DeviceId, 'tj', Notes.join('\n'));
       await browser.close();
     }
   }
+  pusher.note(DeviceId, 'tj', Notes.join('\n\n'));
   await browser.close();
 })();

@@ -1,6 +1,6 @@
 import Dropbox from 'dropbox';
 import {Browser, Page} from 'puppeteer';
-import {DeviceId, Password, Username} from './private';
+import {Password, Username} from './private';
 import {
   getSharedLink,
   loadCookies,
@@ -72,7 +72,7 @@ export async function screenshots(browser: Browser, pusher: PushBullet,
     await saveAndSend(page, pusher, dbx, url);
   }
 }
-
+export const Notes: string[] = [];
 async function saveAndSend(page: Page, pusher: PushBullet, dbx: Dropbox.Dropbox,
                            url: string) {
   const path = sanitizeAndGeneratePath(url);
@@ -80,12 +80,12 @@ async function saveAndSend(page: Page, pusher: PushBullet, dbx: Dropbox.Dropbox,
     await page.screenshot({path : path});
     await uploadDropbox(dbx, path);
     const link = await getSharedLink(dbx, path);
-    pusher.note(DeviceId, path, link);
+    Notes.push(`${path}\n${link}`);
     console.log('[+] save and send succeeded');
   } catch (e) {
     console.error('[-] save and send failed');
     console.error(e);
-    pusher.note(DeviceId, 'Failure', `$e`);
+    Notes.push(`${path}\n${e}`);
   }
   // pusher.file(DeviceId, path, path);
 }
