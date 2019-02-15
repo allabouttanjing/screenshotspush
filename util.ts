@@ -48,7 +48,8 @@ export async function uploadDropbox(dbx: Dropbox.Dropbox,
     const name = response.name;
     console.log(`[+]uploading succeed: ${name}`);
   } catch (e) {
-    console.error(`[-]uploading failed: ${name}`);
+    console.error(`[-]uploading failed`);
+    console.error(e);
   }
 }
 
