@@ -10,10 +10,7 @@ import {
   uploadDropbox
 } from './util';
 
-import PushBullet = require('pushbullet');
-
-export async function login(browser: Browser, pusher: PushBullet,
-                            dbx: Dropbox.Dropbox) {
+export async function login(browser: Browser, dbx: Dropbox.Dropbox) {
   const url = 'https://www.weibo.com/login.php';
   const page = await browser.newPage();
 
@@ -38,43 +35,44 @@ export async function login(browser: Browser, pusher: PushBullet,
   }
   await saveCookies(page);
 
-  await saveAndSend(page, pusher, dbx, url);
+  await saveAndSend(page, dbx, url);
 
   console.log('[+] login succeeded');
 }
 
-export async function qiandao(browser: Browser, pusher: PushBullet,
+export async function qiandao(url: string, browser: Browser,
                               dbx: Dropbox.Dropbox) {
-  const url =
-      'https://www.weibo.com/p/100808f26b39724d0515ef4cbd3f366d59ce14/super_index';
   const page = await browser.newPage();
   await page.setViewport({width : 1566, height : 2366});
   await page.goto(url);
-  await page.waitForSelector('.topic_PCD_guide_special', {visible : true});
+  try {
+    await page.waitForSelector('.topic_PCD_guide_special', {visible : true});
+  } catch {
+    ;
+  }
 
   // click qian dao button
   await page.click(
       '#Pl_Core_StuffHeader__1 > div > div.header_wrap.S_bg2.S_line2 > div > div.pf_opt > div > div:nth-child(3) > a');
-  await page.waitForSelector('.W_layer_btn.S_bg1', {visible : true});
+  await page.waitForSelector('.W_layer_title', {visible : true});
 
-  await saveAndSend(page, pusher, dbx, url);
+  await saveAndSend(page, dbx, url);
 
   console.log('[+] qiandao succeeded');
 }
 
-export async function screenshots(browser: Browser, pusher: PushBullet,
-                                  dbx: Dropbox.Dropbox, urls: string[]) {
+export async function screenshots(browser: Browser, dbx: Dropbox.Dropbox,
+                                  urls: string[]) {
   for (let url of urls) {
     const page = await browser.newPage();
     await page.setViewport({width : 1566, height : 2366});
     await page.goto(url, {waitUntil : 'networkidle2'});
 
-    await saveAndSend(page, pusher, dbx, url);
+    await saveAndSend(page, dbx, url);
   }
 }
 export const Notes: string[] = [];
-async function saveAndSend(page: Page, pusher: PushBullet, dbx: Dropbox.Dropbox,
-                           url: string) {
+async function saveAndSend(page: Page, dbx: Dropbox.Dropbox, url: string) {
   const path = sanitizeAndGeneratePath(url);
   try {
     await page.screenshot({path : path});
@@ -87,5 +85,4 @@ async function saveAndSend(page: Page, pusher: PushBullet, dbx: Dropbox.Dropbox,
     console.error(e);
     Notes.push(`${path}\n${e}`);
   }
-  // pusher.file(DeviceId, path, path);
 }

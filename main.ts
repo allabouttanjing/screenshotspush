@@ -15,12 +15,12 @@ import fetch from 'isomorphic-fetch';
       new Dropbox.Dropbox({accessToken : AccessToken, fetch : fetch} as any);
 
   try {
-    await login(browser, pusher, dbx);
+    await login(browser, dbx);
   } catch (e) {
     console.error(`[-]login 1`);
     console.error(e);
     try {
-      await login(browser, pusher, dbx);
+      await login(browser, dbx);
     } catch (e) {
       console.error(`[-]login 2`);
       console.error(e);
@@ -41,18 +41,26 @@ import fetch from 'isomorphic-fetch';
   //   console.error(`${e}`);
   // }
 
-  try {
-    await qiandao(browser, pusher, dbx);
-  } catch (e) {
-    console.error(`[-]qiandao 1`);
-    console.error(`${e}`);
+  const qianDaoUrls = [
+    'https://www.weibo.com/p/100808a66b04b5e4dc7df0c87877a986de448c/super_index', // cym
+    'https://www.weibo.com/p/100808a7c64ab3578b73b026c791697a5d94dc/super_index', //晶锐学习会
+    'https://www.weibo.com/p/100808f26b39724d0515ef4cbd3f366d59ce14/super_index', // tj
+  ];
+
+  for (let url of qianDaoUrls) {
     try {
-      await qiandao(browser, pusher, dbx);
+      await qiandao(url, browser, dbx);
     } catch (e) {
-      console.error(`[-]qiandao 2`);
-      console.error(e);
-      pusher.note(DeviceId, 'tj', Notes.join('\n'));
-      await browser.close();
+      console.error(`[-]qiandao 1`);
+      console.error(`${e}`);
+      try {
+        await qiandao(url, browser, dbx);
+      } catch (e) {
+        console.error(`[-]qiandao 2`);
+        console.error(e);
+        pusher.note(DeviceId, 'tj', Notes.join('\n'));
+        await browser.close();
+      }
     }
   }
   pusher.note(DeviceId, 'tj', Notes.join('\n\n'));
