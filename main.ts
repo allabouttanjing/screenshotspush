@@ -63,6 +63,6 @@ import fetch from 'isomorphic-fetch';
       }
     }
   }
-  pusher.note(DeviceId, 'tj', Notes.join('\n\n'));
+  pusher.note(DeviceId, 'tj', Notes.map(note => unescape(note)).join('\n\n'));
   await browser.close();
 })();
