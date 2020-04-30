@@ -36,8 +36,8 @@
             "async-cards": "async-cards",
             "async-largepic": "async-largepic"
         }[t] || t) + "." + {
-            "async-cards": "315e7b16",
-            "async-largepic": "de3bc089"
+            "async-cards": "ccaf21e5",
+            "async-largepic": "6a06e3b6"
         }[t] + ".js"
     }
     function c(e) {
@@ -63,8 +63,8 @@
                 "async-cards": "async-cards",
                 "async-largepic": "async-largepic"
             }[t] || t) + "." + {
-                "async-cards": "e1a13820",
-                "async-largepic": "84a4a4fc"
+                "async-cards": "a79c480d",
+                "async-largepic": "97da8e03"
             }[t] + ".css", s = c.p + r, o = document.getElementsByTagName("link"), a = 0; a < o.length; a++) {
                 var u = o[a]
                   , l = u.getAttribute("data-href") || u.getAttribute("href");
@@ -228,6 +228,7 @@
           , i = n.n(r);
         i.a
     },
+    "0080": function(t, e, n) {},
     "0300": function(t, e, n) {},
     "040d": function(t, e, n) {
         "use strict";
@@ -245,26 +246,15 @@
         e["a"] = i
     },
     "0434": function(t, e, n) {},
+    "0a10": function(t, e, n) {},
     "0bca": function(t, e, n) {
         "use strict";
         var r = n("2b0e")
-          , i = new r["a"];
+          , i = new r["default"];
         e["a"] = i
-    },
-    "0cc3": function(t, e, n) {
-        "use strict";
-        var r = n("3029")
-          , i = n.n(r);
-        i.a
     },
     "0d71": function(t, e) {
         t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAFYElEQVRYw82XiVLbShBF/f+fk7xsr14SNhN2RFhtE8AOWzBgsNkcluSUrt5EmUWLUapC3VIJaab7qKe7Z1wbW1iYXF6uR9FfImBAqk0sLc18/jy/vv6nNbe2xnVhYwPp3itgQKpBxyCNLq7FzU1paWvLlXmbFs9nV1f//fQJr/wbsgwMSOWwjA+mEPDxxcWP8/P/zcwYfZib4wnPMTu9sgKHxOD3s7MvxsZ4+2pyklchsgRrKsbyfp/7uYxk4V9PTf0zMfGmXgdCOSDf3GCNJzwnKhomva3XcdY+Onp8fBRiKKi4mCqIhQlWnWC8HB/H5dr29sn5+c3d3cPDww/fH8/vvn+/urnpX12d9/sXgwGDn56e9Hb9yxc+KR8Ll94UkZYbDSLBF7M0h92uQcHNY/jvKf4zoDxh4v39PQ8b7TbrGHIHTD4WTOATpKjRwLRxMMIfTMMYa2tvT9HKwmKlucN9SKQFAxQby03Bv+H/YmWZuNpqkXlRwB2+QMrCYiYlAxYpAtPQ56m4YLodDrkhJajHHCwcU5YhLJUMocr258p9CxO6vr2llnEcwgIGpCwsrWDn+FihyubIkIAkqpKKppXkYDGCsozi2KS10mwy4t30NBV+70NJOysiegRiIjVEUWPfdYqAASkLS0kwuL4WxGg0FhnBphIJWD4W2cMgS9QLwaQ1Y+s5KC4WvR4sfbkrYH5hAWGJVk5iEjAT/0qwiPe3szMqiTRynaJ8LNoa6YWharHOLi/ZwXCKiyAW8fCCM4cV5FW1WFzpgmznfLAXS3tdjbpgmRlhiQ0VLMZVjsUWrh6OC9dvFG93NV6TaIywtLGzwyIyjiStCsuIZcI3Lly/wICUg8VN5ViEX8e9fCxGWNrc3SXUwqowTsLSwQQXrt8Ea2FjnQRyX9P0CPWfwGLPwDff7MUCBqSaKsINFanHnlo5FqECa+/wUL8hcGTBAQNSgqXXRirDZqfTGwyeueGEAkb30jmCZUm7TrDYg4DgnRGHWu3kOp9UzpReSrzjLu0dGB4mWLwzIkgwmY5VLY2KWu1eWLhLe8/C4iHBNI3UqBIgxGGQq45cfiz2IBLNwori7YjJdGSusjIymQUkm5yXtBdbWMDwvAYvicY7o1ano7zjJIkJ6TlkZqKxhk4vLlSJadeIJyB5sITPnINuFxp2Vr5sZDIrTpjCIPfbX7/y5ZbfX1gq0VYcJCPm6KyogLlkZbEspuPTU1o564UjyzUwUQirFYOrGmgwMqfglwqYN1T8ZlGlu0y/YbFkjEhLAYOMeJKA5AEWyy6ly8T1sNslPfhay6MRMEGstCDbPTjQUpZKfyvTNX1nfx+PXHOw6GlEhXFeAaTjB0ZNhhUh8y4fV1nDbMgjMCDlYKFWvJT8LpDpIjFLA6WZur1eFPfPDHcJlhoa+CGx22sMdinMdNi8ZNbamY/hhjXCVIYvhCPG1OicrUws1Iq/gDaG9V4mmXft9DHEGyNFfIFUCIuAkYl8BKblRp5csnSoTJzEhCOKH1NFsYgto3OFUQbTdc77fTGFsEyoRLZ/cmKYcgVMOSzEwuvXB3CspilML5Y2vmb89VwLukiw1NnaR0dFBA0zibMO+2wAISxtpiw9exxLw8SCLoABqRyWgeMKmfbyDCzQqflSxhMsrJedKREGdhJld/pMpnudqJrxJlY8VAgYkJ6FRX2ZNHLFK/WhUbDM2pcS801uqeIsCYtwMqyUZWBAGhFLm5LahGlOZg8wexTVStYzuDSWUj67xVnCDTGgG+lcAE3vd5l+y4CDOGDa9YsoSXn2Tv2MLih8NDttFlG+gaC7eiU+wgkZU9QscgUMSD8BRVJiIyni/Q4AAAAASUVORK5CYII="
-    },
-    "0e7e": function(t, e, n) {
-        "use strict";
-        var r = n("4212")
-          , i = n.n(r);
-        i.a
     },
     1: function(t, e) {},
     1633: function(t, e, n) {
@@ -784,14 +774,38 @@
         }
         ).call(this, n("dd40")(t))
     },
-    "1fa1": function(t, e, n) {
+    "1e05": function(t, e, n) {
         "use strict";
-        var r = n("8b2f")
+        var r = n("0080")
+          , i = n.n(r);
+        i.a
+    },
+    "1e7f": function(t, e, n) {
+        "use strict";
+        var r = n("c6eb")
+          , i = n.n(r);
+        i.a
+    },
+    "1ef3": function(t, e, n) {
+        "use strict";
+        var r = n("76f6")
           , i = n.n(r);
         i.a
     },
     2045: function(t, e, n) {},
     "23be": function(t, e, n) {},
+    2950: function(t, e, n) {
+        "use strict";
+        var r = n("6c49")
+          , i = n.n(r);
+        i.a
+    },
+    "29d1": function(t, e, n) {
+        "use strict";
+        var r = n("c509")
+          , i = n.n(r);
+        i.a
+    },
     "2b9b": function(t, e) {
         t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTMzNzRGMTI5MTY2MTFFOUIyQjJCNkM0NzBCQzI1MkUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTcxQzEzMDg5MTY3MTFFOUIyQjJCNkM0NzBCQzI1MkUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFMzM3NEYxMDkxNjYxMUU5QjJCMkI2QzQ3MEJDMjUyRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFMzM3NEYxMTkxNjYxMUU5QjJCMkI2QzQ3MEJDMjUyRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjaWdl4AAAHASURBVHjarNVLKERhFAfwa1iMRyxEiNlIFrIQTZKSspG8YuexsJSUDaUsSdKUbGxsPAvlsbBARllKKBtSEkIes5jJlNL4H51bp9s3d+Y+Tv2Kc7/5zv2++z1SRoP3mo3ogVmYgnmRz4EDeIRuSngsdlwIO7ACBVArnmXANvghT09aKdAH19CueJYK69AIDzzC/0hLouMiWIBWkzYz0Abv0ARPyY6gn99a7/wNxuDX0K4aItzuTj7QR1AFuSJPhYehReQ2YRA+YJw/qB5dkMXToxkLTPIP4kUIhmDNpM0n01QFBhJ0XgnPms2gAun89yvPN4UX6iHspHPjKjoWy8unmk+nBZwG7YVsQy7sZoETnlYZNx4XC0QUuW83R9CsSro5goQfmeZvQ5yMrhWI8rb3MRle3idRuwVoiqYhFud5PlxAnZMCc1ACNYJfnD3lcAoBsetVF1GZ2Uem4+BcOONd3clHCLUbgSs+uzIN/WzBJTRYXUV0PVbAKv9Pb7moOAGCvDB2+XC0tEy/oJevypc4bSb4JWix7EOpnX2wx6NZVjyL8dQdQjEs2d1oIb5G6Wq85RNYjx/ogCM6g/TknwADABbhU6HkAN0BAAAAAElFTkSuQmCC"
     },
@@ -801,31 +815,47 @@
           , i = n.n(r);
         i.a
     },
-    "2db5": function(t, e, n) {},
+    "2dc7": function(t, e, n) {},
     "2df7": function(t, e, n) {
         "use strict";
         var r = n("3a73")
           , i = n.n(r);
         i.a
     },
-    3029: function(t, e, n) {},
+    "2fd3": function(t, e, n) {
+        "use strict";
+        var r = n("300d")
+          , i = n.n(r);
+        i.a
+    },
+    "300d": function(t, e, n) {},
     3167: function(t, e, n) {
         "use strict";
         var r = n("9ce1")
           , i = n.n(r);
         i.a
     },
-    3501: function(t, e, n) {
-        "use strict";
-        var r = n("a264")
-          , i = n.n(r);
-        i.a
+    "32b2": function(t, e, n) {},
+    "347b": function(t, e) {
+        t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAFmUlEQVRoQ+1aW2wUZRT+vtkWpCWC10QDCKKohMQIUhCISAK2nUGg7YwxMZKIkKiAAQWCPpgYE7yAl0QQIyhBn2S2VAq7SxGDglK5qA9EjYAmCg+CmoCKCKVzzEx3l3Z3tjv/zBYMcZ6azjnfOd+ey5z/zBCXyMVLhAf+J+IXSdk/qhzHb6iCxMYBMh5k/y5ygtOAHAVxGOK0gqf3UE+dKUVWRI6I7LD64m+YIB7ynAd7Kzh2CpBGwHmb+sbPFfTyREMT6SAgC0AuBnB5FCc6dOVjiCyl0bg/DJYyEdlgxVAps0E+D+CaMEYL64gA+ABwFlPfeFQFW4mItEwfiHO9mkCMUjESQvYkNDzIGjsRVDcwEUnWj4VoqbwCDmopnNx86vbKIKqBiEjSmghBCkSfIKAllREsoWEvL4ZZlIhssUaBshNkRTGwHrsvzmM0Gt/qDr9bIpKsHwDRDlzgdPLxVwTi3ENj485CZAoSEYGGpNUKoirULy3yEwgbglMArgY5AsAdoVu14BdUtN3GSR+e8POnMJGkuQhg0dzMAxX8BsgSGvF1ufdEQGy1ZsGRFaGiLHiHhj07MJGOlIodVC5ukd0oa69jddPx7qIoLQ23op2fArxWOdoaxrDG3pur5xsRSZrrAc5UMiL4GRVtt3cOvSTq7wa1kR04zr7OY4hsqRsBxvaEaCLN1O3pRYlIcsZQSLkbDU2NiMzKpJNssHqhUt4HeX8Oxmr0+fUJTvrknPt/SVrPAXhWyQ7c6uUw1tiHO+vlRUQS1gsgliqBC9pRdrIfq7e5hQ1JWK+AeNIfQ16iHvfwZat1JdpxHERM0d6LNOynuyeSNI8AHKAIvJeGPcZzzu12KesfAOUFMNpQa19GwklHxc330Ur2IEepxwcWJCJbGm6Epv2gBupJt4LyjPeXYBDA9d1iaM4I1jR+kyayCcA0ZZvOueGc2vRdRq9LaknSnFnUCWWLPgrl6M8p9sl0Gn4EYrIyrDjzaDSuKkRkOcBFyqBqCnHqtpVRkaR5LFQbFnmTRnxuASJWM4D71PxSkBb5Eb3PjuPk5mPpYq+Cgz0KCOdFBdtp2FMKRWQfwDtDARdXOoBeZ6ZkSXgtGrtCj0DAV9Tt7Lkop0asQwBuKu6TooRgOypQx0n2X9mUSlhrQTyiiNRZ/DB1+2b/iCSs70EMiwDup9qEWtvMtltvGDXdWWthJDuCgzTsWwrVyJcA0iNFJDNpZfkdbWeHcHrzn15NuOf9vrIG4MMlQO8utcwWgPeWwEgGYiV1e75HYnvdVThbthnAXaXBl23U49UFUstcCTLb0qIblMXU4ys8IomGuaAW6PwdyK7IKhrxef5EUubjEGYfMoEAuxWShdTjr3tEkuYCgK9Fx8widFlM5Hat4QC80aE0V08ScUZSb/zaNyIdKWC5R9RBpSECd27LLNrcQXRoiXD/QK19RaYTupg+Y7y5DGSXEblExksII+9Sj3d5BuUTcQ9WKDsEsOiqqISeqUFJ+8TcjYr/UTdhbgY5VQ3dV7oFIl94d8ixALLtMjy27Kcezzu/FCDSMAbUOhyIdPVAsTsynlPju3PdKrwOSphrQPquXoJzKzERkbU04nP87BcmsmNGf5wu+xbgdcEdz5MsXWqFXdB5rdhdXkN2XPzCj7Ayzfy2kmh4FNRWR4hKdNWoS+wsmVTDQoj2anSPQiAInqJhF7Ud+FkhScsd0N4I4UoUldK+6DkfGWsaBO8B6BfFuwC6PffqLUvGfY/YXv4ywAcCOKQokn4ZGmtbwupNR1SUA6dWLqik6kfDiS0LtZPy9fACv57OJ2RNgMgciPvRgPLruYv/wUAeoWRtb2iVVWjHBBBDIBwMyvUABwOo9ORFToBohWAXYvgMzqm9/5lPOFTyuCdlQ9dITzoVBvuSIfIvQZUSUSsEFYwAAAAASUVORK5CYII="
     },
     3582: function(t, e, n) {},
     "358e": function(t, e, n) {},
     3634: function(t, e, n) {},
     "365c": function(t, e, n) {
         "use strict";
+        n.d(e, "a", (function() {
+            return r
+        }
+        )),
+        n.d(e, "c", (function() {
+            return i
+        }
+        )),
+        n.d(e, "b", (function() {
+            return s
+        }
+        ));
         var r = {};
         n.r(r),
         n.d(r, "remarklist", (function() {
@@ -840,12 +870,16 @@
             return m
         }
         )),
-        n.d(r, "clearUnfollowUnreadMsg", (function() {
+        n.d(r, "clearNotificationunread", (function() {
             return p
         }
         )),
-        n.d(r, "clearunread", (function() {
+        n.d(r, "clearUnfollowUnreadMsg", (function() {
             return g
+        }
+        )),
+        n.d(r, "clearunread", (function() {
+            return b
         }
         )),
         n.d(r, "getbasicmsg", (function() {
@@ -853,55 +887,55 @@
         }
         )),
         n.d(r, "userdetail", (function() {
-            return b
-        }
-        )),
-        n.d(r, "showbatch", (function() {
             return y
         }
         )),
-        n.d(r, "destroymsg", (function() {
+        n.d(r, "showbatch", (function() {
             return _
         }
         )),
-        n.d(r, "destroypubmsg", (function() {
+        n.d(r, "destroymsg", (function() {
             return w
         }
         )),
-        n.d(r, "getchatlist", (function() {
+        n.d(r, "destroypubmsg", (function() {
             return x
         }
         )),
-        n.d(r, "getunfollowlist", (function() {
+        n.d(r, "getchatlist", (function() {
             return j
         }
         )),
-        n.d(r, "getconverstion", (function() {
+        n.d(r, "getunfollowlist", (function() {
             return k
         }
         )),
-        n.d(r, "getpubconverstion", (function() {
+        n.d(r, "getconverstion", (function() {
             return O
         }
         )),
-        n.d(r, "relative", (function() {
+        n.d(r, "getpubconverstion", (function() {
             return C
         }
         )),
-        n.d(r, "blockuser", (function() {
+        n.d(r, "relative", (function() {
             return I
         }
         )),
-        n.d(r, "checkisblockuser", (function() {
+        n.d(r, "blockuser", (function() {
             return $
         }
         )),
+        n.d(r, "checkisblockuser", (function() {
+            return A
+        }
+        )),
         n.d(r, "unblockuser", (function() {
-            return T
+            return S
         }
         )),
         n.d(r, "setnotice", (function() {
-            return A
+            return T
         }
         )),
         n.d(r, "checksetnotice", (function() {
@@ -909,11 +943,11 @@
         }
         )),
         n.d(r, "getemotions", (function() {
-            return S
+            return D
         }
         )),
         n.d(r, "cardshow", (function() {
-            return D
+            return M
         }
         )),
         n.d(r, "newmsg", (function() {
@@ -921,7 +955,7 @@
         }
         )),
         n.d(r, "updateremark", (function() {
-            return M
+            return R
         }
         )),
         n.d(r, "getbilateral", (function() {
@@ -929,19 +963,19 @@
         }
         )),
         n.d(r, "msgboxsearch", (function() {
-            return R
-        }
-        )),
-        n.d(r, "creategroup", (function() {
             return N
         }
         )),
-        n.d(r, "updategroupmsg", (function() {
+        n.d(r, "creategroup", (function() {
             return L
         }
         )),
-        n.d(r, "groupquery", (function() {
+        n.d(r, "updategroupmsg", (function() {
             return G
+        }
+        )),
+        n.d(r, "groupquery", (function() {
+            return B
         }
         )),
         n.d(r, "querynick", (function() {
@@ -949,19 +983,19 @@
         }
         )),
         n.d(r, "querygroup", (function() {
-            return B
-        }
-        )),
-        n.d(r, "getgroupmsg", (function() {
             return W
         }
         )),
-        n.d(r, "getlastgroupmsg", (function() {
+        n.d(r, "getgroupmsg", (function() {
             return z
         }
         )),
-        n.d(r, "getgroupmsgs", (function() {
+        n.d(r, "getlastgroupmsg", (function() {
             return V
+        }
+        )),
+        n.d(r, "getgroupmsgs", (function() {
+            return F
         }
         )),
         n.d(r, "joingroups", (function() {
@@ -969,99 +1003,99 @@
         }
         )),
         n.d(r, "msgsearch", (function() {
-            return F
-        }
-        )),
-        n.d(r, "kickuser", (function() {
             return H
         }
         )),
-        n.d(r, "joinuser", (function() {
+        n.d(r, "kickuser", (function() {
             return J
         }
         )),
-        n.d(r, "sendmsg", (function() {
-            return Z
-        }
-        )),
-        n.d(r, "destroygroupmsg", (function() {
+        n.d(r, "joinuser", (function() {
             return K
         }
         )),
-        n.d(r, "destroygrouptop", (function() {
+        n.d(r, "sendmsg", (function() {
             return Q
         }
         )),
-        n.d(r, "exitgroup", (function() {
+        n.d(r, "destroygroupmsg", (function() {
+            return Z
+        }
+        )),
+        n.d(r, "destroygrouptop", (function() {
             return X
         }
         )),
-        n.d(r, "destroypubgroupmsg", (function() {
+        n.d(r, "exitgroup", (function() {
             return tt
         }
         )),
-        n.d(r, "setbulletin", (function() {
+        n.d(r, "destroypubgroupmsg", (function() {
             return et
         }
         )),
-        n.d(r, "clearbulletin", (function() {
+        n.d(r, "setbulletin", (function() {
             return nt
         }
         )),
-        n.d(r, "deletebulletin", (function() {
+        n.d(r, "clearbulletin", (function() {
             return rt
         }
         )),
-        n.d(r, "initfile", (function() {
+        n.d(r, "deletebulletin", (function() {
             return it
         }
         )),
-        n.d(r, "webimnas", (function() {
+        n.d(r, "initfile", (function() {
             return st
         }
         )),
-        n.d(r, "queryispub", (function() {
+        n.d(r, "webimnas", (function() {
             return ot
         }
         )),
-        n.d(r, "queryPubRemindType", (function() {
+        n.d(r, "queryispub", (function() {
             return at
         }
         )),
-        n.d(r, "recentmsg", (function() {
+        n.d(r, "queryPubRemindType", (function() {
             return ct
         }
         )),
-        n.d(r, "report", (function() {
+        n.d(r, "recentmsg", (function() {
             return ut
         }
         )),
-        n.d(r, "uploadVideoInit", (function() {
+        n.d(r, "report", (function() {
             return lt
         }
         )),
-        n.d(r, "getFirstImage", (function() {
+        n.d(r, "uploadVideoInit", (function() {
             return dt
         }
         )),
-        n.d(r, "groupRecallMsg", (function() {
+        n.d(r, "getFirstImage", (function() {
             return ft
         }
         )),
-        n.d(r, "recallMsg", (function() {
+        n.d(r, "groupRecallMsg", (function() {
             return ht
         }
         )),
-        n.d(r, "groupDeleteMsg", (function() {
+        n.d(r, "recallMsg", (function() {
             return mt
         }
         )),
-        n.d(r, "deleteMsg", (function() {
+        n.d(r, "groupDeleteMsg", (function() {
             return pt
         }
         )),
-        n.d(r, "flashFid", (function() {
+        n.d(r, "deleteMsg", (function() {
             return gt
+        }
+        )),
+        n.d(r, "flashFid", (function() {
+            return bt
         }
         )),
         n.d(r, "joinGroup", (function() {
@@ -1069,75 +1103,95 @@
         }
         )),
         n.d(r, "followUser", (function() {
-            return bt
-        }
-        )),
-        n.d(r, "isMember", (function() {
             return yt
         }
         )),
-        n.d(r, "checkVplusRelationship", (function() {
+        n.d(r, "isMember", (function() {
             return _t
         }
         )),
-        n.d(r, "addAdmin", (function() {
+        n.d(r, "checkVplusRelationship", (function() {
             return wt
         }
         )),
-        n.d(r, "deleteAdmin", (function() {
+        n.d(r, "addAdmin", (function() {
             return xt
         }
         )),
-        n.d(r, "tansferGroup", (function() {
+        n.d(r, "deleteAdmin", (function() {
             return jt
         }
         )),
-        n.d(r, "updateFansGroup", (function() {
+        n.d(r, "tansferGroup", (function() {
             return kt
         }
         )),
-        n.d(r, "searchAffi", (function() {
+        n.d(r, "updateFansGroup", (function() {
             return Ot
+        }
+        )),
+        n.d(r, "searchAffi", (function() {
+            return Ct
+        }
+        )),
+        n.d(r, "querySysMessages", (function() {
+            return It
+        }
+        )),
+        n.d(r, "set_push_settings", (function() {
+            return $t
+        }
+        )),
+        n.d(r, "push_settings", (function() {
+            return At
+        }
+        )),
+        n.d(r, "delete_sys_message", (function() {
+            return St
+        }
+        )),
+        n.d(r, "apply_check", (function() {
+            return Tt
         }
         ));
         var i = {};
         n.r(i),
         n.d(i, "login", (function() {
-            return Ct
+            return Pt
         }
         ));
         var s = {};
         n.r(s),
         n.d(s, "getqrcode", (function() {
-            return St
-        }
-        )),
-        n.d(s, "metaquery", (function() {
-            return Dt
-        }
-        )),
-        n.d(s, "checkqrcode", (function() {
-            return qt
-        }
-        )),
-        n.d(s, "logout", (function() {
-            return Mt
-        }
-        )),
-        n.d(s, "cardshow", (function() {
-            return Et
-        }
-        )),
-        n.d(s, "webimnas", (function() {
-            return Rt
-        }
-        )),
-        n.d(s, "crossDomain", (function() {
             return Nt
         }
         )),
-        n.d(s, "totalUnreadCount", (function() {
+        n.d(s, "metaquery", (function() {
             return Lt
+        }
+        )),
+        n.d(s, "checkqrcode", (function() {
+            return Gt
+        }
+        )),
+        n.d(s, "logout", (function() {
+            return Bt
+        }
+        )),
+        n.d(s, "cardshow", (function() {
+            return Ut
+        }
+        )),
+        n.d(s, "webimnas", (function() {
+            return Wt
+        }
+        )),
+        n.d(s, "crossDomain", (function() {
+            return zt
+        }
+        )),
+        n.d(s, "totalUnreadCount", (function() {
+            return Vt
         }
         ));
         n("6762"),
@@ -1171,12 +1225,18 @@
             ))
         }
           , p = function(t) {
-            return a.a.post("/webim/2/direct_messages/public/set_unread_count.json", u.a.stringify(t)).then((function(t) {
+            return a.a.post("/webim/groupchat/clear_sys_unread.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
           , g = function(t) {
+            return a.a.post("/webim/2/direct_messages/public/set_unread_count.json", u.a.stringify(t)).then((function(t) {
+                return t.data
+            }
+            ))
+        }
+          , b = function(t) {
             return a.a.post("/webim/groupchat/clear_unread.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
@@ -1188,7 +1248,7 @@
             }
             ))
         }
-          , b = function(t) {
+          , y = function(t) {
             return a.a.get("/webim/2/users/show.json", t).then((function(t) {
                 return t.data && (t.data.name || t.data.screen_name) ? t.data : {
                     error: "用户不存在"
@@ -1196,73 +1256,73 @@
             }
             ))
         }
-          , y = function(t) {
+          , _ = function(t) {
             return a.a.get("/webim/2/direct_messages/show_batch.json?is_complete=1&is_encoded=0", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , _ = function(t) {
+          , w = function(t) {
             return a.a.post("/webim/2/direct_messages/destroy_batch.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , w = function(t) {
+          , x = function(t) {
             return a.a.post("/webim/2/direct_messages/public/destroy_batch.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , x = function(t) {
+          , j = function(t) {
             return a.a.get("/webim/2/direct_messages/contacts.json?special_source=3", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , j = function(t) {
+          , k = function(t) {
             return a.a.get("/webim/2/direct_messages/public/contacts.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , k = function(t) {
+          , O = function(t) {
             return a.a.get("/webim/2/direct_messages/conversation.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , O = function(t) {
+          , C = function(t) {
             return a.a.get("/webim/2/direct_messages/public/conversation.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , C = function(t) {
+          , I = function(t) {
             return a.a.get("/webim/2/friendships/batch_exists.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , I = function(t) {
+          , $ = function(t) {
             return a.a.post("/webim/2/direct_messages/block_batch.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , $ = function(t) {
+          , A = function(t) {
             return a.a.get("/webim/2/direct_messages/block/check_batch.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , T = function(t) {
+          , S = function(t) {
             return a.a.post("/webim/2/direct_messages/unblock_batch.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , A = function(t) {
+          , T = function(t) {
             var e = "/webim/2/notice_center/discussion_group/set_push_settings.json";
             return 1 === t.affi_type && (e = "/webim/groupchat/update_user_settings.json",
             delete t.affi_type),
@@ -1277,13 +1337,13 @@
             }
             ))
         }
-          , S = function() {
+          , D = function() {
             return a.a.get("/2/emotions.json").then((function(t) {
                 return t.data
             }
             ))
         }
-          , D = function(t) {
+          , M = function(t) {
             return a.a.get("/webim/2/short_url/info.json", t).then((function(t) {
                 return t.data
             }
@@ -1295,7 +1355,7 @@
             }
             ))
         }
-          , M = function(t) {
+          , R = function(t) {
             return a.a.post("/webim/2/friendships/remark/update.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
@@ -1307,25 +1367,25 @@
             }
             ))
         }
-          , R = function(t) {
+          , N = function(t) {
             return a.a.get("/webim/2/direct_messages/messageboxsearch.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , N = function(t) {
+          , L = function(t) {
             return a.a.post("/webim/groupchat/create.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , L = function(t) {
+          , G = function(t) {
             return a.a.post("/webim/groupchat/update.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , G = function(t) {
+          , B = function(t) {
             return a.a.get("/webim/groupchat/query.json", t).then((function(t) {
                 return t.data
             }
@@ -1337,25 +1397,25 @@
             }
             ))
         }
-          , B = function(t) {
+          , W = function(t) {
             return a.a.get("/webim/query_group.json?is_pc=1&query_member=1&sort_by_jp=1&query_member_count=5000", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , W = function(t) {
+          , z = function(t) {
             return a.a.get("/webim/groupchat/query_messages.json?convert_emoji=1&query_sender=1", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , z = function(t) {
+          , V = function(t) {
             return a.a.get("/webim/groupchat/query_message.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , V = function(t) {
+          , F = function(t) {
             return a.a.get("/webim/groupchat/batch_query_messages.json", t).then((function(t) {
                 return t.data
             }
@@ -1367,146 +1427,146 @@
             }
             ))
         }
-          , F = function(t) {
+          , H = function(t) {
             return a.a.get("/webim/2/direct_messages/messageboxsearch.json?types=contact,group", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , H = function(t) {
+          , J = function(t) {
             return a.a.post("/webim/groupchat/kick.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , J = function(t) {
+          , K = function(t) {
             return a.a.post("/webim/groupchat/join.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , Z = function(t) {
+          , Q = function(t) {
             return a.a.post("/webim/groupchat/send_message.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , K = function(t) {
+          , Z = function(t) {
             return a.a.post("/webim/groupchat/delete_message.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , Q = function(t) {
-            return a.a.post("/webim/2/direct_messages/delete_top_contact.json", u.a.stringify(t)).then((function(t) {
-                return t.data
-            }
-            ))
-        }
           , X = function(t) {
-            return a.a.post("/webim/groupchat/exit.json", u.a.stringify(t)).then((function(t) {
+            return a.a.post("/webim/2/direct_messages/delete_top_contact.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
           , tt = function(t) {
-            return a.a.post("/webim/2/direct_messages/delete_top_contact.json", u.a.stringify(t)).then((function(t) {
+            return a.a.post("/webim/groupchat/exit.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
           , et = function(t) {
-            return a.a.post("/webim/groupchat/send_bulletin.json", u.a.stringify(t)).then((function(t) {
+            return a.a.post("/webim/2/direct_messages/delete_top_contact.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
           , nt = function(t) {
-            return a.a.post("/webim/groupchat/delete_user_bulletin.json", u.a.stringify(t)).then((function(t) {
+            return a.a.post("/webim/groupchat/send_bulletin.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
           , rt = function(t) {
-            return a.a.post("/webim/groupchat/delete_bulletin.json", u.a.stringify(t)).then((function(t) {
+            return a.a.post("/webim/groupchat/delete_user_bulletin.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
           , it = function(t) {
+            return a.a.post("/webim/groupchat/delete_bulletin.json", u.a.stringify(t)).then((function(t) {
+                return t.data
+            }
+            ))
+        }
+          , st = function(t) {
             return a.a.post("/webim/fileplatform/init.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , st = function() {
+          , ot = function() {
             return a.a.get("/webim/webim_nas.json?returntype=json&v=1.1").then((function(t) {
                 return t.data
             }
             ))
         }
-          , ot = function() {
+          , at = function() {
             return a.a.get("/webim/2/direct_messages/query_receiver_setting.json").then((function(t) {
                 return t.data
             }
             ))
         }
-          , at = function() {
+          , ct = function() {
             return a.a.get("/webim/2/direct_messages/public/query_remind_type.json").then((function(t) {
                 return t.data
             }
             ))
         }
-          , ct = function(t) {
+          , ut = function(t) {
             return a.a.get("/webim/2/direct_messages/recent_messages.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , ut = function(t) {
-            return a.a.post("/webim/report.json?e=".concat(Global.sid).concat(Math.floor(100 * Math.random())), u.a.stringify(t)).then((function(t) {
-                return t.data
-            }
-            ))
-        }
           , lt = function(t) {
-            return a.a.post("/webim/2/multimedia/init.json", u.a.stringify(t)).then((function(t) {
+            return a.a.post("/webim/report.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
           , dt = function(t) {
+            return a.a.post("/webim/2/multimedia/init.json", u.a.stringify(t)).then((function(t) {
+                return t.data
+            }
+            ))
+        }
+          , ft = function(t) {
             var e = "/webim/2/mss/query_video_trans.json";
             return a.a.get(e, t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , ft = function(t) {
+          , ht = function(t) {
             return a.a.post("/webim/groupchat/recall.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , ht = function(t) {
+          , mt = function(t) {
             return a.a.post("/webim/2/direct_messages/recall.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , mt = function(t) {
+          , pt = function(t) {
             return a.a.post("/webim/groupchat/delete_message.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , pt = function(t) {
+          , gt = function(t) {
             return a.a.post("/webim/2/direct_messages/destroy.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , gt = function(t) {
+          , bt = function(t) {
             return a.a.post("/webim/2/mss/repost.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
@@ -1518,72 +1578,102 @@
             }
             ))
         }
-          , bt = function(t) {
+          , yt = function(t) {
             return a.a.post("/webim/follow_affi.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , yt = function(t) {
+          , _t = function(t) {
             return a.a.get("/webim/groupchat/is_members.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , _t = function(t) {
+          , wt = function(t) {
             return a.a.get("/webim/friendships/vipclub/relation/check.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , wt = function(t) {
+          , xt = function(t) {
             return a.a.post("/webim/groupchat/add_admin.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , xt = function(t) {
+          , jt = function(t) {
             return a.a.post("/webim/groupchat/delete_admin.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , jt = function(t) {
+          , kt = function(t) {
             return a.a.get("/webim/groupchat/set_group_owner.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , kt = function(t) {
+          , Ot = function(t) {
             return a.a.post("/webim/groupchat/apply_update_to_affi.json", u.a.stringify(t)).then((function(t) {
                 return t.data
             }
             ))
         }
-          , Ot = function(t) {
+          , Ct = function(t) {
             return a.a.get("/webim/query_group_affi.json", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , Ct = function(t) {
+          , It = function(t) {
+            return a.a.get("/webim/groupchat/query_sys_messages.json", t).then((function(t) {
+                return t.data
+            }
+            ))
+        }
+          , $t = function(t) {
+            return a.a.post("/webim/2/notice_center/outer/set_push_settings.json", u.a.stringify(t)).then((function(t) {
+                return t.data
+            }
+            ))
+        }
+          , At = function(t) {
+            return a.a.get("/webim/2/notice_center/outer/push_settings.json", t).then((function(t) {
+                return t.data
+            }
+            ))
+        }
+          , St = function(t) {
+            return a.a.post("/webim/groupchat/delete_sys_message.json", u.a.stringify(t)).then((function(t) {
+                return t.data
+            }
+            ))
+        }
+          , Tt = function(t) {
+            return a.a.post("/webim/groupchat/apply_check.json", u.a.stringify(t)).then((function(t) {
+                return t.data
+            }
+            ))
+        }
+          , Pt = function(t) {
             return a.a.get("//login.sina.com.cn/sso/login.php?entry=weibo&returntype=TEXT&crossdomain=1&cdult=3&domain=weibo.com&savestate=30&source=209678993", t).then((function(t) {
                 return t.data
             }
             ))
         }
-          , It = (n("a481"),
+          , Dt = (n("a481"),
         console.log,
         0);
-        function $t() {}
-        function Tt(t, e, n) {
+        function Mt() {}
+        function qt(t, e, n) {
             "function" == typeof e && (n = e,
             e = {}),
             e || (e = {});
-            var r, i, s = e.prefix || "__jp", o = e.name || s + It++, a = e.param || "callback", c = null != e.timeout ? e.timeout : 1e4, u = encodeURIComponent, l = document.getElementsByTagName("body")[0] || document.head;
+            var r, i, s = e.prefix || "__jp", o = e.name || s + Dt++, a = e.param || "callback", c = null != e.timeout ? e.timeout : 1e4, u = encodeURIComponent, l = document.getElementsByTagName("body")[0] || document.head;
             function d() {
                 l && r && l.removeChild(r),
-                window[o] = $t,
+                window[o] = Mt,
                 i && clearTimeout(i)
             }
             function f() {
@@ -1611,10 +1701,10 @@
             l.appendChild(r),
             f
         }
-        function At(t, e, n) {
-            return t += (t.indexOf("?") < 0 ? "?" : "&") + Pt(e),
+        function Rt(t, e, n) {
+            return t += (t.indexOf("?") < 0 ? "?" : "&") + Et(e),
             new Promise((function(e, r) {
-                Tt(t, n, (function(t, n) {
+                qt(t, n, (function(t, n) {
                     t ? r(t) : e(n)
                 }
                 ))
@@ -1624,7 +1714,7 @@
             }
             ))
         }
-        function Pt(t) {
+        function Et(t) {
             var e = "";
             for (var n in t) {
                 var r = void 0 !== t[n] ? t[n] : "";
@@ -1632,51 +1722,51 @@
             }
             return e ? e.substring(1) : ""
         }
-        var St = function() {
+        var Nt = function() {
             var t = "//login.sina.com.cn/sso/qrcode/image"
               , e = {
                 entry: "weibo",
                 size: 180,
                 source: 209678993
             };
-            return At(t, e)
+            return Rt(t, e)
         }
-          , Dt = function(t) {
+          , Lt = function(t) {
             var e = "//upload.api.weibo.com/2/mss/meta_query.json?source=209678993";
-            return At(e, t)
+            return Rt(e, t)
         }
-          , qt = function(t) {
+          , Gt = function(t) {
             var e = "//login.sina.com.cn/sso/qrcode/check?entry=weibo&source=209678993";
-            return At(e, t)
+            return Rt(e, t)
         }
-          , Mt = function() {
+          , Bt = function() {
             var t = "//passport.weibo.com/wbsso/logout"
               , e = {
                 r: "https://weibo.com",
                 returntype: 1
             };
-            return At(t, e)
+            return Rt(t, e)
         }
-          , Et = function(t) {
+          , Ut = function(t) {
             var e = "//weibo.com/aj/card/show?source=209678993&_t=3";
-            return At(e, t)
+            return Rt(e, t)
         }
-          , Rt = function() {
+          , Wt = function() {
             var t = "//api.weibo.com/webim/webim_nas.json"
               , e = {
                 source: 209678993,
                 returntype: "json",
                 v: "1.1"
             };
-            return At(t, e)
+            return Rt(t, e)
         }
-          , Nt = function(t) {
+          , zt = function(t) {
             var e = {
                 source: 209678993
             };
-            return At(t, e)
+            return Rt(t, e)
         }
-          , Lt = function() {
+          , Vt = function() {
             var t = "//rm.api.weibo.com/2/remind/push_count.json"
               , e = {
                 source: 209678993,
@@ -1686,23 +1776,11 @@
                 with_settings: 1,
                 sign_val: "newChat"
             };
-            return At(t, e)
+            return Rt(t, e)
         };
-        n.d(e, "a", (function() {
-            return r
-        }
-        )),
-        n.d(e, "c", (function() {
-            return i
-        }
-        )),
-        n.d(e, "b", (function() {
-            return s
-        }
-        )),
         a.a.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
-        var Gt = ["development", "dev"].includes("production");
-        a.a.defaults.baseURL = Gt ? "//api.weibo.com" : "",
+        var Ft = ["development", "dev"].includes("production");
+        a.a.defaults.baseURL = Ft ? "//api.weibo.com" : "",
         a.a.interceptors.request.use((function(t) {
             if ("get" == t.method) {
                 var e = (new Date).getTime();
@@ -1722,7 +1800,7 @@
         a.a.interceptors.response.use((function(t) {
             if (null != t.data && 21301 == t.data.error_code) {
                 var e = location.href.indexOf("#/login");
-                e || d["e"].aborting || l["a"].prototype.$modal({
+                e || d["e"].aborting || l["default"].prototype.$modal({
                     icon: {
                         text: n("6008")
                     },
@@ -1746,6 +1824,12 @@
         }
         ))
     },
+    "36f2": function(t, e, n) {
+        "use strict";
+        var r = n("8481")
+          , i = n.n(r);
+        i.a
+    },
     "37a4": function(t, e, n) {},
     "3a73": function(t, e, n) {},
     "3c119": function(t, e, n) {},
@@ -1766,6 +1850,11 @@
           , i = []
           , s = (n("ac4d"),
         n("8a81"),
+        n("5df3"),
+        n("1c4c"),
+        n("7f7f"),
+        n("6b54"),
+        n("87b3"),
         n("768b"));
         n("ac6a"),
         n("ffc1"),
@@ -1808,8 +1897,70 @@
           , d = n("0bca")
           , f = n("4328")
           , h = n.n(f)
-          , m = n("8917")
-          , p = {
+          , m = n("8917");
+        function p(t) {
+            if ("undefined" === typeof Symbol || null == t[Symbol.iterator]) {
+                if (Array.isArray(t) || (t = g(t))) {
+                    var e = 0
+                      , n = function() {};
+                    return {
+                        s: n,
+                        n: function() {
+                            return e >= t.length ? {
+                                done: !0
+                            } : {
+                                done: !1,
+                                value: t[e++]
+                            }
+                        },
+                        e: function(t) {
+                            throw t
+                        },
+                        f: n
+                    }
+                }
+                throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
+            }
+            var r, i, s = !0, o = !1;
+            return {
+                s: function() {
+                    r = t[Symbol.iterator]()
+                },
+                n: function() {
+                    var t = r.next();
+                    return s = t.done,
+                    t
+                },
+                e: function(t) {
+                    o = !0,
+                    i = t
+                },
+                f: function() {
+                    try {
+                        s || null == r.return || r.return()
+                    } finally {
+                        if (o)
+                            throw i
+                    }
+                }
+            }
+        }
+        function g(t, e) {
+            if (t) {
+                if ("string" === typeof t)
+                    return b(t, e);
+                var n = Object.prototype.toString.call(t).slice(8, -1);
+                return "Object" === n && t.constructor && (n = t.constructor.name),
+                "Map" === n || "Set" === n ? Array.from(n) : "Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? b(t, e) : void 0
+            }
+        }
+        function b(t, e) {
+            (null == e || e > t.length) && (e = t.length);
+            for (var n = 0, r = new Array(e); n < e; n++)
+                r[n] = t[n];
+            return r
+        }
+        var v = {
             data: function() {
                 return {
                     statusMap: {}
@@ -1853,7 +2004,7 @@
                     var e = Object(l["n"])(Object(l["k"])(location.href), "source_from");
                     e = parseInt(e) ? parseInt(e) : "";
                     var n = {
-                        sid: Global.sid,
+                        sid: window.Global.sid,
                         type: 1,
                         browser: Object(a["a"])().broName,
                         browser_ver: Object(a["a"])().browserVersion,
@@ -1875,40 +2026,29 @@
                 },
                 report2: function() {
                     var t = {
-                        sid: Global.sid,
+                        sid: window.Global.sid,
                         type: 2,
                         duration: Math.floor(((new Date).getTime() - c["d"].starttime) / 1e3),
                         version: document.body.getElementsByTagName("script")[1] ? document.body.getElementsByTagName("script")[1].src.match(/app.(.*).js/)[1] : "dev"
                     };
                     try {
-                        for (var e = ["setAdmin", "speechForbid", "transferGroup", "updateAffi", "feedAddGroupWithoutLimit", "feedGroupCard", "addGroupWithoutLimit", "feedAddGroupWithLimit", "addGroupWithLimit", "clickGroupCard"], n = new Array(e.length), r = 0, i = Object.entries(m["a"]); r < i.length; r++) {
-                            var l = Object(s["a"])(i[r], 2)
-                              , d = l[0]
-                              , f = l[1]
-                              , h = !0
-                              , p = !1
-                              , g = void 0;
+                        for (var e = ["setAdmin", "speechForbid", "transferGroup", "updateAffi", "feedAddGroupWithoutLimit", "feedGroupCard", "addGroupWithoutLimit", "feedAddGroupWithLimit", "addGroupWithLimit", "clickGroupCard", "newGroup", "editGroupName"], n = new Array(e.length), r = 0, i = Object.entries(m["a"]); r < i.length; r++) {
+                            var l, d = Object(s["a"])(i[r], 2), f = d[0], h = d[1], g = p(e.entries());
                             try {
-                                for (var v, b = e.entries()[Symbol.iterator](); !(h = (v = b.next()).done); h = !0) {
-                                    var y = Object(s["a"])(v.value, 2)
-                                      , _ = y[0]
-                                      , w = y[1];
-                                    d === w && (n[_] = f.count)
+                                for (g.s(); !(l = g.n()).done; ) {
+                                    var b = Object(s["a"])(l.value, 2)
+                                      , v = b[0]
+                                      , y = b[1];
+                                    f === y && (n[v] = h.count)
                                 }
-                            } catch (x) {
-                                p = !0,
-                                g = x
+                            } catch (_) {
+                                g.e(_)
                             } finally {
-                                try {
-                                    h || null == b.return || b.return()
-                                } finally {
-                                    if (p)
-                                        throw g
-                                }
+                                g.f()
                             }
                         }
                         t.action = n.join("_")
-                    } catch (j) {
+                    } catch (w) {
                         t.action = Object(a["a"])().broName + Object(a["a"])().browserVersion + o()
                     }
                     u["a"].report({
@@ -1920,35 +2060,38 @@
                 window.removeEventListener("beforeunload", this.report2)
             }
         }
-          , g = p
-          , v = (n("7c55"),
+          , y = v
+          , _ = (n("7c55"),
         n("2877"))
-          , b = Object(v["a"])(g, r, i, !1, null, null, null);
-        e["a"] = b.exports
+          , w = Object(_["a"])(y, r, i, !1, null, null, null);
+        e["a"] = w.exports
     },
-    4078: function(t, e, n) {
-        "use strict";
-        var r = n("b9c4")
-          , i = n.n(r);
-        i.a
-    },
-    4212: function(t, e, n) {},
     4360: function(t, e, n) {
         "use strict";
         var r = n("2b0e")
           , i = n("2f62")
-          , s = (n("c5f6"),
+          , s = n("768b")
+          , o = (n("ac6a"),
+        n("ffc1"),
+        n("c5f6"),
         n("20d6"),
+        n("7f7f"),
         n("75fc"))
-          , o = n("0bca")
-          , a = {
+          , a = n("0bca")
+          , c = !1;
+        a["a"].$on("readRecordMode", (function(t) {
+            c = t,
+            console.log(c)
+        }
+        ));
+        var u = {
             changememorytop: function(t, e) {
                 t.memorytop = e
             },
             updateHasPlay: function(t, e) {
                 var n = t.hasPlay;
                 t.hasPlay = e,
-                e > 0 && n > 0 && o["a"].$emit("changePlayState")
+                e > 0 && n > 0 && a["a"].$emit("changePlayState")
             },
             exisWinFocus: function(t, e) {
                 t.isWinFocus = e
@@ -1967,7 +2110,7 @@
             },
             addchatlist: function(t, e) {
                 var n;
-                Array.isArray(e) ? (n = t.chatlist).push.apply(n, Object(s["a"])(e)) : t.chatlist.push(e)
+                Array.isArray(e) ? (n = t.chatlist).push.apply(n, Object(o["a"])(e)) : t.chatlist.push(e)
             },
             unshiftchatlist: function(t, e) {
                 t.chatlist.unshift(e)
@@ -1991,17 +2134,17 @@
                         o.fileToken && !s.errorsend && (o.fileToken = "");
                         var a = "";
                         if (s && o.urlDtails && (o.urlDtails = a),
-                        s && s.url_objects && s.url_objects[0] && (s.url_objects[0].object && s.url_objects[0].object.object && s.url_objects[0].object.object.display_name ? a = "[链接]" + s.url_objects[0].object.object.display_name : s.url_objects[0].user && s.url_objects[0].user.screen_name && (a = "[链接]" + s.url_objects[0].user.screen_name),
+                        s && s.url_objects && s.url_objects[0] && (s.url_objects[0].info && s.url_objects[0].info.url_short && s.url_objects[0].info.url_short !== s.text.trim() ? a = "" : s.url_objects[0].object && s.url_objects[0].object.object && s.url_objects[0].object.object.display_name ? a = "[链接]" + s.url_objects[0].object.object.display_name : s.url_objects[0].user && s.url_objects[0].user.screen_name ? a = "[链接]" + s.url_objects[0].user.screen_name : s.url_objects[0] && s.url_objects[0].status && s.url_objects[0].status.text && (a = "[链接] ".concat(s.url_objects[0].status.user.name, " 的微博")),
                         o.urlDtails = a),
                         i) {
                             for (var c in s)
                                 o[c] = s[c];
-                            n ? r["a"].set(t.chatlist, i, o) : (t.chatlist.splice(i, 1),
+                            n ? r["default"].set(t.chatlist, i, o) : (t.chatlist.splice(i, 1),
                             t.chatlist.unshift(o))
                         } else {
                             for (var u in s)
                                 o[u] = s[u];
-                            r["a"].set(t.chatlist, i, o)
+                            r["default"].set(t.chatlist, i, o)
                         }
                     }
                 }
@@ -2018,7 +2161,7 @@
             updateremarklist: function(t, e) {
                 var n = e.i
                   , i = e.remark;
-                r["a"].set(t.remarklist[n], "remark", i)
+                r["default"].set(t.remarklist[n], "remark", i)
             },
             removeremarklist: function(t, e) {
                 t.remarklist.splice(e, 1)
@@ -2026,7 +2169,7 @@
             updateremark: function(t, e) {
                 var n = e.i
                   , i = e.remark;
-                r["a"].set(t.chatlist[n], "remark", i)
+                r["default"].set(t.chatlist[n], "remark", i)
             },
             emptyunread: function(t, e) {
                 t.chatlist[e].unread_count && (t.chatlist[e].unread_count = 0)
@@ -2049,7 +2192,7 @@
             },
             addunfollowlist: function(t, e) {
                 var n;
-                Array.isArray(e) ? (n = t.unfollowlist).push.apply(n, Object(s["a"])(e)) : t.unfollowlist.push(e);
+                Array.isArray(e) ? (n = t.unfollowlist).push.apply(n, Object(o["a"])(e)) : t.unfollowlist.push(e);
                 this.commit("exunfollowlistcursor", t.unfollowlist.length)
             },
             removeunfollowlists: function(t, e) {
@@ -2087,7 +2230,7 @@
                         for (var a in o.fileToken && !s.errorsend && (o.fileToken = ""),
                         s)
                             o[a] = s[a];
-                        n ? r["a"].set(t.unfollowlist, i, o) : (t.unfollowlist.splice(i, 1),
+                        n ? r["default"].set(t.unfollowlist, i, o) : (t.unfollowlist.splice(i, 1),
                         t.unfollowlist.unshift(o))
                     }
                 }
@@ -2117,6 +2260,7 @@
                 t.showunfollow = e
             },
             fillchatrecords: function(t, e) {
+                (e.value.ft || e.value.fileToken) && a["a"].$emit("newMsg");
                 var n = e.value
                   , r = e.more;
                 e.reverse;
@@ -2131,13 +2275,14 @@
                     t.chatrecords.push(n);
                 if (t.loadmore = !1,
                 t.chatrecords.length > 15) {
-                    t.chatrecords.shift(),
+                    c || (console.log("非阅读模式"),
+                    t.chatrecords.shift()),
                     t.nomorerecords = !1;
-                    for (var s = t.lastreadmid, o = !1, a = 0; a < t.chatrecords.length; a++) {
-                        var c = t.chatrecords[a];
-                        if (c.mid) {
+                    for (var s = t.lastreadmid, o = !1, u = 0; u < t.chatrecords.length; u++) {
+                        var l = t.chatrecords[u];
+                        if (l.mid) {
                             o = !0,
-                            s = c.mid - 1;
+                            s = l.mid - 1;
                             break
                         }
                     }
@@ -2165,9 +2310,9 @@
                     var i = n.concat(t.largeimgUrl);
                     t.largeimgUrl = i
                 } else {
-                    var o;
+                    var s;
                     if (Array.isArray(n))
-                        (o = t.largeimgUrl).push.apply(o, Object(s["a"])(n));
+                        (s = t.largeimgUrl).push.apply(s, Object(o["a"])(n));
                     else
                         t.largeimgUrl.push(n)
                 }
@@ -2203,7 +2348,7 @@
                             a ? (t.chatrecords.splice(c - u - 1, 1),
                             this.commit("fillchatrecords", {
                                 value: l
-                            })) : r["a"].set(t.chatrecords, c - u - 1, l)
+                            })) : r["default"].set(t.chatrecords, c - u - 1, l)
                         }
                 } else if (i) {
                     var f = t.chatrecords.length;
@@ -2217,7 +2362,7 @@
                                 m[p] = n[p];
                             if (s || (m.fileToken = ""),
                             !a)
-                                return void r["a"].set(t.chatrecords, f - h - 1, m);
+                                return void r["default"].set(t.chatrecords, f - h - 1, m);
                             t.chatrecords.splice(f - h - 1, 1),
                             this.commit("fillchatrecords", {
                                 value: m
@@ -2231,15 +2376,17 @@
             },
             changeimgurl: function(t, e) {},
             replacerecord: function(t, e) {
+                a["a"].$emit("destorymsg");
                 var n = e.i
                   , r = e.param
                   , i = t.chatrecords[n];
-                for (var s in r)
+                for (var s in r.webchat_normal_text && (r.webchat_normal_text = i.text),
+                r)
                     i[s] = r[s];
                 t.chatrecords.splice(n, 1, i)
             },
             deleteRecords: function(t, e) {
-                o["a"].$emit("destorymsg");
+                a["a"].$emit("destorymsg");
                 var n = t.chatrecords.findIndex((function(t) {
                     return Number(t.mid) === e
                 }
@@ -2259,6 +2406,7 @@
                 t.lastreadmid = e
             },
             selectSession: function(t, e) {
+                -101 !== e && (t.groupNotification = void 0),
                 t.selectId = e
             },
             fillfriendslist: function(t, e) {
@@ -2288,12 +2436,12 @@
             exsearchlist: function(t, e) {
                 var n = e.contacts
                   , i = e.groups;
-                if (n && n.contact_result_list ? r["a"].set(t.searchobj, "contactlist", n.contact_result_list) : r["a"].set(t.searchobj, "contactlist", []),
+                if (n && n.contact_result_list ? r["default"].set(t.searchobj, "contactlist", n.contact_result_list) : r["default"].set(t.searchobj, "contactlist", []),
                 i) {
                     var s = [];
                     i.group_result_list && (s = s.concat(i.group_result_list)),
                     i.group_member_result_list && (s = s.concat(i.group_member_result_list)),
-                    r["a"].set(t.searchobj, "grouplist", s)
+                    r["default"].set(t.searchobj, "grouplist", s)
                 }
             },
             exquerygroup: function(t, e) {
@@ -2304,18 +2452,18 @@
             },
             flashquerygroup: function(t, e) {
                 for (var n in e)
-                    n in t.querygroup && n && r["a"].set(t.querygroup, n, e[n])
+                    n in t.querygroup && n && r["default"].set(t.querygroup, n, e[n])
             },
             exnogroupmodal: function(t, e) {
                 t.nogroupmodal = e
             },
             fillgroupmemberset: function(t, e) {
                 for (var n in e)
-                    n in t.groupmemberset || r["a"].set(t.groupmemberset, n, e[n])
+                    n in t.groupmemberset || r["default"].set(t.groupmemberset, n, e[n])
             },
             updategroupmemberset: function(t, e) {
                 for (var n in e)
-                    n in t.groupmemberset && r["a"].set(t.groupmemberset, n, e[n])
+                    n in t.groupmemberset && r["default"].set(t.groupmemberset, n, e[n])
             },
             exprescrollTop: function(t, e) {
                 t.prescrollTop = e
@@ -2329,12 +2477,20 @@
             changePubRemindType: function(t, e) {
                 t.pubremindtype = e
             },
+            changePushSetting: function(t, e) {
+                for (var n = 0, i = Object.entries(e); n < i.length; n++) {
+                    var o = Object(s["a"])(i[n], 2)
+                      , a = o[0]
+                      , c = o[1];
+                    r["default"].set(t.pushSetting, a, c)
+                }
+            },
             filltopuser: function(t, e) {
                 t.topuser = e
             },
             addtopuser: function(t, e) {
                 var n;
-                Array.isArray(e) ? (n = t.topuser).push.apply(n, Object(s["a"])(e)) : t.topuser.push(e)
+                Array.isArray(e) ? (n = t.topuser).push.apply(n, Object(o["a"])(e)) : t.topuser.push(e)
             },
             removetopuser: function(t, e) {
                 t.topuser.splice(e, 1)
@@ -2344,20 +2500,22 @@
             },
             updatetopuser: function(t, e) {
                 var n = e.i
-                  , i = e.param;
+                  , i = e.param
+                  , s = e.notTop;
                 if (i && !i.errorsend && (i.errorsend = !1),
                 -1 != n) {
-                    var s = t.topuser[n];
-                    if (!(i && i.fileToken && i.errorsend && s.fileToken != i.fileToken))
-                        if (s.fileToken && !i.errorsend && (s.fileToken = ""),
+                    var o = t.topuser[n];
+                    if (!(i && i.fileToken && i.errorsend && o.fileToken != i.fileToken))
+                        if (o.fileToken && !i.errorsend && (o.fileToken = ""),
                         n) {
-                            for (var o in i)
-                                s[o] = i[o];
-                            r["a"].set(t.topuser, n, s)
-                        } else {
                             for (var a in i)
-                                s[a] = i[a];
-                            t.topuser[n] = s
+                                o[a] = i[a];
+                            s ? r["default"].set(t.topuser, n, o) : (t.topuser.splice(n, 1),
+                            t.topuser.unshift(o))
+                        } else {
+                            for (var c in i)
+                                o[c] = i[c];
+                            t.topuser[n] = o
                         }
                 }
             },
@@ -2383,10 +2541,16 @@
             },
             exJoinGroup: function(t, e) {
                 t.joinGroup = e
+            },
+            exGroupMessage: function(t, e) {
+                t.groupNotification = e
+            },
+            exNotifications: function(t, e) {
+                t.notifications = e
             }
         }
-          , c = a
-          , u = (new Date,
+          , l = u
+          , d = (new Date,
         {
             selectId: -1,
             isWinFocus: !0,
@@ -2432,10 +2596,13 @@
             bulletinrecords: [],
             hasPlay: -1,
             memorytop: 0,
-            joinGroup: null
+            joinGroup: null,
+            groupNotification: void 0,
+            notifications: [],
+            pushSetting: {}
         })
-          , l = u
-          , d = (n("7514"),
+          , f = d
+          , h = (n("7514"),
         {
             getuserremark: function(t) {
                 return function(e) {
@@ -2447,24 +2614,24 @@
                 }
             }
         })
-          , f = d
-          , h = {}
-          , m = h;
-        r["a"].use(i["a"]);
-        var p = new i["a"].Store({
-            state: l,
-            mutations: c,
-            getters: f,
-            actions: m
+          , m = h
+          , p = {}
+          , g = p;
+        r["default"].use(i["a"]);
+        var b = new i["a"].Store({
+            state: f,
+            mutations: l,
+            getters: m,
+            actions: g
         });
-        p.watch((function(t) {
+        b.watch((function(t) {
             return t.chatlist
         }
         ), (function(t) {}
         ), {
             deep: !0
         });
-        e["a"] = p
+        e["a"] = b
     },
     4678: function(t, e, n) {
         var r = {
@@ -3015,16 +3182,16 @@
           , p = (n("566f"),
         n("2877"))
           , g = Object(p["a"])(m, l, d, !1, null, "7e10bc9a", null)
-          , v = g.exports
-          , b = n("b35e")
+          , b = g.exports
+          , v = n("b35e")
           , y = n("eec4")
           , _ = n.n(y)
           , w = {
-            mixins: [b["a"]],
+            mixins: [v["a"]],
             name: "happy-scroll",
             inheritAttrs: !1,
             components: {
-                HappyScrollStrip: v
+                HappyScrollStrip: b
             },
             props: {
                 scrollTop: {
@@ -3065,7 +3232,8 @@
             },
             watch: {
                 scrollTop: function(t) {
-                    this.deleteMsg ? this.deleteMsg = !1 : this.$refs.container.scrollTop = this.moveY = +t
+                    this.deleteMsg ? this.deleteMsg = !1 : (this.$emit("newtop", t),
+                    this.$refs.container.scrollTop = this.moveY = +t)
                 },
                 hideVertical: function(t) {
                     t || this.$nextTick(this.computeStripY)
@@ -3161,12 +3329,13 @@
                 this.resizeListener()
             },
             beforeDestroy: function() {
-                s["a"].$off("isfirst")
+                s["a"].$off("isfirst"),
+                s["a"].$off("destorymsg")
             }
         }
           , x = w
-          , j = (n("0e7e"),
-        Object(p["a"])(x, r, i, !1, null, "fbe9b84a", null))
+          , j = (n("cda1"),
+        Object(p["a"])(x, r, i, !1, null, "dd3c7708", null))
           , k = j.exports;
         "undefined" !== typeof window && window.Vue && Vue.component("happy-scroll", k);
         e["a"] = {
@@ -3174,12 +3343,6 @@
                 t.component("happy-scroll", k)
             }
         }
-    },
-    "50c7": function(t, e, n) {
-        "use strict";
-        var r = n("2db5")
-          , i = n.n(r);
-        i.a
     },
     "51a4": function(t, e, n) {
         "use strict";
@@ -3239,7 +3402,7 @@
                                     p.removeFile(t)
                                 }
                                 )),
-                                void o["a"].prototype.$toast("文件大小不能为0");
+                                void o["default"].prototype.$toast("文件大小不能为0");
                             var c = 0;
                             plupload.each(n, (function(e) {
                                 var r = 1;
@@ -3249,15 +3412,15 @@
                                     uploadType: u,
                                     recipientId: a
                                 })
-                                  , v = !0 === b(e.name, t) ? "dm_attachment_pic" : "dm_attachment_default";
-                                if (b(e.name, t) && e.size > 26214400)
-                                    o["a"].prototype.$toast("图片不能超过25M");
+                                  , b = !0 === v(e.name, t) ? "dm_attachment_pic" : "dm_attachment_default";
+                                if (v(e.name, t) && e.size > 26214400)
+                                    o["default"].prototype.$toast("图片不能超过25M");
                                 else {
                                     var _ = {
                                         extprops: m,
                                         length: e.size,
                                         name: e.name,
-                                        type: v
+                                        type: b
                                     };
                                     try {
                                         if (!e.getNative())
@@ -3300,14 +3463,14 @@
                                                         i.next = 10;
                                                         break
                                                     }
-                                                    return o["a"].prototype.$toast("视频不能大于 5 分钟"),
+                                                    return o["default"].prototype.$toast("视频不能大于 5 分钟"),
                                                     i.abrupt("return");
                                                 case 10:
                                                     if (!(e.size >= 104857600)) {
                                                         i.next = 13;
                                                         break
                                                     }
-                                                    return o["a"].prototype.$toast("视频不能大于 100 M"),
+                                                    return o["default"].prototype.$toast("视频不能大于 100 M"),
                                                     i.abrupt("return");
                                                 case 13:
                                                     g(d, e),
@@ -3405,7 +3568,7 @@
                             p.settings.headers = null
                         },
                         UploadProgress: function(e, n) {
-                            b(n.name, t) || v(n.percent, n.fileToken, n.selectId)
+                            v(n.name, t) || b(n.percent, n.fileToken, n.selectId)
                         },
                         ChunkUploaded: function(t, e, n) {
                             e.startloc = n.offset,
@@ -3417,19 +3580,19 @@
                             if (null != r.file) {
                                 if (-600 == r.code) {
                                     var i = t.indexOf("image") >= 0 ? "图片" : "附件";
-                                    return o["a"].prototype.$toast(i + "不能超过" + e),
+                                    return o["default"].prototype.$toast(i + "不能超过" + e),
                                     !1
                                 }
                                 if (-200 == r.code)
-                                    return r.isimgfile = b(r.file.name, t),
-                                    o["a"].prototype.$toast(r.isimgfile ? "图片上传失败" : "文件上传失败"),
+                                    return r.isimgfile = v(r.file.name, t),
+                                    o["default"].prototype.$toast(r.isimgfile ? "图片上传失败" : "文件上传失败"),
                                     c(n, r),
                                     !1;
                                 r.file.msg
                             }
                         },
                         FileUploaded: function(e, n, r) {
-                            n.isFile = !b(n.name, t),
+                            n.isFile = !v(n.name, t),
                             a(r.response, n)
                         }
                     }
@@ -3452,7 +3615,7 @@
                 }
                 ))
             }
-            function v(t, e, n) {
+            function b(t, e, n) {
                 n == s["a"].state.selectId && s["a"].commit("changechatrecorder", {
                     value: {
                         percent: t
@@ -3461,7 +3624,7 @@
                     fileType: 2
                 })
             }
-            function b(t, e) {
+            function v(t, e) {
                 var n = new RegExp(".(jpeg|gif|png|jpg)$","i");
                 return t.search(n) >= 0 || e.indexOf("image") >= 0
             }
@@ -3508,21 +3671,21 @@
             }
             function x() {
                 return x = Object(i["a"])(regeneratorRuntime.mark((function t(e, n, r, i, o, a, c) {
-                    var d, f, h, m, p, g, v;
+                    var d, f, h, m, p, g, b;
                     return regeneratorRuntime.wrap((function(t) {
                         while (1)
                             switch (t.prev = t.next) {
                             case 0:
                                 d = 1,
                                 i.selectId = a,
-                                b(n, o) || (d = 2),
+                                v(n, o) || (d = 2),
                                 c && (d = 3),
                                 f = {
                                     value: {
                                         created_at: (new Date).getTime(),
                                         ft: e,
                                         direct: "right",
-                                        media_type: 0,
+                                        media_type: 1 === d ? 1 : 2 === d ? 5 : 10,
                                         msg_status: 0,
                                         sender_id: u["f"].basicinfo.id,
                                         file: i,
@@ -3568,7 +3731,7 @@
                                 j(f, e, a)) : (f.value.cardtype = "card10",
                                 f.value.text = "[视频]",
                                 f.value.percent = 0,
-                                v = {
+                                b = {
                                     extension: Object(l["f"])(i.name),
                                     filename: i.name,
                                     filesize: i.size,
@@ -3579,9 +3742,9 @@
                                     screenshot: c.screenshot,
                                     upload: !0
                                 },
-                                Object.assign(v, f.value),
+                                Object.assign(b, f.value),
                                 a == s["a"].state.selectId && s["a"].commit("fillchatrecords", {
-                                    value: v
+                                    value: b
                                 }),
                                 j(f, e, a));
                             case 6:
@@ -3596,6 +3759,7 @@
             }
             function j(t, e, n) {
                 var r = {
+                    media_type: t.value.media_type,
                     created_at: t.value.created_at,
                     text: t.value.text,
                     fileToken: e,
@@ -3642,6 +3806,7 @@
         }
         ).call(this, n("2820"))
     },
+    5251: function(t, e, n) {},
     "566f": function(t, e, n) {
         "use strict";
         var r = n("3634")
@@ -3677,39 +3842,39 @@
               , m = n("f814")
               , p = n("e9c5")
               , g = n("f135")
-              , v = t && Object({
+              , b = t && Object({
                 NODE_ENV: "production",
                 BASE_URL: "//conchfairy.sinajs.cn/chat/"
             }) && "production";
-            if (-1 === ["test", "dev"].indexOf(v)) {
+            if (-1 === ["test", "dev"].indexOf(b)) {
                 0 == window.location.href.indexOf("http://api.weibo.com") && (window.location.href = window.location.href.replace("http://", "https://"));
                 try {
                     window.console.log = function() {}
                 } catch (y) {}
             }
-            e["a"].config.productionTip = !1,
-            e["a"].config.performance = !0,
-            e["a"].directive("focus", {
+            e["default"].config.productionTip = !1,
+            e["default"].config.performance = !0,
+            e["default"].directive("focus", {
                 inserted: function(t) {
                     t.focus()
                 }
             }),
-            e["a"].prototype.$https = c.a,
+            e["default"].prototype.$https = c.a,
             f.a.config.autoSetContainer = !0,
-            e["a"].use(f.a),
-            e["a"].use(i["a"]),
-            e["a"].use(l["a"]),
-            e["a"].use(h["a"]),
-            e["a"].use(m["a"]),
-            e["a"].use(p["a"]),
-            e["a"].use(g["a"]),
+            e["default"].use(f.a),
+            e["default"].use(i["a"]),
+            e["default"].use(l["a"]),
+            e["default"].use(h["a"]),
+            e["default"].use(m["a"]),
+            e["default"].use(p["a"]),
+            e["default"].use(g["a"]),
             Object(u["a"])();
-            var b = new i["a"]({
+            var v = new i["a"]({
                 mode: "hash",
                 routes: s["a"]
             });
-            new e["a"]({
-                router: b,
+            new e["default"]({
+                router: v,
                 store: o["a"],
                 render: function(t) {
                     return t(r["a"])
@@ -3734,14 +3899,38 @@
         }
         .call(this, n("2820"))
     },
-    5894: function(t, e, n) {},
+    "5b75": function(t, e, n) {},
+    "5b90": function(t, e, n) {
+        "use strict";
+        var r = n("a443")
+          , i = n.n(r);
+        i.a
+    },
     "5c48": function(t, e, n) {},
     "5fa9": function(t, e, n) {},
     6008: function(t, e) {
         t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEL0lEQVRoQ+2aTWgdVRTH///JK7RCsRQrKl0ILtRSEKnNTFLQKjRKC/0g4s6PduPOhSnWjyZzJ7HWj6ZLdSFIuxFE22ah2EZRsTUzxm4UrIi6UrREVBSNop2/zEv6mvfy5r2Z9+40ycPZvnP+5/zeuXfuvecO0SEPO4QD/4PUVlLm+uXAmm6g63ZAPSA2Abyyyk76FWAIxB8BOo3Vv0R85Ou/bYyKtisi030X6OyB0A9iec6kpgEcg/AKTfhBTt8q85ZBNOxtQqxDIL12Eqj4SiEc7uVQeKYVvdwgGtlwA+LSKMAdrQRs7qMxOP8OcPDsN81tL1nkApHv3QfqVZBX5AmS21b6E+JuBuHrWX0zgyjwDAA/q7AVO2mYJsoUMxOIjPcciMesJJdXRHieJtzXzK0piAJ3EOBwM6FCfxcGacKnG8VoCKKgexfgHCs0ycziupd+9GaaeSqIjLsW5BcAVmaOVc9QOgTwLSDuBZ0DbWj9DmkdTfRdPY10kMB9B+DdbQSecS39cx2fOvuDzIabwGXn2tPTSfrRPZlBZLp3gs7x9oLOeuvCtTSTP9oBAaB4F80nJ2pzq1sRGe9zEOsXJ4g+o4luaQoi420G8b4ViETEdkXKmrizdm82ryIK3KMA71/cIDpKEz04N8cqEB3uWYHf9HMLu9h07iIqAv2Blc4aPjqR7J7LTzVI4G4BeMpaNYoaWjPDawtN+G4ayDMAn1gSINBB+tGT9UGMOwZy+xIBGaMf7UypiJes5DcvDRCcox+uS6vIFMirlgjIFP3w6hQQb9rqG6vIyQ5M0w8rB7zqt5bpHJDzICrlsjLECllHyqU+Tz+65vJP9pHbbkRc+tLKnzMj0nCyd8jr17gHQT5u8V8DuriW+ye+n23kvWdNW3qWJqos3tWT3Xf74PCktWBlIb0G8CsAyUJ7qz1t9dGPxuvPkSI2jfYyv6Qk/IXVP62a2zeev4037hGQDxQR36LmEfrhQ3P15oMM99wBqa2GciWAFIN4CcA4hO0g91iBITdzaOLDhiDlUW3tqFu9Q5XxDoCo7FhbgpI+pYk21vqmnNktNR9i9TCIwotB5btb4SStoTaePM2HclVstINiDDAID1dAAvdlgA+3jqFx+lFfPf9iG3TJHAFfBJWc5HYA3N0yRHLbVXLWJ2tSLpDZqvQDfKPl4DYdY21jEL2dJpmhie0lbf3kSmHhHsmniRo20puCzLzF3BdA7l0YEo3Sj5rGzgQyCzMCcv/lhdEI/WgoS8zMIGWYTrh6q7xCk8vQC6XkNrfSwcjyj2W2kU4A8QDN5LeZfWobdHkcZTb2As6oxevp00C8j2by4zx5XLTNNbTqBSifM5L1gewHsCJXEsntLXl8QT8YqE246hMOohdQb8NPOJyuM1g1FS6aTzhyVaBA47aHVoG55ZLuGJD/AOcx4UIarUAaAAAAAElFTkSuQmCC"
     },
-    6044: function(t, e, n) {},
+    6507: function(t, e, n) {
+        "use strict";
+        var r = n("8036")
+          , i = n.n(r);
+        i.a
+    },
+    6508: function(t, e, n) {
+        "use strict";
+        var r = n("5251")
+          , i = n.n(r);
+        i.a
+    },
     "681c": function(t, e, n) {},
+    "6c45": function(t, e, n) {
+        "use strict";
+        var r = n("fcd1")
+          , i = n.n(r);
+        i.a
+    },
+    "6c49": function(t, e, n) {},
     "6e34": function(t, e) {
         t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAGqklEQVRoQ+WabYxU5RXH//87szOCClp8i6DRCrhzBxog8W0FpNKWLssdQWK0NKlR2n5pfUnUsDP7ZWJghiWgJlYTsR/aNG2t2BrmwlIsISu4sDRiCWVm2CzUvqTYFKNhXdSZ3bnHPLPOMLs7O/femZ3R6Hzbvef8z/k9L/d5nnMf4ivyYz04Hulv9U8b8i7MUS4iKGJxYNjv+e/Wm14/C0LqEXNSQKLJFd/Iak3fF0u7A5DbQC4i4BmXsCALynsA/wXIURI9Q+QbW5oTH9UKVxNIOB26FyLrKfgeSG81yQgkA3A3mdseC+zeW42G8qkKpP2kcTctPkdgfrWBy/tJLy15bNO8XX91q+sKJNrfOi075N0G8MduA7mwtyDo9E0deDp6Y/enTv0cg3SkQksF8juAM52K12Yn/Zbw/s3BxN+c6DgCiSRDD4N4GYDmRHSybPLzh1wXDyT+ZKdpCxJJhp4AsdVOqF7PBSIgH4oHEr+uFKMiSHtq1f0atFfqlaRTXQFyBFpjeuIvE/lMCBJJGYtE2EuiyWnAetoJ8JFYWLR5XuJUuThlQTac/s50LTM1ReDaeibnVltETg76hhc8P2dPZqxvWZBwKvQrAg+6DdQYe+mM6Wa7LUh7n3GLlqPrBakxEFBTf0gE+tghNq5HIsnQfhDfblRi1cQRyO/jurmu1HcUSEfKuF3Aw9WIN9jH0mA1b9R39RfijgIJp0J/JHBvg5MqhhPBM6JZJsE1FD5aOQ95MaabPxsHEk6vmUHJ/b/Rq3chEaFsjQfMpwp/h1OhPgJzJ4IRkfODvuEZhTdYsUfCKWM9wV9+Eb0hgl/Eg4lHSmNHUqGTAG62yWdVTE/sVjZFkEjS+K3a1zQaRICX43rip6VxwyljNcHXbXMR2RYLmk+OBkkZ/wB4o63zJBoI5DfxgPlg6fF35KyDLoJ+u1ACORzXzZYiSDR5ny/LzLjV0k6olucC+YM/YK6LElZBpyNpLLaIfU4gRnzk/ZhuXlkEiaTa5gGev9eSmBtfgXSdClwU2sEduVIIAfaCnOpGy9c0ND06Z89Afo6olhDyoBMBAfZR0APKGoDfcuJTaqP8/eJviwZ3ZItvqOQ9txHWfrcQyl/T5Jsbm8138yCRpNEKsstBUn2+wMC8KLuHo8lll2Q47QCBhQ78CiYHfFMGVpQeYcN5CNkH4hIXOhdMZXhhLNh1bAQk3bYC4vmznZAaEnHdbCvYfb5LPuisCCG9vsuwPHqt+XHBXx0VIHyzaoj8NCkBCZ8M3UkLbzkAyWjAsk262VuwVTWtDP3dlWAEOOqXgWXRYPdgKYSA+wlMt4tb6bkGa67aquR7JJxeOZfi7XMiKMA5Qu6O6eY7o2Dg6yHZPF5Djuf8nyztvGnfuWJPpu+Zr4monqwJIt8hTUNXxefsOZsHicoybzY9bcgJSN4ZOGeRSzoDO4tvunB/65XINh0iMbtkAPf7JHt7NLj3g+LE7jOaMYxDJC93Gm9CO8FgLJi4VD2/sLK7XBBF5ENL0+4qhXkqufIaL7wHFYwA/yQyLTF973ujIHI4QDD/7q/9J70x3bxjNEgVWxQFAy9a4jebal+U/+Vh6H1V8/GHm2bv/E/h/+0nQrOpyaHJg1BDo8wWJZwO/YSC7W5bSSBn4cHSUpixGnkIykGS17jVr2QvFCMeMHeN6pFon3FFZphnqqmaKBix2FKuwtGeXn0DrdzhSYcAzg02DV09bhuvqCJJ4zWQa6tpNRH5nwiXlMKMQFhqzsyqRtPG54WYnvh5wWb0UTfd1iLi6ak2qILx+IYXb5yz5/SGpHG9BvbUCaLyUVcBhFNGN8G7aoD5EMRxAkGAV1SrY+P3SkxP/KDUpkwVZeUC0OuoAl6nJCvKqnKQBZndGTT/XREkP1dSIVUw/tEXkahdTAG2xPXEhrF2ZSuN0XdXX5b9JHeicd9C7NIfee66ZKqcOk6sutXSqFZh2yOnszRqs6qqiF0I2ZE21orwtdpSqN1bfVYAZXk8YL45kdrX40NPgV5tXyDyEkFb8Nrb/4KCekNBwwOT8untwjBTi6X2auNeANKfo7a2dHddqZFctfDI0XbKNoLrJ7Plx2jV9/N0abBIctVyofass7O6G2TpFdEejwd3HnHjpWxd9chYcXWFg5aoywPfreUKB8EuMPdSw69wjAVSBYhPNd8KWmwhsUhEZoGcWe5iTX4CU94GcEQj3vpSXKqp1P1RgXY+tfIqj9dzHSy5OG+r8fwHc88c286jjusDTodYTUPLaZBG2H0GygWtUZOEglwAAAAASUVORK5CYII="
     },
@@ -3772,96 +3961,95 @@
                         switch (t.prev = t.next) {
                         case 0:
                             if (r = {},
-                            console.log(e),
                             !e.fid) {
-                                t.next = 11;
+                                t.next = 10;
                                 break
                             }
                             return e.fid,
-                            t.next = 6,
+                            t.next = 5,
                             x(e);
-                        case 6:
+                        case 5:
                             return i = t.sent,
                             n && n(i),
                             t.abrupt("return", i);
-                        case 11:
+                        case 10:
                             if (!e.pic_gifs) {
-                                t.next = 17;
+                                t.next = 16;
                                 break
                             }
                             return r.cardtype = "card11",
                             n && n(r),
                             t.abrupt("return", r);
-                        case 17:
+                        case 16:
                             if (!e.url_short) {
-                                t.next = 44;
+                                t.next = 43;
                                 break
                             }
                             if (!e.cardtitle) {
-                                t.next = 24;
+                                t.next = 23;
                                 break
                             }
                             return r.cardtype = "card2",
                             n && n(r),
                             t.abrupt("return", r);
-                        case 24:
+                        case 23:
                             if (!e.url_objects) {
-                                t.next = 31;
-                                break
-                            }
-                            if (!e.url_objects.length) {
                                 t.next = 30;
                                 break
                             }
-                            return t.next = 28,
-                            f(e.url_objects[0]);
-                        case 28:
-                            s = t.sent,
-                            Object.assign(r, s);
-                        case 30:
-                            r.cardtype || (o = m(e),
-                            Object.assign(r, o));
-                        case 31:
-                            if (r.cardtype) {
-                                t.next = 40;
+                            if (!e.url_objects.length) {
+                                t.next = 29;
                                 break
                             }
-                            return t.next = 34,
+                            return t.next = 27,
+                            f(e.url_objects[0]);
+                        case 27:
+                            s = t.sent,
+                            Object.assign(r, s);
+                        case 29:
+                            r.cardtype || (o = m(e),
+                            Object.assign(r, o));
+                        case 30:
+                            if (r.cardtype) {
+                                t.next = 39;
+                                break
+                            }
+                            return t.next = 33,
                             p(e);
-                        case 34:
+                        case 33:
                             return a = t.sent,
                             Object.assign(r, a),
                             n && n(r),
                             t.abrupt("return", r);
-                        case 40:
+                        case 39:
                             return n && n(r),
                             t.abrupt("return", r);
-                        case 42:
-                            t.next = 62;
+                        case 41:
+                            t.next = 61;
                             break;
-                        case 44:
+                        case 43:
                             if (c = /(^\s+)|([\s\r\n]+$)/,
                             u = e.text.replace(c, ""),
                             l = /^(http|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?$/g,
                             d = new RegExp(l),
                             !d.test(u)) {
-                                t.next = 59;
+                                t.next = 58;
                                 break
                             }
                             return u = u.match(l)[0],
                             e.url_short = u,
-                            t.next = 53,
+                            t.next = 52,
                             p(e);
-                        case 53:
+                        case 52:
                             return h = t.sent,
                             Object.assign(r, h),
                             n && n(r),
                             t.abrupt("return", r);
-                        case 59:
+                        case 58:
                             return r.cardtype = "card1",
                             n && n(r),
                             t.abrupt("return", r);
-                        case 62:
+                        case 61:
                         case "end":
                             return t.stop()
                         }
@@ -3917,7 +4105,7 @@
                                 cost: i.object.custom_data.cost || ""
                             },
                             r.url = i.object.url,
-                            r.cardtype = "card3",
+                            n.text.trim() === n.url_short ? r.cardtype = "card3" : r.cardtype = "card1",
                             t.abrupt("return", r);
                         case 20:
                             if ("priMessage" != i.object_type) {
@@ -3964,7 +4152,7 @@
                             t.abrupt("return", r);
                         case 50:
                             return t.next = 52,
-                            v(n.mid);
+                            b(n.mid);
                         case 52:
                             return l = t.sent,
                             l && (d = m(l),
@@ -4069,6 +4257,7 @@
                     e.linkurl = "//weibo.com/" + i.profile_url,
                     e.cardtype = "card2"
                 }
+                t.text.trim() !== t.url_short && (e.cardtype = "card1")
             }
             return e
         }
@@ -4118,11 +4307,11 @@
             ))),
             g.apply(this, arguments)
         }
-        function v(t) {
-            return b.apply(this, arguments)
+        function b(t) {
+            return v.apply(this, arguments)
         }
-        function b() {
-            return b = Object(i["a"])(regeneratorRuntime.mark((function t(e) {
+        function v() {
+            return v = Object(i["a"])(regeneratorRuntime.mark((function t(e) {
                 var n, r;
                 return regeneratorRuntime.wrap((function(t) {
                     while (1)
@@ -4150,7 +4339,7 @@
                 ), t)
             }
             ))),
-            b.apply(this, arguments)
+            v.apply(this, arguments)
         }
         function y(t) {
             return _.apply(this, arguments)
@@ -4195,7 +4384,7 @@
         }
         function j() {
             return j = Object(i["a"])(regeneratorRuntime.mark((function t(e) {
-                var n, i, o, a, c, u, l, d, f, h, m, p, g, v, b;
+                var n, i, o, a, c, u, l, d, f, h, m, p, g, b, v;
                 return regeneratorRuntime.wrap((function(t) {
                     while (1)
                         switch (t.prev = t.next) {
@@ -4256,11 +4445,11 @@
                             p = m.thumbnail_240.match(/(\d+),(\d+)/),
                             g = Object(r["a"])(p, 3),
                             g[0],
-                            v = g[1],
-                            b = g[2],
+                            b = g[1],
+                            v = g[2],
                             o.cardSize = {
-                                width: v,
-                                height: b
+                                width: b,
+                                height: v
                             };
                         case 26:
                             return t.abrupt("return", o);
@@ -4281,13 +4470,22 @@
           , i = n.n(r);
         i.a
     },
+    "76f6": function(t, e, n) {},
     "77f2": function(t, e, n) {},
+    "7a7f": function(t, e, n) {
+        "use strict";
+        var r = n("5b75")
+          , i = n.n(r);
+        i.a
+    },
     "7c55": function(t, e, n) {
         "use strict";
         var r = n("5c48")
           , i = n.n(r);
         i.a
     },
+    8036: function(t, e, n) {},
+    8481: function(t, e, n) {},
     "855a": function(t, e, n) {
         "use strict";
         var r = n("3582")
@@ -4296,39 +4494,96 @@
     },
     8917: function(t, e, n) {
         "use strict";
+        n("ac6a"),
         n("ac4d"),
         n("8a81"),
-        n("ac6a");
-        var r = function() {
+        n("5df3"),
+        n("1c4c"),
+        n("7f7f"),
+        n("6b54"),
+        n("87b3");
+        function r(t) {
+            if ("undefined" === typeof Symbol || null == t[Symbol.iterator]) {
+                if (Array.isArray(t) || (t = i(t))) {
+                    var e = 0
+                      , n = function() {};
+                    return {
+                        s: n,
+                        n: function() {
+                            return e >= t.length ? {
+                                done: !0
+                            } : {
+                                done: !1,
+                                value: t[e++]
+                            }
+                        },
+                        e: function(t) {
+                            throw t
+                        },
+                        f: n
+                    }
+                }
+                throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
+            }
+            var r, s, o = !0, a = !1;
+            return {
+                s: function() {
+                    r = t[Symbol.iterator]()
+                },
+                n: function() {
+                    var t = r.next();
+                    return o = t.done,
+                    t
+                },
+                e: function(t) {
+                    a = !0,
+                    s = t
+                },
+                f: function() {
+                    try {
+                        o || null == r.return || r.return()
+                    } finally {
+                        if (a)
+                            throw s
+                    }
+                }
+            }
+        }
+        function i(t, e) {
+            if (t) {
+                if ("string" === typeof t)
+                    return s(t, e);
+                var n = Object.prototype.toString.call(t).slice(8, -1);
+                return "Object" === n && t.constructor && (n = t.constructor.name),
+                "Map" === n || "Set" === n ? Array.from(n) : "Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? s(t, e) : void 0
+            }
+        }
+        function s(t, e) {
+            (null == e || e > t.length) && (e = t.length);
+            for (var n = 0, r = new Array(e); n < e; n++)
+                r[n] = t[n];
+            return r
+        }
+        var o = function() {
             try {
-                var t = ["setAdmin", "speechForbid", "transferGroup", "updateAffi", "feedAddGroupWithoutLimit", "feedGroupCard", "addGroupWithoutLimit", "feedAddGroupWithLimit", "addGroupWithLimit", "clickGroupCard"]
-                  , e = {}
-                  , n = !0
-                  , r = !1
-                  , i = void 0;
+                var t, e = ["setAdmin", "speechForbid", "transferGroup", "updateAffi", "feedAddGroupWithoutLimit", "feedGroupCard", "addGroupWithoutLimit", "feedAddGroupWithLimit", "addGroupWithLimit", "clickGroupCard", "newGroup", "editGroupName"], n = {}, i = r(e.values());
                 try {
-                    for (var s, o = t.values()[Symbol.iterator](); !(n = (s = o.next()).done); n = !0) {
-                        var a = s.value;
-                        e[a] = {
+                    for (i.s(); !(t = i.n()).done; ) {
+                        var s = t.value;
+                        n[s] = {
                             count: 0,
                             addCount: function() {
                                 this.count++
                             }
                         }
                     }
-                } catch (c) {
-                    r = !0,
-                    i = c
+                } catch (o) {
+                    i.e(o)
                 } finally {
-                    try {
-                        n || null == o.return || o.return()
-                    } finally {
-                        if (r)
-                            throw i
-                    }
+                    i.f()
                 }
-                return e
-            } catch (u) {
+                return n
+            } catch (a) {
                 return {
                     deleteAdmin: {
                         count: 0,
@@ -4339,23 +4594,26 @@
                 }
             }
         };
-        e["a"] = r()
+        e["a"] = o()
     },
-    "8b2f": function(t, e, n) {},
     "8e1e": function(t, e, n) {
         "use strict";
         var r = n("75fc")
           , i = (n("55dd"),
         n("7f7f"),
         n("7514"),
-        n("20d6"),
+        n("c5f6"),
+        n("96cf"),
+        n("3b8d"))
+          , s = (n("20d6"),
         n("6762"),
         n("2fdb"),
         n("fcfc"))
-          , s = n("bbd5")
-          , o = n("4360")
-          , a = "bulletinReadRecords"
-          , c = {
+          , o = n("bbd5")
+          , a = n("4360")
+          , c = n("365c")
+          , u = "bulletinReadRecords"
+          , l = {
             setLocalStorage: function(t, e) {
                 window.localStorage.setItem(t, JSON.stringify(e))
             },
@@ -4375,37 +4633,37 @@
             },
             hasReadBulletin: function(t) {
                 this.checkUserId();
-                var e = this.getLocalStorage(a)
+                var e = this.getLocalStorage(u)
                   , n = e.records || [];
                 n = n.map((function(t) {
                     return +t
                 }
                 )),
                 n.includes(+t) || (n.push(t),
-                this.setLocalStorage(a, {
-                    uid: i["f"] && i["f"].basicinfo && i["f"].basicinfo.id,
+                this.setLocalStorage(u, {
+                    uid: s["f"] && s["f"].basicinfo && s["f"].basicinfo.id,
                     records: n
                 }),
-                o["a"].commit("exbulletin", n))
+                a["a"].commit("exbulletin", n))
             },
             checkUserId: function() {
-                var t = this.getLocalStorage(a);
-                t.uid != (i["f"] && i["f"].basicinfo && i["f"].basicinfo.id) ? (this.clearLocalStorage(a),
-                this.setLocalStorage(a, {
-                    uid: i["f"] && i["f"].basicinfo && i["f"].basicinfo.id,
+                var t = this.getLocalStorage(u);
+                t.uid != (s["f"] && s["f"].basicinfo && s["f"].basicinfo.id) ? (this.clearLocalStorage(u),
+                this.setLocalStorage(u, {
+                    uid: s["f"] && s["f"].basicinfo && s["f"].basicinfo.id,
                     records: []
                 }),
-                o["a"].commit("exbulletin", [])) : (this.setLocalStorage(a, {
-                    uid: i["f"] && i["f"].basicinfo && i["f"].basicinfo.id,
+                a["a"].commit("exbulletin", [])) : (this.setLocalStorage(u, {
+                    uid: s["f"] && s["f"].basicinfo && s["f"].basicinfo.id,
                     records: t.records || []
                 }),
-                o["a"].commit("exbulletin", t.records || []))
+                a["a"].commit("exbulletin", t.records || []))
             },
             clearBulletinData: function() {
-                this.clearLocalStorage(a)
+                this.clearLocalStorage(u)
             },
             finditemIndex: function(t) {
-                var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : o["a"].state.selectId;
+                var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : a["a"].state.selectId;
                 return t.findIndex((function(t) {
                     return t.id == e
                 }
@@ -4413,11 +4671,11 @@
             },
             findIndexAndLt: function(t) {
                 var e = "topuser"
-                  , n = this.finditemIndex(o["a"].state[e], t);
+                  , n = this.finditemIndex(a["a"].state[e], t);
                 return n < 0 && (e = "chatlist",
-                n = this.finditemIndex(o["a"].state[e], t),
+                n = this.finditemIndex(a["a"].state[e], t),
                 n < 0 && (e = "unfollowlist",
-                n = this.finditemIndex(o["a"].state[e], t))),
+                n = this.finditemIndex(a["a"].state[e], t))),
                 n > -1 ? {
                     lt: e,
                     i: n
@@ -4432,7 +4690,7 @@
                   , r = this.findIndexAndLt(t)
                   , i = r.lt
                   , s = r.i;
-                s > -1 && o["a"].commit("update" + i, {
+                s > -1 && a["a"].commit("update" + i, {
                     notTop: n,
                     i: s,
                     param: e
@@ -4444,6 +4702,7 @@
                     updateGroupGG: 341 === t.sub_type && "groupchat" === t.type,
                     clearGroupGG: 342 === t.sub_type && "groupchat" === t.type,
                     deleteMsg: "delete_dm_dantiao" === t.type,
+                    groupNotifiction: "groupchat" === t.type && (499 === t.sub_type || 425 === t.sub_type || 421 === t.sub_type || 429 === t.sub_type),
                     deleteGroupMsg: 331 === t.sub_type && "groupchat" === t.type && t.info && 0 == t.info.op_type && t.info.ids && 1 === t.info.ids.length
                 };
                 try {
@@ -4453,26 +4712,167 @@
                             !0;
                     return !1
                 } catch (r) {
-                    return !1
+                    return console.log(r),
+                    !1
                 }
             },
+            groupNotifiction: function() {
+                var t = Object(i["a"])(regeneratorRuntime.mark((function t(e) {
+                    var n, r, o, u, l, d, f, h, m, p, g, b, v;
+                    return regeneratorRuntime.wrap((function(t) {
+                        while (1)
+                            switch (t.prev = t.next) {
+                            case 0:
+                                if (n = this.findIndexAndLt(-101),
+                                n.lt,
+                                r = n.i,
+                                o = function() {
+                                    var t = Object(i["a"])(regeneratorRuntime.mark((function t(e) {
+                                        var n, r, i;
+                                        return regeneratorRuntime.wrap((function(t) {
+                                            while (1)
+                                                switch (t.prev = t.next) {
+                                                case 0:
+                                                    return t.next = 2,
+                                                    c["a"].groupquery({
+                                                        params: {
+                                                            id: e.gid
+                                                        }
+                                                    });
+                                                case 2:
+                                                    if (n = t.sent,
+                                                    e.groupInfo = n,
+                                                    !e.from_uid) {
+                                                        t.next = 11;
+                                                        break
+                                                    }
+                                                    return t.next = 7,
+                                                    c["a"].userdetail({
+                                                        params: {
+                                                            uid: e.from_uid
+                                                        }
+                                                    });
+                                                case 7:
+                                                    r = t.sent,
+                                                    e.from_user = r,
+                                                    499 === e.type && (e.msg = JSON.parse(e.msg)),
+                                                    e.msg && 499 === e.type ? e.msg.content1 && (/解散了该群/g.test(e.msg.content1) ? e.type = 0 : (/申请升级为.+的粉丝群/g.test(e.msg.content1) || /将你设为管理员/g.test(e.msg.content1) || /已取消你的管理员身份/g.test(e.msg.content1) || /已将该群转让给你，你已成为新群主/g.test(e.msg.content1),
+                                                    e.type = 1)) : 421 === e.type ? (i = {
+                                                        params: {}
+                                                    },
+                                                    i.params.uid = Number(e.from_uid),
+                                                    e.icons && (/_male.png$/g.test(e.icons[0].url) ? e.gender = "m" : e.gender = "f"),
+                                                    e.type = 3) : (429 === e.type || e.type,
+                                                    e.type = 2);
+                                                case 11:
+                                                    return t.abrupt("return", e);
+                                                case 12:
+                                                case "end":
+                                                    return t.stop()
+                                                }
+                                        }
+                                        ), t)
+                                    }
+                                    )));
+                                    return function(e) {
+                                        return t.apply(this, arguments)
+                                    }
+                                }(),
+                                (s["f"] && s["f"].basicinfo && s["f"].basicinfo.id) !== (e.info && e.info.from_uid)) {
+                                    t.next = 4;
+                                    break
+                                }
+                                return t.abrupt("return");
+                            case 4:
+                                if (!(r >= 0)) {
+                                    t.next = 22;
+                                    break
+                                }
+                                if (-101 === a["a"].state.selectId) {
+                                    t.next = 13;
+                                    break
+                                }
+                                s["r"].add(1),
+                                u = a["a"].state.chatlist[r].unread_count,
+                                l = u || 0,
+                                d = {
+                                    unread_count: l + 1,
+                                    msg: 499 === e.sub_type ? JSON.parse(e.info.msg).content1 : e.info.msg,
+                                    create_at: +new Date
+                                },
+                                a["a"].commit("updatechatlist", {
+                                    i: r,
+                                    param: d
+                                }),
+                                t.next = 20;
+                                break;
+                            case 13:
+                                return f = {
+                                    msg: 499 === e.sub_type ? JSON.parse(e.info.msg).content1 : e.info.msg,
+                                    create_at: +new Date
+                                },
+                                a["a"].commit("updatechatlist", {
+                                    i: r,
+                                    param: f
+                                }),
+                                e.info.type = e.sub_type,
+                                t.next = 18,
+                                o(e.info);
+                            case 18:
+                                h = t.sent,
+                                a["a"].state.notifications.unshift(h);
+                            case 20:
+                                t.next = 24;
+                                break;
+                            case 22:
+                                m = {
+                                    id: -101,
+                                    created_at: +new Date,
+                                    name: "群通知",
+                                    profile_image_url: "https://ww3.sinaimg.cn/large/90bb4c1djw1eu0ywvr2sij200u00u0sh",
+                                    type: 4,
+                                    unread_count: 1,
+                                    msg: 499 === e.sub_type ? JSON.parse(e.info.msg).content1 : e.info.msg
+                                },
+                                a["a"].commit("unshiftchatlist", m);
+                            case 24:
+                                e.info && e.info.msg && (p = e.info,
+                                499 === e.sub_type && (p.msg = JSON.parse(p.msg),
+                                /解散了该群/g.test(p.msg.content1) && (g = this.findIndexAndLt(e.info.gid),
+                                b = g.lt,
+                                v = g.i,
+                                v >= 0 && (a["a"].commit("selectSession", -1),
+                                a["a"].commit("remove" + b, v)))));
+                            case 25:
+                            case "end":
+                                return t.stop()
+                            }
+                    }
+                    ), t, this)
+                }
+                )));
+                function e(e) {
+                    return t.apply(this, arguments)
+                }
+                return e
+            }(),
             deleteGroupMsg: function(t) {
                 this.updateChatlist(t.info.ids[0]),
-                o["a"].state.selectId === t.info.gid && o["a"].commit("deleteRecords", t.info.ids[0])
+                a["a"].state.selectId === t.info.gid && a["a"].commit("deleteRecords", t.info.ids[0])
             },
             deleteMsg: function(t) {
                 this.updateChatlist(t.mid),
-                o["a"].state.selectId === t.uid && o["a"].commit("deleteRecords", t.mid)
+                a["a"].state.selectId === t.uid && a["a"].commit("deleteRecords", t.mid)
             },
             updateChatlist: function(t) {
-                var e = o["a"].state.chatrecords;
+                var e = a["a"].state.chatrecords;
                 if (e[e.length - 1].mid + "" === t + "") {
-                    var n = Object(s["l"])()
-                      , r = this.findIndexAndLt(o["a"].state.selectId)
-                      , a = r.lt
+                    var n = Object(o["l"])()
+                      , r = this.findIndexAndLt(a["a"].state.selectId)
+                      , i = r.lt
                       , c = r.i
-                      , u = o["a"].state[a].find((function(t) {
-                        return t.id == o["a"].state.selectId
+                      , u = a["a"].state[i].find((function(t) {
+                        return t.id == a["a"].state.selectId
                     }
                     ))
                       , l = e[e.length - 2]
@@ -4484,24 +4884,24 @@
                         created_at: l.created_at,
                         dm_type: l.dm_type,
                         message_type: l.type,
-                        sender_id: i["f"].basicinfo.id,
-                        sender_screen_name: i["f"].basicinfo.name,
+                        sender_id: s["f"].basicinfo.id,
+                        sender_screen_name: s["f"].basicinfo.name,
                         sub_type: l.sub_type,
                         text: l.text,
                         type: u.type,
                         unread_count: 0,
                         errorsend: !1
                     };
-                    o["a"].commit("update" + a, {
+                    a["a"].commit("update" + i, {
                         i: c,
                         param: d
                     })
                 }
             },
             updatequerygroup: function(t) {
-                var e = o["a"].state.querygroup
+                var e = a["a"].state.querygroup
                   , n = Object.assign(e, t);
-                o["a"].commit("exquerygroup", n)
+                a["a"].commit("exquerygroup", n)
             },
             solvemembers: function(t) {
                 for (var e = {}, n = [], r = 0; r < t.length; r++) {
@@ -4534,9 +4934,27 @@
             updateGroupSummary: function(t) {
                 var e = t.info
                   , n = e.gid
-                  , r = e.summary;
-                +n === +o["a"].state.selectId && this.updatequerygroup({
+                  , r = e.summary
+                  , i = e.name
+                  , s = e.round_avatar
+                  , o = this.findIndexAndLt(n)
+                  , c = o.lt
+                  , u = o.i;
+                +n === +a["a"].state.selectId ? (a["a"].commit("update".concat(c), {
+                    i: u,
+                    param: {
+                        name: i,
+                        round_avatar_large: s
+                    }
+                }),
+                this.updatequerygroup({
                     summary: r
+                })) : a["a"].commit("update".concat(c), {
+                    i: u,
+                    param: {
+                        name: i,
+                        round_avatar_large: s
+                    }
                 })
             },
             updateGroupGG: function(t) {
@@ -4553,7 +4971,7 @@
                     }
                 };
                 this.setContactList(+n, r, !1),
-                +n === +o["a"].state.selectId && (this.updatequerygroup(r),
+                +n === +a["a"].state.selectId && (this.updatequerygroup(r),
                 this.hasReadBulletin(e.bulletin_id))
             },
             clearGroupGG: function(t) {
@@ -4564,10 +4982,10 @@
                     bulletin: void 0
                 };
                 this.setContactList(+n, i),
-                +n !== +o["a"].state.selectId || r || this.updatequerygroup(i)
+                +n !== +a["a"].state.selectId || r || this.updatequerygroup(i)
             }
         };
-        e["a"] = c
+        e["a"] = l
     },
     "8e28": function(t, e, n) {},
     9113: function(t, e, n) {
@@ -4578,12 +4996,6 @@
     },
     "91e0": function(t, e, n) {},
     9710: function(t, e, n) {},
-    "995c": function(t, e, n) {
-        "use strict";
-        var r = n("6044")
-          , i = n.n(r);
-        i.a
-    },
     "99e7": function(t, e, n) {
         "use strict";
         var r = n("0300")
@@ -4631,7 +5043,7 @@
                 attrs: {
                     start: "start"
                 }
-            }), t.selectId < 0 ? n("div", {
+            }), t.groupNotification ? n("div", [n("groupNotification")], 1) : t.selectId < 0 ? n("div", {
                 staticClass: "nochat font16 right overflow-hidden"
             }, [n("p", [t._v("您还未选中或发起聊天，快去跟好友聊一聊吧")])]) : n("div", {
                 staticClass: "right",
@@ -4685,7 +5097,7 @@
             f != t && (f = t,
             m((function(t) {
                 t && (clearInterval(h),
-                l["e"].aborting ? location.href = "//weibo.com/" : (c["a"].prototype.$modal({
+                l["e"].aborting ? location.href = "//weibo.com/" : (c["default"].prototype.$modal({
                     icon: {
                         text: n("6008")
                     },
@@ -4718,7 +5130,7 @@
             t._self._c;
             return t._m(0)
         }
-          , v = [function() {
+          , b = [function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -4737,11 +5149,11 @@
             }, [t._v("© 1998 - 2019 Sina Inc. All Rights Reserved")])])])
         }
         ]
-          , b = {}
-          , y = b
+          , v = {}
+          , y = v
           , _ = (n("855a"),
         n("2877"))
-          , w = Object(_["a"])(y, g, v, !1, null, "b23991f0", null)
+          , w = Object(_["a"])(y, g, b, !1, null, "b23991f0", null)
           , x = w.exports
           , j = function() {
             var t = this
@@ -4749,90 +5161,11 @@
               , r = t._self._c || e;
             return r("div", {
                 staticClass: "message"
-            }, [r("header", {
-                staticClass: "header relative"
-            }, [r("div", {
-                staticClass: "friendname one-line hvhd",
-                on: {
-                    click: function(e) {
-                        return e.stopPropagation(),
-                        t.showusercard(e)
-                    }
+            }, [r("msgHeader", {
+                class: {
+                    "header-bottom": !(t.curuserinfo && t.curuserinfo.bulletin) && !t.isshowtoptips
                 }
-            }, [t._v("\n      " + t._s(t.getname) + "\n      "), 2 == t.curuserinfo.type && t.querygroup && t.querygroup.member_count ? r("span", [t._v("(" + t._s(t.querygroup.member_count) + ")")]) : t._e()]), r("div", {
-                staticClass: "set"
-            }, [2 == t.curuserinfo.type && t.handleIdentity().length ? r("div", {
-                staticClass: "icon W_ficon icon-msg setting",
-                on: {
-                    mouseenter: t.showSettingMethods,
-                    mouseleave: function(e) {
-                        t.showSetting = !1
-                    }
-                }
-            }, [t.showSetting ? r("ul", {
-                staticClass: "menulist hvhd font12 settinglist"
-            }, [r("li", {
-                on: {
-                    click: t.updateSpeechForbid
-                }
-            }, [t._v("\n            " + t._s("1" !== t.querygroup.speech_forbid ? "开启" : "关闭") + "全员禁言\n          ")]), r("li", {
-                directives: [{
-                    name: "show",
-                    rawName: "v-show",
-                    value: -1 !== t.handleIdentity().indexOf("owner"),
-                    expression: "handleIdentity().indexOf('owner') !== -1"
-                }],
-                on: {
-                    click: t.manage
-                }
-            }, [t._v("设置管理员")]), r("li", {
-                directives: [{
-                    name: "show",
-                    rawName: "v-show",
-                    value: -1 !== t.handleIdentity().indexOf("owner"),
-                    expression: "handleIdentity().indexOf('owner') !== -1"
-                }],
-                on: {
-                    click: t.transferGroup
-                }
-            }, [t._v("\n            转让群主\n          ")]), 1 === t.querygroup.apply_status ? r("li", {
-                directives: [{
-                    name: "show",
-                    rawName: "v-show",
-                    value: -1 !== t.handleIdentity().indexOf("owner"),
-                    expression: "handleIdentity().indexOf('owner') !== -1"
-                }],
-                staticClass: "disabled"
-            }, [t._v("\n            升级为粉丝群(等待审核)\n          ")]) : r("li", {
-                directives: [{
-                    name: "show",
-                    rawName: "v-show",
-                    value: -1 !== t.handleIdentity().indexOf("owner") && t.querygroup.affi_type && void 0 === t.querygroup.affi_type[0],
-                    expression: "\n              handleIdentity().indexOf('owner') !== -1 &&\n                querygroup.affi_type &&\n                querygroup.affi_type[0] === undefined\n            "
-                }],
-                on: {
-                    click: t.updateToAffi
-                }
-            }, [t._v("\n            升级为粉丝群\n          ")])]) : t._e()]) : t._e(), r("i", {
-                staticClass: "icon W_ficon icon-msg",
-                on: {
-                    click: function(e) {
-                        e.stopPropagation(),
-                        2 == t.curuserinfo.type ? t.showmodal2() : t.showmodal1()
-                    }
-                }
-            }, [t._v("")]), r("div", {
-                directives: [{
-                    name: "show",
-                    rawName: "v-show",
-                    value: 2 == t.curuserinfo.type,
-                    expression: "curuserinfo.type == 2"
-                }],
-                staticClass: "icon W_ficon icon-msg share",
-                on: {
-                    click: t.shareGroup
-                }
-            })])]), t.isshowtoptips ? r("div", {
+            }), t.isshowtoptips ? r("div", {
                 staticClass: "unfollowtips tips"
             }, [t.followuser || t.user_is_blocked ? t.user_is_blocked ? r("div", {
                 staticClass: "font12"
@@ -4863,7 +5196,7 @@
                     src: n("2b9b")
                 }
             }), r("p", {
-                staticClass: "c333 bulletin-content"
+                staticClass: "bulletin-content"
             }, [t._v("\n      " + t._s(t.curuserinfo.bulletin.content) + "\n      "), t.curuserinfo.bulletin.scheme ? r("a", {
                 attrs: {
                     href: t.curuserinfo.bulletin.scheme,
@@ -4883,30 +5216,13 @@
                 staticClass: "message-wrapper flex-1 relative"
             }, [r("div", {
                 staticClass: "scrollbg"
-            }), t.chatrecords.length ? r("happy-scroll", {
+            }), r("vue-scroll", {
                 ref: "happyscroll",
-                staticClass: "msg-box",
                 attrs: {
-                    "scroll-top": t.scrollTopvalue,
-                    isfirst: t.isfirst,
-                    color: "rgba(82, 85, 91, .8)",
-                    size: "6",
-                    "min-length-v": .05,
-                    resize: "",
-                    "hide-horizontal": ""
+                    ops: t.ops
                 },
                 on: {
-                    scroll: t.scroll,
-                    "update:scrollTop": function(e) {
-                        t.scrollTopvalue = e
-                    },
-                    "update:scroll-top": function(e) {
-                        t.scrollTopvalue = e
-                    },
-                    "update:isfirst": function(e) {
-                        t.isfirst = e
-                    },
-                    "vertical-start": t.scrollToTop
+                    "handle-scroll": t.handleScroll
                 }
             }, [r("ul", {
                 ref: "chatcontent",
@@ -4920,16 +5236,21 @@
                 }]
             }), r("click-card"), t._l(t.chatrecords, (function(e, n) {
                 return r("li", {
-                    key: (e.replaceToken || e.feTag || e.mid || n) + t.selectId.toString()
+                    key: (e.replaceToken || e.feTag || e.mid || n) + t.selectId.toString(),
+                    attrs: {
+                        id: e.mid
+                    }
                 }, [r("div", {
                     staticClass: "hidden"
                 }, [t._v(t._s(e.feTag || e.mid || n))]), e.msg_status ? r("div", [t.isshowmsgtime(n) ? r("p", {
                     staticClass: "time tc font12"
                 }, [t._v("\n              " + t._s(t._f("formatDate")(e.created_at)) + "\n            ")]) : t._e(), t.checktype(e) ? r("p", {
                     staticClass: "notice_font font12 tc c333"
-                }, [r("span", {
-                    staticClass: "notice_in"
-                }, [t._v(t._s(e.text))])]) : t.checktype2(e) && !e.userinfo && t.usercardinfo ? r("div", {
+                }, [r("notice", {
+                    attrs: {
+                        item: e
+                    }
+                })], 1) : t.checktype2(e) && !e.userinfo && t.usercardinfo ? r("div", {
                     staticClass: "message-item flex relative other"
                 }, [r("div", {
                     staticClass: "avator-box hvhd",
@@ -5000,7 +5321,9 @@
                     staticClass: "gly"
                 }, [t._v("管理员")]) : 3 === t.getMark(e) ? r("i", {
                     staticClass: "tf"
-                }, [t._v("铁粉")]) : t._e()])]), r("cardcontain", {
+                }, [t._v("铁粉")]) : 4 === t.getMark(e) ? r("i", {
+                    staticClass: "zaf"
+                }, [t._v("真爱粉")]) : t._e()])]), r("cardcontain", {
                     attrs: {
                         cardobj: e
                     }
@@ -5043,9 +5366,11 @@
                     staticClass: "time tc font12"
                 }, [t._v("\n              " + t._s(t._f("formatDate")(e.created_at)) + "\n            ")]) : t._e(), t.checktype(e) ? r("p", {
                     staticClass: "notice_font font12 tc c333"
-                }, [r("span", {
-                    staticClass: "notice_in"
-                }, [t._v(t._s(e.text))])]) : t.checktype2(e) ? r("div", {
+                }, [r("notice", {
+                    attrs: {
+                        item: e
+                    }
+                })], 1) : t.checktype2(e) ? r("div", {
                     staticClass: "message-item flex relative me"
                 }, [r("div", {
                     staticClass: "avator-box hvhd",
@@ -5085,7 +5410,9 @@
                     staticClass: "gly"
                 }, [t._v("管理员")]) : 3 === t.getMyMark(e) ? r("i", {
                     staticClass: "tf"
-                }, [t._v("铁粉")]) : t._e()])]) : t._e(), r("cardcontain", {
+                }, [t._v("铁粉")]) : 4 === t.getMyMark(e) ? r("i", {
+                    staticClass: "zaf"
+                }, [t._v("真爱粉")]) : t._e()])]) : t._e(), r("cardcontain", {
                     attrs: {
                         cardobj: e
                     }
@@ -5109,16 +5436,31 @@
                     }
                 }, [t._v("\n                进入个人主页\n              ")]) : t._e()]) : t._e()])])
             }
-            ))], 2)]) : t._e(), r("large-pic")], 1)])
+            ))], 2)]), r("large-pic")], 1), r("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: t.newMessageNum && t.readRecordMode,
+                    expression: "newMessageNum && readRecordMode"
+                }],
+                staticClass: "new-message flex align-items_c",
+                on: {
+                    click: t.scrollToBottom
+                }
+            }, [r("div", {
+                staticClass: "pulldown"
+            }), r("div", [t._v(t._s(t._f("filterNewMessageNum")(t.newMessageNum)) + "条最新消息")])])], 1)
         }
           , k = []
-          , O = (n("2fdb"),
-        n("6762"),
+          , O = (n("6762"),
+        n("2fdb"),
         n("7f7f"),
         n("7514"),
         n("20d6"),
-        n("2f62"))
-          , C = function() {
+        n("2901"))
+          , C = n.n(O)
+          , I = n("2f62")
+          , A = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -5200,10 +5542,10 @@
                 }
             })], 1) : t._e()])])
         }
-          , I = []
+          , S = []
           , T = n("0bca")
-          , A = n("b35e");
-        function P(t, e) {
+          , P = n("b35e");
+        function D(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -5215,55 +5557,55 @@
             }
             return n
         }
-        function S(t) {
+        function M(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? P(Object(n), !0).forEach((function(e) {
+                e % 2 ? D(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : P(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : D(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var D = function() {
+        var q = function() {
             return n.e("async-cards").then(n.bind(null, "d309"))
         }
-          , q = function() {
+          , R = function() {
             return n.e("async-cards").then(n.bind(null, "2960"))
         }
-          , M = function() {
+          , E = function() {
             return n.e("async-cards").then(n.bind(null, "0853"))
         }
-          , E = function() {
+          , N = function() {
             return n.e("async-cards").then(n.bind(null, "d150"))
         }
-          , R = function() {
+          , L = function() {
             return n.e("async-cards").then(n.bind(null, "eb62"))
         }
-          , N = function() {
+          , G = function() {
             return n.e("async-cards").then(n.bind(null, "630a"))
         }
-          , L = function() {
+          , B = function() {
             return n.e("async-cards").then(n.bind(null, "9a63"))
         }
-          , G = function() {
+          , U = function() {
             return n.e("async-cards").then(n.bind(null, "bab8"))
         }
-          , U = function() {
+          , W = function() {
             return n.e("async-cards").then(n.bind(null, "c0b7"))
         }
-          , B = function() {
+          , z = function() {
             return n.e("async-cards").then(n.bind(null, "5107"))
         }
-          , W = function() {
+          , V = function() {
             return n.e("async-cards").then(n.bind(null, "3f2f"))
         }
-          , z = {
+          , F = {
             props: ["cardobj"],
-            mixins: [A["a"]],
+            mixins: [P["a"]],
             data: function() {
                 return {
                     isLoading: !1,
@@ -5276,19 +5618,19 @@
                 }
             },
             components: {
-                card1: D,
-                card2: q,
-                card3: M,
-                card4: E,
-                card5: R,
-                card6: N,
-                card7: L,
-                card8: G,
-                card9: U,
-                card10: B,
-                card11: W
+                card1: q,
+                card2: R,
+                card3: E,
+                card4: N,
+                card5: L,
+                card6: G,
+                card7: B,
+                card8: U,
+                card9: W,
+                card10: z,
+                card11: V
             },
-            computed: S({}, Object(O["d"])(["modalId"])),
+            computed: M({}, Object(I["d"])(["modalId"])),
             watch: {
                 modalId: function(t, e) {
                     -1 === t && 11 === e && (this.mid = void 0)
@@ -5305,7 +5647,7 @@
                 }
                 ))
             },
-            methods: S({}, Object(O["c"])(["changemodalId"]), {
+            methods: M({}, Object(I["c"])(["changemodalId"]), {
                 hideTriangle: function() {
                     return "card9" === this.cardobj.cardtype || "card10" === this.cardobj.cardtype
                 },
@@ -5354,19 +5696,19 @@
                 }
             })
         }
-          , V = z
-          , Y = (n("001a"),
-        Object(_["a"])(V, C, I, !1, null, "223122de", null))
-          , F = Y.exports
-          , H = n("c1df")
-          , J = n.n(H)
+          , Y = F
+          , H = (n("001a"),
+        Object(_["a"])(Y, A, S, !1, null, "223122de", null))
+          , J = H.exports
+          , K = n("c1df")
+          , Q = n.n(K)
           , Z = function() {
             var t = this
               , e = t.$createElement;
             t._self._c;
             return t._m(0)
         }
-          , K = [function() {
+          , X = [function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -5383,13 +5725,13 @@
             })])
         }
         ]
-          , Q = {}
-          , X = Q
-          , tt = (n("16ec"),
-        Object(_["a"])(X, Z, K, !1, null, "3f870468", null))
-          , et = tt.exports
-          , nt = n("040d")
-          , rt = (n("c5f6"),
+          , tt = {}
+          , et = tt
+          , nt = (n("16ec"),
+        Object(_["a"])(et, Z, X, !1, null, "3f870468", null))
+          , rt = nt.exports
+          , it = n("040d")
+          , st = (n("c5f6"),
         {
             data: function() {
                 return {}
@@ -5421,7 +5763,7 @@
                         };
                         a["a"].newmsg(s).then((function(i) {
                             n && (e.$toast(r),
-                            e.updateChatlist(i, t.id)),
+                            e.updateChatList(i, t.id)),
                             i.error && e.$toast(i.error)
                         }
                         ))
@@ -5447,50 +5789,33 @@
                         };
                         a["a"].sendmsg(s).then((function(i) {
                             n && (e.$toast(r),
-                            e.updateChatlist(i, t.id)),
+                            e.updateChatList(i, t.id)),
                             i.error && e.$toast(i.error)
                         }
                         ))
                     }
                     ))
                 },
-                updateChatlist: function() {
-                    var t = Object(s["a"])(regeneratorRuntime.mark((function t(e, n) {
-                        var r, i, s, o;
-                        return regeneratorRuntime.wrap((function(t) {
-                            while (1)
-                                switch (t.prev = t.next) {
-                                case 0:
-                                    r = d["a"].findIndexAndLt(n),
-                                    i = r.lt,
-                                    s = r.i,
-                                    o = {
-                                        mid: e.mid,
-                                        errorsend: !1
-                                    },
-                                    e.url_objects && (o.url_objects = e.url_objects),
-                                    this.$store.commit("update" + i, {
-                                        notTop: !1,
-                                        i: s,
-                                        param: o
-                                    });
-                                case 4:
-                                case "end":
-                                    return t.stop()
-                                }
-                        }
-                        ), t, this)
-                    }
-                    )));
-                    function e(e, n) {
-                        return t.apply(this, arguments)
-                    }
-                    return e
-                }()
+                updateChatList: function(t, e) {
+                    var n = d["a"].findIndexAndLt(e)
+                      , r = n.lt
+                      , i = n.i
+                      , s = {
+                        mid: t.mid,
+                        text: t.content ? t.content : t.text,
+                        errorsend: !1
+                    };
+                    t.url_objects && (s.url_objects = t.url_objects),
+                    this.$store.commit("update" + r, {
+                        notTop: !1,
+                        i: i,
+                        param: s
+                    })
+                }
             }
         })
-          , it = rt
-          , st = {
+          , ot = st
+          , at = {
             data: function() {
                 return {}
             },
@@ -5506,8 +5831,8 @@
                 }
             }
         }
-          , ot = st
-          , at = function() {
+          , ct = at
+          , ut = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -5519,8 +5844,8 @@
                 }
             }) : t._e()
         }
-          , ct = []
-          , ut = {
+          , dt = []
+          , ft = {
             props: ["user", "test", "spClass"],
             computed: {
                 cls: function() {
@@ -5547,29 +5872,11 @@
                 }
             }
         }
-          , dt = ut
-          , ft = (n("b3ad"),
-        Object(_["a"])(dt, at, ct, !1, null, null, null))
-          , ht = ft.exports
-          , mt = function() {
-            var t = this
-              , e = t.$createElement
-              , n = t._self._c || e;
-            return n("div", {
-                staticClass: "hover-item",
-                class: t.name
-            })
-        }
-          , pt = []
-          , gt = {
-            name: "hover-item",
-            props: ["name"]
-        }
-          , vt = gt
-          , bt = (n("995c"),
-        Object(_["a"])(vt, mt, pt, !1, null, "1d2a48c7", null))
-          , yt = bt.exports
-          , _t = function() {
+          , ht = ft
+          , mt = (n("b3ad"),
+        Object(_["a"])(ht, ut, dt, !1, null, null, null))
+          , pt = mt.exports
+          , gt = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -5593,8 +5900,9 @@
             }
             )), 0) : t._e()
         }
-          , wt = [];
-        function xt(t, e) {
+          , bt = [];
+        n("4917");
+        function vt(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -5606,21 +5914,21 @@
             }
             return n
         }
-        function jt(t) {
+        function yt(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? xt(Object(n), !0).forEach((function(e) {
+                e % 2 ? vt(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : xt(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : vt(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var kt = {
-            mixins: [A["a"], it, ot],
+        var _t = {
+            mixins: [P["a"], ot, ct],
             data: function() {
                 return {
                     cardMethods: [],
@@ -5658,8 +5966,8 @@
                     }
                 }
             },
-            computed: jt({}, Object(O["d"])(["modalId", "querygroup"])),
-            methods: jt({}, Object(O["c"])(["changemodalId"]), {
+            computed: yt({}, Object(I["d"])(["modalId", "querygroup"])),
+            methods: yt({}, Object(I["c"])(["changemodalId"]), {
                 notGroup: function(t) {
                     return ("" + t).length < 15
                 },
@@ -5801,9 +6109,13 @@
                                     n = "groupRecallMsg"),
                                     t.next = 4,
                                     a["a"][n](e).then((function(t) {
-                                        "只能撤销三分钟之内的消息" === t.error || "recall msg not allowed, over 3 mins!" === t.error ? r.finishModal("无法撤回超过 3 分钟的消息") : t.error ? r.finishModal("撤回失败") : t.result && r.updateRecord(t, e.mid)
+                                        "只能撤销三分钟之内的消息" === t.error || "recall msg not allowed, over 3 mins!" === t.error ? r.finishModal("无法撤回超过 3 分钟的消息") : t.error ? r.finishModal("撤回失败") : t.result ? r.updateRecord(t, e.mid) : r.updateRecord({
+                                            info: t,
+                                            ts: Math.floor(Date.now() / 1e3)
+                                        }, r.message.mid, 1)
                                     }
-                                    )).catch((function() {
+                                    )).catch((function(t) {
+                                        console.log(t),
                                         r.finishModal("撤回失败")
                                     }
                                     ));
@@ -5896,19 +6208,24 @@
                     this.clickCardStyle.top = t.clientY + "px"
                 },
                 updateRecord: function(t, e) {
-                    var n = this.$store.state.chatrecords.length
-                      , r = this.$store.state.chatrecords;
-                    for (var i in r)
-                        if (r[n - i - 1].mid == e) {
-                            var s = {
+                    var n = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : 0
+                      , r = this.$store.state.chatrecords.length
+                      , i = this.$store.state.chatrecords;
+                    for (var s in i)
+                        if (i[r - s - 1].mid == e) {
+                            var o = i[r - s - 1].cardtype
+                              , a = {
                                 fid: "",
                                 text: t.info.recall_text,
                                 created_at: 1e3 * t.ts,
-                                sub_type: 331
+                                sub_type: 331,
+                                type: 344
                             };
-                            return void this.$store.commit("replacerecord", {
-                                i: n - i - 1,
-                                param: s
+                            return (this.message.userinfo && this.message.userinfo.id === l["f"].basicinfo.id && Number(o.match(/\d+/)[0]) <= 3 || Number(o.match(/\d+/)[0]) <= 3 && n) && (a.webchat_normal_text = !0),
+                            "card5" === i[r - s - 1].cardtype && this.$store.commit("removeimgurl", i[r - s - 1].mid),
+                            void this.$store.commit("replacerecord", {
+                                i: r - s - 1,
+                                param: a
                             })
                         }
                 }
@@ -5924,11 +6241,212 @@
                 ))
             }
         }
-          , Ot = kt
-          , Ct = Object(_["a"])(Ot, _t, wt, !1, null, null, null)
-          , It = Ct.exports
-          , $t = n("8917");
-        function Tt(t, e) {
+          , wt = _t
+          , xt = Object(_["a"])(wt, gt, bt, !1, null, null, null)
+          , jt = xt.exports
+          , kt = function() {
+            var t = this
+              , e = t.$createElement
+              , n = t._self._c || e;
+            return n("header", {
+                staticClass: "header relative"
+            }, [t.groupNotification ? n("div", {
+                staticClass: "friendname one-line hvhd"
+            }, [n("div", {
+                staticClass: "flex align-item_c justify-c_c"
+            }, [t._v("群通知")])]) : n("div", {
+                staticClass: "friendname one-line hvhd",
+                on: {
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.showusercard(e)
+                    }
+                }
+            }, [t.editGroupName ? n("div", {
+                staticClass: "flex align-item_c justify-c_c"
+            }, [n("div", [n("input", {
+                directives: [{
+                    name: "focus",
+                    rawName: "v-focus"
+                }, {
+                    name: "model",
+                    rawName: "v-model",
+                    value: t.groupname,
+                    expression: "groupname"
+                }],
+                ref: "groupname",
+                staticClass: "renameinput",
+                attrs: {
+                    type: "text",
+                    placeholder: "在此输入群名称"
+                },
+                domProps: {
+                    value: t.groupname
+                },
+                on: {
+                    click: function(t) {
+                        t.stopPropagation()
+                    },
+                    blur: function(e) {
+                        return t.changegroupname()
+                    },
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "enter", 13, e.key, "Enter") ? null : t.changegroupname()
+                    },
+                    input: function(e) {
+                        e.target.composing || (t.groupname = e.target.value)
+                    }
+                }
+            })]), n("div", {
+                staticClass: "num",
+                class: {
+                    alert: t.showWarnText
+                }
+            }, [t._v("\n        " + t._s(t._stringBitLength(t.groupname) + "/15") + "\n      ")])]) : n("div", {
+                staticClass: "flex align-item_c justify-c_c"
+            }, [2 !== t.curuserinfo.type ? n("span", [t._v(t._s(t.getname))]) : 2 == t.curuserinfo.type && t.querygroup && t.querygroup.member_count ? n("span", [n("span", {
+                staticClass: "group-name"
+            }, [t._v(t._s(t.getname + "（" + t.querygroup.member_count + "）"))])]) : 2 == t.curuserinfo.type ? n("span", {
+                staticClass: "group-name"
+            }, [t._v(t._s(t.getname))]) : t._e(), 2 == t.curuserinfo.type ? n("span", {
+                staticClass: "flex align-item_c justify-c_c"
+            }, [-1 !== t.handleIdentity().indexOf("owner") || -1 !== t.handleIdentity().indexOf("admin") ? n("i", {
+                staticClass: "bj-icon hvhd",
+                on: {
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.editFun(e)
+                    }
+                }
+            }, [n("hover-item", {
+                attrs: {
+                    name: "bianji-group-info"
+                }
+            })], 1) : t._e()]) : t._e()])]), t.groupNotification ? n("div", {
+                staticClass: "set"
+            }, [n("i", {
+                staticClass: "icon W_ficon",
+                on: {
+                    mouseenter: t.showSettingMethods,
+                    mouseleave: function(e) {
+                        t.showSetting = !1
+                    }
+                }
+            }, [n("hover-item", {
+                attrs: {
+                    name: "setting"
+                }
+            })], 1), n("div", {
+                staticClass: "W_ficon setting-hide",
+                on: {
+                    mouseenter: t.showSettingMethods,
+                    mouseleave: function(e) {
+                        t.showSetting = !1
+                    }
+                }
+            }, [t.showSetting ? n("ul", {
+                staticClass: "menulist hvhd font12 settinglist"
+            }, [n("li", {
+                on: {
+                    click: t.closeNotification
+                }
+            }, [t._v("\n          " + t._s(1 !== t.pushSetting.groupchat_notify_receive ? "不接收群通知" : "接收群通知") + "\n        ")]), n("li", {
+                on: {
+                    click: t.clearGroupNotification
+                }
+            }, [t._v("\n          清空群通知\n        ")])]) : t._e()])]) : n("div", {
+                staticClass: "set"
+            }, [t.handleIdentity().length ? n("i", {
+                staticClass: "icon W_ficon",
+                on: {
+                    mouseenter: t.showSettingMethods,
+                    mouseleave: function(e) {
+                        t.showSetting = !1
+                    }
+                }
+            }, [n("hover-item", {
+                attrs: {
+                    name: "setting"
+                }
+            })], 1) : t._e(), 2 == t.curuserinfo.type && t.handleIdentity().length ? n("div", {
+                staticClass: "W_ficon setting-hide",
+                on: {
+                    mouseenter: t.showSettingMethods,
+                    mouseleave: function(e) {
+                        t.showSetting = !1
+                    }
+                }
+            }, [t.showSetting ? n("ul", {
+                staticClass: "menulist hvhd font12 settinglist"
+            }, [n("li", {
+                on: {
+                    click: t.updateSpeechForbid
+                }
+            }, [t._v("\n          " + t._s("1" !== t.querygroup.speech_forbid ? "开启" : "关闭") + "全员禁言\n        ")]), n("li", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: -1 !== t.handleIdentity().indexOf("owner"),
+                    expression: "handleIdentity().indexOf('owner') !== -1"
+                }],
+                on: {
+                    click: t.manage
+                }
+            }, [t._v("设置管理员")]), n("li", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: -1 !== t.handleIdentity().indexOf("owner"),
+                    expression: "handleIdentity().indexOf('owner') !== -1"
+                }],
+                on: {
+                    click: t.transferGroup
+                }
+            }, [t._v("\n          转让群主\n        ")]), 1 === t.querygroup.apply_status ? n("li", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: -1 !== t.handleIdentity().indexOf("owner"),
+                    expression: "handleIdentity().indexOf('owner') !== -1"
+                }],
+                staticClass: "disabled"
+            }, [t._v("\n          升级为粉丝群(等待审核)\n        ")]) : n("li", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: -1 !== t.handleIdentity().indexOf("owner") && t.querygroup.affi_type && void 0 === t.querygroup.affi_type[0],
+                    expression: "\n            handleIdentity().indexOf('owner') !== -1 &&\n              querygroup.affi_type &&\n              querygroup.affi_type[0] === undefined\n          "
+                }],
+                on: {
+                    click: t.updateToAffi
+                }
+            }, [t._v("\n          升级为粉丝群\n        ")])]) : t._e()]) : t._e(), n("i", {
+                staticClass: "icon W_ficon icon-msg show-icon",
+                on: {
+                    click: function(e) {
+                        e.stopPropagation(),
+                        2 == t.curuserinfo.type ? t.showmodal2() : t.showmodal1()
+                    }
+                }
+            }, [t._v("")]), n("i", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: 2 == t.curuserinfo.type,
+                    expression: "curuserinfo.type == 2"
+                }],
+                staticClass: "icon W_ficon share",
+                on: {
+                    click: t.shareGroup
+                }
+            }, [n("hover-item", {
+                attrs: {
+                    name: "share"
+                }
+            })], 1)])])
+        }
+          , Ot = [];
+        function Ct(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -5940,103 +6458,249 @@
             }
             return n
         }
-        function At(t) {
+        function It(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Tt(Object(n), !0).forEach((function(e) {
+                e % 2 ? Ct(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Tt(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Ct(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var Pt = function() {
-            return n.e("async-largepic").then(n.bind(null, "c6fa"))
-        }
-          , St = {
-            mixins: [nt["a"], A["a"], it, ot],
-            filters: {
-                formatDate: function(t) {
-                    t || (t = (new Date).getTime());
-                    var e = (new Date).getTime()
-                      , n = new Date(J()(e).format("YYYY/MM/DD") + " 00:00:00").getTime()
-                      , r = n - 864e5
-                      , i = r - 864e5
-                      , s = new Date(J()(e).format("YYYY") + "/01/01 00:00:00").getTime();
-                    if (t >= n)
-                        return J()(t).format("HH:mm");
-                    if (t >= r)
-                        return "昨天" + J()(t).format("HH:mm");
-                    if (t >= i) {
-                        var o = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
-                        return o[J()(t).day()] + " " + J()(t).format("HH:mm")
+        var $t = {
+            computed: It({}, Object(I["d"])(["pushSetting"])),
+            methods: It({}, Object(I["c"])(["changePushSetting"]), {
+                closeNotification: function() {
+                    var t = this;
+                    a["a"].set_push_settings({
+                        ua: "PC",
+                        groupchat_notify_receive: 1 === this.pushSetting.groupchat_notify_receive ? 2 : 1
+                    }).then((function(e) {
+                        if (e && e.result) {
+                            var n = d["a"].findIndexAndLt(-101)
+                              , r = n.lt
+                              , i = n.i;
+                            t.$store.commit("update" + r, {
+                                notTop: !0,
+                                i: i,
+                                param: {
+                                    is_blocked: 1 === t.pushSetting.groupchat_notify_receive ? "" : 1
+                                }
+                            }),
+                            t.changePushSetting({
+                                groupchat_notify_receive: 1 === t.pushSetting.groupchat_notify_receive ? 2 : 1
+                            })
+                        }
                     }
-                    return t >= s ? J()(t).format("MM-DD HH:mm") : J()(t).format("YYYY-MM-DD")
+                    )),
+                    this.$modal({
+                        icon: {
+                            text: n("6e34")
+                        },
+                        text: "已设置为".concat(1 !== this.pushSetting.groupchat_notify_receive ? "不" : "", "接收群通知消息"),
+                        duration: 800
+                    })
+                },
+                clearGroupNotification: function() {
+                    var t = this;
+                    this.$modal({
+                        icon: {
+                            text: n("347b")
+                        },
+                        text: "确定要清空所有群通知吗？清空后将无法恢复。",
+                        hidemask: !1,
+                        okObj: {
+                            text: "确定",
+                            okFun: function() {
+                                a["a"].delete_sys_message().then((function(e) {
+                                    t.selectSession(-1);
+                                    var n = d["a"].findIndexAndLt(-101)
+                                      , r = n.i;
+                                    t.$store.commit("removechatlist", r)
+                                }
+                                ))
+                            }
+                        },
+                        cancelObj: {
+                            text: "取消",
+                            cancelFun: function() {
+                                t.$root.$children[0].$children[0].$refs.cardcontaininfo.curView.pop()
+                            }
+                        },
+                        width: 340,
+                        closebtn: !0
+                    })
                 }
+            })
+        }
+          , At = $t
+          , St = function() {
+            var t = this
+              , e = t.$createElement
+              , n = t._self._c || e;
+            return n("div", {
+                staticClass: "hover-item",
+                class: t.name
+            })
+        }
+          , Tt = []
+          , Pt = {
+            name: "hover-item",
+            props: ["name"]
+        }
+          , Dt = Pt
+          , Mt = (n("7a7f"),
+        Object(_["a"])(Dt, St, Tt, !1, null, "59355041", null))
+          , qt = Mt.exports
+          , Rt = (n("a481"),
+        n("3b2b"),
+        {
+            methods: {
+                kdcheck: function(t, e) {
+                    if (this[e].length >= 15) {
+                        var n = new RegExp("[~!@#$%-&*()_+{}'\\,./:\"[]|<>=;?^]{1}")
+                          , r = t.key.match(n);
+                        r && (this.showwarn = !0,
+                        t.preventDefault()),
+                        (t.keyCode >= 65 && t.keyCode <= 90 || t.keyCode >= 48 && t.keyCode <= 57) && (t.metaKey || t.shiftKey || t.ctrlKey || t.altKey || (this.showwarn = !0,
+                        t.preventDefault()))
+                    }
+                },
+                inputcheck: function(t, e) {
+                    this[e].length <= 15 ? this.showwarn = !1 : (this.showwarn = !0,
+                    this[e] = this[e].slice(0, 15))
+                },
+                _stringBitLength: function(t) {
+                    if (!t)
+                        return 0;
+                    var e = t.match(/[^\x00-\xff]/g);
+                    return Math.ceil((t.length + (e ? e.length : 0)) / 2)
+                },
+                sliceBit: function(t, e) {
+                    for (var n = "", r = 0, i = 0, s = t.length, o = /\uD83C|\uD83D/, a = 0; a < t.length; a++) {
+                        var c = t[a];
+                        if (/[^\x00-\xff]/.test(c) ? r += 2 : r += 1,
+                        s - i < 3 && o.test(t[i]) || r > 2 * e) {
+                            o.test(n[n.length - 1]) && (n = n.replace(/[\uD83C|\uD83D]$/, ""));
+                            break
+                        }
+                        n += c,
+                        i++
+                    }
+                    return n
+                },
+                isLink: function(t) {
+                    var e = /^(http|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?$/g;
+                    return e.test(t)
+                },
+                getCursorRect: function(t) {
+                    var e = !!document.all
+                      , n = 0
+                      , r = 0;
+                    if (t) {
+                        if (e) {
+                            var i = document.selection.createRange();
+                            if (i.parentElement() == t) {
+                                var s = document.body.createTextRange();
+                                for (s.moveToElementText(t),
+                                n = 0; s.compareEndPoints("StartToStart", i) < 0; n++)
+                                    s.moveStart("character", 1);
+                                for (var o = 0; o <= n; o++)
+                                    "\n" == t.value.charAt(o) && n++;
+                                for (s.moveToElementText(t),
+                                r = 0; s.compareEndPoints("StartToEnd", i) < 0; r++)
+                                    s.moveStart("character", 1);
+                                for (o = 0; o <= r; o++)
+                                    "\n" == t.value.charAt(o) && r++
+                            }
+                        } else
+                            n = t.selectionStart,
+                            r = t.selectionEnd;
+                        return {
+                            start: n,
+                            end: r
+                        }
+                    }
+                },
+                setCursorRect: function(t, e) {
+                    var n = t.start
+                      , r = t.end;
+                    if (e)
+                        if (isNaN(n) || isNaN(r))
+                            console.log("位置输入错误");
+                        else {
+                            var i = !!document.all;
+                            if (i) {
+                                for (var s = e.createTextRange(), o = c, a = u, c = 0, u = 0, l = e.value, d = 0; d < l.length && d < o; d++) {
+                                    var f = l.charAt(d);
+                                    "\n" != f && c++
+                                }
+                                for (d = l.length - 1; d >= a && d >= 0; d--) {
+                                    f = l.charAt(d);
+                                    "\n" != f && u++
+                                }
+                                s.moveStart("character", c),
+                                s.moveEnd("character", -u),
+                                s.select(),
+                                e.focus()
+                            } else
+                                e.selectionStart = n,
+                                e.selectionEnd = r,
+                                e.focus(),
+                                this.$emit("cursorRect", {
+                                    start: e.selectionStart,
+                                    end: e.selectionEnd
+                                })
+                        }
+                }
+            }
+        })
+          , Et = Rt
+          , Nt = n("8917");
+        function Lt(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter((function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                }
+                ))),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function Gt(t) {
+            for (var e = 1; e < arguments.length; e++) {
+                var n = null != arguments[e] ? arguments[e] : {};
+                e % 2 ? Lt(Object(n), !0).forEach((function(e) {
+                    Object(o["a"])(t, e, n[e])
+                }
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Lt(Object(n)).forEach((function(e) {
+                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                }
+                ))
+            }
+            return t
+        }
+        var Bt = {
+            mixins: [P["a"], ct, Et, ot, At],
+            components: {
+                hoverItem: qt
             },
             data: function() {
                 return {
-                    showmodalmsgk: -1,
-                    showloading: !1,
                     showSetting: !1,
-                    scrollTopvalue: 0,
-                    startListen: !1,
-                    position: 0,
-                    ts: Date.now(),
-                    isfirst: !0,
-                    canshowmodal1: !1,
-                    modalX: 0,
-                    modalY: 0,
-                    message: {}
+                    groupname: "",
+                    editGroupName: !1,
+                    showWarnText: !1,
+                    timer: function() {}
                 }
             },
-            mounted: function() {
-                var t = this;
-                T["a"].$on("newMsg", (function() {
-                    t.isfirst = !0
-                }
-                )),
-                T["a"].$on("busScrollToBottom", (function() {
-                    t.scrollTopvalue = t.$refs.chatcontent.scrollHeight
-                }
-                ))
-            },
-            components: {
-                cardcontain: F,
-                bubbleLoading: et,
-                largePic: Pt,
-                weiboVerified: ht,
-                hoverItem: yt,
-                clickCard: It
-            },
-            computed: At({}, Object(O["d"])(["followuser", "selectId", "remarklist", "chatrecords", "usercardinfo", "unfollowlist", "querygroup", "showunfollow", "nomorerecords", "modalId", "lastreadmid", "loadmore", "prescrollTop", "friendslist", "joingroups"]), {
-                modalStyle: function() {
-                    return {
-                        top: "".concat(this.modalY, "px"),
-                        left: "".concat(this.modalX, "px")
-                    }
-                },
-                checkidentify: function() {
-                    return !(!this.isowner && !this.isAdmin)
-                },
-                isowner: function() {
-                    return this.querygroup.owner == l["f"].basicinfo.id
-                },
-                isAdmin: function() {
-                    if (this.querygroup.admins) {
-                        var t = this.querygroup.admins.findIndex((function(t) {
-                            return t == l["f"].basicinfo.id
-                        }
-                        ));
-                        return t >= 0
-                    }
-                },
-                isshowtoptips: function() {
-                    return !(1 != this.curuserinfo.type || this.followuser && !this.user_is_blocked)
-                },
+            computed: Gt({}, Object(I["d"])(["usercardinfo", "querygroup", "selectId", "groupNotification", "pushSetting"]), {
                 curuserinfo: function() {
                     var t = this;
                     if (this.$store.state.showunfollow)
@@ -6056,186 +6720,57 @@
                 },
                 getname: function() {
                     return 2 == this.curuserinfo.type ? this.curuserinfo.name : this.findremark(this.$store.state.selectId, this.curuserinfo.name)
-                },
-                user_is_blocked: function() {
-                    var t = this.listtype()
-                      , e = this.findItem(this.$store.state[t]);
-                    return e ? e.is_blocked : !("chatlist" != t || (t = "topuser",
-                    e = this.findItem(this.$store.state.topuser),
-                    !e)) && e.is_blocked
                 }
             }),
             watch: {
-                selectId: function() {
-                    this.ts = Date.now(),
-                    this.iAmTfBoys = !1
+                curuserinfo: {
+                    handler: function(t) {
+                        this.editGroupName || (this.groupname = t.name)
+                    },
+                    deep: !0
                 },
-                chatrecords: function() {
-                    var t = this;
-                    if (this.startListen = !1,
-                    this.chatrecords.length)
-                        if (this.loadmore)
-                            this.scrollTopvalue = this.$refs.chatcontent.scrollHeight - this.position,
-                            this.$parent.$refs.chatinfo.isswitch = !1;
-                        else {
-                            var e = this.scrollTopvalue;
-                            setTimeout((function() {
-                                var n = t.scrollTopvalue;
-                                (Math.abs(e - n) < 200 || t.$parent.$refs.chatinfo.isswitch) && t.$refs.chatcontent && (t.scrollTopvalue = +(t.$refs.chatcontent.scrollHeight + 160 * t.chatrecords.length) + 1e5),
-                                t.startListen = !0,
-                                t.$parent.$refs.chatinfo.isswitch = !1
-                            }
-                            ), 250)
+                groupname: function(t) {
+                    var e = this;
+                    if (this._stringBitLength(t) > 15) {
+                        var n = this.getCursorRect(this.$refs.groupname);
+                        clearTimeout(this.timer),
+                        this.showWarnText = !0,
+                        setTimeout((function() {
+                            e.showWarnText = !1
                         }
-                },
-                scrollTopvalue: function() {
-                    7 === this.$store.state.modalId && this.$store.commit("changemodalId", -1)
+                        ), 2500),
+                        this.groupname = this.sliceBit(t, 15),
+                        this.$nextTick((function() {
+                            n && e.setCursorRect(n, e.$refs.groupname)
+                        }
+                        ))
+                    }
                 }
             },
-            methods: At({}, Object(O["c"])(["changemodalId", "updatechatlist", "exnogroupmodal", "exprescrollTop", "updateunfollowlist"]), {
-                showSettingMethods: function() {
-                    var t = this;
-                    this.showSetting = !0,
-                    a["a"].groupquery({
-                        params: {
-                            id: this.$store.state.selectId
-                        }
-                    }).then((function(e) {
-                        var n = e.admins
-                          , r = e.owner
-                          , i = e.affi_type
-                          , s = e.affi_join_type
-                          , o = e.apply_update_type
-                          , a = e.speech_forbid;
-                        t.$store.commit("flashquerygroup", {
-                            admins: n,
-                            owner: r,
-                            affi_type: i,
-                            affi_join_type: s,
-                            apply_update_type: o,
-                            speech_forbid: a
-                        })
-                    }
-                    ))
+            methods: Gt({}, Object(I["c"])(["selectSession", "changePushSetting"]), {
+                editFun: function() {
+                    this.editGroupName = !0,
+                    Nt["a"].editGroupName.addCount(),
+                    this.suda("webchat_editgroupname", "webchat_editgroupname")
                 },
-                updateFansGroup: function() {
-                    a["a"].updateFansGroup({
-                        id: this.$store.state.selectId,
-                        page_id: l["f"].basicinfo.id
-                    }).then((function(t) {
-                        console.log(t)
-                    }
-                    ))
-                },
-                transferGroup: function() {
-                    var t = this;
-                    $t["a"].transferGroup.addCount(),
-                    T["a"].$emit("choose-user", {
-                        id: "tansferGroup",
-                        single_choose: 1,
-                        vm: this,
-                        title: "选择新群主",
-                        confirmBtn: "确定",
-                        cancelBtn: "取消",
-                        searchText: "搜索群成员",
-                        chosenText: "已选择联系人",
-                        searchType: 1,
-                        listType: 2,
-                        withGroup: !0,
-                        withUser: !0,
-                        defaultList: [],
-                        onconfirm: function(e, n) {
-                            t.$parent.$refs.cardcontaininfo.curView.push(""),
-                            e.forEach((function(e) {
-                                t.$modal({
-                                    icon: {
-                                        text: "".concat(e.avatar)
-                                    },
-                                    text: "点击确定后，他将成为「".concat(t.querygroup.system_name, "」的新群主，你将失去群主资格。"),
-                                    name: e.name,
-                                    hidemask: !0,
-                                    okObj: {
-                                        text: "确定",
-                                        okFun: function() {
-                                            a["a"].tansferGroup({
-                                                params: {
-                                                    privilege_use: 0,
-                                                    id: t.$store.state.selectId,
-                                                    new_owner: e.id
-                                                }
-                                            }).then((function(e) {
-                                                t.$parent.$refs.cardcontaininfo.curView.pop(),
-                                                n.close(!0)
-                                            }
-                                            ))
-                                        }
-                                    },
-                                    cancelObj: {
-                                        text: "取消",
-                                        cancelFun: function() {
-                                            t.$parent.$refs.cardcontaininfo.curView.pop()
-                                        }
-                                    },
-                                    width: 340,
-                                    closebtn: !0
-                                })
-                            }
-                            ))
-                        },
-                        oncancle: function(t) {
-                            t.close(!0)
-                        },
-                        listener: function() {}
+                showmodal1: function() {
+                    console.log(11, {
+                        id: this.curuserinfo.id,
+                        avatar: this.curuserinfo.avatar_large,
+                        name: this.curuserinfo.name
                     }),
-                    this.checkgroups().then((function(t) {
-                        T["a"].$emit("refresh-choose-user", {
-                            id: "tansferGroup",
-                            defaultList: t
-                        })
-                    }
-                    ))
+                    T["a"].$emit("setNewGroup", [{
+                        id: this.curuserinfo.id,
+                        avatar: this.curuserinfo.avatar_large,
+                        name: this.curuserinfo.name
+                    }])
                 },
-                checkgroups: function() {
-                    var t = this;
-                    return new Promise((function(e) {
-                        var n = t.querygroup.member_infos;
-                        n = n.filter((function(e) {
-                            return e.uid !== t.querygroup.owner
-                        }
-                        )),
-                        n = n.map((function(t) {
-                            return {
-                                id: t.uid,
-                                avatar: t.profile_image_url,
-                                name: t.screen_name,
-                                jp: t.jp,
-                                qp: t.qp
-                            }
-                        }
-                        )),
-                        e(n)
-                    }
-                    ))
+                showmodal2: function() {
+                    this.$root.$children[0].$children[0].$refs.cardcontaininfo.curView = "modal2"
                 },
-                updateToAffi: function() {
-                    $t["a"].updateAffi.addCount(),
-                    this.$parent.$refs.cardcontaininfo.curView = "updateToAffi"
-                },
-                updateSpeechForbid: function() {
-                    var t = this;
-                    $t["a"].speechForbid.addCount();
-                    var e = {
-                        id: this.$store.state.selectId,
-                        speech_forbid: "1" !== this.querygroup.speech_forbid ? 1 : 4
-                    };
-                    a["a"].updategroupmsg(e).then((function(n) {
-                        if (n.result) {
-                            var r = 1 !== e.speech_forbid ? "关闭" : "开启";
-                            t.$toast("你已".concat(r, "全员禁言"))
-                        } else
-                            t.$toast(n.error)
-                    }
-                    ))
+                showusercard: function() {
+                    2 == this.curuserinfo.type ? (-1 != this.$store.state.modalId && this.$store.commit("changemodalId", -1),
+                    this.showmodal2()) : 1 == this.curuserinfo.type && this.showUserInfo(0, 3)
                 },
                 shareGroup: function() {
                     this.message = {
@@ -6277,15 +6812,11 @@
                     }
                     ))
                 },
-                manage: function() {
-                    $t["a"].setAdmin.addCount(),
-                    this.$parent.$refs.cardcontaininfo.curView = "manageAdmin"
-                },
                 checksharegroup: function() {
                     var t = this;
                     return new Promise((function(e) {
                         var n = t.$store.state.chatlist.filter((function(t) {
-                            return -100 !== t.id
+                            return -100 !== t.id && -101 !== t.id
                         }
                         ))
                           , r = [];
@@ -6305,6 +6836,576 @@
                         }
                         )),
                         e(n)
+                    }
+                    ))
+                },
+                showSettingMethods: function() {
+                    var t = this;
+                    this.showSetting = !0,
+                    this.groupNotification || a["a"].groupquery({
+                        params: {
+                            id: this.$store.state.selectId
+                        }
+                    }).then((function(e) {
+                        var n = e.admins
+                          , r = e.owner
+                          , i = e.affi_type
+                          , s = e.affi_join_type
+                          , o = e.apply_update_type
+                          , a = e.speech_forbid;
+                        t.$store.commit("flashquerygroup", {
+                            admins: n,
+                            owner: r,
+                            affi_type: i,
+                            affi_join_type: s,
+                            apply_update_type: o,
+                            speech_forbid: a
+                        })
+                    }
+                    ))
+                },
+                updateSpeechForbid: function() {
+                    var t = this;
+                    Nt["a"].speechForbid.addCount();
+                    var e = {
+                        id: this.$store.state.selectId,
+                        speech_forbid: "1" !== this.querygroup.speech_forbid ? 1 : 4
+                    };
+                    a["a"].updategroupmsg(e).then((function(n) {
+                        if (n.result) {
+                            var r = 1 !== e.speech_forbid ? "关闭" : "开启";
+                            t.$toast("你已".concat(r, "全员禁言"))
+                        } else
+                            t.$toast(n.error)
+                    }
+                    ))
+                },
+                manage: function() {
+                    Nt["a"].setAdmin.addCount(),
+                    this.$root.$children[0].$children[0].$refs.cardcontaininfo.curView = "manageAdmin"
+                },
+                transferGroup: function() {
+                    var t = this;
+                    Nt["a"].transferGroup.addCount(),
+                    T["a"].$emit("choose-user", {
+                        id: "tansferGroup",
+                        single_choose: 1,
+                        vm: this,
+                        title: "选择新群主",
+                        confirmBtn: "确定",
+                        cancelBtn: "取消",
+                        searchText: "搜索群成员",
+                        chosenText: "已选择联系人",
+                        searchType: 1,
+                        listType: 2,
+                        withGroup: !0,
+                        withUser: !0,
+                        defaultList: [],
+                        onconfirm: function(e, n) {
+                            t.$root.$children[0].$children[0].$refs.cardcontaininfo.curView.push(""),
+                            e.forEach((function(e) {
+                                t.$modal({
+                                    icon: {
+                                        text: "".concat(e.avatar)
+                                    },
+                                    text: "点击确定后，他将成为「".concat(t.querygroup.system_name, "」的新群主，你将失去群主资格。"),
+                                    name: e.name,
+                                    hidemask: !0,
+                                    okObj: {
+                                        text: "确定",
+                                        okFun: function() {
+                                            a["a"].tansferGroup({
+                                                params: {
+                                                    privilege_use: 0,
+                                                    id: t.$store.state.selectId,
+                                                    new_owner: e.id
+                                                }
+                                            }).then((function(e) {
+                                                t.$root.$children[0].$children[0].$refs.cardcontaininfo.curView.pop(),
+                                                n.close(!0)
+                                            }
+                                            ))
+                                        }
+                                    },
+                                    cancelObj: {
+                                        text: "取消",
+                                        cancelFun: function() {
+                                            t.$root.$children[0].$children[0].$refs.cardcontaininfo.curView.pop()
+                                        }
+                                    },
+                                    width: 340,
+                                    closebtn: !0
+                                })
+                            }
+                            ))
+                        },
+                        oncancle: function(t) {
+                            t.close(!0)
+                        },
+                        listener: function() {}
+                    }),
+                    this.checkgroups().then((function(t) {
+                        T["a"].$emit("refresh-choose-user", {
+                            id: "tansferGroup",
+                            defaultList: t
+                        })
+                    }
+                    ))
+                },
+                updateToAffi: function() {
+                    Nt["a"].updateAffi.addCount(),
+                    this.$root.$children[0].$children[0].$refs.cardcontaininfo.curView = "updateToAffi"
+                },
+                checkgroups: function() {
+                    var t = this;
+                    return new Promise((function(e) {
+                        var n = t.querygroup.member_infos;
+                        n = n.filter((function(e) {
+                            return e.uid !== t.querygroup.owner
+                        }
+                        )),
+                        n = n.map((function(t) {
+                            return {
+                                id: t.uid,
+                                avatar: t.profile_image_url,
+                                name: t.screen_name,
+                                jp: t.jp,
+                                qp: t.qp
+                            }
+                        }
+                        )),
+                        e(n)
+                    }
+                    ))
+                },
+                changegroupname: function() {
+                    var t = this
+                      , e = this.findItem(this.$store.state.chatlist);
+                    if (e || (e = this.findItem(this.$store.state.topuser)),
+                    this.groupname != e.name) {
+                        var n = this.groupname;
+                        if (!n)
+                            return this.editGroupName = !1,
+                            void (this.groupname = e.name);
+                        var r = this.selectId;
+                        a["a"].updategroupmsg({
+                            id: r,
+                            name: n
+                        }).then((function(i) {
+                            if (i.error)
+                                t.groupname = e.name,
+                                t.editGroupName = !1,
+                                t.$toast(i.error),
+                                t.$store.commit("fillchatrecords", {
+                                    value: {
+                                        cardtype: "card1",
+                                        comment: "",
+                                        created_at: (new Date).getTime(),
+                                        direct: "right",
+                                        fids: "",
+                                        media_type: 0,
+                                        msg_status: 0,
+                                        sub_type: "",
+                                        text: i.error,
+                                        type: 1
+                                    }
+                                }),
+                                t.curname = Object(u["n"])(t.findItem(t.$store.state.chatlist), "name");
+                            else if (i.result) {
+                                if (t.$store.state.showunfollow)
+                                    return t.$store.state.unfollowlist.find((function(t) {
+                                        return t.id == r
+                                    }
+                                    ));
+                                var s = t.$store.state.chatlist.find((function(t) {
+                                    return t.id == r
+                                }
+                                ));
+                                s || (s = t.$store.state.topuser.find((function(t) {
+                                    return t.id == r
+                                }
+                                ))),
+                                s.name = n,
+                                t.editGroupName = !1
+                            }
+                        }
+                        ))
+                    } else
+                        this.editGroupName = !1
+                }
+            }),
+            mounted: function() {
+                var t = this;
+                a["a"].push_settings({
+                    params: {
+                        ua: "PC"
+                    }
+                }).then((function(e) {
+                    e && e.result && t.changePushSetting(e.settings)
+                }
+                ))
+            }
+        }
+          , Ut = Bt
+          , Wt = (n("2fd3"),
+        Object(_["a"])(Ut, kt, Ot, !1, null, "2dda7296", null))
+          , zt = Wt.exports
+          , Vt = function() {
+            var t = this
+              , e = t.$createElement
+              , n = t._self._c || e;
+            return t.item ? n("div", ["群创建成功，快 {{member.DATA}} 或 {{share.DATA}} 给大家吧" == t.item.template ? n("span", {
+                staticClass: "notice_in"
+            }, [t._v("\n    群创建成功，快\n    "), n("span", {
+                staticClass: "can-hover",
+                on: {
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.showWeibo(e)
+                    }
+                }
+            }, [t._v(t._s(t.item.data.member.value))]), t._v(" 或\n    "), n("span", {
+                staticClass: "can-hover",
+                on: {
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.clickNotice(e)
+                    }
+                }
+            }, [t._v(t._s(t.item.data.share.value))]), t._v(" 给大家吧\n  ")]) : t.item.webchat_normal_text ? n("span", {
+                staticClass: "notice_in"
+            }, [t._v(t._s(t.item.text)), n("span", {
+                staticClass: "can-hover",
+                on: {
+                    click: function(e) {
+                        return t.reset(t.item)
+                    }
+                }
+            }, [t._v(" 重新编辑")])]) : n("span", {
+                staticClass: "notice_in"
+            }, [t._v(t._s(t.item.text))])]) : t._e()
+        }
+          , Ft = [];
+        function Yt(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter((function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                }
+                ))),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function Ht(t) {
+            for (var e = 1; e < arguments.length; e++) {
+                var n = null != arguments[e] ? arguments[e] : {};
+                e % 2 ? Yt(Object(n), !0).forEach((function(e) {
+                    Object(o["a"])(t, e, n[e])
+                }
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Yt(Object(n)).forEach((function(e) {
+                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                }
+                ))
+            }
+            return t
+        }
+        var Jt = {
+            mixins: [ct],
+            props: {
+                item: {
+                    type: Object
+                }
+            },
+            methods: Ht({}, Object(I["c"])(["changemodalId"]), {
+                reset: function(t) {
+                    T["a"].$emit("resetText", t.webchat_normal_text)
+                },
+                showWeibo: function() {
+                    this.adduser()
+                },
+                clickNotice: function(t) {
+                    var e = this;
+                    this.$store.commit("changemodalId", -1),
+                    this.$nextTick((function() {
+                        e.changemodalId(11),
+                        T["a"].$emit("clickCard", t, "share")
+                    }
+                    ))
+                }
+            })
+        }
+          , Kt = Jt
+          , Qt = (n("36f2"),
+        Object(_["a"])(Kt, Vt, Ft, !1, null, "db100796", null))
+          , Zt = Qt.exports;
+        function Xt(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter((function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                }
+                ))),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function te(t) {
+            for (var e = 1; e < arguments.length; e++) {
+                var n = null != arguments[e] ? arguments[e] : {};
+                e % 2 ? Xt(Object(n), !0).forEach((function(e) {
+                    Object(o["a"])(t, e, n[e])
+                }
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Xt(Object(n)).forEach((function(e) {
+                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                }
+                ))
+            }
+            return t
+        }
+        c["default"].use(C.a);
+        var ee = function() {
+            return n.e("async-largepic").then(n.bind(null, "c6fa"))
+        }
+          , ne = {
+            mixins: [it["a"], P["a"], ot, ct],
+            filters: {
+                formatDate: function(t) {
+                    t || (t = (new Date).getTime());
+                    var e = (new Date).getTime()
+                      , n = new Date(Q()(e).format("YYYY/MM/DD") + " 00:00:00").getTime()
+                      , r = n - 864e5
+                      , i = r - 864e5
+                      , s = new Date(Q()(e).format("YYYY") + "/01/01 00:00:00").getTime();
+                    if (t >= n)
+                        return Q()(t).format("HH:mm");
+                    if (t >= r)
+                        return "昨天" + Q()(t).format("HH:mm");
+                    if (t >= i) {
+                        var o = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+                        return o[Q()(t).day()] + " " + Q()(t).format("HH:mm")
+                    }
+                    return t >= s ? Q()(t).format("MM-DD HH:mm") : Q()(t).format("YYYY-MM-DD")
+                },
+                filterNewMessageNum: function(t) {
+                    return t > 99 ? "99+" : t
+                }
+            },
+            data: function() {
+                return {
+                    ops: {
+                        vuescroll: {
+                            mode: "native",
+                            sizeStrategy: "percent",
+                            detectResize: !0
+                        },
+                        scrollPanel: {
+                            initialScrollY: "100%",
+                            initialScrollX: !1,
+                            scrollingX: !1,
+                            scrollingY: !0,
+                            speed: 300,
+                            easing: void 0,
+                            verticalNativeBarPos: "right"
+                        },
+                        rail: {
+                            background: "#fff",
+                            opacity: 0,
+                            size: "6px",
+                            specifyBorderRadius: !1,
+                            gutterOfEnds: null,
+                            gutterOfSide: "0px",
+                            keepShow: !1
+                        },
+                        bar: {
+                            showDelay: 500,
+                            onlyShowBarOnScroll: !0,
+                            keepShow: !1,
+                            background: "rgb(82, 85, 91)",
+                            opacity: .8,
+                            hoverStyle: !0,
+                            specifyBorderRadius: !1,
+                            size: "6px",
+                            disable: !1,
+                            minSize: .08
+                        }
+                    },
+                    showmodalmsgk: -1,
+                    showloading: !1,
+                    scrollTopvalue: 0,
+                    startListen: !1,
+                    position: 0,
+                    ts: Date.now(),
+                    isfirst: !0,
+                    canshowmodal1: !1,
+                    modalX: 0,
+                    modalY: 0,
+                    message: {},
+                    newMessageNum: 0,
+                    readRecordMode: !1,
+                    lastMid: void 0,
+                    deleteMsg: !1
+                }
+            },
+            mounted: function() {
+                var t = this;
+                T["a"].$on("newMsg", (function() {
+                    t.isfirst = !0,
+                    t.newMessageNum = 0,
+                    t.lastMid = void 0,
+                    t.readRecordMode = !1,
+                    T["a"].$emit("readRecordMode", !1)
+                }
+                )),
+                T["a"].$on("busScrollToBottom", (function() {
+                    t.scrollTopvalue = t.$refs.chatcontent.scrollHeight
+                }
+                )),
+                T["a"].$on("destorymsg", (function() {
+                    t.deleteMsg = !0
+                }
+                ))
+            },
+            components: {
+                cardcontain: J,
+                bubbleLoading: rt,
+                largePic: ee,
+                weiboVerified: pt,
+                clickCard: jt,
+                msgHeader: zt,
+                hoverItem: qt,
+                notice: Zt
+            },
+            computed: te({}, Object(I["d"])(["followuser", "selectId", "remarklist", "chatrecords", "usercardinfo", "unfollowlist", "querygroup", "showunfollow", "nomorerecords", "modalId", "lastreadmid", "loadmore", "prescrollTop", "friendslist", "joingroups"]), {
+                modalStyle: function() {
+                    return {
+                        top: "".concat(this.modalY, "px"),
+                        left: "".concat(this.modalX, "px")
+                    }
+                },
+                checkidentify: function() {
+                    return !(!this.isowner && !this.isAdmin)
+                },
+                isowner: function() {
+                    return this.querygroup.owner == l["f"].basicinfo.id
+                },
+                isAdmin: function() {
+                    if (this.querygroup.admins) {
+                        var t = this.querygroup.admins.findIndex((function(t) {
+                            return t == l["f"].basicinfo.id
+                        }
+                        ));
+                        return t >= 0
+                    }
+                },
+                isshowtoptips: function() {
+                    return !(1 != this.curuserinfo.type || this.followuser && !this.user_is_blocked)
+                },
+                curuserinfo: function() {
+                    var t = this;
+                    if (this.$store.state.showunfollow)
+                        return this.$store.state.unfollowlist.find((function(e) {
+                            return e.id == t.$store.state.selectId
+                        }
+                        ));
+                    var e = this.$store.state.chatlist.find((function(e) {
+                        return e.id == t.$store.state.selectId
+                    }
+                    ));
+                    return e || (e = this.$store.state.topuser.find((function(e) {
+                        return e.id == t.$store.state.selectId
+                    }
+                    ))),
+                    e
+                },
+                user_is_blocked: function() {
+                    var t = this.listtype()
+                      , e = this.findItem(this.$store.state[t]);
+                    return (e || !("chatlist" != t || (t = "topuser",
+                    e = this.findItem(this.$store.state.topuser),
+                    !e))) && e.is_blocked
+                }
+            }),
+            watch: {
+                selectId: function() {
+                    console.log("变更聊天"),
+                    this.ts = Date.now(),
+                    T["a"].$emit("readRecordMode", !1),
+                    this.readRecordMode = !1,
+                    this.newMessageNum = 0,
+                    this.lastMid = void 0
+                },
+                chatrecords: function() {
+                    var t = this;
+                    if (this.startListen = !1,
+                    this.deleteMsg)
+                        this.deleteMsg = !1;
+                    else if (this.chatrecords.length)
+                        if (this.loadmore)
+                            setTimeout((function() {
+                                t.$refs.happyscroll.scrollTo({
+                                    y: t.$refs.chatcontent.scrollHeight - t.position
+                                }, 0, void 0),
+                                t.scrollTopvalue = t.$refs.chatcontent.scrollHeight - t.position,
+                                t.$parent.$refs.chatinfo.isswitch = !1
+                            }
+                            ), 30);
+                        else {
+                            var e = this.scrollTopvalue;
+                            setTimeout((function() {
+                                var n = t.scrollTopvalue;
+                                if (t.isfirst)
+                                    t.scrollToBottom();
+                                else {
+                                    if (Math.abs(e - n) < 200 || t.$parent.$refs.chatinfo.isswitch)
+                                        if (t.$refs.chatcontent && !t.readRecordMode)
+                                            console.log("非查看历史记录"),
+                                            T["a"].$emit("readRecordMode", !1),
+                                            t.readRecordMode = !1,
+                                            t.newMessageNum = 0,
+                                            t.lastMid = void 0,
+                                            t.scrollTopvalue = +(t.$refs.chatcontent.scrollHeight + 160 * t.chatrecords.length) + 1e5;
+                                        else if (t.readRecordMode) {
+                                            var r = t.chatrecords.findIndex((function(e) {
+                                                return e.mid === t.lastMid
+                                            }
+                                            ));
+                                            if (-1 === r)
+                                                return;
+                                            t.newMessageNum = t.chatrecords.length - (r + 1)
+                                        }
+                                    t.startListen = !0,
+                                    t.$parent.$refs.chatinfo.isswitch = !1
+                                }
+                            }
+                            ), 250)
+                        }
+                },
+                scrollTopvalue: function() {
+                    7 === this.$store.state.modalId && this.$store.commit("changemodalId", -1)
+                }
+            },
+            methods: te({}, Object(I["c"])(["changemodalId", "updatechatlist", "exnogroupmodal", "exprescrollTop", "updateunfollowlist"]), {
+                handleScroll: function(t) {
+                    this.scrollTop = t.scrollTop,
+                    0 === t.scrollTop && (this.position = document.querySelector(".chat-content").scrollHeight,
+                    this.scrollToTop()),
+                    this.changeNewTop()
+                },
+                toBottom: function() {
+                    this.$refs.chatcontain.scrollTo({
+                        y: "100%"
+                    }, 100, "easeInQuad"),
+                    this.unreadNum = 0
+                },
+                updateFansGroup: function() {
+                    a["a"].updateFansGroup({
+                        id: this.$store.state.selectId,
+                        page_id: l["f"].basicinfo.id
+                    }).then((function(t) {
+                        console.log(t)
                     }
                     ))
                 },
@@ -6330,19 +7431,15 @@
                     return !t.type || 321 == t.type && !t.sub_type
                 },
                 scrollToTop: function() {
+                    window.hijackedScrollToTopParam = window.hijackedScrollToTopParam || this;
                     this.nomorerecords || (this.showloading = !0,
                     this.position = document.querySelector(".chat-content").scrollHeight,
                     1 == this.curuserinfo.type ? this.personrecordreq(this.$store.state.selectId, this.lastreadmid) : 2 == this.curuserinfo.type && this.grouprecordreq(this.$store.state.selectId, this.lastreadmid))
                 },
-                showmodal1: function() {
-                    T["a"].$emit("setNewGroup", [{
-                        id: this.curuserinfo.id,
-                        avatar: this.curuserinfo.avatar_large,
-                        name: this.curuserinfo.name
-                    }])
-                },
-                showmodal2: function() {
-                    this.$parent.$refs.cardcontaininfo.curView = "modal2"
+                scrollToBottom: function() {
+                    this.$refs.happyscroll.scrollTo({
+                        y: "100%"
+                    }, 0, "easeInQuad")
                 },
                 toggleset: function() {
                     this.$store.commit("changemodalId", 2)
@@ -6357,10 +7454,6 @@
                 },
                 shield: function() {
                     this.setshield(this.$store.state.selectId, this.user_is_blocked)
-                },
-                showusercard: function() {
-                    2 == this.curuserinfo.type ? (-1 != this.$store.state.modalId && this.$store.commit("changemodalId", -1),
-                    this.showmodal2()) : 1 == this.curuserinfo.type && this.showUserInfo(0, 3)
                 },
                 showusermodal: function(t, e) {
                     this.modalX = e.clientX,
@@ -6431,6 +7524,31 @@
                 showgroupinfo: function(t) {
                     this.$parent.$refs.cardcontaininfo.curView = "modal2"
                 },
+                changeNewTop: function(t) {
+                    if (this.$refs.message && this.$refs.message.getBoundingClientRect()) {
+                        var e = this.$refs.message.getBoundingClientRect();
+                        if (this.lastMid) {
+                            var n = document.getElementById(this.lastMid).getBoundingClientRect()
+                              , r = n.top
+                              , i = n.height;
+                            e.top + e.height > r + i && (console.log("高度不对"),
+                            T["a"].$emit("readRecordMode", !1),
+                            this.readRecordMode = !1,
+                            this.newMessageNum = 0,
+                            this.lastMid = void 0)
+                        }
+                        if (this.chatrecords && this.chatrecords[this.chatrecords.length - 1] && document.getElementById(this.chatrecords[this.chatrecords.length - 1].mid)) {
+                            var s = document.getElementById(this.chatrecords[this.chatrecords.length - 1].mid).getBoundingClientRect()
+                              , o = s.top
+                              , a = s.height;
+                            e.top + e.height < o + a - 200 && !this.readRecordMode && (this.isfirst = !1,
+                            console.log("阅读模式"),
+                            T["a"].$emit("readRecordMode", !0),
+                            this.lastMid = this.chatrecords[this.chatrecords.length - 1].mid,
+                            this.readRecordMode = !0)
+                        }
+                    }
+                },
                 scroll: function(t) {
                     [11].includes(this.$store.state.modalId) && this.changemodalId(-1)
                 },
@@ -6444,8 +7562,10 @@
                             return 1;
                         if (this.querygroup.admins.includes(e))
                             return 2;
-                        if (+t.faith_status > 0)
-                            return 3
+                        if (1 == +t.faith_status)
+                            return 3;
+                        if (2 == +t.faith_status)
+                            return 4
                     } catch (n) {
                         return !1
                     }
@@ -6457,20 +7577,26 @@
                             return 1;
                         if (this.querygroup.admins.includes(e))
                             return 2;
-                        if (this.iAmTfBoys)
+                        if (1 == +t.faith_status)
                             return 3;
-                        +t.faith_status > 0 && (this.iAmTfBoys = !0)
+                        if (2 == +t.faith_status)
+                            return 4
                     } catch (n) {
                         return !1
                     }
                 }
-            })
+            }),
+            beforeDestroy: function() {
+                T["a"].$off("newMsg"),
+                T["a"].$off("busScrollToBottom"),
+                T["a"].$off("destorymsg")
+            }
         }
-          , Dt = St
-          , qt = (n("0cc3"),
-        Object(_["a"])(Dt, j, k, !1, null, "ae39a29c", null))
-          , Mt = qt.exports
-          , Et = function() {
+          , re = ne
+          , ie = (n("6c45"),
+        Object(_["a"])(re, j, k, !1, null, "aa1fd228", null))
+          , se = ie.exports
+          , oe = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -6570,10 +7696,9 @@
                 staticClass: "sendbox_prompt"
             }, [t._v(t._s(t.showprompt))])], 1)
         }
-          , Rt = []
-          , Nt = n("75fc")
-          , Lt = (n("3b2b"),
-        function() {
+          , ae = []
+          , ce = n("75fc")
+          , ue = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -6646,14 +7771,13 @@
                 }
             })])
         }
-        )
-          , Gt = []
-          , Ut = (n("6b54"),
+          , le = []
+          , de = (n("6b54"),
         n("87b3"),
-        n("a481"),
         n("a0ec"))
-          , Bt = n.n(Ut);
-        function Wt(t, e) {
+          , fe = n.n(de);
+        window.hijackedScrollToTop = ne.methods.scrollToTop;  
+        function he(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -6665,20 +7789,20 @@
             }
             return n
         }
-        function zt(t) {
+        function me(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Wt(Object(n), !0).forEach((function(e) {
+                e % 2 ? he(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Wt(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : he(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var Vt = {
+        var pe = {
             props: {
                 value: {
                     type: String,
@@ -6714,7 +7838,7 @@
                     atwho: null
                 }
             },
-            computed: {
+            computed: me({}, Object(I["d"])(["querygroup"]), {
                 style: function() {
                     if (this.atwho) {
                         var t = this.atwho
@@ -6742,7 +7866,7 @@
                     }
                     return null
                 }
-            },
+            }),
             watch: {
                 members: function() {
                     this.handleInput(!0)
@@ -6871,8 +7995,19 @@
                     this.atwho && (this.atwho = null)
                 },
                 openPanel: function(t, e, n, r) {
-                    var i = this
-                      , s = function() {
+                    var i = this;
+                    this.querygroup.query_all_member || (this.querygroup.query_all_member = !0,
+                    a["a"].querygroup({
+                        params: {
+                            query_all_member: 1,
+                            group_ts: Date.now(),
+                            id: this.$store.state.selectId
+                        }
+                    }).then((function(t) {
+                        t.result && (i.querygroup.member_infos = t.member_infos)
+                    }
+                    )));
+                    var s = function() {
                         var r = i.$el.querySelector("textarea")
                           , s = r.value.slice(0, r.selectionEnd);
                         if (s) {
@@ -6893,7 +8028,7 @@
                                 return
                         }
                         var h = n + u.length
-                          , m = Bt()(r, h);
+                          , m = fe()(r, h);
                         i.atwho = {
                             chunk: e,
                             offset: n,
@@ -6918,7 +8053,7 @@
                     }
                     ))
                       , r = +n.getAttribute("data-index");
-                    this.atwho = zt({}, this.atwho, {
+                    this.atwho = me({}, this.atwho, {
                         cur: r
                     })
                 },
@@ -6928,7 +8063,7 @@
                       , r = n.cur
                       , i = n.list
                       , s = this.loop ? (r + e + i.length) % i.length : Math.max(0, Math.min(r + e, i.length));
-                    this.atwho = zt({}, this.atwho, {
+                    this.atwho = me({}, this.atwho, {
                         cur: s
                     })
                 },
@@ -7032,14 +8167,13 @@
                 }
             }
         }
-          , Yt = Vt
-          , Ft = (n("50c7"),
-        Object(_["a"])(Yt, Lt, Gt, !1, null, "6e510b48", null))
-          , Ht = Ft.exports
-          , Jt = n("bc3a")
-          , Zt = n.n(Jt);
-        n("34ef"),
-        n("4917");
+          , ge = pe
+          , be = (n("5b90"),
+        Object(_["a"])(ge, ue, le, !1, null, "360b1ede", null))
+          , ve = be.exports
+          , ye = n("bc3a")
+          , _e = n.n(ye);
+        n("34ef");
         (function() {
             var t, e, n, r, i;
             t = window.jQuery,
@@ -7148,7 +8282,7 @@
                     this._target = t(this._target).addClass("pastable"),
                     this._container.on("paste", function(t) {
                         return function(e) {
-                            var n, r, i, s, o, a, c, u, l, d, f, h, m, p, g, v, b, y, _, w;
+                            var n, r, i, s, o, a, c, u, l, d, f, h, m, p, g, b, v, y, _, w;
                             if (t.originalEvent = null !== e.originalEvent ? e.originalEvent : null,
                             t._paste_event_fired = !0,
                             null != (null != (p = e.originalEvent) ? p.clipboardData : void 0))
@@ -7161,10 +8295,10 @@
                                     l = g.length; a < l; a++)
                                         o = g[a],
                                         o.type.match(/^text\/(plain|rtf|html)/) && t.originalEvent.pastedTypes.push(o.type);
-                                    for (v = r.items,
+                                    for (b = r.items,
                                     n = c = 0,
-                                    d = v.length; c < d; n = ++c) {
-                                        if (o = v[n],
+                                    d = b.length; c < d; n = ++c) {
+                                        if (o = b[n],
                                         o.type.match(/^image\//)) {
                                             m = new FileReader,
                                             m.onload = function(e) {
@@ -7221,7 +8355,7 @@
                                     }
                                     ));
                             if (r = window.clipboardData)
-                                if (null != (b = w = r.getData("Text")) ? b.length : void 0)
+                                if (null != (v = w = r.getData("Text")) ? v.length : void 0)
                                     setTimeout((function() {
                                         return t._target.trigger("pasteText", {
                                             text: w,
@@ -7405,7 +8539,7 @@
             }()
         }
         ).call(void 0);
-        var Kt = {
+        var we = {
             methods: {
                 pasteimg: function() {
                     var t = this;
@@ -7441,7 +8575,7 @@
                                     o += t.isgroup() ? "&gid=" + e : "&uid=" + e;
                                     var a = new FormData;
                                     a.append("blob", n.blob, i),
-                                    Zt.a.post(o, a).then((function(n) {
+                                    _e.a.post(o, a).then((function(n) {
                                         var r = {
                                             fileToken: i,
                                             selectId: e
@@ -7549,7 +8683,7 @@
                                     fileToken: e.fileToken,
                                     retryConfig: {
                                         fun: r.responsepaste.bind(r),
-                                        arguments: Object(Nt["a"])(i),
+                                        arguments: Object(ce["a"])(i),
                                         fileToken: e.fileToken
                                     }
                                 }
@@ -7589,7 +8723,7 @@
                                     fileToken: e.fileToken,
                                     retryConfig: {
                                         fun: r.responsepaste.bind(r),
-                                        arguments: Object(Nt["a"])(i),
+                                        arguments: Object(ce["a"])(i),
                                         fileToken: e.fileToken
                                     }
                                 }
@@ -7601,14 +8735,14 @@
                 }
             }
         }
-          , Qt = Kt
-          , Xt = n("768b")
-          , te = n("51a4")
-          , ee = n("aa6f")
-          , ne = n.n(ee)
-          , re = 1
-          , ie = {
-            mixins: [A["a"]],
+          , xe = we
+          , je = n("768b")
+          , ke = n("51a4")
+          , Oe = n("aa6f")
+          , Ce = n.n(Oe)
+          , Ie = 1
+          , $e = {
+            mixins: [P["a"]],
             data: function() {
                 return {
                     fileUploader: null,
@@ -7618,22 +8752,22 @@
             methods: {
                 initplupload: function() {
                     var t = this;
-                    Object(te["a"])("btn_send_image", "25MB", "jpg,gif,png,bmp,jpeg,tiff", (function(e, n) {
+                    Object(ke["a"])("btn_send_image", "25MB", "jpg,gif,png,bmp,jpeg,tiff", (function(e, n) {
                         t.responseimg(e, n)
                     }
                     ), (function(e, n) {
                         t.replace404img(e, n)
                     }
                     )),
-                    this.fileUploader = Object(te["a"])("btn_send_file", "100MB", "*", (function(e, n) {
+                    this.fileUploader = Object(ke["a"])("btn_send_file", "100MB", "*", (function(e, n) {
                         t.responseimg(e, n)
                     }
                     ), (function(e, n) {
                         t.replace404img(e, n)
                     }
                     )),
-                    re && (re = 0,
-                    this.dragUploader = Object(te["a"])("drag-area", "50MB", "*", (function(e, n) {
+                    Ie && (Ie = 0,
+                    this.dragUploader = Object(ke["a"])("drag-area", "50MB", "*", (function(e, n) {
                         t.responseimg(e, n)
                     }
                     ), (function(e, n) {
@@ -7660,7 +8794,7 @@
                           , s = {
                             fileToken: i,
                             value: {
-                                imgurl: ne.a
+                                imgurl: Ce.a
                             }
                         };
                         this.$store.commit("changechatrecorder", s)
@@ -7682,6 +8816,16 @@
                             while (1)
                                 switch (t.prev = t.next) {
                                 case 0:
+                                    if (JSON.parse(e).fid) {
+                                        t.next = 3;
+                                        break
+                                    }
+                                    return this.replace404img(void 0, {
+                                        file: n,
+                                        isimgfile: !n.isFile
+                                    }),
+                                    t.abrupt("return");
+                                case 3:
                                     if (r = 1,
                                     this.$store.state.showunfollow ? r = this.findItem(this.$store.state.unfollowlist, n.selectId).type : (i = this.findItem(this.$store.state.chatlist, n.selectId),
                                     i || (i = this.findItem(this.$store.state.topuser, n.selectId)),
@@ -7689,22 +8833,23 @@
                                     e = JSON.parse(e),
                                     u = e.fid,
                                     void 0 === n.isScreenshot) {
-                                        t.next = 11;
+                                        t.next = 14;
                                         break
                                     }
                                     if (1 !== n.isScreenshot) {
-                                        t.next = 9;
+                                        t.next = 12;
                                         break
                                     }
-                                    return t.next = 8,
+                                    return t.next = 11,
                                     this.getFirstFrame(n, e);
-                                case 8:
+                                case 11:
                                     n.firstFrame = t.sent;
-                                case 9:
+                                case 12:
                                     s = n.fid ? n.fid : n.firstFrame ? n.firstFrame : "",
                                     c = "分享视频";
-                                case 11:
+                                case 14:
                                     o = n.isFile ? n.params && n.params.type && "dm_attachment_video" === n.params.type ? 10 : 5 : 1,
+                                    1 === o && (c = "分享图片"),
                                     1 == r ? (d = {
                                         clientid: l["g"].clientId,
                                         video_pic_fid: s
@@ -7740,7 +8885,7 @@
                                                 fileToken: n.fileToken,
                                                 retryConfig: {
                                                     fun: m.responseimg.bind(m),
-                                                    arguments: Object(Nt["a"])(p),
+                                                    arguments: Object(ce["a"])(p),
                                                     fileToken: n.fileToken
                                                 }
                                             }
@@ -7781,7 +8926,7 @@
                                                 fileToken: n.fileToken,
                                                 retryConfig: {
                                                     fun: m.responseimg.bind(m),
-                                                    arguments: Object(Nt["a"])(p),
+                                                    arguments: Object(ce["a"])(p),
                                                     fileToken: n.fileToken
                                                 }
                                             }
@@ -7789,7 +8934,7 @@
                                         m.changeimgloadstate(n.fileToken, n.selectId, e.fid, {}, n)
                                     }
                                     )));
-                                case 13:
+                                case 17:
                                 case "end":
                                     return t.stop()
                                 }
@@ -7825,7 +8970,8 @@
                             mid: r.mid,
                             text: r.text || r.content,
                             fid: r.media_type ? "thisIsFile" : "",
-                            dm_type: r.dm_type ? r.dm_type : 6
+                            dm_type: r.dm_type ? r.dm_type : 6,
+                            media_type: r.media_type ? r.media_type : 0
                         };
                         this.$store.commit("update" + s, {
                             notTop: !0,
@@ -7873,7 +9019,7 @@
                                                         fid: s
                                                     }).then((function(t) {
                                                         var n = t.thumbnail_240.match(/(\d+),(\d+)/)
-                                                          , i = Object(Xt["a"])(n, 3)
+                                                          , i = Object(je["a"])(n, 3)
                                                           , s = (i[0],
                                                         i[1])
                                                           , o = i[2];
@@ -7916,9 +9062,9 @@
                 }()
             }
         }
-          , se = ie
-          , oe = n("72b1")
-          , ae = function() {
+          , Ae = $e
+          , Se = n("72b1")
+          , Te = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -8037,9 +9183,9 @@
             }
             )), 0)])])])])])])
         }
-          , ce = [];
+          , Pe = [];
         n("3c6e");
-        function ue(t, e) {
+        function De(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -8051,20 +9197,20 @@
             }
             return n
         }
-        function le(t) {
+        function Me(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? ue(Object(n), !0).forEach((function(e) {
+                e % 2 ? De(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : ue(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : De(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var de = {
+        var qe = {
             props: ["cursor"],
             data: function() {
                 return {
@@ -8080,7 +9226,7 @@
             mounted: function() {
                 this.initcategory()
             },
-            methods: le({}, Object(O["c"])(["changemodalId"]), {
+            methods: Me({}, Object(I["c"])(["changemodalId"]), {
                 initcategory: function() {
                     var t = [];
                     l["a"].emotions.forEach((function(e, n) {
@@ -8130,11 +9276,11 @@
                 }
             })
         }
-          , fe = de
-          , he = (n("3167"),
-        Object(_["a"])(fe, ae, ce, !1, null, "65a7124e", null))
-          , me = he.exports;
-        function pe(t, e) {
+          , Re = qe
+          , Ee = (n("3167"),
+        Object(_["a"])(Re, Te, Pe, !1, null, "65a7124e", null))
+          , Ne = Ee.exports;
+        function Le(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -8146,21 +9292,21 @@
             }
             return n
         }
-        function ge(t) {
+        function Ge(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? pe(Object(n), !0).forEach((function(e) {
+                e % 2 ? Le(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : pe(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Le(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var ve = {
-            mixins: [nt["a"], A["a"], se, Qt, it],
+        var Be = {
+            mixins: [it["a"], P["a"], Ae, xe, ot],
             data: function() {
                 return {
                     content: "",
@@ -8183,7 +9329,7 @@
                     media_type: 0
                 }
             },
-            computed: ge({}, Object(O["d"])(["selectId", "emojis", "modalId", "remarklist", "showunfollow", "unfollowlist", "querygroup"]), {
+            computed: Ge({}, Object(I["d"])(["selectId", "emojis", "modalId", "remarklist", "showunfollow", "unfollowlist", "querygroup"]), {
                 atUserList: function() {
                     var t = this;
                     if (this.querygroup && this.querygroup.member_infos) {
@@ -8222,17 +9368,17 @@
                 user_is_blocked: function() {
                     var t = this.listtype()
                       , e = this.findItem(this.$store.state[t]);
-                    return e ? e.is_blocked : !("chatlist" != t || (t = "topuser",
+                    return (e || !("chatlist" != t || (t = "topuser",
                     e = this.findItem(this.$store.state.topuser),
-                    !e)) && e.is_blocked
+                    !e))) && e.is_blocked
                 },
                 showprompt: function() {
                     return window.Global.isMac ? "按下Enter发送内容/ Command+Enter换行" : "按下Enter发送内容/  Ctrl+Enter换行"
                 }
             }),
             components: {
-                faces: me,
-                at: Ht
+                faces: Ne,
+                at: ve
             },
             methods: {
                 setEmojiVal: function(t, e) {
@@ -8250,7 +9396,7 @@
                     ))
                 },
                 showfaces: function() {
-                    this.cursorCache = ge({}, this.cursor),
+                    this.cursorCache = Ge({}, this.cursor),
                     4 == this.modalId ? this.$store.commit("changemodalId", -1) : this.$store.commit("changemodalId", 4)
                 },
                 onKeyup: function(t) {
@@ -8354,7 +9500,7 @@
                         fileToken: n
                     }),
                     setTimeout((function() {
-                        t.fun.apply(t, Object(Nt["a"])(t.arguments))
+                        t.fun.apply(t, Object(ce["a"])(t.arguments))
                     }
                     ), 300)
                 },
@@ -8416,7 +9562,8 @@
                                     c = this.finditemIndex(this.$store.state[o], s.recipient_id)),
                                     u = {
                                         mid: s.id,
-                                        errorsend: !1
+                                        errorsend: !1,
+                                        text: s.text
                                     },
                                     s.url_objects && (u.url_objects = s.url_objects),
                                     this.$store.commit("update" + o, {
@@ -8433,7 +9580,7 @@
                                     s.url_objects && s.url_objects[0] && s.url_objects[0].info && (d.url_short = s.url_objects[0].info.url_short,
                                     d.url_objects = s.url_objects),
                                     t.next = 27,
-                                    Object(oe["a"])(d);
+                                    Object(Se["a"])(d);
                                 case 27:
                                     f = t.sent,
                                     f && Object.assign(d, f),
@@ -8513,7 +9660,8 @@
                                     c = this.finditemIndex(this.$store.state[o], this.$store.state.selectId)),
                                     u = {
                                         mid: s.mid,
-                                        errorsend: !1
+                                        errorsend: !1,
+                                        text: s.content
                                     },
                                     s.url_objects && (u.url_objects = s.url_objects),
                                     this.$store.commit("update" + o, {
@@ -8529,7 +9677,7 @@
                                     s.url_objects && s.url_objects[0] && s.url_objects[0].info && (d.url_short = s.url_objects[0].info.url_short,
                                     d.url_objects = s.url_objects),
                                     t.next = 27,
-                                    Object(oe["a"])(d);
+                                    Object(Se["a"])(d);
                                 case 27:
                                     f = t.sent,
                                     f && Object.assign(d, f),
@@ -8682,6 +9830,11 @@
                 T["a"].$off("handleNonetwork"),
                 T["a"].$off("retryMessage"),
                 T["a"].$off("saveHistory"),
+                T["a"].$on("resetText", (function(e) {
+                    t.inputcontent = e,
+                    T["a"].$emit("focusinput")
+                }
+                )),
                 T["a"].$on("dragImage", (function(n) {
                     t.message = n,
                     t.$refs.textArea.addEventListener("drop", e),
@@ -8716,17 +9869,18 @@
                 this.initplupload()
             },
             destroyed: function() {
+                T["a"].$off("resetText"),
                 T["a"].$off("dragImage"),
                 T["a"].$off("handleNonetwork"),
                 T["a"].$off("retryMessage"),
                 T["a"].$off("saveHistory")
             }
         }
-          , be = ve
-          , ye = (n("4078"),
-        Object(_["a"])(be, Et, Rt, !1, null, "02dbf152", null))
-          , _e = ye.exports
-          , we = function() {
+          , Ue = Be
+          , We = (n("a73e"),
+        Object(_["a"])(Ue, oe, ae, !1, null, "30d1b096", null))
+          , ze = We.exports
+          , Ve = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -8760,9 +9914,9 @@
                 }
             }) : t._e()])])
         }
-          , xe = [];
+          , Fe = [];
         n("386d");
-        function je(t, e) {
+        function Ye(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -8774,27 +9928,27 @@
             }
             return n
         }
-        function ke(t) {
+        function He(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? je(Object(n), !0).forEach((function(e) {
+                e % 2 ? Ye(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : je(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Ye(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var Oe = {
+        var Je = {
             data: function() {
                 return {
                     active: !1
                 }
             },
-            computed: ke({}, Object(O["d"])(["search"])),
-            methods: ke({}, Object(O["c"])(["exsearchstate", "exsearch", "exsearchlist"]), {
+            computed: He({}, Object(I["d"])(["search"])),
+            methods: He({}, Object(I["c"])(["exsearchstate", "exsearch", "exsearchlist"]), {
                 empty: function() {
                     this.exsearch("")
                 },
@@ -8828,11 +9982,11 @@
                 }
             }
         }
-          , Ce = Oe
-          , Ie = (n("1fa1"),
-        Object(_["a"])(Ce, we, xe, !1, null, "520dd35c", null))
-          , $e = Ie.exports
-          , Te = {
+          , Ke = Je
+          , Qe = (n("bc85"),
+        Object(_["a"])(Ke, Ve, Fe, !1, null, "3395516a", null))
+          , Ze = Qe.exports
+          , Xe = {
             methods: {
                 initunfollowlist: function() {
                     var t = Object(s["a"])(regeneratorRuntime.mark((function t(e) {
@@ -8893,15 +10047,12 @@
                 },
                 getgroupmemberinfos: function(t) {
                     var e = this
-                      , n = JSON.parse(localStorage.getItem("".concat(t, "_mi")))
-                      , r = localStorage.getItem("".concat(t, "_ts"));
-                    console.log(n, r);
-                    var i = {
+                      , n = {
                         params: {
                             id: t
                         }
                     };
-                    a["a"].querygroup(i).then((function(n) {
+                    a["a"].querygroup(n).then((function(n) {
                         if (n.error)
                             e.$store.commit("emptyquerygroup", null);
                         else {
@@ -8919,14 +10070,12 @@
                               , m = n.speech_forbid
                               , p = n.affiliation
                               , g = n.emeccs
-                              , v = n.apply_status
-                              , b = n.apply_update_type
+                              , b = n.apply_status
+                              , v = n.apply_update_type
                               , y = n.affi_type
-                              , _ = n.group_ts
-                              , w = n.members;
-                            f && (localStorage.setItem("".concat(t, "_ts"), JSON.stringify(_)),
-                            localStorage.setItem("".concat(t, "_mi"), JSON.stringify(f)));
-                            var x = {
+                              , _ = (n.group_ts,
+                            n.members)
+                              , w = {
                                 owner: u,
                                 name: r,
                                 bulletin: d,
@@ -8941,25 +10090,25 @@
                                 speech_forbid: m,
                                 affiliation: p,
                                 emeccs: g,
-                                apply_status: v,
+                                apply_status: b,
                                 affi_type: y,
-                                apply_update_type: b,
-                                members: w
+                                apply_update_type: v,
+                                members: _
                             };
-                            t == e.$store.state.selectId && e.$store.commit("exquerygroup", x)
+                            t == e.$store.state.selectId && e.$store.commit("exquerygroup", w)
                         }
                     }
                     ))
                 }
             }
         }
-          , Ae = Te
-          , Pe = (n("28a5"),
+          , tn = Xe
+          , en = (n("28a5"),
         n("7618"),
         n("0d71"))
-          , Se = n.n(Pe)
-          , De = n("e80e");
-        function qe(t) {
+          , nn = n.n(en)
+          , rn = n("e80e");
+        function sn(t) {
             function e(t, e) {
                 return t << e | t >>> 32 - e
             }
@@ -9033,7 +10182,7 @@
                 }
                 return e
             }
-            var m, p, g, v, b, y, _, w, x, j = Array(), k = 7, O = 12, C = 17, I = 22, $ = 5, T = 9, A = 14, P = 20, S = 4, D = 11, q = 16, M = 23, E = 6, R = 10, N = 15, L = 21;
+            var m, p, g, b, v, y, _, w, x, j = Array(), k = 7, O = 12, C = 17, I = 22, $ = 5, A = 9, S = 14, T = 20, P = 4, D = 11, M = 16, q = 23, R = 6, E = 10, N = 15, L = 21;
             for (t = h(t),
             j = d(t),
             y = 1732584193,
@@ -9043,8 +10192,8 @@
             m = 0; m < j.length; m += 16)
                 p = y,
                 g = _,
-                v = w,
-                b = x,
+                b = w,
+                v = x,
                 y = a(y, _, w, x, j[m + 0], k, 3614090360),
                 x = a(x, y, _, w, j[m + 1], O, 3905402710),
                 w = a(w, x, y, _, j[m + 2], C, 606105819),
@@ -9062,61 +10211,61 @@
                 w = a(w, x, y, _, j[m + 14], C, 2792965006),
                 _ = a(_, w, x, y, j[m + 15], I, 1236535329),
                 y = c(y, _, w, x, j[m + 1], $, 4129170786),
-                x = c(x, y, _, w, j[m + 6], T, 3225465664),
-                w = c(w, x, y, _, j[m + 11], A, 643717713),
-                _ = c(_, w, x, y, j[m + 0], P, 3921069994),
+                x = c(x, y, _, w, j[m + 6], A, 3225465664),
+                w = c(w, x, y, _, j[m + 11], S, 643717713),
+                _ = c(_, w, x, y, j[m + 0], T, 3921069994),
                 y = c(y, _, w, x, j[m + 5], $, 3593408605),
-                x = c(x, y, _, w, j[m + 10], T, 38016083),
-                w = c(w, x, y, _, j[m + 15], A, 3634488961),
-                _ = c(_, w, x, y, j[m + 4], P, 3889429448),
+                x = c(x, y, _, w, j[m + 10], A, 38016083),
+                w = c(w, x, y, _, j[m + 15], S, 3634488961),
+                _ = c(_, w, x, y, j[m + 4], T, 3889429448),
                 y = c(y, _, w, x, j[m + 9], $, 568446438),
-                x = c(x, y, _, w, j[m + 14], T, 3275163606),
-                w = c(w, x, y, _, j[m + 3], A, 4107603335),
-                _ = c(_, w, x, y, j[m + 8], P, 1163531501),
+                x = c(x, y, _, w, j[m + 14], A, 3275163606),
+                w = c(w, x, y, _, j[m + 3], S, 4107603335),
+                _ = c(_, w, x, y, j[m + 8], T, 1163531501),
                 y = c(y, _, w, x, j[m + 13], $, 2850285829),
-                x = c(x, y, _, w, j[m + 2], T, 4243563512),
-                w = c(w, x, y, _, j[m + 7], A, 1735328473),
-                _ = c(_, w, x, y, j[m + 12], P, 2368359562),
-                y = u(y, _, w, x, j[m + 5], S, 4294588738),
+                x = c(x, y, _, w, j[m + 2], A, 4243563512),
+                w = c(w, x, y, _, j[m + 7], S, 1735328473),
+                _ = c(_, w, x, y, j[m + 12], T, 2368359562),
+                y = u(y, _, w, x, j[m + 5], P, 4294588738),
                 x = u(x, y, _, w, j[m + 8], D, 2272392833),
-                w = u(w, x, y, _, j[m + 11], q, 1839030562),
-                _ = u(_, w, x, y, j[m + 14], M, 4259657740),
-                y = u(y, _, w, x, j[m + 1], S, 2763975236),
+                w = u(w, x, y, _, j[m + 11], M, 1839030562),
+                _ = u(_, w, x, y, j[m + 14], q, 4259657740),
+                y = u(y, _, w, x, j[m + 1], P, 2763975236),
                 x = u(x, y, _, w, j[m + 4], D, 1272893353),
-                w = u(w, x, y, _, j[m + 7], q, 4139469664),
-                _ = u(_, w, x, y, j[m + 10], M, 3200236656),
-                y = u(y, _, w, x, j[m + 13], S, 681279174),
+                w = u(w, x, y, _, j[m + 7], M, 4139469664),
+                _ = u(_, w, x, y, j[m + 10], q, 3200236656),
+                y = u(y, _, w, x, j[m + 13], P, 681279174),
                 x = u(x, y, _, w, j[m + 0], D, 3936430074),
-                w = u(w, x, y, _, j[m + 3], q, 3572445317),
-                _ = u(_, w, x, y, j[m + 6], M, 76029189),
-                y = u(y, _, w, x, j[m + 9], S, 3654602809),
+                w = u(w, x, y, _, j[m + 3], M, 3572445317),
+                _ = u(_, w, x, y, j[m + 6], q, 76029189),
+                y = u(y, _, w, x, j[m + 9], P, 3654602809),
                 x = u(x, y, _, w, j[m + 12], D, 3873151461),
-                w = u(w, x, y, _, j[m + 15], q, 530742520),
-                _ = u(_, w, x, y, j[m + 2], M, 3299628645),
-                y = l(y, _, w, x, j[m + 0], E, 4096336452),
-                x = l(x, y, _, w, j[m + 7], R, 1126891415),
+                w = u(w, x, y, _, j[m + 15], M, 530742520),
+                _ = u(_, w, x, y, j[m + 2], q, 3299628645),
+                y = l(y, _, w, x, j[m + 0], R, 4096336452),
+                x = l(x, y, _, w, j[m + 7], E, 1126891415),
                 w = l(w, x, y, _, j[m + 14], N, 2878612391),
                 _ = l(_, w, x, y, j[m + 5], L, 4237533241),
-                y = l(y, _, w, x, j[m + 12], E, 1700485571),
-                x = l(x, y, _, w, j[m + 3], R, 2399980690),
+                y = l(y, _, w, x, j[m + 12], R, 1700485571),
+                x = l(x, y, _, w, j[m + 3], E, 2399980690),
                 w = l(w, x, y, _, j[m + 10], N, 4293915773),
                 _ = l(_, w, x, y, j[m + 1], L, 2240044497),
-                y = l(y, _, w, x, j[m + 8], E, 1873313359),
-                x = l(x, y, _, w, j[m + 15], R, 4264355552),
+                y = l(y, _, w, x, j[m + 8], R, 1873313359),
+                x = l(x, y, _, w, j[m + 15], E, 4264355552),
                 w = l(w, x, y, _, j[m + 6], N, 2734768916),
                 _ = l(_, w, x, y, j[m + 13], L, 1309151649),
-                y = l(y, _, w, x, j[m + 4], E, 4149444226),
-                x = l(x, y, _, w, j[m + 11], R, 3174756917),
+                y = l(y, _, w, x, j[m + 4], R, 4149444226),
+                x = l(x, y, _, w, j[m + 11], E, 3174756917),
                 w = l(w, x, y, _, j[m + 2], N, 718787259),
                 _ = l(_, w, x, y, j[m + 9], L, 3951481745),
                 y = n(y, p),
                 _ = n(_, g),
-                w = n(w, v),
-                x = n(x, b);
+                w = n(w, b),
+                x = n(x, v);
             return (f(y) + f(_) + f(w) + f(x)).toLowerCase()
         }
-        var Me = {
-            mixins: [A["a"]],
+        var on = {
+            mixins: [P["a"]],
             data: function() {
                 return {
                     timer: null
@@ -9139,7 +10288,7 @@
                     var e = this
                       , n = t.type
                       , r = t.info
-                      , i = qe(JSON.stringify(t));
+                      , i = sn(JSON.stringify(t));
                     if (l["p"].memorycomtedmsg.includes(i))
                         return console.log("md5滤重"),
                         void this.cgProcessPoll();
@@ -9189,15 +10338,15 @@
                                             return void this.cgProcessPoll();
                                         "unfollowlist" == p && 2 != this.$store.state.pubremindtype && l["s"].reduce(this.$store.state[p][g].unread_count),
                                         ("unfollowlist" != p || "unfollowlist" == p && 2 != this.$store.state.pubremindtype) && l["r"].reduce(this.$store.state[p][g].unread_count);
-                                        var v = {
+                                        var b = {
                                             unread_count: 0
                                         }
-                                          , b = {
+                                          , v = {
                                             notTop: !0,
                                             i: g,
-                                            param: v
+                                            param: b
                                         };
-                                        this.$store.commit("update" + p, b)
+                                        this.$store.commit("update" + p, v)
                                     }
                                     return void this.cgProcessPoll()
                                 }
@@ -9248,7 +10397,7 @@
                                     2 != this.$store.state.pubremindtype && l["s"].reduce(1);
                                     var I = {
                                         params: {
-                                            add_virtual_user: 3,
+                                            add_virtual_user: "3,4",
                                             refresh_user_count: 1,
                                             need_back: "0,0",
                                             count: this.$store.state.chatlistcount
@@ -9275,10 +10424,10 @@
                             this.cgProcessPoll()
                         } else if ("add_top_contact" == n) {
                             var $ = t.ids
-                              , T = -1;
+                              , A = -1;
                             if (!$ || !$.length)
                                 return void this.cgProcessPoll();
-                            var A = function() {
+                            var S = function() {
                                 var t = Object(s["a"])(regeneratorRuntime.mark((function t() {
                                     var n, r;
                                     return regeneratorRuntime.wrap((function(t) {
@@ -9292,19 +10441,19 @@
                                                             switch (t.prev = t.next) {
                                                             case 0:
                                                                 if (r = $[n],
-                                                                e.$store.state.topuser.length && (T = e.$store.state.topuser.findIndex((function(t) {
+                                                                e.$store.state.topuser.length && (A = e.$store.state.topuser.findIndex((function(t) {
                                                                     return t.id == r.id
                                                                 }
                                                                 ))),
-                                                                !(T < 0)) {
+                                                                !(A < 0)) {
                                                                     t.next = 18;
                                                                     break
                                                                 }
-                                                                if (e.$store.state.chatlist.length && (T = e.$store.state.chatlist.findIndex((function(t) {
+                                                                if (e.$store.state.chatlist.length && (A = e.$store.state.chatlist.findIndex((function(t) {
                                                                     return t.id == r.id
                                                                 }
                                                                 ))),
-                                                                !(T < 0)) {
+                                                                !(A < 0)) {
                                                                     t.next = 14;
                                                                     break
                                                                 }
@@ -9340,8 +10489,8 @@
                                                                 t.next = 18;
                                                                 break;
                                                             case 14:
-                                                                i = e.$store.state.chatlist[T],
-                                                                e.$store.commit("removechatlist", T),
+                                                                i = e.$store.state.chatlist[A],
+                                                                e.$store.commit("removechatlist", A),
                                                                 i.is_top_user = !0,
                                                                 e.$store.commit("unshifttopuser", i);
                                                             case 18:
@@ -9375,14 +10524,14 @@
                                     return t.apply(this, arguments)
                                 }
                             }();
-                            A().then((function() {
+                            S().then((function() {
                                 e.cgProcessPoll()
                             }
                             ))
                         } else {
                             if ("delete_top_contact" == n) {
-                                var P = t.ids;
-                                return P && P.length && P.forEach((function(t) {
+                                var T = t.ids;
+                                return T && T.length && T.forEach((function(t) {
                                     var n = -1;
                                     if (e.$store.state.topuser.length && (n = e.$store.state.topuser.findIndex((function(e) {
                                         return e.id == t.id
@@ -9399,54 +10548,54 @@
                                 void this.cgProcessPoll()
                             }
                             if ("delete_pubdm_conversation" == n) {
-                                var S = !1
+                                var P = !1
                                   , D = this.listtype();
                                 if ("unfollowlist" == D) {
-                                    var q = this.getusermsg(D, t.uid);
+                                    var M = this.getusermsg(D, t.uid);
                                     this.$store.state.selectId == t.uid ? (this.$store.commit("emptychatrecords"),
                                     this.$store.commit("emptylargeimg"),
                                     this.$store.commit("update" + D, {
-                                        i: q,
+                                        i: M,
                                         param: {
                                             text: ""
                                         }
-                                    })) : q >= 0 && this.$store.commit("remove" + D, q)
+                                    })) : M >= 0 && this.$store.commit("remove" + D, M)
                                 } else {
-                                    var M = this.$store.state.chatlist.findIndex((function(t) {
+                                    var q = this.$store.state.chatlist.findIndex((function(t) {
                                         return 3 == t.type
                                     }
                                     ));
-                                    if (M >= 0) {
-                                        var E = this.$store.state.chatlist[M];
-                                        E.sender_id == t.uid && (S = !0,
+                                    if (q >= 0) {
+                                        var R = this.$store.state.chatlist[q];
+                                        R.sender_id == t.uid && (P = !0,
                                         this.getUnfollowLastMessage((function(t) {
                                             t ? e.$store.commit("updatechatlist", {
-                                                i: M,
+                                                i: q,
                                                 param: t
-                                            }) : e.$store.commit("removechatlist", M),
+                                            }) : e.$store.commit("removechatlist", q),
                                             e.cgProcessPoll()
                                         }
                                         )))
                                     }
                                 }
-                                if (!S)
+                                if (!P)
                                     return void this.cgProcessPoll()
                             } else {
                                 if ("delete_dm_conversation" == n) {
-                                    var R = this.listtype();
-                                    "unfollowlist" != R && this.intopuser(t.uid) && (R = "topuser");
-                                    var N = this.getusermsg(R, t.uid);
+                                    var E = this.listtype();
+                                    "unfollowlist" != E && this.intopuser(t.uid) && (E = "topuser");
+                                    var N = this.getusermsg(E, t.uid);
                                     if (this.$store.state.selectId == t.uid)
                                         if (this.$store.commit("emptychatrecords"),
                                         this.$store.commit("emptylargeimg"),
-                                        "topuser" == R) {
+                                        "topuser" == E) {
                                             var L = this.$store.state.topuser[N];
                                             L.text = "",
                                             L.is_top_user = !1,
                                             this.$store.commit("unshiftchatlist", L),
                                             this.$store.commit("removetopuser", N)
                                         } else
-                                            this.$store.commit("update" + R, {
+                                            this.$store.commit("update" + E, {
                                                 notTop: !0,
                                                 i: N,
                                                 param: {
@@ -9454,19 +10603,19 @@
                                                 }
                                             });
                                     else
-                                        N >= 0 && this.$store.commit("remove" + R, N);
+                                        N >= 0 && this.$store.commit("remove" + E, N);
                                     return void this.cgProcessPoll()
                                 }
                                 if ("groupchat_remind_settings" == n) {
                                     var G = this.listHandle(t.gid)
-                                      , U = G.list
-                                      , B = G.i
-                                      , W = this.$store.state[U][B];
+                                      , B = G.list
+                                      , U = G.i
+                                      , W = this.$store.state[B][U];
                                     if (W && this.isFansGroup(W))
                                         return void this.cgProcessPoll();
-                                    W && this.$store.commit("update" + U, {
+                                    W && this.$store.commit("update" + B, {
                                         notTop: !0,
-                                        i: B,
+                                        i: U,
                                         param: {
                                             remindSetting: t.settings.mobile
                                         }
@@ -9565,7 +10714,7 @@
                     if (!t)
                         return {};
                     var e = {
-                        avatar_large: Object(u["b"])(Object(u["p"])(t.profile_image_url, t.uid)) || Se.a,
+                        avatar_large: Object(u["b"])(Object(u["p"])(t.profile_image_url, t.uid)) || nn.a,
                         description: "",
                         direct: "left",
                         id: t.uid,
@@ -9586,7 +10735,7 @@
                 },
                 personmsgget: function() {
                     var t = Object(s["a"])(regeneratorRuntime.mark((function t(e, n) {
-                        var r, i, s, o, c, l, d, f, h, m, p, g, v, b = this;
+                        var r, i, s, o, c, l, d, f, h, m, p, g, b, v = this;
                         return regeneratorRuntime.wrap((function(t) {
                             while (1)
                                 switch (t.prev = t.next) {
@@ -9607,6 +10756,7 @@
                                         sender_id: r.fromuid,
                                         text: r.content,
                                         mid: r.dmid,
+                                        media_type: r.media_type,
                                         url_objects: r.url_objects
                                     },
                                     this.$store.state.showunfollow || "publicmsg" != n.type) {
@@ -9627,7 +10777,7 @@
                                     }
                                     return t.next = 15,
                                     new Promise((function(t) {
-                                        b.getuserdetail(r.fromuid, (function(e) {
+                                        v.getuserdetail(r.fromuid, (function(e) {
                                             e.error || (i.sender_screen_name = e.screen_name,
                                             i.avatar_large = e.avatar_large),
                                             t()
@@ -9653,7 +10803,9 @@
                                         mid: r.dmid,
                                         unread_count: d + o + 1,
                                         text: r.content,
-                                        create_at: +new Date
+                                        create_at: +new Date,
+                                        media_type: i.media_type,
+                                        fid: i.fid
                                     },
                                     t.next = 26,
                                     a["a"].userdetail({
@@ -9684,7 +10836,7 @@
                                     }
                                     return t.next = 38,
                                     new Promise((function(t) {
-                                        b.getuserdetail(r.fromuid, (function(e) {
+                                        v.getuserdetail(r.fromuid, (function(e) {
                                             e.error || (i.sender_screen_name = e.screen_name,
                                             i.avatar_large = e.avatar_large),
                                             t()
@@ -9705,24 +10857,24 @@
                                         unread_count: p.unread_count ? p.unread_count + 1 : 1
                                     },
                                     Object.assign(g, i),
-                                    v = {
+                                    b = {
                                         i: m,
                                         param: g
                                     },
-                                    "unfollowlist" != e && !this.isWinFocus && r.content && (this.$store.state.isopenwebnotif && Object(De["a"])({
+                                    "unfollowlist" != e && !this.isWinFocus && r.content && (this.$store.state.isopenwebnotif && Object(rn["a"])({
                                         id: r.fromuid,
                                         name: p.name,
                                         content: r.content,
                                         icon: p.round_avatar_large || p.profile_image_url
                                     }),
                                     this.$store.state.isopenvoice && this.play()),
-                                    this.$store.commit("update" + e, v),
+                                    this.$store.commit("update" + e, b),
                                     this.cgProcessPoll(),
                                     t.abrupt("return");
                                 case 51:
                                     this.getuserdetail(r.fromuid, (function(t) {
                                         if (t.error)
-                                            b.cgProcessPoll();
+                                            v.cgProcessPoll();
                                         else {
                                             i.sender_screen_name = t.screen_name,
                                             i.avatar_large = t.avatar_large;
@@ -9739,17 +10891,17 @@
                                                 unread_count: 1
                                             };
                                             Object.assign(n, i),
-                                            "unfollowlist" != e ? (!b.isWinFocus && r.content && (b.$store.state.isopenwebnotif && Object(De["a"])({
+                                            "unfollowlist" != e ? (!v.isWinFocus && r.content && (v.$store.state.isopenwebnotif && Object(rn["a"])({
                                                 id: r.fromuid,
                                                 name: n.name,
                                                 content: r.content,
                                                 icon: n.profile_image_url
                                             }),
-                                            b.$store.state.isopenvoice && b.play()),
+                                            v.$store.state.isopenvoice && v.play()),
                                             n.id = r.fromuid,
-                                            b.$store.commit("unshift" + e, n)) : b.$store.state.showunfollow && (n.id = r.fromuid,
-                                            b.$store.commit("unshiftunfollowlist", n)),
-                                            b.cgProcessPoll()
+                                            v.$store.commit("unshift" + e, n)) : v.$store.state.showunfollow && (n.id = r.fromuid,
+                                            v.$store.commit("unshiftunfollowlist", n)),
+                                            v.cgProcessPoll()
                                         }
                                     }
                                     ));
@@ -9776,7 +10928,7 @@
                 },
                 groupcurmsgget: function() {
                     var t = Object(s["a"])(regeneratorRuntime.mark((function t(e, n) {
-                        var r, i, o, c, d, f, h, m, p, g, v, b, y, _, w, x, j, k, O, C, I, $, T, A, P, S, D, q, M, E = this;
+                        var r, i, o, c, d, f, h, m, p, g, b, v, y, _, w, x, j, k, O, C, I, $, A, S, T, P, D, M, q, R = this;
                         return regeneratorRuntime.wrap((function(t) {
                             while (1)
                                 switch (t.prev = t.next) {
@@ -9784,7 +10936,7 @@
                                     return t.next = 2,
                                     new Promise((function(t) {
                                         setTimeout((function() {
-                                            n == E.$store.state.selectId && e.info.id && E.isexistrecord(n, e.info.id) && (E.cgProcessPoll(),
+                                            n == R.$store.state.selectId && e.info.id && R.isexistrecord(n, e.info.id) && (R.cgProcessPoll(),
                                             t(!1)),
                                             t(!0)
                                         }
@@ -9813,8 +10965,8 @@
                                             for (m = h - 1; m > h - 10; m--)
                                                 this.$store.state.chatrecords[m] && this.$store.state.chatrecords[m].fid && this.$store.state.chatrecords[m].fid === i.msgs[0].fids[0] && (this.$store.state.chatrecords[m].replaceToken = Object(u["l"])(),
                                                 this.$store.state.chatrecords[m].imgurl = "//upload.api.weibo.com/2/mss/msget?fid=".concat(i.msgs[0].fids[0], "&source=209678993&imageType=origin"))
-                                        } catch (R) {
-                                            window.console.error(R)
+                                        } catch (E) {
+                                            window.console.error(E)
                                         }
                                     }
                                     if (!(333 == f && c >= 0)) {
@@ -9833,9 +10985,9 @@
                                     t.abrupt("return");
                                 case 17:
                                     if (g = [323, 324, 331],
-                                    v = !1,
-                                    (321 != e.sub_type || 321 == e.sub_type && i.sub_type && i.sub_type > 0) && (v = !0),
-                                    !v || !g.includes(f)) {
+                                    b = !1,
+                                    (321 != e.sub_type || 321 == e.sub_type && i.sub_type && i.sub_type > 0) && (b = !0),
+                                    !b || !g.includes(f)) {
                                         t.next = 26;
                                         break
                                     }
@@ -9846,7 +10998,7 @@
                                                 return t == n
                                             }
                                             ));
-                                            r >= 0 ? (e.uids && e.uids.includes(l["f"].basicinfo.id) && (E.cgProcessPoll(),
+                                            r >= 0 ? (e.uids && e.uids.includes(l["f"].basicinfo.id) && (R.cgProcessPoll(),
                                             t(!0)),
                                             t(!1)) : t(!1)
                                         }
@@ -9854,8 +11006,8 @@
                                     }
                                     ));
                                 case 23:
-                                    if (b = t.sent,
-                                    !b) {
+                                    if (v = t.sent,
+                                    !v) {
                                         t.next = 26;
                                         break
                                     }
@@ -9921,12 +11073,12 @@
                                     I = i.from_user,
                                     $ = i.url_objects,
                                     i.annotations,
-                                    T = i.round_avatar,
-                                    A = i.time,
-                                    P = i.object,
+                                    A = i.round_avatar,
+                                    S = i.time,
+                                    T = i.object,
                                     i.pic_infos,
-                                    S = !1,
-                                    j == l["f"].basicinfo.id && (S = !0),
+                                    P = !1,
+                                    j == l["f"].basicinfo.id && (P = !0),
                                     !x) {
                                         t.next = 52;
                                         break
@@ -9936,9 +11088,9 @@
                                     new Promise((function(t) {
                                         setTimeout((function() {
                                             var r = {
-                                                created_at: 1e3 * A,
-                                                direct: S ? "right" : "left",
-                                                msg_status: S ? 0 : 1,
+                                                created_at: 1e3 * S,
+                                                direct: P ? "right" : "left",
+                                                msg_status: P ? 0 : 1,
                                                 fid: O && O.length && O[0],
                                                 media_type: k,
                                                 mid: i.id,
@@ -9951,19 +11103,19 @@
                                             };
                                             if ($ && $[0] && (r.url_short = $[0].info.url_short,
                                             r.url_objects = $),
-                                            P && (r.object = P),
-                                            S)
+                                            T && (r.object = T),
+                                            P)
                                                 r.userinfo = l["f"].basicinfo;
                                             else if (I && void 0 !== I.verified) {
                                                 var o = {};
                                                 Object.assign(o, I),
                                                 o.uid = j,
-                                                r.userinfo = E.memberinfotrans(o, S)
+                                                r.userinfo = R.memberinfotrans(o, P)
                                             } else {
-                                                var a = E.getuserinfos(j);
-                                                r.userinfo = E.memberinfotrans(a, S)
+                                                var a = R.getuserinfos(j);
+                                                r.userinfo = R.memberinfotrans(a, P)
                                             }
-                                            Object(oe["a"])(r, function() {
+                                            Object(Se["a"])(r, function() {
                                                 var o = Object(s["a"])(regeneratorRuntime.mark((function s(o) {
                                                     var a;
                                                     return regeneratorRuntime.wrap((function(s) {
@@ -9971,11 +11123,11 @@
                                                             switch (s.prev = s.next) {
                                                             case 0:
                                                                 if (o && Object.assign(r, o),
-                                                                n == E.$store.state.selectId) {
+                                                                n == R.$store.state.selectId) {
                                                                     s.next = 4;
                                                                     break
                                                                 }
-                                                                return E.groupmsgget(e, n),
+                                                                return R.groupmsgget(e, n),
                                                                 s.abrupt("return");
                                                             case 4:
                                                                 if (!i.is_large) {
@@ -9988,14 +11140,14 @@
                                                                     isLargeDm: i.is_large
                                                                 },
                                                                 s.next = 8,
-                                                                E.loadmoreText(a, 1);
+                                                                R.loadmoreText(a, 1);
                                                             case 8:
                                                                 r.text = s.sent;
                                                             case 9:
-                                                                E.$store.commit("fillchatrecords", {
+                                                                R.$store.commit("fillchatrecords", {
                                                                     value: r
                                                                 }),
-                                                                "card5" == r.cardtype && E.$store.commit("addimgurls", {
+                                                                "card5" == r.cardtype && R.$store.commit("addimgurls", {
                                                                     value: {
                                                                         fid: r.fid,
                                                                         mid: r.mid
@@ -10022,27 +11174,27 @@
                                     if (D = {
                                         sub_type: i.sub_type,
                                         fid: O && O.length && O[0],
-                                        created_at: 1e3 * A,
+                                        created_at: 1e3 * S,
                                         isAtMe: this.isAtMe(x)
                                     },
                                     this.$store.state.isWinFocus ? (D.unread_count = 0,
-                                    q = {
+                                    M = {
                                         id: i.gid
                                     },
-                                    a["a"].clearunread(q)) : i.content && !(321 != e.sub_type || 321 == e.sub_type && i.sub_type && i.sub_type > 0) && (D.unread_count = 1 + (o.unread_count || 0)),
+                                    a["a"].clearunread(M)) : i.content && !(321 != e.sub_type || 321 == e.sub_type && i.sub_type && i.sub_type > 0) && (D.unread_count = 1 + (o.unread_count || 0)),
                                     i.content && (D.message_type = e.sub_type,
                                     D.sender_id = j,
                                     D.sender_screen_name = y,
                                     D.mid = i.id),
                                     x && (D.text = x),
                                     C && (D.name = C),
-                                    T && (D.round_avatar_large = Object(u["b"])(i.round_avatar)),
-                                    T && (D.round_profile_image_url = Object(u["b"])(i.round_avatar)),
-                                    M = this.isAtMe(x) ? "[有人@我]" : "",
-                                    !this.isWinFocus && 1 != o.remindSetting && i.content && (this.$store.state.isopenwebnotif && Object(De["a"])({
+                                    A && (D.round_avatar_large = Object(u["b"])(i.round_avatar)),
+                                    A && (D.round_profile_image_url = Object(u["b"])(i.round_avatar)),
+                                    q = this.isAtMe(x) ? "[有人@我]" : "",
+                                    !this.isWinFocus && 1 != o.remindSetting && i.content && (this.$store.state.isopenwebnotif && Object(rn["a"])({
                                         id: n,
                                         name: o.name,
-                                        content: M + y + ":" + i.content,
+                                        content: q + y + ":" + i.content,
                                         icon: o.round_avatar_large || o.profile_image_url
                                     }),
                                     this.$store.state.isopenvoice && this.play()),
@@ -10078,7 +11230,7 @@
                 },
                 groupmsgget: function() {
                     var t = Object(s["a"])(regeneratorRuntime.mark((function t(e, n) {
-                        var r, i, s, o, c, d, f, h, m, g, v, b, y, _, w, x, j, k, O, C, I, $, T, A, P, S, D = this;
+                        var r, i, s, o, c, d, f, h, m, g, b, v, y, _, w, x, j, k, O, C, I, $, A, S, T, P, D = this;
                         return regeneratorRuntime.wrap((function(t) {
                             while (1)
                                 switch (t.prev = t.next) {
@@ -10099,21 +11251,21 @@
                                     h = r.time,
                                     m = r.uids ? r.uids : r.ids,
                                     g = "topuser",
-                                    v = this.getusermsg(g, n),
-                                    v < 0 && (g = "chatlist",
-                                    v = this.getusermsg(g, n)),
-                                    b = this.$store.state[g][v],
-                                    332 == i && v >= 0 && 1 != this.$store.state[g][v].remindSetting && this.$store.state[g][v].unread_count ? l["r"].reduce(this.$store.state[g][v].unread_count) : r.content && r.from_uid != l["f"].basicinfo.id && v >= 0 && 1 != this.$store.state[g][v].remindSetting && (1 == r.op_type && r.ids && r.ids.length ? l["r"].reduce(1) : l["r"].add(1)),
+                                    b = this.getusermsg(g, n),
+                                    b < 0 && (g = "chatlist",
+                                    b = this.getusermsg(g, n)),
+                                    v = this.$store.state[g][b],
+                                    332 == i && b >= 0 && 1 != this.$store.state[g][b].remindSetting && this.$store.state[g][b].unread_count ? l["r"].reduce(this.$store.state[g][b].unread_count) : r.content && r.from_uid != l["f"].basicinfo.id && b >= 0 && 1 != this.$store.state[g][b].remindSetting && (1 == r.op_type && r.ids && r.ids.length ? l["r"].reduce(1) : l["r"].add(1)),
                                     y = null,
-                                    v >= 0 && (y = this.$store.state[g][v]),
+                                    b >= 0 && (y = this.$store.state[g][b]),
                                     333 != i) {
                                         t.next = 15;
                                         break
                                     }
-                                    return b && this.isFansGroup(b) && (_ = 0 == f ? 2 : 1,
+                                    return v && this.isFansGroup(v) && (_ = 0 == f ? 2 : 1,
                                     this.$store.commit("update" + g, {
                                         notTop: !0,
-                                        i: v,
+                                        i: b,
                                         param: {
                                             remindSetting: _
                                         }
@@ -10122,7 +11274,7 @@
                                     t.abrupt("return");
                                 case 15:
                                     if (this.$store.state.showunfollow && r.content,
-                                    !(this.$store.state.showunfollow || v < 0 && !r.content)) {
+                                    !(this.$store.state.showunfollow || b < 0 && !r.content)) {
                                         t.next = 19;
                                         break
                                     }
@@ -10133,11 +11285,11 @@
                                         t.next = 24;
                                         break
                                     }
-                                    if (!(v >= 0 && m.includes(l["f"].basicinfo.id))) {
+                                    if (!(b >= 0 && m.includes(l["f"].basicinfo.id))) {
                                         t.next = 24;
                                         break
                                     }
-                                    return this.$store.commit("remove" + g, v),
+                                    return this.$store.commit("remove" + g, b),
                                     this.cgProcessPoll(),
                                     t.abrupt("return");
                                 case 24:
@@ -10182,21 +11334,21 @@
                                         t.next = 41;
                                         break
                                     }
-                                    this.recallmsg(r, v, k),
+                                    this.recallmsg(r, b, k),
                                     t.next = 44;
                                     break;
                                 case 41:
-                                    return v >= 0 && !this.$store.state.showunfollow && this.$store.commit("remove" + g, v),
+                                    return b >= 0 && !this.$store.state.showunfollow && this.$store.commit("remove" + g, b),
                                     this.cgProcessPoll(),
                                     t.abrupt("return");
                                 case 44:
-                                    if (!(332 == i && v >= 0) || this.$store.state.showunfollow) {
+                                    if (!(332 == i && b >= 0) || this.$store.state.showunfollow) {
                                         t.next = 51;
                                         break
                                     }
                                     return O = {
                                         notTop: !0,
-                                        i: v,
+                                        i: b,
                                         param: {
                                             unread_count: 0
                                         }
@@ -10214,7 +11366,7 @@
                                     t.abrupt("return");
                                 case 55:
                                     if (C = {},
-                                    (r.content || v < 0) && (C = {
+                                    (r.content || b < 0) && (C = {
                                         fid: c && c.length ? r.fids[0] : "",
                                         created_at: 1e3 * h,
                                         sender_screen_name: k,
@@ -10224,7 +11376,7 @@
                                         message_type: i
                                     }),
                                     this.isAtMe(s) && (C.isAtMe = !0),
-                                    !(v >= 0)) {
+                                    !(b >= 0)) {
                                         t.next = 81;
                                         break
                                     }
@@ -10239,27 +11391,27 @@
                                     $ = !1,
                                     (321 != e.sub_type || 321 == e.sub_type && r.sub_type && r.sub_type > 0) && ($ = !0),
                                     o != l["f"].basicinfo.id && r.content && !$ && (I.unread_count = y.unread_count ? y.unread_count + 1 : 1),
-                                    T = I.isAtMe ? "[有人@我]" : "",
-                                    !this.isWinFocus && r.content && r.from_uid != l["f"].basicinfo.id && 1 != y.remindSetting && (this.$store.state.isopenwebnotif && Object(De["a"])({
+                                    A = I.isAtMe ? "[有人@我]" : "",
+                                    !this.isWinFocus && r.content && r.from_uid != l["f"].basicinfo.id && 1 != y.remindSetting && (this.$store.state.isopenwebnotif && Object(rn["a"])({
                                         id: n,
                                         name: y.name,
-                                        content: T + k + ":" + r.content,
-                                        icon: this.$store.state[g][v].round_profile_image_url || this.$store.state[g][v].profile_image_url
+                                        content: A + k + ":" + r.content,
+                                        icon: this.$store.state[g][b].round_profile_image_url || this.$store.state[g][b].profile_image_url
                                     }),
                                     this.$store.state.isopenvoice && this.play()),
-                                    I.isAtMe || this.$store.state[g][v].isAtMe && (I.isAtMe = !0),
+                                    I.isAtMe || this.$store.state[g][b].isAtMe && (I.isAtMe = !0),
                                     s && (I.text = s),
                                     r.id && y && y.mid && r.id <= y.mid && s && (I.text = y.text),
                                     d && (I.name = d),
                                     r.round_avatar && (I.round_avatar_large = Object(u["b"])(r.round_avatar)),
                                     r.round_avatar && (I.round_profile_image_url = Object(u["b"])(r.round_avatar)),
                                     Object.assign(C, I),
-                                    A = {
-                                        i: v,
+                                    S = {
+                                        i: b,
                                         param: C
                                     },
-                                    s || (A.notTop = !0),
-                                    this.$store.commit("update" + g, A),
+                                    s || (S.notTop = !0),
+                                    this.$store.commit("update" + g, S),
                                     this.cgProcessPoll(),
                                     t.next = 89;
                                     break;
@@ -10271,10 +11423,10 @@
                                     return this.cgProcessPoll(),
                                     t.abrupt("return");
                                 case 84:
-                                    P = 0,
-                                    S = !1,
-                                    (321 != e.sub_type || 321 == e.sub_type && r.sub_type && r.sub_type > 0) && (S = !0),
-                                    r.from_uid == l["f"].basicinfo.id || S || (P = 1),
+                                    T = 0,
+                                    P = !1,
+                                    (321 != e.sub_type || 321 == e.sub_type && r.sub_type && r.sub_type > 0) && (P = !0),
+                                    r.from_uid == l["f"].basicinfo.id || P || (T = 1),
                                     a["a"].groupquery({
                                         params: {
                                             id: r.gid
@@ -10291,12 +11443,12 @@
                                             round_avatar_large: Object(u["b"])(t.round_avatar),
                                             avatar_large: Object(u["b"])(t.round_avatar),
                                             type: 2,
-                                            unread_count: P
+                                            unread_count: T
                                         };
                                         s && (i.text = r.content),
                                         Object.assign(i, C);
                                         var o = C.isAtMe ? "[有人@我]" : "";
-                                        !D.isWinFocus && r.content && (D.$store.state.isopenwebnotif && Object(De["a"])({
+                                        !D.isWinFocus && r.content && (D.$store.state.isopenwebnotif && Object(rn["a"])({
                                             id: n,
                                             name: i.name,
                                             content: o + k + ":" + r.content,
@@ -10328,7 +11480,7 @@
                             while (1)
                                 switch (t.prev = t.next) {
                                 case 0:
-                                    if (!(this.$store.state.groupmemberset && e in this.$store.state.groupmemberset)) {
+                                    if (!this.$store.state.groupmemberset || !(e in this.$store.state.groupmemberset)) {
                                         t.next = 4;
                                         break
                                     }
@@ -10502,7 +11654,7 @@
                                     Object.assign(o, n),
                                     t.next = 20,
                                     new Promise((function(t) {
-                                        Object(oe["a"])(o, (function(e) {
+                                        Object(Se["a"])(o, (function(e) {
                                             e && Object.assign(o, e),
                                             a.$store.commit("changechatrecorder", {
                                                 value: o
@@ -10647,7 +11799,7 @@
                                     },
                                     r.att_ids && (d.fid = r.att_ids.split(",")[0]),
                                     t.next = 22,
-                                    Object(oe["a"])(d);
+                                    Object(Se["a"])(d);
                                 case 22:
                                     if (f = t.sent,
                                     f && Object.assign(d, f),
@@ -10680,16 +11832,18 @@
                                         break
                                     }
                                     if (p = {
+                                        media_type: r.media_type,
                                         created_at: r.time,
                                         text: r.content,
                                         pic_gifs: r.pic_infos && r.pic_infos[0],
                                         message_type: r.type,
                                         mid: r.dmid,
-                                        url_objects: r.url_objects
+                                        url_objects: r.url_objects,
+                                        fid: d.fid
                                     },
                                     this.$store.state.isWinFocus ? (p.unread_count = 0,
                                     this.$store.state.showunfollow ? a["a"].clearUnfollowUnreadMsg(c) : a["a"].clearunreadMsg(c)) : p.unread_count = 1 + (this.$store.state[n][h].unread_count || 0),
-                                    "unfollowlist" != n && r.content && !this.isWinFocus && (this.$store.state.isopenwebnotif && Object(De["a"])({
+                                    "unfollowlist" != n && r.content && !this.isWinFocus && (this.$store.state.isopenwebnotif && Object(rn["a"])({
                                         id: o,
                                         name: s.name,
                                         content: r.content,
@@ -10883,8 +12037,8 @@
                 onCometReconnected: function() {}
             }
         }
-          , Ee = Me
-          , Re = function() {
+          , an = on
+          , cn = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -10967,8 +12121,8 @@
                 }
             }, [t._v("退出")])]) : t._e()])
         }
-          , Ne = [];
-        function Le(t, e) {
+          , un = [];
+        function ln(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -10980,31 +12134,31 @@
             }
             return n
         }
-        function Ge(t) {
+        function dn(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Le(Object(n), !0).forEach((function(e) {
+                e % 2 ? ln(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Le(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : ln(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var Ue = {
-            mixins: [A["a"]],
+        var fn = {
+            mixins: [P["a"]],
             props: ["userdata"],
             data: function() {
                 return {}
             },
             components: {
-                weiboVerified: ht,
-                hoverItem: yt
+                weiboVerified: pt,
+                hoverItem: qt
             },
-            computed: Ge({}, Object(O["d"])(["modalId", "isopenvoice", "isopenwebnotif", "friendslist", "joingroups"])),
-            methods: Ge({}, Object(O["c"])(["changemodalId", "exnogroupmodal", "exvoice", "exnotif", "fillfriendslist", "filljoingroups", "selectSession", "unshiftchatlist"]), {
+            computed: dn({}, Object(I["d"])(["modalId", "isopenvoice", "isopenwebnotif", "friendslist", "joingroups"])),
+            methods: dn({}, Object(I["c"])(["changemodalId", "exnogroupmodal", "exvoice", "exnotif", "fillfriendslist", "filljoingroups", "selectSession", "unshiftchatlist"]), {
                 checkfriend: function() {
                     var t = this;
                     return new Promise((function(e) {
@@ -11044,118 +12198,10 @@
                     this.exnotif(!this.isopenwebnotif),
                     window.localStorage.setItem("isopenwebnotif", this.isopenwebnotif)
                 },
-                startgroups: function(t) {
-                    T["a"].$emit("choose-user", {
-                        id: "modalCreateChat",
-                        vm: this,
-                        title: "新建群聊",
-                        confirmBtn: "确定",
-                        cancelBtn: "取消",
-                        searchText: "查找联系人",
-                        chosenText: "已选择联系人",
-                        searchType: 2,
-                        listType: 2,
-                        withGroup: !1,
-                        withUser: !0,
-                        defaultSelects: t,
-                        defaultList: [],
-                        onconfirm: function(t, e) {
-                            this.createnewchat(t),
-                            e.close(!0)
-                        },
-                        oncancle: function(t) {
-                            t.close(!0)
-                        }
-                    }),
-                    this.checkfriend().then((function(t) {
-                        T["a"].$emit("refresh-choose-user", {
-                            id: "modalCreateChat",
-                            defaultList: d["a"].backsolvemembers(t)
-                        })
-                    }
-                    ))
-                },
-                createnewchat: function(t) {
-                    var e = this;
-                    if (t.length > 1) {
-                        var n = t.map((function(t) {
-                            return t.id
-                        }
-                        )).join(",")
-                          , r = {
-                            members: n
-                        };
-                        a["a"].creategroup(r).then((function(t) {
-                            if (t.error)
-                                e.$toast(t.error || "群组创建失败，请重试");
-                            else {
-                                var n, r = (n = {
-                                    affi_type: "",
-                                    fid: "",
-                                    created_at: (new Date).getTime(),
-                                    id: t.id,
-                                    mid: "",
-                                    is_block_all_public: !1,
-                                    is_blocked: !1,
-                                    profile_image_url: t.avatar,
-                                    avatar_large: t.avatar,
-                                    remindSetting: 2,
-                                    round_profile_image_url: t.round_avatar,
-                                    round_avatar_large: t.round_avatar,
-                                    sender_id: l["f"].basicinfo.id,
-                                    sender_screen_name: l["f"].basicinfo.name,
-                                    sub_type: 101,
-                                    type: 2,
-                                    message_type: 333
-                                },
-                                Object(o["a"])(n, "sub_type", ""),
-                                Object(o["a"])(n, "unread_count", 0),
-                                n);
-                                if (t.succ_uids) {
-                                    var i = [];
-                                    t.succ_uids.forEach((function(t) {
-                                        e.friendslist.forEach((function(e) {
-                                            e.items.forEach((function(e) {
-                                                e.uid == t && i.push(e.name)
-                                            }
-                                            ))
-                                        }
-                                        ))
-                                    }
-                                    )),
-                                    i.push(l["f"].basicinfo.name);
-                                    var s = i.join("、");
-                                    r.name = s.length > 16 ? s.slice(0, 16) + "..." : s
-                                } else
-                                    r.name = "群聊";
-                                e.unshiftchatlist(r),
-                                e.selectSession(t.id)
-                            }
-                        }
-                        ))
-                    } else
-                        1 == t.length && this.unshiftuser(t[0])
-                },
-                unshiftuser: function(t) {
-                    var e = this
-                      , n = t.id
-                      , r = this.$store.state.chatlist.findIndex((function(t) {
-                        return t.id == n
-                    }
-                    ));
-                    r >= 0 ? (this.$store.commit("updatechatlist", {
-                        i: r
-                    }),
-                    this.$store.commit("selectSession", n)) : (r = this.$store.state.topuser.findIndex((function(t) {
-                        return t.id == n
-                    }
-                    )),
-                    r >= 0 ? this.$store.commit("selectSession", n) : this.getpernewuser(n, (function(t) {
-                        t && (t.is_top_user = !1,
-                        e.$store.commit("unshiftchatlist", t),
-                        e.$store.commit("selectSession", n))
-                    }
-                    )))
+                startgroups: function() {
+                    Nt["a"].newGroup.addCount(),
+                    this.suda("webchat_newgroup", "webchat_newgroup"),
+                    this.$root.$children[0].$children[0].$refs.cardcontaininfo.curView = "newGroup"
                 },
                 choosegroups: function() {
                     T["a"].$emit("choose-user", {
@@ -11203,19 +12249,19 @@
                     window.open("//account.weibo.com/set/index")
                 }
             }),
-            created: function() {
+            mounted: function() {
                 var t = this;
                 T["a"].$on("setNewGroup", (function(e) {
-                    t.startgroups(e)
+                    t.startgroups()
                 }
                 ))
             }
         }
-          , Be = Ue
-          , We = (n("cbca"),
-        Object(_["a"])(Be, Re, Ne, !1, null, "0b44aa2c", null))
-          , ze = We.exports
-          , Ve = function() {
+          , hn = fn
+          , mn = (n("1e7f"),
+        Object(_["a"])(hn, cn, un, !1, null, "6fcb0ced", null))
+          , pn = mn.exports
+          , gn = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -11322,7 +12368,9 @@
                     staticClass: "atme"
                 }, [t._v("[有新公告]")]) : t._e(), e.isAtMe && !e.fileToken ? n("span", {
                     staticClass: "atme"
-                }, [t._v("[有人@我]")]) : t._e(), e.bulletin && t.bulletinrecords && !t.bulletinrecords.includes(+e.bulletin.bulletin_id) ? [t._v("\n                  " + t._s(e.bulletin.content) + "\n                ")] : [t.checktype(e) || e.fileToken ? t._e() : n("span", [t._v(t._s(t.findremark(e.sender_id, e.sender_screen_name)) + ":")]), t._v("\n                  " + t._s(t.filtertext(e.text, e.fid, e)) + "\n                ")]], 2) : n("p", {
+                }, [t._v("[有人@我]")]) : t._e(), e.bulletin && t.bulletinrecords && !t.bulletinrecords.includes(+e.bulletin.bulletin_id) ? [t._v("\n                  " + t._s(e.bulletin.content) + "\n                ")] : [t.checktype(e) || e.fileToken ? t._e() : n("span", [t._v(t._s(t.findremark(e.sender_id, e.sender_screen_name)) + ":")]), t._v("\n                  " + t._s(t.filtertext(e.text, e.fid, e)) + "\n                ")]], 2) : 4 === e.type ? n("p", {
+                    staticClass: "lastmsg nowrap font14 one-line"
+                }, [t._v("\n                " + t._s(e.msg) + "\n              ")]) : n("p", {
                     staticClass: "lastmsg nowrap font14 one-line"
                 }, [e.fileToken ? n("i", {
                     staticClass: "uploadicon",
@@ -11333,15 +12381,9 @@
                     staticClass: "nosound flex"
                 }, [n("i", {
                     staticClass: "icon icon-msg pc-n"
-                })]) : 2 == e.type && 1 == e.remindSetting || 3 == e.type && 2 == t.pubremindtype || t.showunfollow && 2 == t.pubremindtype ? n("div", {
+                })]) : 2 == e.type && 1 == e.remindSetting || 3 == e.type && 2 == t.pubremindtype || t.showunfollow && 2 == t.pubremindtype || 4 === e.type && e.is_blocked || 4 === e.type && 1 == e.remindSetting ? n("div", {
                     staticClass: "nosound flex"
-                }, [2 == e.type ? n("i", {
-                    directives: [{
-                        name: "show",
-                        rawName: "v-show",
-                        value: !e.unread_count,
-                        expression: "!i.unread_count"
-                    }],
+                }, [2 == e.type && !e.unread_count || 4 === e.type && e.is_blocked ? n("i", {
                     staticClass: "icon icon-msg qc-n"
                 }) : t._e(), n("i", {
                     directives: [{
@@ -11367,14 +12409,14 @@
                     }
                     ]
                 }
-            }, [n("li", {
+            }, [4 != t.menuobj.type ? n("div", [n("li", {
                 on: {
                     click: function(e) {
                         return e.stopPropagation(),
                         t.showCurrentInfo()
                     }
                 }
-            }, [t._v(t._s(1 === t.menuobj.type ? "查看资料" : "查看群资料"))]), 1 === t.menuobj.type ? n("li", {
+            }, [t._v("\n        " + t._s(1 === t.menuobj.type ? "查看资料" : "查看群资料") + "\n      ")]), 1 === t.menuobj.type ? n("li", {
                 on: {
                     click: function(e) {
                         return t.jumpprofile()
@@ -11386,22 +12428,30 @@
                         return t.shield()
                     }
                 }
-            }, [t._v("\n      " + t._s(!1 === t.menuobj.value.is_blocked ? "屏蔽此人消息" : "解除屏蔽此人消息") + "\n    ")]) : t._e(), t.menuobj.type && 1 != t.menuobj.type ? n("li", {
+            }, [t._v("\n        " + t._s(!1 === t.menuobj.value.is_blocked ? "屏蔽此人消息" : "解除屏蔽此人消息") + "\n      ")]) : t._e(), t.menuobj.type && 1 != t.menuobj.type ? n("li", {
                 on: {
                     click: function(e) {
                         return t.setgroupnotice(t.menuobj.value.id)
                     }
                 }
-            }, [t._v("\n      " + t._s(1 == t.menuobj.value.remindSetting ? "打开群消息通知" : "群消息免打扰") + "\n    ")]) : t._e(), n("li", {
+            }, [t._v("\n        " + t._s(1 == t.menuobj.value.remindSetting ? "打开群消息通知" : "群消息免打扰") + "\n      ")]) : t._e(), n("li", {
                 on: {
                     click: function(e) {
                         return t.deleteChat(t.menuobj.value)
                     }
                 }
-            }, [t._v("删除对话")])]) : t._e()], 1)
+            }, [t._v("删除对话")])]) : n("div", [n("li", {
+                on: {
+                    click: t.closeNotification
+                }
+            }, [t._v("\n        " + t._s(1 !== t.pushSetting.groupchat_notify_receive ? "不接收群通知" : "接收群通知") + "\n      ")]), n("li", {
+                on: {
+                    click: t.clearGroupNotification
+                }
+            }, [t._v("\n        清空群通知\n      ")])])]) : t._e()], 1)
         }
-          , Ye = [];
-        function Fe(t, e) {
+          , bn = [];
+        function vn(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -11413,21 +12463,21 @@
             }
             return n
         }
-        function He(t) {
+        function yn(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Fe(Object(n), !0).forEach((function(e) {
+                e % 2 ? vn(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Fe(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : vn(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var Je = {
-            mixins: [nt["a"], A["a"], Ae],
+        var _n = {
+            mixins: [it["a"], P["a"], tn, At],
             data: function() {
                 return {
                     openchatright: -1,
@@ -11460,10 +12510,10 @@
                             e = new Date(i)
                         }
                         var s = (new Date).getTime()
-                          , o = new Date(J()(s).format("YYYY/MM/DD") + " 00:00:00").getTime()
+                          , o = new Date(Q()(s).format("YYYY/MM/DD") + " 00:00:00").getTime()
                           , a = o - 864e5
-                          , c = new Date(J()(s).format("YYYY") + "/01/01 00:00:00").getTime();
-                        return e >= o ? J()(e).format("HH:mm") : e < o && e >= a ? "昨天" : e >= c ? J()(e).format("MM-DD") : J()(e).format("YYYY-MM")
+                          , c = new Date(Q()(s).format("YYYY") + "/01/01 00:00:00").getTime();
+                        return e >= o ? Q()(e).format("HH:mm") : e < o && e >= a ? "昨天" : e >= c ? Q()(e).format("MM-DD") : Q()(e).format("YYYY-MM")
                     }
                 }
             },
@@ -11483,7 +12533,7 @@
                     type: 3
                 })
             },
-            computed: He({}, Object(O["d"])(["selectId", "mycardinfo", "bulletinrecords", "usercardinfo", "chatrecords", "followuser", "showunfollow", "unfollowlist", "modalId", "allLoaded", "chatlistcount", "chatlistcursor", "remarklist", "unfollowlistcount", "allunfollowLoaded", "prescrollTop", "pubremindtype"]), {
+            computed: yn({}, Object(I["d"])(["selectId", "mycardinfo", "bulletinrecords", "usercardinfo", "chatrecords", "followuser", "showunfollow", "unfollowlist", "modalId", "allLoaded", "chatlistcount", "chatlistcursor", "remarklist", "unfollowlistcount", "allunfollowLoaded", "prescrollTop", "pubremindtype", "pushSetting"]), {
                 getname: function(t) {
                     var e = this;
                     return function(t) {
@@ -11511,7 +12561,7 @@
                     }
                 }
             }),
-            methods: He({}, Object(O["c"])(["selectSession", "emptyunread", "emptypubunread", "changemodalId", "exchatlistcount", "removechatlist", "updatechatlist", "exchatlistcursor", "exquerygroup", "exunfollowlistcount", "exprescrollTop", "removeunfollowlist", "emptyquerygroup"]), {
+            methods: yn({}, Object(I["c"])(["selectSession", "emptyunread", "emptypubunread", "changemodalId", "exchatlistcount", "removechatlist", "updatechatlist", "exchatlistcursor", "exquerygroup", "exunfollowlistcount", "exprescrollTop", "removeunfollowlist", "emptyquerygroup", "exGroupMessage", "exNotifications"]), {
                 showCurrentInfo: function() {
                     this.changemodalId(-1);
                     var t = this.$store.state.selectId === this.menuobj.value.id;
@@ -11554,43 +12604,61 @@
                                 e.scrollTopvalue = 0
                             }
                             ));
+                        if (4 === t.type) {
+                            var n = d["a"].findIndexAndLt(-101)
+                              , r = n.lt
+                              , i = n.i;
+                            return i >= 0 && (l["r"].reduce(this.$store.state[r][i].unread_count),
+                            this.$store.commit("updatechatlist", {
+                                i: i,
+                                notTop: !0,
+                                param: {
+                                    id: -101,
+                                    unread_count: 0
+                                }
+                            })),
+                            this.exGroupMessage(1),
+                            this.selectSession(-101),
+                            this.exNotifications([]),
+                            void a["a"].clearNotificationunread()
+                        }
                         if (this.selectSession(t.id),
                         this.showunfollow) {
-                            var n = this.finditemIndex(this.unfollowlist);
-                            if (n >= 0 && 2 != this.$store.state.pubremindtype && this.$store.state.unfollowlist[n].unread_count) {
-                                var r = this.$store.state.unfollowlist[n].unread_count;
-                                l["s"].reduce(r),
-                                l["r"].reduce(r)
-                            } else if (n < 0 || !this.unfollowlist[n].unread_count)
+                            var s = this.finditemIndex(this.unfollowlist);
+                            if (s >= 0 && 2 != this.$store.state.pubremindtype && this.$store.state.unfollowlist[s].unread_count) {
+                                var o = this.$store.state.unfollowlist[s].unread_count;
+                                l["s"].reduce(o),
+                                l["r"].reduce(o)
+                            } else if (s < 0 || !this.unfollowlist[s].unread_count)
                                 return;
-                            this.emptypubunread(n)
+                            this.emptypubunread(s)
                         } else {
-                            var i = "chatlist"
-                              , s = this.finditemIndex(this.$store.state[i]);
-                            if (s >= 0 && this.$store.state[i][s].unread_count && 1 != this.$store.state[i][s].remindSetting ? l["r"].reduce(this.$store.state[i][s].unread_count) : (i = "topuser",
-                            s = this.finditemIndex(this.$store.state[i]),
-                            s >= 0 && this.$store.state[i][s].unread_count && 1 != this.$store.state[i][s].remindSetting && l["r"].reduce(this.$store.state[i][s].unread_count)),
-                            s < 0 || !this.$store.state[i][s].unread_count)
+                            var c = "chatlist"
+                              , u = this.finditemIndex(this.$store.state[c]);
+                            if (u >= 0 && this.$store.state[c][u].unread_count && 1 != this.$store.state[c][u].remindSetting ? l["r"].reduce(this.$store.state[c][u].unread_count) : (c = "topuser",
+                            u = this.finditemIndex(this.$store.state[c]),
+                            u >= 0 && this.$store.state[c][u].unread_count && 1 != this.$store.state[c][u].remindSetting && l["r"].reduce(this.$store.state[c][u].unread_count)),
+                            u < 0 || !this.$store.state[c][u].unread_count)
                                 return
                         }
-                        var o = {
+                        var f = {
                             cmd: "synchroniz",
                             type: "dmread",
                             uid: t.id
                         };
-                        if (l["h"].cometconn.publish(o),
+                        if (l["h"].cometconn.publish(f),
                         1 == t.type) {
-                            var c = {
+                            var h = {
                                 is_include_group: 0,
                                 type: 2,
                                 uid: t.id
                             };
-                            this.showunfollow ? a["a"].clearUnfollowUnreadMsg(c) : a["a"].clearunreadMsg(c)
+                            this.showunfollow ? a["a"].clearUnfollowUnreadMsg(h) : a["a"].clearunreadMsg(h)
                         } else if (2 == t.type) {
-                            var u = {
+                            var m = {
                                 id: t.id
                             };
-                            a["a"].clearunread(u)
+                            a["a"].clearunread(m)
                         }
                     }
                 },
@@ -11598,7 +12666,7 @@
                     if (n.urlDtails)
                         return n.urlDtails;
                     if (n.text && -1 !== n.text.search(/http:\/\//) && n.url_objects && n.url_objects[0])
-                        return n.url_objects[0].object && n.url_objects[0].object.object && n.url_objects[0].object.object.display_name ? "[链接]" + n.url_objects[0].object.object.display_name : n.url_objects[0].user && n.url_objects[0].user.screen_name ? "[链接]" + n.url_objects[0].user.screen_name : n.text;
+                        return n.url_objects[0].info && n.url_objects[0].info.url_short && n.url_objects[0].info.url_short !== n.text.trim() ? n.text : n.url_objects[0].object && n.url_objects[0].object.object && n.url_objects[0].object.object.display_name ? "[链接]" + n.url_objects[0].object.object.display_name : n.url_objects[0].user && n.url_objects[0].user.screen_name ? "[链接]" + n.url_objects[0].user.screen_name : n.url_objects[0] && n.url_objects[0].status && n.url_objects[0].status.text ? "[链接] ".concat(n.url_objects[0].status.user.name, " 的微博") : n.text;
                     if (!e || 1 !== n.dm_type && 6 !== n.dm_type)
                         return t;
                     var r = /分享/;
@@ -11606,7 +12674,7 @@
                         return t = t.replace(r, ""),
                         "[" + t + "]";
                     var i = new RegExp(".(jpeg|gif|png|jpg)$","i");
-                    return t && t.search(i) >= 0 ? "[图片]" : 0 == t.indexOf("分享内容") || 0 == t.indexOf("分享图片") ? "[图片]" : "分享视频" === t ? "[视频]" : -1 == t.indexOf("[图片]") && -1 == t.indexOf("[视频]") && -1 == t.indexOf("[文件]") ? "[文件]" + t : void 0
+                    return t && t.search(i) >= 0 || 0 == t.indexOf("分享内容") || 0 == t.indexOf("分享图片") || 1 === n.media_type ? "[图片]" : "分享视频" === t ? "[视频]" : -1 == t.indexOf("[图片上传失败]") && -1 == t.indexOf("[附件上传失败]") && -1 == t.indexOf("[图片]") && -1 == t.indexOf("[视频]") && -1 == t.indexOf("[文件]") ? "[文件]" + t : t
                 },
                 showcontextmenu: function(t) {
                     this.changemodalId(-1);
@@ -11692,7 +12760,7 @@
                 }
             }),
             components: {
-                weiboVerified: ht
+                weiboVerified: pt
             },
             watch: {
                 showUserCard: function(t) {
@@ -11728,11 +12796,11 @@
                 }
             }
         }
-          , Ze = Je
-          , Ke = (n("f8c7"),
-        Object(_["a"])(Ze, Ve, Ye, !1, null, "64ac5638", null))
-          , Qe = Ke.exports
-          , Xe = function() {
+          , wn = _n
+          , xn = (n("6508"),
+        Object(_["a"])(wn, gn, bn, !1, null, "161065e9", null))
+          , jn = xn.exports
+          , kn = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -11826,8 +12894,8 @@
             }
             ))], 2) : t._e()])])], 1)
         }
-          , tn = [];
-        function en(t, e) {
+          , On = [];
+        function Cn(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -11839,26 +12907,26 @@
             }
             return n
         }
-        function nn(t) {
+        function In(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? en(Object(n), !0).forEach((function(e) {
+                e % 2 ? Cn(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : en(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Cn(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var rn = {
-            mixins: [nt["a"], A["a"]],
+        var $n = {
+            mixins: [it["a"], P["a"]],
             components: {
-                weiboVerified: ht
+                weiboVerified: pt
             },
             mounted: function() {},
-            methods: nn({}, Object(O["c"])(["exsearchstate", "exsearch"]), {
+            methods: In({}, Object(I["c"])(["exsearchstate", "exsearch"]), {
                 convertProtocal: function(t) {
                     return Object(u["b"])(t)
                 },
@@ -11874,13 +12942,13 @@
                 },
                 scrollToBottom: function() {}
             }),
-            computed: nn({}, Object(O["d"])(["searchobj"]))
+            computed: In({}, Object(I["d"])(["searchobj"]))
         }
-          , sn = rn
-          , on = (n("ca5e"),
-        Object(_["a"])(sn, Xe, tn, !1, null, "64d3fd6d", null))
-          , an = on.exports
-          , cn = function() {
+          , An = $n
+          , Sn = (n("ca5e"),
+        Object(_["a"])(An, kn, On, !1, null, "64d3fd6d", null))
+          , Tn = Sn.exports
+          , Pn = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -11955,8 +13023,8 @@
                 }]
             })], 2) : t._e()
         }
-          , un = []
-          , ln = function() {
+          , Dn = []
+          , Mn = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -12283,111 +13351,9 @@
                 }
             }, [t._v("\n      移除该成员\n    ")]) : t._e()]) : t._e()], 1)
         }
-          , dn = []
-          , fn = (n("55dd"),
-        {
-            methods: {
-                kdcheck: function(t, e) {
-                    if (this[e].length >= 15) {
-                        var n = new RegExp("[~!@#$%-&*()_+{}'\\,./:\"[]|<>=;?^]{1}")
-                          , r = t.key.match(n);
-                        r && (this.showwarn = !0,
-                        t.preventDefault()),
-                        (t.keyCode >= 65 && t.keyCode <= 90 || t.keyCode >= 48 && t.keyCode <= 57) && (t.metaKey || t.shiftKey || t.ctrlKey || t.altKey || (this.showwarn = !0,
-                        t.preventDefault()))
-                    }
-                },
-                inputcheck: function(t, e) {
-                    this[e].length <= 15 ? this.showwarn = !1 : (this.showwarn = !0,
-                    this[e] = this[e].slice(0, 15))
-                },
-                _stringBitLength: function(t) {
-                    if (!t)
-                        return 0;
-                    var e = t.match(/[^\x00-\xff]/g);
-                    return Math.ceil((t.length + (e ? e.length : 0)) / 2)
-                },
-                sliceBit: function(t, e) {
-                    for (var n = "", r = 0, i = 0, s = t.length, o = /\uD83C|\uD83D/, a = 0; a < t.length; a++) {
-                        var c = t[a];
-                        if (/[^\x00-\xff]/.test(c) ? r += 2 : r += 1,
-                        s - i < 3 && o.test(t[i]) || r > 2 * e) {
-                            o.test(n[n.length - 1]) && (n = n.replace(/[\uD83C|\uD83D]$/, ""));
-                            break
-                        }
-                        n += c,
-                        i++
-                    }
-                    return n
-                },
-                isLink: function(t) {
-                    var e = /^(http|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?$/g;
-                    return e.test(t)
-                },
-                getCursorRect: function(t) {
-                    var e = !!document.all
-                      , n = 0
-                      , r = 0;
-                    if (t) {
-                        if (e) {
-                            var i = document.selection.createRange();
-                            if (i.parentElement() == t) {
-                                var s = document.body.createTextRange();
-                                for (s.moveToElementText(t),
-                                n = 0; s.compareEndPoints("StartToStart", i) < 0; n++)
-                                    s.moveStart("character", 1);
-                                for (var o = 0; o <= n; o++)
-                                    "\n" == t.value.charAt(o) && n++;
-                                for (s.moveToElementText(t),
-                                r = 0; s.compareEndPoints("StartToEnd", i) < 0; r++)
-                                    s.moveStart("character", 1);
-                                for (o = 0; o <= r; o++)
-                                    "\n" == t.value.charAt(o) && r++
-                            }
-                        } else
-                            n = t.selectionStart,
-                            r = t.selectionEnd;
-                        return {
-                            start: n,
-                            end: r
-                        }
-                    }
-                },
-                setCursorRect: function(t, e) {
-                    var n = t.start
-                      , r = t.end;
-                    if (e)
-                        if (isNaN(n) || isNaN(r))
-                            console.log("位置输入错误");
-                        else {
-                            var i = !!document.all;
-                            if (i) {
-                                for (var s = e.createTextRange(), o = c, a = u, c = 0, u = 0, l = e.value, d = 0; d < l.length && d < o; d++) {
-                                    var f = l.charAt(d);
-                                    "\n" != f && c++
-                                }
-                                for (d = l.length - 1; d >= a && d >= 0; d--) {
-                                    f = l.charAt(d);
-                                    "\n" != f && u++
-                                }
-                                s.moveStart("character", c),
-                                s.moveEnd("character", -u),
-                                s.select(),
-                                e.focus()
-                            } else
-                                e.selectionStart = n,
-                                e.selectionEnd = r,
-                                e.focus(),
-                                this.$emit("cursorRect", {
-                                    start: e.selectionStart,
-                                    end: e.selectionEnd
-                                })
-                        }
-                }
-            }
-        })
-          , hn = fn
-          , mn = function() {
+          , qn = []
+          , Rn = (n("55dd"),
+        function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -12491,8 +13457,9 @@
                 staticClass: "font12 warning"
             }, [t._v("抱歉，你访问的用户不存在哦")])])]) : t._e()
         }
-          , pn = [];
-        function gn(t, e) {
+        )
+          , En = [];
+        function Nn(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -12504,22 +13471,22 @@
             }
             return n
         }
-        function vn(t) {
+        function Ln(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? gn(Object(n), !0).forEach((function(e) {
+                e % 2 ? Nn(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : gn(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Nn(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var bn = {
+        var Gn = {
             props: ["userinfo", "k"],
-            mixins: [nt["a"], A["a"], hn],
+            mixins: [it["a"], P["a"], Et],
             data: function() {
                 return {
                     chatlistremark: "",
@@ -12530,9 +13497,9 @@
                 }
             },
             components: {
-                weiboVerified: ht
+                weiboVerified: pt
             },
-            computed: vn({}, Object(O["d"])(["selectId", "usercardinfo", "followuser"])),
+            computed: Ln({}, Object(I["d"])(["selectId", "usercardinfo", "followuser"])),
             mounted: function() {
                 if (this.selectId == l["f"].basicinfo.id)
                     return this.curuserinfo = l["f"].basicinfo;
@@ -12541,7 +13508,7 @@
                 this.curuserinfo = this.userinfo,
                 this.checkIsExist()
             },
-            methods: vn({}, Object(O["c"])(["updateremark", "changemodalId", "updateusercardremark", "fillremarklist"]), {
+            methods: Ln({}, Object(I["c"])(["updateremark", "changemodalId", "updateusercardremark", "fillremarklist"]), {
                 switchinput: function(t) {
                     this.setremark = !t
                 },
@@ -12584,11 +13551,11 @@
                 }
             })
         }
-          , yn = bn
-          , _n = (n("9b86"),
-        Object(_["a"])(yn, mn, pn, !1, null, null, null))
-          , wn = _n.exports
-          , xn = function() {
+          , Bn = Gn
+          , Un = (n("9b86"),
+        Object(_["a"])(Bn, Rn, En, !1, null, null, null))
+          , Wn = Un.exports
+          , zn = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -12615,9 +13582,13 @@
                     value: t.keywords
                 },
                 on: {
-                    input: function(e) {
+                    input: [function(e) {
                         e.target.composing || (t.keywords = e.target.value)
                     }
+                    , function(e) {
+                        return t.change(e)
+                    }
+                    ]
                 }
             }), n("div", {
                 directives: [{
@@ -12643,8 +13614,12 @@
                     right: "54",
                     resize: "",
                     "hide-horizontal": ""
+                },
+                on: {
+                    "vertical-end": t.scrollToBottom
                 }
             }, [n("div", {
+                staticClass: "contactslist moreuserlist",
                 staticStyle: {
                     "margin-right": "54px"
                 }
@@ -12670,7 +13645,7 @@
                 staticClass: "action remove"
             }), n("span", {
                 staticClass: "font12 c333 name one-line"
-            }, [t._v("移除成员")])]) : t._e(), t._l(t.members_solve, (function(e, r) {
+            }, [t._v("移除成员")])]) : t._e(), t._l(t.showMember, (function(e, r) {
                 return n("li", {
                     key: r
                 }, [n("p", {
@@ -12704,8 +13679,8 @@
                 }
             }, [t._v("返回")])]) : t._e()])
         }
-          , jn = []
-          , kn = function() {
+          , Vn = []
+          , Fn = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -12738,8 +13713,8 @@
                 }
             }, [t._v("移除")]) : t._e()])
         }
-          , On = [];
-        function Cn(t, e) {
+          , Yn = [];
+        function Hn(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -12751,21 +13726,21 @@
             }
             return n
         }
-        function In(t) {
+        function Jn(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Cn(Object(n), !0).forEach((function(e) {
+                e % 2 ? Hn(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Cn(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Hn(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var $n = {
-            mixins: [A["a"]],
+        var Kn = {
+            mixins: [P["a"]],
             name: "user",
             data: function() {
                 return {}
@@ -12807,13 +13782,13 @@
             created: function() {},
             props: ["user", "checkidentify", "showYc"],
             components: {},
-            computed: In({}, Object(O["d"])(["modalId", "selectId", "querygroup", "remarklist"])),
+            computed: Jn({}, Object(I["d"])(["modalId", "selectId", "querygroup", "remarklist"])),
             watch: {}
         }
-          , Tn = $n
-          , An = Object(_["a"])(Tn, kn, On, !1, null, null, null)
-          , Pn = An.exports;
-        function Sn(t, e) {
+          , Qn = Kn
+          , Zn = Object(_["a"])(Qn, Fn, Yn, !1, null, null, null)
+          , Xn = Zn.exports;
+        function tr(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -12825,31 +13800,60 @@
             }
             return n
         }
-        function Dn(t) {
+        function er(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Sn(Object(n), !0).forEach((function(e) {
+                e % 2 ? tr(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Sn(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : tr(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var qn = {
+        var nr = {
             name: "modal-list",
             data: function() {
                 return {
                     keywords: "",
-                    showYc: !1
+                    showYc: !1,
+                    showMember: [],
+                    slicelength: 0
                 }
             },
             created: function() {
-                this.showYc = this.yc
+                var t = this;
+                this.showYc = this.yc,
+                this.querygroup.query_all_member || (this.querygroup.query_all_member = !0,
+                a["a"].querygroup({
+                    params: {
+                        query_all_member: 1,
+                        group_ts: Date.now(),
+                        id: this.$store.state.selectId
+                    }
+                }).then((function(e) {
+                    e.result && (t.querygroup.member_infos = e.member_infos)
+                }
+                )))
             },
-            computed: Dn({}, Object(O["d"])(["modalId", "selectId", "querygroup", "remarklist"]), {
+            mounted: function() {
+                if (this.querygroup.member_infos.length < 200)
+                    this.showMember = this.members_solve;
+                else {
+                    if (this.members_solve)
+                        for (var t = 0, e = 0; e < this.members_solve.length; e++)
+                            if (t += this.members_solve[e].item.length,
+                            t > 100) {
+                                console.log(this.members_solve[e].item.length, t, e),
+                                this.slicelength = e;
+                                break
+                            }
+                    this.showMember = this.members_solve.slice(0, this.slicelength)
+                }
+            },
+            computed: er({}, Object(I["d"])(["modalId", "selectId", "querygroup", "remarklist"]), {
                 members_show: function() {
                     var t = this;
                     return this.keywords && this.querygroup.member_infos ? this.querygroup.member_infos.filter((function(e) {
@@ -12865,16 +13869,32 @@
                 }
             }),
             components: {
-                user: Pn
+                user: Xn
             },
             props: ["checkidentify", "yc"],
-            watch: {}
+            watch: {
+                members_solve: function() {
+                    this.keywords && (this.showMember = this.members_solve)
+                }
+            },
+            methods: {
+                scrollToBottom: function() {
+                    var t = this;
+                    document.querySelector(".vue-loading") || this.members_solve.length > this.slicelength && (this.$loading("moreuserlist"),
+                    setTimeout((function() {
+                        t.$loading.remove("moreuserlist"),
+                        t.slicelength += 5,
+                        t.showMember = t.members_solve.slice(0, t.slicelength)
+                    }
+                    ), 1e3))
+                }
+            }
         }
-          , Mn = qn
-          , En = (n("742c"),
-        Object(_["a"])(Mn, xn, jn, !1, null, null, null))
-          , Rn = En.exports
-          , Nn = function() {
+          , rr = nr
+          , ir = (n("742c"),
+        Object(_["a"])(rr, zn, Vn, !1, null, null, null))
+          , sr = ir.exports
+          , or = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -12976,8 +13996,8 @@
                 }
             }, [t._v("返回")])])])
         }
-          , Ln = [];
-        function Gn(t, e) {
+          , ar = [];
+        function cr(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -12989,21 +14009,21 @@
             }
             return n
         }
-        function Un(t) {
+        function ur(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Gn(Object(n), !0).forEach((function(e) {
+                e % 2 ? cr(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Gn(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : cr(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var Bn = {
-            mixins: [hn],
+        var lr = {
+            mixins: [Et],
             name: "bulletin",
             data: function() {
                 return {
@@ -13102,7 +14122,7 @@
                 this.scheme = this.$parent.bulletin_scheme
             },
             components: {},
-            computed: Un({}, Object(O["d"])(["modalId", "selectId", "querygroup", "remarklist"])),
+            computed: ur({}, Object(I["d"])(["modalId", "selectId", "querygroup", "remarklist"])),
             watch: {
                 bulletin: function(t) {
                     var e = this;
@@ -13118,12 +14138,12 @@
                 }
             }
         }
-          , Wn = Bn
-          , zn = (n("e4b3"),
+          , dr = lr
+          , fr = (n("e4b3"),
         n("c7ee"),
-        Object(_["a"])(Wn, Nn, Ln, !1, null, "30d8bc32", null))
-          , Vn = zn.exports
-          , Yn = function() {
+        Object(_["a"])(dr, or, ar, !1, null, "30d8bc32", null))
+          , hr = fr.exports
+          , mr = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -13306,8 +14326,8 @@
                 }
             }, [t._v("返回")])])])])
         }
-          , Fn = [];
-        function Hn(t, e) {
+          , pr = [];
+        function gr(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -13319,21 +14339,21 @@
             }
             return n
         }
-        function Jn(t) {
+        function br(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Hn(Object(n), !0).forEach((function(e) {
+                e % 2 ? gr(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Hn(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : gr(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var Zn = {
-            mixins: [A["a"]],
+        var vr = {
+            mixins: [P["a"]],
             name: "app",
             data: function() {
                 return {
@@ -13384,7 +14404,7 @@
             mounted: function() {
                 this.$refs.input && this.$refs.input.focus()
             },
-            computed: Jn({}, Object(O["d"])(["modalId", "selectId", "querygroup", "remarklist"]), {
+            computed: br({}, Object(I["d"])(["modalId", "selectId", "querygroup", "remarklist"]), {
                 members_show: function() {
                     var t = this;
                     return this.keywords && this.querygroup.member_infos ? this.querygroup.member_infos.filter((function(e) {
@@ -13411,16 +14431,16 @@
                 }
             }),
             components: {
-                weiboVerified: ht,
-                hoverItem: yt
+                weiboVerified: pt,
+                hoverItem: qt
             },
             watch: {}
         }
-          , Kn = Zn
-          , Qn = (n("2c67"),
-        Object(_["a"])(Kn, Yn, Fn, !1, null, "0b963b72", null))
-          , Xn = Qn.exports;
-        function tr(t, e) {
+          , yr = vr
+          , _r = (n("2c67"),
+        Object(_["a"])(yr, mr, pr, !1, null, "0b963b72", null))
+          , wr = _r.exports;
+        function xr(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -13432,21 +14452,21 @@
             }
             return n
         }
-        function er(t) {
+        function jr(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? tr(Object(n), !0).forEach((function(e) {
+                e % 2 ? xr(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : tr(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : xr(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var nr = {
-            mixins: [nt["a"], A["a"], hn],
+        var kr = {
+            mixins: [it["a"], P["a"], Et],
             data: function() {
                 return {
                     showicon: !1,
@@ -13476,28 +14496,68 @@
                 }
             },
             created: function() {
-                var t = this;
-                T["a"].$on("changeModal2st", (function(e) {
-                    t.st = e
+                var t = Object(s["a"])(regeneratorRuntime.mark((function t() {
+                    var e, n = this;
+                    return regeneratorRuntime.wrap((function(t) {
+                        while (1)
+                            switch (t.prev = t.next) {
+                            case 0:
+                                if (T["a"].$on("changeModal2st", (function(t) {
+                                    n.st = t
+                                }
+                                )),
+                                T["a"].$on("join", (function() {
+                                    n.addGroup()
+                                }
+                                )),
+                                this.info && (this.st = 2),
+                                this.querygroup.query_all_member || this.$store.state.joinGroup) {
+                                    t.next = 15;
+                                    break
+                                }
+                                return this.querygroup.query_all_member = !0,
+                                t.prev = 5,
+                                t.next = 8,
+                                a["a"].querygroup({
+                                    params: {
+                                        query_all_member: 1,
+                                        group_ts: Date.now(),
+                                        id: this.$store.state.selectId
+                                    }
+                                });
+                            case 8:
+                                e = t.sent,
+                                e.result && (this.querygroup.member_infos = e.member_infos),
+                                t.next = 15;
+                                break;
+                            case 12:
+                                t.prev = 12,
+                                t.t0 = t["catch"](5),
+                                console.log(t.t0);
+                            case 15:
+                            case "end":
+                                return t.stop()
+                            }
+                    }
+                    ), t, this, [[5, 12]])
                 }
-                )),
-                T["a"].$on("join", (function() {
-                    t.addGroup()
+                )));
+                function e() {
+                    return t.apply(this, arguments)
                 }
-                )),
-                this.info && (this.st = 2)
-            },
+                return e
+            }(),
             mounted: function() {
                 this.initData()
             },
             components: {
-                usercard: wn,
-                list: Rn,
-                bulletin: Vn,
-                hoverItem: yt,
-                removeUser: Xn
+                usercard: Wn,
+                list: sr,
+                bulletin: hr,
+                hoverItem: qt,
+                removeUser: wr
             },
-            computed: er({}, Object(O["d"])(["friendslist", "modalId", "selectId", "remarklist"]), {
+            computed: jr({}, Object(I["d"])(["friendslist", "modalId", "selectId", "remarklist"]), {
                 querygroup: function() {
                     return this.$store.state.joinGroup || this.$store.state.querygroup || {
                         admins: [],
@@ -13521,7 +14581,7 @@
                         e
                     }
                     return e = {
-                        profile_image_url: Se.a,
+                        profile_image_url: nn.a,
                         screen_name: this.querygroup.owner,
                         remark: "",
                         owner: this.querygroup.owner
@@ -13536,7 +14596,7 @@
                     }
                     )),
                     e) {
-                        Object(u["p"])(e.profile_image_url, e.uid) || Se.a,
+                        Object(u["p"])(e.profile_image_url, e.uid) || nn.a,
                         e.uid,
                         e.screen_name || e.uid,
                         e.uid;
@@ -13548,7 +14608,7 @@
                     } else
                         e = {
                             remark: "",
-                            profile_image_url: Se.a,
+                            profile_image_url: nn.a,
                             screen_name: this.querygroup.owner
                         };
                     return e
@@ -13570,7 +14630,7 @@
                     return this.querygroup.member_infos.length + 1 + +this.checkidentify
                 }
             }),
-            methods: er({}, Object(O["c"])(["removechatlist", "selectSession", "exnogroupmodal", "changemodalId", "fillfriendslist"]), {
+            methods: jr({}, Object(I["c"])(["removechatlist", "selectSession", "exnogroupmodal", "changemodalId", "fillfriendslist"]), {
                 checkfriend: function() {
                     var t = this;
                     return new Promise((function(e) {
@@ -13583,7 +14643,7 @@
                     ))
                 },
                 checkavatar: function(t) {
-                    return t ? Object(u["b"])(t) : Se.a
+                    return t ? Object(u["b"])(t) : nn.a
                 },
                 canremove: function(t) {
                     return +t !== +l["f"].basicinfo.id && (1 === this.checkId(l["f"].basicinfo.id) ? +l["f"].basicinfo.id !== +t : 2 === this.checkId(l["f"].basicinfo.id) && 3 === this.checkId(t))
@@ -13669,7 +14729,7 @@
                     return n && (e.remark = n.remark),
                     e || (e = {
                         remark: "",
-                        profile_image_url: Se.a,
+                        profile_image_url: nn.a,
                         screen_name: t
                     }),
                     e
@@ -13682,7 +14742,7 @@
                     e || (e = {
                         screen_name: t,
                         remark: "",
-                        profile_image_url: Se.a
+                        profile_image_url: nn.a
                     });
                     var n = this.remarklist.find((function(e) {
                         return e.uid == t
@@ -13811,7 +14871,7 @@
                                         r.getuserdetail(n.uid, (function(t) {
                                             if (!t.error) {
                                                 var e = {
-                                                    avatar_large: Object(u["b"])(Object(u["p"])(t.avatar_large, n.uid)) || Se.a,
+                                                    avatar_large: Object(u["b"])(Object(u["p"])(t.avatar_large, n.uid)) || nn.a,
                                                     description: t.description,
                                                     name: t.name || n.uid,
                                                     profile_url: "//www.weibo.com/u/" + n.uid,
@@ -13982,7 +15042,7 @@
                     }).then((function(e) {
                         t.$parent.curView = "",
                         e.error ? t.$toast(e.error) : (t.suda("webchat_addgroupwithoutlimit", "webchat_addgroupwithoutlimit"),
-                        l["m"].exist ? $t["a"].feedAddGroupWithoutLimit.addCount() : $t["a"].addGroupWithoutLimit.addCount(),
+                        l["m"].exist ? Nt["a"].feedAddGroupWithoutLimit.addCount() : Nt["a"].addGroupWithoutLimit.addCount(),
                         t.finishModal("进群成功"),
                         t.$nextTick((function() {
                             t.selectUser(t.querygroup.id)
@@ -14180,11 +15240,11 @@
             },
             props: ["info"]
         }
-          , rr = nr
-          , ir = (n("1633"),
-        Object(_["a"])(rr, ln, dn, !1, null, null, null))
-          , sr = ir.exports
-          , or = function() {
+          , Or = kr
+          , Cr = (n("1633"),
+        Object(_["a"])(Or, Mn, qn, !1, null, null, null))
+          , Ir = Cr.exports
+          , $r = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -14235,8 +15295,8 @@
             }
             )), 0) : t._e()])])
         }
-          , ar = [];
-        function cr(t, e) {
+          , Ar = [];
+        function Sr(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -14248,21 +15308,21 @@
             }
             return n
         }
-        function ur(t) {
+        function Tr(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? cr(Object(n), !0).forEach((function(e) {
+                e % 2 ? Sr(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : cr(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Sr(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var lr = {
-            mixins: [nt["a"], A["a"]],
+        var Pr = {
+            mixins: [it["a"], P["a"]],
             data: function() {
                 return {
                     memberlist: [],
@@ -14272,8 +15332,8 @@
             mounted: function() {
                 this.filtermember()
             },
-            computed: ur({}, Object(O["d"])(["querygroup", "selectId", "remarklist", "nogroupmodal", "friendsearchlist", "searchfriend", "joingroupsearchlist", "searchgroup"])),
-            methods: ur({}, Object(O["c"])(["fillfriendslist", "filljoingroups", "exsearchfriend", "exsearchgroup", "fillfriendsearchlist", "filljoingroupsearchlist"]), {
+            computed: Tr({}, Object(I["d"])(["querygroup", "selectId", "remarklist", "nogroupmodal", "friendsearchlist", "searchfriend", "joingroupsearchlist", "searchgroup"])),
+            methods: Tr({}, Object(I["c"])(["fillfriendslist", "filljoingroups", "exsearchfriend", "exsearchgroup", "fillfriendsearchlist", "filljoingroupsearchlist"]), {
                 filtermember: function() {
                     var t = this;
                     if (this.querygroup && this.querygroup.member_infos) {
@@ -14293,8 +15353,10 @@
                 change: function(t) {
                     var e = t.target.value;
                     this.filterlist = this.memberlist.filter((function(t) {
-                        if (t.remark.indexOf(e) >= 0 || t.screen_name.indexOf(e) >= 0)
-                            return !0
+                        function n(t, e) {
+                            return e.indexOf(t.toString()) > -1
+                        }
+                        return n(e, t.jp) || n(e, t.qp) || n(e, t.screen_name)
                     }
                     ))
                 },
@@ -14321,11 +15383,11 @@
                 }
             })
         }
-          , dr = lr
-          , fr = (n("fff5"),
-        Object(_["a"])(dr, or, ar, !1, null, "3a2900ac", null))
-          , hr = fr.exports
-          , mr = function() {
+          , Dr = Pr
+          , Mr = (n("1ef3"),
+        Object(_["a"])(Dr, $r, Ar, !1, null, "4cb4ede0", null))
+          , qr = Mr.exports
+          , Rr = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -14350,7 +15412,7 @@
                 staticClass: "bottom"
             }, [t._v("请用最新版微博客户端扫码打开")])])
         }
-          , pr = [function() {
+          , Er = [function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -14361,9 +15423,9 @@
             })])
         }
         ]
-          , gr = n("d044")
-          , vr = n.n(gr);
-        function br(t, e) {
+          , Nr = n("d044")
+          , Lr = n.n(Nr);
+        function Gr(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -14375,26 +15437,26 @@
             }
             return n
         }
-        function yr(t) {
+        function Br(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? br(Object(n), !0).forEach((function(e) {
+                e % 2 ? Gr(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : br(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Gr(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var _r = {
+        var Ur = {
             data: function() {
                 return {
                     showQr: !1
                 }
             },
-            computed: yr({}, Object(O["d"])(["qrcode"])),
+            computed: Br({}, Object(I["d"])(["qrcode"])),
             methods: {
                 close: function(t) {
                     this.$store.commit("emptyqrcode", null),
@@ -14403,13 +15465,13 @@
             },
             mounted: function() {
                 var t = this;
-                new vr.a("qrcode",{
+                new Lr.a("qrcode",{
                     text: this.qrcode,
                     width: 200,
                     height: 200,
                     colorDark: "#000000",
                     colorLight: "#ffffff",
-                    correctLevel: vr.a.CorrectLevel.H
+                    correctLevel: Lr.a.CorrectLevel.H
                 }),
                 setTimeout((function() {
                     t.showQr = !0
@@ -14417,11 +15479,11 @@
                 ), 0)
             }
         }
-          , wr = _r
-          , xr = (n("e9c1"),
-        Object(_["a"])(wr, mr, pr, !1, null, null, null))
-          , jr = xr.exports
-          , kr = function() {
+          , Wr = Ur
+          , zr = (n("e9c1"),
+        Object(_["a"])(Wr, Rr, Er, !1, null, null, null))
+          , Vr = zr.exports
+          , Fr = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -14476,7 +15538,7 @@
                 }
             }, [t._v("发送")])])])])
         }
-          , Or = [function() {
+          , Yr = [function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -14487,8 +15549,8 @@
             }, [t._v("申请理由")])])
         }
         ]
-          , Cr = {
-            mixins: [nt["a"], A["a"], hn],
+          , Hr = {
+            mixins: [it["a"], P["a"], Et],
             data: function() {
                 return {
                     msg: "我是@".concat(l["f"].basicinfo.name),
@@ -14543,7 +15605,7 @@
                         create_attention: 1
                     }).then((function(e) {
                         e.error ? t.finishModal(e.error) : (t.suda("webchat_addgroupwithlimit", "webchat_addgroupwithlimit"),
-                        l["m"].exist ? $t["a"].feedAddGroupWithLimit.addCount() : $t["a"].addGroupWithLimit.addCount(),
+                        l["m"].exist ? Nt["a"].feedAddGroupWithLimit.addCount() : Nt["a"].addGroupWithLimit.addCount(),
                         t.close(),
                         t.finishModal("申请已发送， 请耐心等待群组审核"))
                     }
@@ -14556,11 +15618,11 @@
                 }
             }
         }
-          , Ir = Cr
-          , $r = (n("99e7"),
-        Object(_["a"])(Ir, kr, Or, !1, null, "6fad2134", null))
-          , Tr = $r.exports
-          , Ar = function() {
+          , Jr = Hr
+          , Kr = (n("99e7"),
+        Object(_["a"])(Jr, Fr, Yr, !1, null, "6fad2134", null))
+          , Qr = Kr.exports
+          , Zr = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -14671,7 +15733,7 @@
                 }
             }, [t._v("取消管理员")])]) : t._e()])
         }
-          , Pr = [function() {
+          , Xr = [function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -14682,7 +15744,7 @@
             }, [t._v("*")]), t._v("在管理员头像区域点击鼠标右键，可展开更多操作")])
         }
         ];
-        function Sr(t, e) {
+        function ti(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -14694,21 +15756,21 @@
             }
             return n
         }
-        function Dr(t) {
+        function ei(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Sr(Object(n), !0).forEach((function(e) {
+                e % 2 ? ti(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Sr(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : ti(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var qr = {
-            mixins: [nt["a"], A["a"]],
+        var ni = {
+            mixins: [it["a"], P["a"]],
             data: function() {
                 return {
                     curmenumsg: null,
@@ -14722,10 +15784,10 @@
                 }
             },
             components: {
-                usercard: wn,
-                hoverItem: yt
+                usercard: Wn,
+                hoverItem: qt
             },
-            computed: Dr({}, Object(O["d"])(["friendslist", "modalId", "selectId", "remarklist"]), {
+            computed: ei({}, Object(I["d"])(["friendslist", "modalId", "selectId", "remarklist"]), {
                 querygroup: function() {
                     return this.$store.state.querygroup || {
                         admins: [],
@@ -14748,7 +15810,7 @@
                         e
                     }
                     return e = {
-                        profile_image_url: Se.a,
+                        profile_image_url: nn.a,
                         screen_name: this.querygroup.owner,
                         remark: "",
                         owner: this.querygroup.owner
@@ -14763,7 +15825,7 @@
                     }
                     )),
                     e) {
-                        Object(u["p"])(e.profile_image_url, e.uid) || Se.a,
+                        Object(u["p"])(e.profile_image_url, e.uid) || nn.a,
                         e.uid,
                         e.screen_name || e.uid,
                         e.uid;
@@ -14775,7 +15837,7 @@
                     } else
                         e = {
                             remark: "",
-                            profile_image_url: Se.a,
+                            profile_image_url: nn.a,
                             screen_name: this.querygroup.owner
                         };
                     return e
@@ -14797,7 +15859,7 @@
                     return this.querygroup.member_infos.length + 1 + +this.checkidentify
                 }
             }),
-            methods: Dr({}, Object(O["c"])(["removechatlist", "selectSession", "exnogroupmodal", "changemodalId", "fillfriendslist"]), {
+            methods: ei({}, Object(I["c"])(["removechatlist", "selectSession", "exnogroupmodal", "changemodalId", "fillfriendslist"]), {
                 addAdmin: function() {
                     var t = this;
                     this.querygroup.admins.length < 10 ? (T["a"].$emit("choose-user", {
@@ -14965,7 +16027,7 @@
                     ))
                 },
                 checkavatar: function(t) {
-                    return t ? Object(u["b"])(t) : Se.a
+                    return t ? Object(u["b"])(t) : nn.a
                 },
                 tochat: function() {
                     this.selectUser(this.curmenumsg.uid),
@@ -15067,7 +16129,7 @@
                                         r.getuserdetail(n.uid, (function(t) {
                                             if (!t.error) {
                                                 var e = {
-                                                    avatar_large: Object(u["b"])(Object(u["p"])(t.avatar_large, n.uid)) || Se.a,
+                                                    avatar_large: Object(u["b"])(Object(u["p"])(t.avatar_large, n.uid)) || nn.a,
                                                     description: t.description,
                                                     name: t.name || n.uid,
                                                     profile_url: "//www.weibo.com/u/" + n.uid,
@@ -15096,11 +16158,11 @@
                 }()
             })
         }
-          , Mr = qr
-          , Er = (n("2df7"),
-        Object(_["a"])(Mr, Ar, Pr, !1, null, null, null))
-          , Rr = Er.exports
-          , Nr = function() {
+          , ri = ni
+          , ii = (n("2df7"),
+        Object(_["a"])(ri, Zr, Xr, !1, null, null, null))
+          , si = ii.exports
+          , oi = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -15195,8 +16257,8 @@
                 }
             }, [t._v("\n      提交申请\n    ")])])])
         }
-          , Lr = []
-          , Gr = function() {
+          , ai = []
+          , ci = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -15233,7 +16295,13 @@
                 }],
                 staticClass: "alert"
             }, [t._v("\n      不能超过15字\n    ")])]), t.editText ? t._e() : n("p", {
-                staticClass: "groupname"
+                staticClass: "groupname",
+                on: {
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.switchInput()
+                    }
+                }
             }, [t._v("\n    " + t._s(t.text ? t.text : t.placeholder) + "\n  ")]), t.editText ? n("input", {
                 directives: [{
                     name: "focus",
@@ -15267,11 +16335,11 @@
                 }
             }) : t._e()])
         }
-          , Ur = []
-          , Br = {
-            mixins: [hn],
+          , ui = []
+          , li = {
+            mixins: [Et],
             components: {
-                hoverItem: yt
+                hoverItem: qt
             },
             props: {
                 title: {
@@ -15328,11 +16396,11 @@
                 }
             }
         }
-          , Wr = Br
-          , zr = (n("fb79"),
-        Object(_["a"])(Wr, Gr, Ur, !1, null, "1f5f1a38", null))
-          , Vr = zr.exports
-          , Yr = function() {
+          , di = li
+          , fi = (n("29d1"),
+        Object(_["a"])(di, ci, ui, !1, null, "3f7cfb50", null))
+          , hi = fi.exports
+          , mi = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -15345,7 +16413,7 @@
                 on: {
                     click: function(e) {
                         return e.stopPropagation(),
-                        t.switchinput(e)
+                        t.switchInput(e)
                     }
                 }
             }, [n("hover-item", {
@@ -15369,7 +16437,13 @@
                 }],
                 staticClass: "alert"
             }, [t._v("\n      不能超过140字\n    ")])]), t.textEdit ? t._e() : n("p", {
-                staticClass: "groupname"
+                staticClass: "groupname",
+                on: {
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.switchInput(e)
+                    }
+                }
             }, [t.encodeHTML(t.summary) ? n("span", {
                 domProps: {
                     innerHTML: t._s(t.encodeHTML(t.summary))
@@ -15407,11 +16481,11 @@
                 }
             }) : t._e()])
         }
-          , Fr = []
-          , Hr = {
-            mixins: [hn],
+          , pi = []
+          , gi = {
+            mixins: [Et],
             components: {
-                hoverItem: yt
+                hoverItem: qt
             },
             props: {
                 title: {
@@ -15433,7 +16507,7 @@
                 encodeHTML: function(t) {
                     return Object(u["d"])(t)
                 },
-                switchinput: function() {
+                switchInput: function() {
                     this.startWatch = !0,
                     this.textEdit = !0
                 },
@@ -15463,10 +16537,10 @@
                 }
             }
         }
-          , Jr = Hr
-          , Zr = Object(_["a"])(Jr, Yr, Fr, !1, null, null, null)
-          , Kr = Zr.exports;
-        function Qr(t, e) {
+          , bi = gi
+          , vi = Object(_["a"])(bi, mi, pi, !1, null, null, null)
+          , yi = vi.exports;
+        function _i(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -15478,24 +16552,24 @@
             }
             return n
         }
-        function Xr(t) {
+        function wi(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Qr(Object(n), !0).forEach((function(e) {
+                e % 2 ? _i(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Qr(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : _i(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var ti = {
+        var xi = {
             components: {
-                hoverItem: yt,
-                textInput: Vr,
-                textAreaInput: Kr
+                hoverItem: qt,
+                textInput: hi,
+                textAreaInput: yi
             },
             data: function() {
                 return {
@@ -15504,7 +16578,7 @@
                     affi: {}
                 }
             },
-            computed: Xr({}, Object(O["d"])(["querygroup"])),
+            computed: wi({}, Object(I["d"])(["querygroup"])),
             methods: {
                 update: function() {
                     var t = this
@@ -15586,11 +16660,233 @@
                 }
             }
         }
-          , ei = ti
-          , ni = (n("9113"),
-        Object(_["a"])(ei, Nr, Lr, !1, null, null, null))
-          , ri = ni.exports
-          , ii = function() {
+          , ji = xi
+          , ki = (n("9113"),
+        Object(_["a"])(ji, oi, ai, !1, null, null, null))
+          , Oi = ki.exports
+          , Ci = function() {
+            var t = this
+              , e = t.$createElement
+              , n = t._self._c || e;
+            return n("div", {
+                staticClass: "newgroup"
+            }, [n("div", {
+                staticClass: "modal2"
+            }, [n("p", {
+                staticClass: "title tc font14"
+            }, [t._v(t._s(t.title))]), n("div", {
+                staticClass: "scroll-container"
+            }, [n("happy-scroll", {
+                attrs: {
+                    color: "rgba(82, 85, 91, .8)",
+                    size: "5",
+                    "min-length-v": .05,
+                    resize: "",
+                    "hide-horizontal": ""
+                }
+            }, [n("div", {
+                staticStyle: {
+                    "margin-right": "15px"
+                }
+            }, [n("text-input", {
+                attrs: {
+                    title: "群名称",
+                    content: t.groupName,
+                    placeholder: "输入群名称"
+                },
+                on: {
+                    change: function(e) {
+                        t.groupName = e
+                    }
+                }
+            }), n("text-area-input", {
+                on: {
+                    change: function(e) {
+                        t.groupSummary = e
+                    }
+                }
+            })], 1)])], 1)]), n("div", {
+                staticClass: "confirmbtn-box tc"
+            }, [n("button", {
+                staticClass: "confirmbtn",
+                class: {
+                    disabled: !t.groupName
+                },
+                on: {
+                    click: function(e) {
+                        return t.update()
+                    }
+                }
+            }, [t._v("\n      " + t._s(t.buttonText) + "\n    ")])])])
+        }
+          , Ii = [];
+        function $i(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter((function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                }
+                ))),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function Ai(t) {
+            for (var e = 1; e < arguments.length; e++) {
+                var n = null != arguments[e] ? arguments[e] : {};
+                e % 2 ? $i(Object(n), !0).forEach((function(e) {
+                    Object(o["a"])(t, e, n[e])
+                }
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : $i(Object(n)).forEach((function(e) {
+                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                }
+                ))
+            }
+            return t
+        }
+        var Si = {
+            mixins: [P["a"]],
+            components: {
+                hoverItem: qt,
+                textInput: hi,
+                textAreaInput: yi
+            },
+            data: function() {
+                return {
+                    title: "新建群聊 —— 填写群信息",
+                    buttonText: "下一步",
+                    groupName: "",
+                    groupSummary: "",
+                    affi: {}
+                }
+            },
+            computed: Ai({}, Object(I["d"])(["querygroup", "friendslist"])),
+            methods: Ai({}, Object(I["c"])(["selectSession", "unshiftchatlist"]), {
+                update: function(t) {
+                    this.groupName && (T["a"].$emit("choose-user", {
+                        id: "modalCreateChat",
+                        vm: this,
+                        title: "新建群聊 — 选择联系人",
+                        confirmBtn: "确定",
+                        cancelBtn: "取消",
+                        searchText: "查找联系人",
+                        chosenText: "已选择联系人",
+                        searchType: 2,
+                        listType: 2,
+                        withGroup: !1,
+                        withUser: !0,
+                        defaultSelects: t,
+                        modalPush: !0,
+                        defaultList: [],
+                        onconfirm: function(t, e) {
+                            this.createnewchat(t)
+                        },
+                        oncancle: function(t) {
+                            t.close(!0)
+                        }
+                    }),
+                    this.checkfriend().then((function(t) {
+                        T["a"].$emit("refresh-choose-user", {
+                            id: "modalCreateChat",
+                            defaultList: d["a"].backsolvemembers(t)
+                        })
+                    }
+                    )))
+                },
+                checkfriend: function() {
+                    return new Promise((function(t) {
+                        a["a"].getbilateral().then((function(e) {
+                            t(e.friends)
+                        }
+                        ))
+                    }
+                    ))
+                },
+                createnewchat: function(t) {
+                    var e = this;
+                    if (t.length > 1) {
+                        var n = t.map((function(t) {
+                            return t.id
+                        }
+                        )).join(",")
+                          , r = {
+                            name: this.groupName,
+                            summary: this.groupSummary,
+                            members: n
+                        };
+                        a["a"].creategroup(r).then((function(t) {
+                            if (t.error)
+                                e.$toast(t.error || "群组创建失败，请重试");
+                            else {
+                                var n, r = (n = {
+                                    affi_type: "",
+                                    fid: "",
+                                    created_at: (new Date).getTime(),
+                                    id: t.id,
+                                    mid: "",
+                                    is_block_all_public: !1,
+                                    is_blocked: !1,
+                                    profile_image_url: t.avatar,
+                                    avatar_large: t.avatar,
+                                    remindSetting: 2,
+                                    round_profile_image_url: t.round_avatar,
+                                    round_avatar_large: t.round_avatar,
+                                    sender_id: l["f"].basicinfo.id,
+                                    sender_screen_name: l["f"].basicinfo.name,
+                                    sub_type: 101,
+                                    type: 2,
+                                    message_type: 333
+                                },
+                                Object(o["a"])(n, "sub_type", ""),
+                                Object(o["a"])(n, "unread_count", 0),
+                                Object(o["a"])(n, "name", t.name),
+                                n);
+                                e.unshiftchatlist(r),
+                                e.selectSession(t.id)
+                            }
+                        }
+                        )),
+                        this.$parent.curView = ""
+                    } else
+                        1 == t.length && this.$toast("请至少选择 2 位好友")
+                },
+                unshiftuser: function(t) {
+                    var e = this
+                      , n = t.id
+                      , r = this.$store.state.chatlist.findIndex((function(t) {
+                        return t.id == n
+                    }
+                    ));
+                    r >= 0 ? (this.$store.commit("updatechatlist", {
+                        i: r
+                    }),
+                    this.$store.commit("selectSession", n)) : (r = this.$store.state.topuser.findIndex((function(t) {
+                        return t.id == n
+                    }
+                    )),
+                    r >= 0 ? this.$store.commit("selectSession", n) : this.getpernewuser(n, (function(t) {
+                        t && (t.is_top_user = !1,
+                        e.$store.commit("unshiftchatlist", t),
+                        e.$store.commit("selectSession", n))
+                    }
+                    )))
+                }
+            }),
+            created: function() {
+                var t = this;
+                T["a"].$on("setNewGroup", (function(e) {
+                    console.log(e),
+                    t.update(e)
+                }
+                ))
+            }
+        }
+          , Ti = Si
+          , Pi = (n("2950"),
+        Object(_["a"])(Ti, Ci, Ii, !1, null, null, null))
+          , Di = Pi.exports
+          , Mi = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -15976,8 +17272,8 @@
                 }
             }, [t._v("\n        " + t._s(t.selectSettings.cancelBtn) + "\n      ")])])])])
         }
-          , si = [];
-        function oi(t, e) {
+          , qi = [];
+        function Ri(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -15989,21 +17285,21 @@
             }
             return n
         }
-        function ai(t) {
+        function Ei(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? oi(Object(n), !0).forEach((function(e) {
+                e % 2 ? Ri(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : oi(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Ri(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var ci = {
-            mixins: [A["a"]],
+        var Ni = {
+            mixins: [P["a"]],
             name: "choose-user",
             data: function() {
                 return {
@@ -16070,10 +17366,10 @@
             mounted: function() {
                 var t;
                 (this.$refs.input && this.$refs.input.focus(),
-                this.selectSettings.defaultSelects) && (t = this.reslist).push.apply(t, Object(Nt["a"])(this.selectSettings.defaultSelects))
+                this.selectSettings.defaultSelects) && (t = this.reslist).push.apply(t, Object(ce["a"])(this.selectSettings.defaultSelects))
             },
             props: ["selectSettings"],
-            computed: ai({}, Object(O["d"])(["modalId", "selectId", "querygroup", "remarklist"]), {
+            computed: Ei({}, Object(I["d"])(["modalId", "selectId", "querygroup", "remarklist"]), {
                 modalType: function() {
                     return this.selectSettings.single_choose
                 },
@@ -16096,8 +17392,8 @@
                 }
             }),
             components: {
-                weiboVerified: ht,
-                hoverItem: yt
+                weiboVerified: pt,
+                hoverItem: qt
             },
             watch: {
                 keywords: function(t) {
@@ -16161,11 +17457,11 @@
                 }
             }
         }
-          , ui = ci
-          , li = (n("f655"),
-        Object(_["a"])(ui, ii, si, !1, null, "5d50dfb8", null))
-          , di = li.exports
-          , fi = function() {
+          , Li = Ni
+          , Gi = (n("f655"),
+        Object(_["a"])(Li, Mi, qi, !1, null, "5d50dfb8", null))
+          , Bi = Gi.exports
+          , Ui = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -16195,8 +17491,8 @@
                 }
             })], 1)])
         }
-          , hi = []
-          , mi = function() {
+          , Wi = []
+          , zi = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -16208,9 +17504,9 @@
                 class: ["modal-default"]
             })]) : t._e()
         }
-          , pi = []
-          , gi = n("f0e2")
-          , vi = window.videojs || gi["default"];
+          , Vi = []
+          , Fi = n("f0e2")
+          , Yi = window.videojs || Fi["default"];
         "function" != typeof Object.assign && Object.defineProperty(Object, "assign", {
             value: function(t, e) {
                 if (null == t)
@@ -16226,8 +17522,8 @@
             writable: !0,
             configurable: !0
         });
-        var bi = ["loadeddata", "canplay", "canplaythrough", "play", "pause", "waiting", "playing", "ended", "error"]
-          , yi = {
+        var Hi = ["loadeddata", "canplay", "canplaythrough", "play", "pause", "waiting", "playing", "ended", "error"]
+          , Ji = {
             name: "video-player",
             props: {
                 start: {
@@ -16318,8 +17614,8 @@
                         t.$refs.video.play()
                     }
                     )),
-                    this.player = vi(this.$refs.video, e, (function() {
-                        for (var t = this, e = bi.concat(r.events).concat(r.globalEvents), i = {}, s = 0; s < e.length; s++)
+                    this.player = Yi(this.$refs.video, e, (function() {
+                        for (var t = this, e = Hi.concat(r.events).concat(r.globalEvents), i = {}, s = 0; s < e.length; s++)
                             "string" === typeof e[s] && void 0 === i[e[s]] && function(e) {
                                 i[e] = null,
                                 t.on(e, (function() {
@@ -16367,14 +17663,14 @@
                 }
             }
         }
-          , _i = yi
-          , wi = Object(_["a"])(_i, mi, pi, !1, null, null, null)
-          , xi = wi.exports;
+          , Ki = Ji
+          , Qi = Object(_["a"])(Ki, zi, Vi, !1, null, null, null)
+          , Zi = Qi.exports;
         n("3c119"),
         n("6922");
         window.videojs = n("f0e2");
-        var ji = {
-            mixins: [A["a"]],
+        var Xi = {
+            mixins: [P["a"]],
             props: {
                 src: {
                     type: String,
@@ -16382,7 +17678,7 @@
                 }
             },
             components: {
-                videoPlayer: xi
+                videoPlayer: Zi
             },
             watch: {},
             data: function() {
@@ -16442,11 +17738,11 @@
                 }
             }
         }
-          , ki = ji
-          , Oi = (n("af7d"),
-        Object(_["a"])(ki, fi, hi, !1, null, "027854d4", null))
-          , Ci = Oi.exports;
-        function Ii(t, e) {
+          , ts = Xi
+          , es = (n("af7d"),
+        Object(_["a"])(ts, Ui, Wi, !1, null, "027854d4", null))
+          , ns = es.exports;
+        function rs(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -16458,21 +17754,21 @@
             }
             return n
         }
-        function $i(t) {
+        function is(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Ii(Object(n), !0).forEach((function(e) {
+                e % 2 ? rs(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Ii(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : rs(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var Ti = {
-            mixins: [A["a"]],
+        var ss = {
+            mixins: [P["a"]],
             data: function() {
                 return {
                     curView: "",
@@ -16484,7 +17780,7 @@
                     chooseUserId: ""
                 }
             },
-            computed: $i({}, Object(O["d"])(["querygroup"])),
+            computed: is({}, Object(I["d"])(["querygroup"])),
             mounted: function() {
                 var t = this;
                 document.body.style.overflow = "hidden",
@@ -16493,10 +17789,9 @@
                 }
                 )),
                 T["a"].$on("choose-user", (function(e) {
-                    console.log(e),
                     t.selectSettings = e,
-                    console.log(t.selectSettings),
-                    e.modalPush ? t.curView.push("choose-user") : t.curView = "choose-user",
+                    e.modalPush ? ("String" === t.whichType(t.curView) && (t.curView = [t.curView]),
+                    t.curView.push("choose-user")) : t.curView = "choose-user",
                     e.id && (t.chooseUserId = e.id)
                 }
                 )),
@@ -16540,14 +17835,15 @@
                 }
             },
             components: {
-                modal2: sr,
-                modal3: hr,
-                modal4: jr,
-                applyJoinGroup: Tr,
-                chooseUser: di,
-                videoModal: Ci,
-                manageAdmin: Rr,
-                updateToAffi: ri
+                modal2: Ir,
+                modal3: qr,
+                modal4: Vr,
+                applyJoinGroup: Qr,
+                chooseUser: Bi,
+                videoModal: ns,
+                manageAdmin: si,
+                updateToAffi: Oi,
+                newGroup: Di
             },
             methods: {
                 indexStyle: function(t) {
@@ -16603,11 +17899,397 @@
                 document.body.style.overflow = "auto"
             }
         }
-          , Ai = Ti
-          , Pi = (n("3501"),
-        Object(_["a"])(Ai, cn, un, !1, null, "50abf18a", null))
-          , Si = Pi.exports
-          , Di = function() {
+          , os = ss
+          , as = (n("6507"),
+        Object(_["a"])(os, Pn, Dn, !1, null, "3269327d", null))
+          , cs = as.exports
+          , us = function() {
+            var t = this
+              , e = t.$createElement
+              , n = t._self._c || e;
+            return n("div", {
+                staticClass: "font16 right overflow-hidden group-message"
+            }, [n("msgHeader", {
+                staticClass: "header-bottom"
+            }), t.notifications.length ? n("div", {
+                staticClass: "notification"
+            }, [n("happy-scroll", {
+                ref: "happyscroll",
+                attrs: {
+                    color: "rgba(82, 85, 91, .8)",
+                    size: "6",
+                    "min-length-v": .05,
+                    resize: "",
+                    "hide-horizontal": ""
+                },
+                on: {
+                    "vertical-end": t.scrollToBottom
+                }
+            }, [n("ul", {
+                staticClass: "notification-list"
+            }, t._l(t.notifications, (function(e, r) {
+                return n("li", {
+                    key: r,
+                    staticClass: "item"
+                }, [n("div", {
+                    staticClass: "flex justify-c_c align-items_c flex_column"
+                }, [n("div", {
+                    staticClass: "time"
+                }, [t._v(t._s(t._f("moment")(e.time)))]), n("div", {
+                    staticClass: "message flex"
+                }, [n("div", {
+                    staticClass: "avator-box"
+                }, [3 !== e.type ? n("img", {
+                    staticClass: "avator hvhd",
+                    attrs: {
+                        src: e.msg && e.msg.avatar || e.groupInfo && e.groupInfo.round_avatar || "../../assets/images/defaultAvatar.png"
+                    },
+                    on: {
+                        click: function(n) {
+                            return t.openGroup(e.gid)
+                        }
+                    }
+                }) : n("img", {
+                    staticClass: "avator hvhd round",
+                    attrs: {
+                        src: e.from_user && e.from_user.profile_image_url || e.groupInfo && e.groupInfo.avatar_large
+                    },
+                    on: {
+                        click: function(n) {
+                            return t.openProfile_url(e.from_user.profile_url)
+                        }
+                    }
+                }), 3 === e.type ? n("weibo-verified", {
+                    attrs: {
+                        user: e.from_user
+                    }
+                }) : t._e()], 1), 0 === e.type ? n("div", {
+                    staticClass: "flex-1 message-contain"
+                }, [n("div", {
+                    staticClass: "bubble_arrow absolute left"
+                }), n("div", [n("div", {
+                    staticClass: "hvhd",
+                    domProps: {
+                        textContent: t._s(e.msg.title)
+                    },
+                    on: {
+                        click: function(n) {
+                            return t.openGroup(e.gid)
+                        }
+                    }
+                }), n("div", {
+                    staticClass: "normal",
+                    domProps: {
+                        textContent: t._s(e.msg.content1)
+                    }
+                })])]) : 1 === e.type ? n("div", {
+                    staticClass: "flex-1 message-contain"
+                }, [n("div", {
+                    staticClass: "bubble_arrow absolute left"
+                }), n("div", {
+                    staticClass: "flex align-items_c justify-c_space-b"
+                }, [n("div", [n("div", {
+                    staticClass: "hvhd",
+                    domProps: {
+                        textContent: t._s(e.msg.title || e.groupInfo && e.groupInfo.name)
+                    },
+                    on: {
+                        click: function(n) {
+                            return t.openGroup(e.gid)
+                        }
+                    }
+                }), n("div", {
+                    staticClass: "normal",
+                    domProps: {
+                        textContent: t._s(e.msg.content1)
+                    }
+                })]), n("div", [430 === e.sub_type ? n("button", {
+                    staticClass: "confirmbtn",
+                    on: {
+                        click: function(n) {
+                            return t.openGroup(e.gid)
+                        }
+                    }
+                }, [t._v("\n                      聊天\n                    ")]) : t._e()])])]) : 2 === e.type ? n("div", {
+                    staticClass: "flex-1 message-contain"
+                }, [n("div", {
+                    staticClass: "bubble_arrow absolute left"
+                }), n("div", [n("div", {
+                    staticClass: "hvhd",
+                    domProps: {
+                        textContent: t._s(e.msg.title || e.groupInfo && e.groupInfo.name || "群聊")
+                    },
+                    on: {
+                        click: function(n) {
+                            return t.openGroup(e.gid)
+                        }
+                    }
+                }), n("div", {
+                    staticClass: "normal",
+                    domProps: {
+                        textContent: t._s(e.msg.content1 ? e.msg.content1 : e.msg)
+                    }
+                })])]) : 3 === e.type ? n("div", {
+                    staticClass: "flex-1 message-contain"
+                }, [n("div", {
+                    staticClass: "bubble_arrow absolute left"
+                }), n("div", {
+                    staticClass: "flex align-items_c justify-c_space-b"
+                }, [n("div", [n("div", {
+                    staticClass: "flex align-items_c"
+                }, [n("div", {
+                    staticClass: "hvhd",
+                    domProps: {
+                        textContent: t._s(e.from_user && e.from_user.screen_name || e.id)
+                    },
+                    on: {
+                        click: function(n) {
+                            return t.openGroup(e.from_uid)
+                        }
+                    }
+                }), e.icons ? n("div", ["m" === e.gender ? n("div", {
+                    staticClass: "man"
+                }) : t._e(), "f" === e.gender ? n("div", {
+                    staticClass: "female"
+                }) : t._e()]) : t._e()]), n("div", {
+                    staticClass: "normal"
+                }, [t._v("\n                      申请加入群\n                      "), n("span", {
+                    staticClass: "group hvhd",
+                    on: {
+                        click: function(n) {
+                            return t.openGroup(e.gid)
+                        }
+                    }
+                }, [t._v(t._s(e.groupInfo && e.groupInfo.name))])]), n("div", {
+                    staticClass: "normal"
+                }, [t._v("入群理由：" + t._s(e.msg))])]), n("div", [1 === e.status ? n("button", {
+                    staticClass: "confirmbtn",
+                    on: {
+                        click: function(n) {
+                            return t.handleStatus(e, r, 2)
+                        }
+                    }
+                }, [t._v("\n                      同意\n                    ")]) : t._e(), 1 === e.status ? n("button", {
+                    staticClass: "confirmbtn calcelbtn",
+                    on: {
+                        click: function(n) {
+                            return t.handleStatus(e, r, 8)
+                        }
+                    }
+                }, [t._v("\n                      拒绝\n                    ")]) : t._e(), 2 === e.status ? n("button", {
+                    staticClass: "confirmbtn disabled"
+                }, [t._v("\n                      已同意\n                    ")]) : t._e(), 8 === e.status ? n("button", {
+                    staticClass: "confirmbtn disabled"
+                }, [t._v("\n                      已拒绝\n                    ")]) : t._e()])])]) : t._e()])]), e.warning_message ? n("div", {
+                    staticClass: "warn-text"
+                }, [n("div", {
+                    staticClass: "warn-text-img"
+                }), t._v("\n            " + t._s(e.warning_message) + "\n          ")]) : t._e()])
+            }
+            )), 0)])], 1) : n("div", {
+                staticClass: "nomessage"
+            }, [n("div", {
+                staticClass: "none"
+            }), n("p", [t._v("暂无群通知")])])], 1)
+        }
+          , ls = [];
+        function ds(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter((function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                }
+                ))),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function fs(t) {
+            for (var e = 1; e < arguments.length; e++) {
+                var n = null != arguments[e] ? arguments[e] : {};
+                e % 2 ? ds(Object(n), !0).forEach((function(e) {
+                    Object(o["a"])(t, e, n[e])
+                }
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : ds(Object(n)).forEach((function(e) {
+                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                }
+                ))
+            }
+            return t
+        }
+        var hs = {
+            mixins: [P["a"]],
+            data: function() {
+                return {
+                    loading: !0
+                }
+            },
+            components: {
+                msgHeader: zt,
+                weiboVerified: pt
+            },
+            filters: {
+                moment: function(t) {
+                    function e(t) {
+                        return t < 10 ? "0".concat(t) : t
+                    }
+                    var n = new Date(1e3 * t)
+                      , r = e(n.getMonth() + 1)
+                      , i = n.getDate()
+                      , s = n.getHours() < 10 ? "0" + n.getHours() : n.getHours()
+                      , o = n.getMinutes() < 10 ? "0" + n.getMinutes() : n.getMinutes()
+                      , a = r + "-" + i + " " + s + ":" + o;
+                    return a
+                }
+            },
+            methods: {
+                openProfile_url: function(t) {
+                    window.open("https://weibo.com/".concat(t))
+                },
+                handleStatus: function(t, e) {
+                    var n = this
+                      , r = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : 2;
+                    a["a"].apply_check({
+                        id: t.gid,
+                        mid: t.id,
+                        status: r
+                    }).then(function() {
+                        var r = Object(s["a"])(regeneratorRuntime.mark((function r(i) {
+                            var s;
+                            return regeneratorRuntime.wrap((function(r) {
+                                while (1)
+                                    switch (r.prev = r.next) {
+                                    case 0:
+                                        return r.next = 2,
+                                        n.handleNotification(i.message);
+                                    case 2:
+                                        s = r.sent,
+                                        /_male.png$/g.test(t.icons[0].url) ? t.gender = "m" : t.gender = "f",
+                                        n.$set(n.notifications, e, s);
+                                    case 5:
+                                    case "end":
+                                        return r.stop()
+                                    }
+                            }
+                            ), r)
+                        }
+                        )));
+                        return function(t) {
+                            return r.apply(this, arguments)
+                        }
+                    }())
+                },
+                openGroup: function(t) {
+                    this.selectUser(t)
+                },
+                getSysMessage: function() {
+                    var t = this
+                      , e = {
+                        params: {
+                            query_sender: 1,
+                            query_group_info: 1
+                        }
+                    };
+                    this.notifications.length && (e.params.max_mid = this.notifications[this.notifications.length - 1].id),
+                    a["a"].querySysMessages(e).then((function(e) {
+                        var n;
+                        (document.querySelector(".vue-loading") && t.$loading.remove("notification-list"),
+                        e && e.result) && (e.messages.length || (t.loading = !1),
+                        e.messages.reverse(),
+                        e.messages.forEach((function(t) {
+                            if (t.groupInfo = t.group_info,
+                            t.from_uid)
+                                if (t.msg && 499 === t.type)
+                                    t.msg = JSON.parse(t.msg),
+                                    t.msg.content1 && (/解散了该群/g.test(t.msg.content1) ? t.type = 0 : (/申请升级为.+的粉丝群/g.test(t.msg.content1) || /将你设为管理员/g.test(t.msg.content1) || /已取消你的管理员身份/g.test(t.msg.content1) || /已将该群转让给你，你已成为新群主/g.test(t.msg.content1),
+                                    t.type = 1));
+                                else if (421 === t.type) {
+                                    var e = {
+                                        params: {}
+                                    };
+                                    e.params.uid = Number(t.from_uid),
+                                    t.icons && (t.icons = JSON.parse(t.icons),
+                                    /_male.png$/g.test(t.icons && t.icons[0].url) ? t.gender = "m" : t.gender = "f"),
+                                    t.type = 3
+                                } else
+                                    429 === t.type || t.type,
+                                    t.type = 2
+                        }
+                        )),
+                        (n = t.notifications).push.apply(n, Object(ce["a"])(e.messages)))
+                    }
+                    ))
+                },
+                handleNotification: function() {
+                    var t = Object(s["a"])(regeneratorRuntime.mark((function t(e) {
+                        var n, r, i;
+                        return regeneratorRuntime.wrap((function(t) {
+                            while (1)
+                                switch (t.prev = t.next) {
+                                case 0:
+                                    return t.next = 2,
+                                    a["a"].groupquery({
+                                        params: {
+                                            id: e.gid
+                                        }
+                                    });
+                                case 2:
+                                    if (n = t.sent,
+                                    e.groupInfo = n,
+                                    !e.from_uid) {
+                                        t.next = 10;
+                                        break
+                                    }
+                                    return t.next = 7,
+                                    a["a"].userdetail({
+                                        params: {
+                                            uid: e.from_uid
+                                        }
+                                    });
+                                case 7:
+                                    r = t.sent,
+                                    e.from_user = r,
+                                    e.msg && 499 === e.type ? (e.msg = JSON.parse(e.msg),
+                                    e.msg.content1 && (/解散了该群/g.test(e.msg.content1) ? e.type = 0 : (/申请升级为.+的粉丝群/g.test(e.msg.content1) || /将你设为管理员/g.test(e.msg.content1) || /已取消你的管理员身份/g.test(e.msg.content1) || /已将该群转让给你，你已成为新群主/g.test(e.msg.content1),
+                                    e.type = 1))) : 421 === e.type ? (i = {
+                                        params: {}
+                                    },
+                                    i.params.uid = Number(e.from_uid),
+                                    e.icons && (e.icons = JSON.parse(e.icons),
+                                    /_male.png$/g.test(e.icons && e.icons[0].url) ? e.gender = "m" : e.gender = "f"),
+                                    e.type = 3) : (429 === e.type || e.type,
+                                    e.type = 2);
+                                case 10:
+                                    return t.abrupt("return", e);
+                                case 11:
+                                case "end":
+                                    return t.stop()
+                                }
+                        }
+                        ), t)
+                    }
+                    )));
+                    function e(e) {
+                        return t.apply(this, arguments)
+                    }
+                    return e
+                }(),
+                scrollToBottom: function() {
+                    !document.querySelector(".vue-loading") && this.loading && (this.$loading("notification-list"),
+                    this.getSysMessage())
+                }
+            },
+            computed: fs({}, Object(I["d"])(["notifications"])),
+            mounted: function() {
+                this.getSysMessage()
+            }
+        }
+          , ms = hs
+          , ps = (n("f493"),
+        Object(_["a"])(ms, us, ls, !1, null, null, null))
+          , gs = ps.exports
+          , bs = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -16622,8 +18304,8 @@
                 staticClass: "font14 fff"
             }, [t._v("返回所有消息")])])
         }
-          , qi = [];
-        function Mi(t, e) {
+          , vs = [];
+        function ys(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -16635,37 +18317,37 @@
             }
             return n
         }
-        function Ei(t) {
+        function _s(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Mi(Object(n), !0).forEach((function(e) {
+                e % 2 ? ys(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Mi(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : ys(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var Ri = {
-            mixins: [nt["a"], A["a"]],
-            computed: Ei({}, Object(O["d"])(["selectId", "chatlistcount"])),
-            methods: Ei({}, Object(O["c"])(["exshowunfollow", "selectSession"]))
+        var ws = {
+            mixins: [it["a"], P["a"]],
+            computed: _s({}, Object(I["d"])(["selectId", "chatlistcount"])),
+            methods: _s({}, Object(I["c"])(["exshowunfollow", "selectSession"]))
         }
-          , Ni = Ri
-          , Li = (n("a10b"),
-        Object(_["a"])(Ni, Di, qi, !1, null, "adc20bc8", null))
-          , Gi = Li.exports;
+          , xs = ws
+          , js = (n("a10b"),
+        Object(_["a"])(xs, bs, vs, !1, null, "adc20bc8", null))
+          , ks = js.exports;
         T["a"].$on("handleReport", (function(t) {
             var e = t.old_clientId
               , n = t.new_clientId;
-            Wi(e, n)
+            Is(e, n)
         }
         ));
-        var Ui = $.cometd;
-        Ui.websocketEnabled = !1;
-        var Bi = {
+        var Os = $.cometd;
+        Os.websocketEnabled = !1;
+        var Cs = {
             WebimComet: function(t) {
                 var e = this
                   , n = this
@@ -16684,20 +18366,20 @@
                             i = e.channel,
                             r = e.server;
                             var s = r + "im";
-                            Ui.init({
+                            Os.init({
                                 url: s
                             }, (function(e) {
                                 if (e.clientId && l["g"].clientId != e.clientId) {
                                     var n = l["g"].clientId;
-                                    Wi(n, e.clientId)
+                                    Is(n, e.clientId)
                                 }
                                 l["g"].setData("clientId", e.clientId),
                                 o && (o = !1),
                                 t && t()
                             }
                             )),
-                            Ui.addListener("/meta/handshake", n.metaHandshake),
-                            Ui.addListener("/meta/connect", n.metaConnect)
+                            Os.addListener("/meta/handshake", n.metaHandshake),
+                            Os.addListener("/meta/connect", n.metaConnect)
                         }
                     }
                     )).catch((function() {
@@ -16723,8 +18405,8 @@
                 }
                 ,
                 this.metaHandshake = function(t) {
-                    t.successful ? Ui.subscribe(i, n.receive) : t.failure && "error" == t.failure.exception && "error" == t.failure.reason && (Ui.getTransport() && Ui.getTransport().abort(),
-                    Ui.disconnect(),
+                    t.successful ? Os.subscribe(i, n.receive) : t.failure && "error" == t.failure.exception && "error" == t.failure.reason && (Os.getTransport() && Os.getTransport().abort(),
+                    Os.disconnect(),
                     n.reconnectDelay())
                 }
                 ,
@@ -16735,29 +18417,29 @@
                 ,
                 this.publish = function(t) {
                     try {
-                        Ui.publish("/im/req", t)
+                        Os.publish("/im/req", t)
                     } catch (e) {}
                 }
                 ,
                 this.metaConnect = function(e) {
-                    e.successful || (Ui.getTransport() && Ui.getTransport().abort(),
-                    Ui.disconnect(),
+                    e.successful || (Os.getTransport() && Os.getTransport().abort(),
+                    Os.disconnect(),
                     n.reconnectDelay()),
                     t.onConnect(e.successful)
                 }
                 ,
                 this.close = function() {
-                    null != Ui.getTransport() && Ui.getTransport().abort(),
-                    Ui.disconnect(),
+                    null != Os.getTransport() && Os.getTransport().abort(),
+                    Os.disconnect(),
                     n.reconnectDelay()
                 }
                 ,
                 this.getStatus = function() {
-                    return Ui.getStatus()
+                    return Os.getStatus()
                 }
             }
         };
-        function Wi(t, e) {
+        function Is(t, e) {
             if (Global.sid) {
                 var n = {
                     sid: Global.sid,
@@ -16770,8 +18452,8 @@
                 })
             }
         }
-        var zi = Bi;
-        function Vi(t, e) {
+        var $s = Cs;
+        function As(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -16783,13 +18465,13 @@
             }
             return n
         }
-        function Yi(t) {
+        function Ss(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Vi(Object(n), !0).forEach((function(e) {
+                e % 2 ? As(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Vi(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : As(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
@@ -16797,8 +18479,8 @@
             return t
         }
         document.getElementById("globaAudio");
-        var Fi = {
-            mixins: [nt["a"], A["a"], Ee, Ae],
+        var Ts = {
+            mixins: [it["a"], P["a"], an, tn],
             data: function() {
                 return {
                     curView: "",
@@ -16830,19 +18512,20 @@
                 })
             },
             components: {
-                message: Mt,
-                vText: _e,
-                Search: $e,
-                Chatlist: Qe,
-                User: ze,
-                Modalcontain: Si,
+                message: se,
+                vText: ze,
+                Search: Ze,
+                Chatlist: jn,
+                User: pn,
+                Modalcontain: cs,
                 startup: x,
-                Searchlist: an,
-                Back: Gi,
-                usercard: wn
+                Searchlist: Tn,
+                Back: ks,
+                usercard: Wn,
+                groupNotification: gs
             },
-            computed: Yi({}, Object(O["d"])(["selectId", "isWinFocus", "chatlist", "topuser", "searchstate", "showunfollow", "chatlistcount", "chatrecords", "groupmemberset", "querygroup", "remarklist", "unfollowlist", "isopenvoice", "isopenwebnotif"]), {}, Object(O["b"])(["getuserremark"])),
-            methods: Yi({}, Object(O["c"])(["changemodalId", "fillremarklist", "exvoice", "changePubRemindType"]), {
+            computed: Ss({}, Object(I["d"])(["selectId", "isWinFocus", "chatlist", "topuser", "searchstate", "showunfollow", "chatlistcount", "chatrecords", "groupmemberset", "querygroup", "remarklist", "unfollowlist", "isopenvoice", "isopenwebnotif", "groupNotification"]), {}, Object(I["b"])(["getuserremark"])),
+            methods: Ss({}, Object(I["c"])(["changemodalId", "fillremarklist", "exvoice", "changePubRemindType", "changePushSetting"]), {
                 init: function() {
                     var t = Object(s["a"])(regeneratorRuntime.mark((function t() {
                         var e = this;
@@ -16983,6 +18666,14 @@
                     a["a"].queryPubRemindType().then((function(e) {
                         e.error || "pub_dm" == e.business && t.changePubRemindType(e.type)
                     }
+                    )),
+                    a["a"].push_settings({
+                        params: {
+                            ua: "PC"
+                        }
+                    }).then((function(e) {
+                        e && e.result && t.changePushSetting(e.settings)
+                    }
                     ))
                 },
                 initsilent: function() {
@@ -17043,7 +18734,7 @@
                             }
                         }
                     }
-                      , c = new zi.WebimComet(a);
+                      , c = new $s.WebimComet(a);
                     l["h"].setData("cometconn", c),
                     l["h"].cometconn.start(),
                     n || (n = setInterval((function() {
@@ -17113,11 +18804,11 @@
                 }
             })
         }
-          , Hi = Fi
-          , Ji = (n("da27"),
-        Object(_["a"])(Hi, r, i, !1, null, "684113c9", null))
-          , Zi = Ji.exports
-          , Ki = function() {
+          , Ps = Ts
+          , Ds = (n("1e05"),
+        Object(_["a"])(Ps, r, i, !1, null, "5de46371", null))
+          , Ms = Ds.exports
+          , qs = function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -17175,7 +18866,7 @@
                 staticClass: "copyright tc"
             }, [t._v("Copyright © 2009-2019 WEIBO 北京微梦创科网络技术有限公司")])])
         }
-          , Qi = [function() {
+          , Rs = [function() {
             var t = this
               , e = t.$createElement
               , n = t._self._c || e;
@@ -17200,7 +18891,7 @@
             }, [t._v("赶快去安装")])])
         }
         ];
-        function Xi(t, e) {
+        function Es(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -17212,20 +18903,20 @@
             }
             return n
         }
-        function ts(t) {
+        function Ns(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? Xi(Object(n), !0).forEach((function(e) {
+                e % 2 ? Es(Object(n), !0).forEach((function(e) {
                     Object(o["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Xi(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : Es(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var es = {
+        var Ls = {
             data: function() {
                 return {
                     qrdata: null,
@@ -17238,7 +18929,7 @@
                 var t = window.sinaSSOController.getSinaCookie();
                 t && t.uid && !window.goChat ? this.loginWithOutInfo() : this.getqrcodeimg()
             },
-            methods: ts({}, Object(O["c"])([]), {
+            methods: Ns({}, Object(I["c"])([]), {
                 loginWithOutInfo: function() {
                     this.$router.push({
                         path: "chat",
@@ -17413,28 +19104,33 @@
                 }()
             })
         }
-          , ns = es
-          , rs = (n("a681"),
-        Object(_["a"])(ns, Ki, Qi, !1, null, "3879ba69", null))
-          , is = rs.exports
-          , ss = [{
+          , Gs = Ls
+          , Bs = (n("a681"),
+        Object(_["a"])(Gs, qs, Rs, !1, null, "3879ba69", null))
+          , Us = Bs.exports
+          , Ws = [{
             path: "/",
-            component: is
+            component: Us
         }, {
             path: "/chat",
-            component: Zi
+            component: Ms
         }, {
             path: "*",
             redirect: "/"
         }];
-        e["a"] = ss
+        e["a"] = Ws
     },
-    a264: function(t, e, n) {},
-    a3fe: function(t, e, n) {},
+    a443: function(t, e, n) {},
     a4ef: function(t, e, n) {},
     a681: function(t, e, n) {
         "use strict";
         var r = n("fcb7")
+          , i = n.n(r);
+        i.a
+    },
+    a73e: function(t, e, n) {
+        "use strict";
+        var r = n("32b2")
           , i = n.n(r);
         i.a
     },
@@ -17456,10 +19152,12 @@
     b30b: function(t, e, n) {},
     b35e: function(t, e, n) {
         "use strict";
-        n("8e6e"),
-        n("456d"),
         n("ac4d"),
         n("8a81"),
+        n("5df3"),
+        n("1c4c"),
+        n("8e6e"),
+        n("456d"),
         n("55dd"),
         n("ac6a"),
         n("7514"),
@@ -17485,7 +19183,69 @@
           , f = n("72b1")
           , h = n("8e1e")
           , m = n("8917");
-        function p(t, e) {
+        function p(t) {
+            if ("undefined" === typeof Symbol || null == t[Symbol.iterator]) {
+                if (Array.isArray(t) || (t = g(t))) {
+                    var e = 0
+                      , n = function() {};
+                    return {
+                        s: n,
+                        n: function() {
+                            return e >= t.length ? {
+                                done: !0
+                            } : {
+                                done: !1,
+                                value: t[e++]
+                            }
+                        },
+                        e: function(t) {
+                            throw t
+                        },
+                        f: n
+                    }
+                }
+                throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
+            }
+            var r, i, s = !0, o = !1;
+            return {
+                s: function() {
+                    r = t[Symbol.iterator]()
+                },
+                n: function() {
+                    var t = r.next();
+                    return s = t.done,
+                    t
+                },
+                e: function(t) {
+                    o = !0,
+                    i = t
+                },
+                f: function() {
+                    try {
+                        s || null == r.return || r.return()
+                    } finally {
+                        if (o)
+                            throw i
+                    }
+                }
+            }
+        }
+        function g(t, e) {
+            if (t) {
+                if ("string" === typeof t)
+                    return b(t, e);
+                var n = Object.prototype.toString.call(t).slice(8, -1);
+                return "Object" === n && t.constructor && (n = t.constructor.name),
+                "Map" === n || "Set" === n ? Array.from(n) : "Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? b(t, e) : void 0
+            }
+        }
+        function b(t, e) {
+            (null == e || e > t.length) && (e = t.length);
+            for (var n = 0, r = new Array(e); n < e; n++)
+                r[n] = t[n];
+            return r
+        }
+        function v(t, e) {
             var n = Object.keys(t);
             if (Object.getOwnPropertySymbols) {
                 var r = Object.getOwnPropertySymbols(t);
@@ -17497,20 +19257,20 @@
             }
             return n
         }
-        function g(t) {
+        function y(t) {
             for (var e = 1; e < arguments.length; e++) {
                 var n = null != arguments[e] ? arguments[e] : {};
-                e % 2 ? p(Object(n), !0).forEach((function(e) {
+                e % 2 ? v(Object(n), !0).forEach((function(e) {
                     Object(i["a"])(t, e, n[e])
                 }
-                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : p(Object(n)).forEach((function(e) {
+                )) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : v(Object(n)).forEach((function(e) {
                     Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
                 }
                 ))
             }
             return t
         }
-        var v = {
+        var _ = {
             data: function() {
                 return {
                     linkreg: /(http|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?/g,
@@ -17519,7 +19279,7 @@
                     popupuser: !1
                 }
             },
-            methods: g({}, Object(a["c"])(["selectSession", "fillusercardinfo", "changefollow", "exshowunfollow", "fillunfollowlist", "changemodalId", "extotalChatlist", "fillchatlist", "addchatlist", "exallLoaded", "updateunfollowlist", "exchatlistcursor", "updatechatlist", "exnomorerecords", "exquerygroup", "exlastreadmid", "extotalUnfollowlist", "exallunfollowLoaded"]), {
+            methods: y({}, Object(a["c"])(["selectSession", "fillusercardinfo", "changefollow", "exshowunfollow", "fillunfollowlist", "changemodalId", "extotalChatlist", "fillchatlist", "addchatlist", "exallLoaded", "updateunfollowlist", "exchatlistcursor", "updatechatlist", "exnomorerecords", "exquerygroup", "exlastreadmid", "extotalUnfollowlist", "exallunfollowLoaded"]), {
                 whichType: function(t) {
                     return !0 === Number.isNaN(t) ? "NaN" : Object.prototype.toString.call(t).match(/\w+/g)[1]
                 },
@@ -17789,7 +19549,7 @@
                 showUserInfo: function(t, e, n, i) {
                     var s = this;
                     if (e) {
-                        var o = this.$parent;
+                        var o = this.$root.$children[0].$children[0];
                         5 == this.$store.state.modalId && this.$store.commit("changemodalId", -1),
                         this.$nextTick(Object(r["a"])(regeneratorRuntime.mark((function r() {
                             var a, c, u, d;
@@ -17892,7 +19652,7 @@
                                     return r = this.$store.state.selectId,
                                     i = {
                                         params: {
-                                            add_virtual_user: 3,
+                                            add_virtual_user: "3,4",
                                             is_include_group: 0,
                                             need_back: "0,0"
                                         }
@@ -18007,8 +19767,8 @@
                                                 dgid: e
                                             }
                                         }).then((function(e) {
-                                            e.error ? t() : (r.remindSetting = 1 == e.switch ? 1 : 2,
-                                            t())
+                                            e.error || (r.remindSetting = 1 == e.switch ? 1 : 2),
+                                            t()
                                         }
                                         ))
                                     }
@@ -18089,8 +19849,8 @@
                                                 uids: e
                                             }
                                         }).then((function(n) {
-                                            n.error ? t() : (r.is_blocked = n[e].blocked,
-                                            t())
+                                            n.error || (r.is_blocked = n[e].blocked),
+                                            t()
                                         }
                                         ))
                                     }
@@ -18144,10 +19904,13 @@
                     else {
                         this.popupuser = !0;
                         var e = Object(o["n"])(Object(o["k"])(location.href), "to_uid");
-                        this.$store.state.selectId != e && e ? this.selectUser(e, (function() {
+                        this.$store.state.selectId != e && e ? (this.selectUser(e, (function() {
                             t && t()
                         }
-                        )) : t && t()
+                        )),
+                        -101 === Number(e) && (this.$store.commit("exGroupMessage", 1),
+                        this.selectSession(-101),
+                        s["a"].clearNotificationunread())) : t && t()
                     }
                 },
                 getuserdetail: function(t, e) {
@@ -18157,8 +19920,8 @@
                         }
                     };
                     s["a"].userdetail(n).then((function(t) {
-                        t.error ? e && e(t) : (t.avatar_large = Object(o["b"])(Object(o["p"])(t.avatar_large, t.id)) || u.a,
-                        e && e(t))
+                        t.error || (t.avatar_large = Object(o["b"])(Object(o["p"])(t.avatar_large, t.id)) || u.a),
+                        e && e(t)
                     }
                     ))
                 },
@@ -18196,7 +19959,9 @@
                         return t.contacts.forEach((function(t, s) {
                             var a = n.getRemindSetting(t.user)
                               , c = {
-                                created_at: t.message.created_at,
+                                media_type: t.message.media_type,
+                                msg: 499 === t.message.type ? JSON.parse(t.message.msg).content1 : t.message.msg,
+                                created_at: t.message.created_at || 1e3 * t.message.time,
                                 dm_type: t.message.dm_type,
                                 profile_image_url: Object(o["b"])(t.user.profile_image_url),
                                 avatar_large: Object(o["b"])(t.user.avatar_large),
@@ -18222,31 +19987,43 @@
                                 bulletin: t.bulletin,
                                 verified_type: t.user.verified_type,
                                 verified: t.user.verified,
-                                verified_type_ext: t.user.verified_type_ext
+                                verified_type_ext: t.user.verified_type_ext,
+                                sort_at: new Date(t.message.created_at).getTime() > t.user.top_timestamp ? new Date(t.message.created_at).getTime() : t.user.top_timestamp
                             };
                             t.message.url_objects && (c.url_objects = t.message.url_objects),
+                            -101 === c.id && (1 === n.$store.state.pushSetting.groupchat_notify_receive ? (c.is_blocked = 1,
+                            c.unread_count = "") : 1 === n.$store.state.pushSetting.chat_group_notify && (c.remindSetting = 1)),
                             e && "chatlist" == e && t.user.is_top_user ? i.push(c) : r.push(c)
                         }
                         )),
                         i.length && (i = i.sort((function(t, e) {
-                            return e.top_timestamp - t.top_timestamp
+                            return e.sort_at - t.sort_at
                         }
                         )),
                         this.$store.commit("filltopuser", i)),
                         r
                 },
                 getginfo: function(t, e) {
-                    var n = this
-                      , r = {
+                    var r = this
+                      , i = {
                         params: {
                             id: t
                         }
                     };
-                    s["a"].querygroup(r).then((function(t) {
-                        t.error ? (n.$store.commit("emptyquerygroup", null),
+                    t > 0 ? s["a"].querygroup(i).then((function(t) {
+                        t.error ? (r.$modal({
+                            icon: {
+                                text: n("6008")
+                            },
+                            text: t.error,
+                            width: 430,
+                            closebtn: !0,
+                            contentStyle: !0
+                        }),
+                        r.$store.commit("emptyquerygroup", null),
                         e()) : e(t)
                     }
-                    ))
+                    )) : e()
                 },
                 getnewgroupinfo: function() {
                     var t = this
@@ -18331,9 +20108,9 @@
                                 e.$store.commit("exlastreadmid", s[0].id - 1);
                                 var a = []
                                   , c = []
-                                  , d = function() {
+                                  , h = function() {
                                     var t = Object(r["a"])(regeneratorRuntime.mark((function t() {
-                                        var e, n, i, d, h, m, p, g;
+                                        var e, n, i, d, h;
                                         return regeneratorRuntime.wrap((function(t) {
                                             while (1)
                                                 switch (t.prev = t.next) {
@@ -18394,66 +20171,51 @@
                                                             return t.apply(this, arguments)
                                                         }
                                                     }()),
-                                                    n = !0,
-                                                    i = !1,
-                                                    d = void 0,
-                                                    t.prev = 4,
-                                                    h = e[Symbol.iterator]();
-                                                case 6:
-                                                    if (n = (m = h.next()).done) {
-                                                        t.next = 16;
+                                                    n = p(e),
+                                                    t.prev = 2,
+                                                    n.s();
+                                                case 4:
+                                                    if ((i = n.n()).done) {
+                                                        t.next = 13;
                                                         break
                                                     }
-                                                    return p = m.value,
-                                                    t.next = 10,
-                                                    p;
-                                                case 10:
-                                                    g = t.sent,
-                                                    a.push(g),
-                                                    "card5" == g.cardtype && c.push({
-                                                        mid: g.mid,
-                                                        fid: g.fid
+                                                    return d = i.value,
+                                                    t.next = 8,
+                                                    d;
+                                                case 8:
+                                                    h = t.sent,
+                                                    a.push(h),
+                                                    "card5" == h.cardtype && c.push({
+                                                        mid: h.mid,
+                                                        fid: h.fid
                                                     });
+                                                case 11:
+                                                    t.next = 4;
+                                                    break;
                                                 case 13:
-                                                    n = !0,
-                                                    t.next = 6;
+                                                    t.next = 18;
                                                     break;
-                                                case 16:
-                                                    t.next = 22;
-                                                    break;
+                                                case 15:
+                                                    t.prev = 15,
+                                                    t.t0 = t["catch"](2),
+                                                    n.e(t.t0);
                                                 case 18:
-                                                    t.prev = 18,
-                                                    t.t0 = t["catch"](4),
-                                                    i = !0,
-                                                    d = t.t0;
-                                                case 22:
-                                                    t.prev = 22,
-                                                    t.prev = 23,
-                                                    n || null == h.return || h.return();
-                                                case 25:
-                                                    if (t.prev = 25,
-                                                    !i) {
-                                                        t.next = 28;
-                                                        break
-                                                    }
-                                                    throw d;
-                                                case 28:
-                                                    return t.finish(25);
-                                                case 29:
-                                                    return t.finish(22);
-                                                case 30:
+                                                    return t.prev = 18,
+                                                    n.f(),
+                                                    t.finish(18);
+                                                case 21:
                                                 case "end":
                                                     return t.stop()
                                                 }
                                         }
-                                        ), t, null, [[4, 18, 22, 30], [23, , 25, 29]])
+                                        ), t, null, [[2, 15, 18, 21]])
                                     }
                                     )));
                                     return function() {
                                         return t.apply(this, arguments)
                                     }
                                 }();
-                                d().then((function() {
+                                h().then((function() {
                                     if (n)
                                         t == e.$store.state.selectId && (e.$store.commit("fillchatrecords", {
                                             value: a,
@@ -18487,8 +20249,8 @@
                                             var o = s[s.length - 1]
                                               , u = o.content
                                               , l = o.from_uid
-                                              , d = o.time
-                                              , f = o.from_user;
+                                              , f = o.time
+                                              , h = o.from_user;
                                             e.$store.commit("update" + r, {
                                                 notTop: !0,
                                                 i: i,
@@ -18497,10 +20259,14 @@
                                                     fileToken: "",
                                                     text: u,
                                                     sender_id: l,
-                                                    created_at: 1e3 * d,
-                                                    sender_screen_name: f ? f.screen_name : ""
+                                                    created_at: 1e3 * f,
+                                                    sender_screen_name: h ? h.screen_name : ""
                                                 }
-                                            })
+                                            }),
+                                            setTimeout((function() {
+                                                d["a"].$emit("newMsg")
+                                            }
+                                            ), 250)
                                         }
                                     }
                                     e.showloading = !1
@@ -18634,7 +20400,7 @@
                           , u = []
                           , d = function() {
                             var t = Object(r["a"])(regeneratorRuntime.mark((function t() {
-                                var e, n, i, a, d, h, m, p;
+                                var e, n, i, a, d;
                                 return regeneratorRuntime.wrap((function(t) {
                                     while (1)
                                         switch (t.prev = t.next) {
@@ -18687,59 +20453,44 @@
                                                     return t.apply(this, arguments)
                                                 }
                                             }()),
-                                            n = !0,
-                                            i = !1,
-                                            a = void 0,
-                                            t.prev = 4,
-                                            d = e[Symbol.iterator]();
-                                        case 6:
-                                            if (n = (h = d.next()).done) {
-                                                t.next = 16;
+                                            n = p(e),
+                                            t.prev = 2,
+                                            n.s();
+                                        case 4:
+                                            if ((i = n.n()).done) {
+                                                t.next = 13;
                                                 break
                                             }
-                                            return m = h.value,
-                                            t.next = 10,
-                                            m;
-                                        case 10:
-                                            p = t.sent,
-                                            c.unshift(p),
-                                            "card5" == p.cardtype && u.unshift({
-                                                fid: p.fid,
-                                                mid: p.mid
+                                            return a = i.value,
+                                            t.next = 8,
+                                            a;
+                                        case 8:
+                                            d = t.sent,
+                                            c.unshift(d),
+                                            "card5" == d.cardtype && u.unshift({
+                                                fid: d.fid,
+                                                mid: d.mid
                                             });
+                                        case 11:
+                                            t.next = 4;
+                                            break;
                                         case 13:
-                                            n = !0,
-                                            t.next = 6;
+                                            t.next = 18;
                                             break;
-                                        case 16:
-                                            t.next = 22;
-                                            break;
+                                        case 15:
+                                            t.prev = 15,
+                                            t.t0 = t["catch"](2),
+                                            n.e(t.t0);
                                         case 18:
-                                            t.prev = 18,
-                                            t.t0 = t["catch"](4),
-                                            i = !0,
-                                            a = t.t0;
-                                        case 22:
-                                            t.prev = 22,
-                                            t.prev = 23,
-                                            n || null == d.return || d.return();
-                                        case 25:
-                                            if (t.prev = 25,
-                                            !i) {
-                                                t.next = 28;
-                                                break
-                                            }
-                                            throw a;
-                                        case 28:
-                                            return t.finish(25);
-                                        case 29:
-                                            return t.finish(22);
-                                        case 30:
+                                            return t.prev = 18,
+                                            n.f(),
+                                            t.finish(18);
+                                        case 21:
                                         case "end":
                                             return t.stop()
                                         }
                                 }
-                                ), t, null, [[4, 18, 22, 30], [23, , 25, 29]])
+                                ), t, null, [[2, 15, 18, 21]])
                             }
                             )));
                             return function() {
@@ -18810,7 +20561,7 @@
                 }
             })
         };
-        e["a"] = v
+        e["a"] = _
     },
     b3ad: function(t, e, n) {
         "use strict";
@@ -18819,7 +20570,6 @@
         i.a
     },
     b650: function(t, e, n) {},
-    b9c4: function(t, e, n) {},
     bbd5: function(t, e, n) {
         "use strict";
         n.d(e, "p", (function() {
@@ -18871,11 +20621,11 @@
         }
         )),
         n.d(e, "j", (function() {
-            return v
+            return b
         }
         )),
         n.d(e, "o", (function() {
-            return b
+            return v
         }
         )),
         n.d(e, "g", (function() {
@@ -19014,7 +20764,7 @@
             r = r.replace(/(^\s+)|(\s+$)/g, ""),
             t.className = r
         }
-        function v(t, e) {
+        function b(t, e) {
             var n = t.className
               , r = n.split(/\s+/)
               , i = 0;
@@ -19023,7 +20773,7 @@
                     return !0;
             return !1
         }
-        function b(t, e) {
+        function v(t, e) {
             var n = Object(r["a"])(t, 2)
               , i = n[0]
               , s = n[1]
@@ -19092,7 +20842,14 @@
             ))
         }
     },
-    bcfd: function(t, e, n) {},
+    bc85: function(t, e, n) {
+        "use strict";
+        var r = n("0a10")
+          , i = n.n(r);
+        i.a
+    },
+    c509: function(t, e, n) {},
+    c6eb: function(t, e, n) {},
     c712: function(t, e, n) {
         "use strict";
         n.d(e, "a", (function() {
@@ -19133,8 +20890,7 @@
             t.browserVersion = e.match(/maxthon\/([\d.]+)/)[1],
             t) : e.indexOf("firefox") > 0 ? (t.broName = "firefox",
             t.browserVersion = e.match(/firefox\/([\d.]+)/)[1],
-            t) : (e.indexOf("chrome") > 0 ? s("type", "application/x360mmplugin") ? (t.broName = "360",
-            t.browserVersion = e.match(/chrome\/([\d.]+)/)[1]) : i("type", "application/vnd.chromium.remoting-viewer") ? (t.broName = "360",
+            t) : (e.indexOf("chrome") > 0 ? s("type", "application/x360mmplugin") || i("type", "application/vnd.chromium.remoting-viewer") ? (t.broName = "360",
             t.browserVersion = e.match(/chrome\/([\d.]+)/)[1]) : (t.broName = "chrome",
             t.browserVersion = e.match(/chrome\/([\d.]+)/)[1]) : e.indexOf("safari") > -1 && (t.broName = "safari",
             t.browserVersion = e.match(/version\/([\d.]+)/)[1]),
@@ -19182,26 +20938,20 @@
           , i = n.n(r);
         i.a
     },
-    cbca: function(t, e, n) {
+    cc95: function(t, e, n) {},
+    cda1: function(t, e, n) {
         "use strict";
-        var r = n("d073")
+        var r = n("2dc7")
           , i = n.n(r);
         i.a
     },
-    cc95: function(t, e, n) {},
     ce08: function(t, e, n) {
         "use strict";
         var r = n("5fa9")
           , i = n.n(r);
         i.a
     },
-    d073: function(t, e, n) {},
-    da27: function(t, e, n) {
-        "use strict";
-        var r = n("f7b0")
-          , i = n.n(r);
-        i.a
-    },
+    deda: function(t, e, n) {},
     e4b3: function(t, e, n) {
         "use strict";
         var r = n("f82e")
@@ -19436,26 +21186,26 @@
                       , g = e.contentStyle;
                     if (!document.querySelector(".vue-modal")) {
                         l["a"].$emit("floatmaskmodal", !0);
-                        var v = t.extend(u)
-                          , b = new v;
-                        b.title = n,
-                        b.icon = r,
-                        b.text = i,
-                        b.name = s,
-                        b.tips = o,
-                        b.hidemask = m,
-                        b.closebtn = !!p,
-                        b.contentStyle = !!g,
-                        b.width = h ? h + "px" : "auto",
-                        b.okObj = a,
-                        b.cancelObj = c;
-                        var y = b.$mount().$el;
+                        var b = t.extend(u)
+                          , v = new b;
+                        v.title = n,
+                        v.icon = r,
+                        v.text = i,
+                        v.name = s,
+                        v.tips = o,
+                        v.hidemask = m,
+                        v.closebtn = !!p,
+                        v.contentStyle = !!g,
+                        v.width = h ? h + "px" : "auto",
+                        v.okObj = a,
+                        v.cancelObj = c;
+                        var y = v.$mount().$el;
                         document.body.appendChild(y),
                         f && setTimeout((function() {
                             document.body.removeChild(y)
                         }
                         ), f),
-                        b.removeModal = function() {
+                        v.removeModal = function() {
                             l["a"].$emit("floatmaskmodal", !1),
                             setTimeout((function() {
                                 document.body.removeChild(y)
@@ -19475,6 +21225,12 @@
             }
         };
         e["a"] = d
+    },
+    f493: function(t, e, n) {
+        "use strict";
+        var r = n("deda")
+          , i = n.n(r);
+        i.a
     },
     f524: function(t, e, n) {
         "use strict";
@@ -19640,9 +21396,9 @@
             }
             ), 2e3)
         }
-        var v, b = null, y = !1;
+        var b, v = null, y = !1;
         function _() {
-            b || (b = setInterval((function() {
+            v || (v = setInterval((function() {
                 window.localStorage && ("true" != window.localStorage.getItem("isopenwebnotif") ? r["a"].state.isopenwebnotif && r["a"].commit("exnotif", !1) : r["a"].state.isopenwebnotif || r["a"].commit("exnotif", !0),
                 "true" != window.localStorage.getItem("isopenvoice") ? r["a"].state.isopenvoice && r["a"].commit("exvoice", !1) : r["a"].state.isopenvoice || r["a"].commit("exvoice", !0));
                 var t = i["r"].totalunread;
@@ -19651,8 +21407,8 @@
             ), 1e3))
         }
         function w() {
-            b && (clearInterval(b),
-            b = null)
+            v && (clearInterval(v),
+            v = null)
         }
         function x() {
             y = !0
@@ -19678,10 +21434,10 @@
             ), 200)
         }
         "undefined" !== typeof document.hidden ? ("hidden",
-        v = "visibilitychange") : "undefined" !== typeof document.mozHidden ? ("mozHidden",
-        v = "mozvisibilitychange") : "undefined" !== typeof document.msHidden ? ("msHidden",
-        v = "msvisibilitychange") : "undefined" !== typeof document.webkitHidden && ("webkitHidden",
-        v = "webkitvisibilitychange"),
+        b = "visibilitychange") : "undefined" !== typeof document.mozHidden ? ("mozHidden",
+        b = "mozvisibilitychange") : "undefined" !== typeof document.msHidden ? ("msHidden",
+        b = "msvisibilitychange") : "undefined" !== typeof document.webkitHidden && ("webkitHidden",
+        b = "webkitvisibilitychange"),
         window.onfocus = function() {
             C()
         }
@@ -19698,7 +21454,7 @@
             O()
         }
         ,
-        document.addEventListener(v, k),
+        document.addEventListener(b, k),
         window.onbeforeunload = x,
         window.onunload = j
     },
@@ -19708,7 +21464,6 @@
           , i = n.n(r);
         i.a
     },
-    f7b0: function(t, e, n) {},
     f814: function(t, e, n) {
         "use strict";
         n("ac6a");
@@ -19850,19 +21605,8 @@
         e["a"] = i
     },
     f82e: function(t, e, n) {},
-    f8c7: function(t, e, n) {
-        "use strict";
-        var r = n("a3fe")
-          , i = n.n(r);
-        i.a
-    },
-    fb79: function(t, e, n) {
-        "use strict";
-        var r = n("5894")
-          , i = n.n(r);
-        i.a
-    },
     fcb7: function(t, e, n) {},
+    fcd1: function(t, e, n) {},
     fcfc: function(t, e, n) {
         "use strict";
         n.d(e, "m", (function() {
@@ -19922,11 +21666,11 @@
         }
         )),
         n.d(e, "g", (function() {
-            return v
+            return b
         }
         )),
         n.d(e, "s", (function() {
-            return b
+            return v
         }
         )),
         n.d(e, "r", (function() {
@@ -20049,13 +21793,13 @@
             },
             aborting: !1
         }
-          , v = {
+          , b = {
             setData: function(t, e) {
                 this[t] = e
             },
             clientId: ""
         }
-          , b = {
+          , v = {
             setData: function(t, e) {},
             reduce: function() {
                 arguments.length > 0 && void 0 !== arguments[0] && arguments[0]
@@ -20092,11 +21836,5 @@
                 return this.gid
             }
         }
-    },
-    fff5: function(t, e, n) {
-        "use strict";
-        var r = n("bcfd")
-          , i = n.n(r);
-        i.a
     }
 });

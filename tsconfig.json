@@ -55,7 +55,8 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
   },
   "files": [
-    "src/checkin/main.ts"
+    "src/checkin/main.ts",
+    "src/chat/main.ts",
   ],
   "include": [
     "./**/*"

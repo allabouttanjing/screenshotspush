@@ -1,26 +1,25 @@
-import Dropbox from 'dropbox';
 import puppeteer from 'puppeteer';
 
-import {login, Notes, qiandao} from './actions';
-import {LaunchConfig} from './constants';
-import {AccessToken, DeviceId, PushBulletApiKey} from './private';
+import {login, Notes, qiandao} from '../common/actions';
+import {LaunchConfig} from '../common/config';
+import {AccessToken, DeviceId, PushBulletApiKey} from '../common/private';
 
 import PushBullet = require('pushbullet');
 import fetch from 'isomorphic-fetch';
+import {Dropbox} from 'dropbox';
 
 (async () => {
   const browser = await puppeteer.launch(LaunchConfig);
   const pusher = new PushBullet(PushBulletApiKey);
-  const dbx =
-      new Dropbox.Dropbox({accessToken: AccessToken, fetch: fetch} as any);
+  const dbx = new Dropbox({accessToken: AccessToken, fetch: fetch});
 
   try {
-    await login(browser, dbx);
+    await login(browser);
   } catch (e) {
     console.error(`[-]login 1`);
     console.error(e);
     try {
-      await login(browser, dbx);
+      await login(browser);
     } catch (e) {
       console.error(`[-]login 2`);
       console.error(e);

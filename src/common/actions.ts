@@ -1,10 +1,11 @@
 import Dropbox from 'dropbox';
 import {Browser, Page} from 'puppeteer';
 
-import {Password, Username} from './private';
-import {getSharedLink, loadCookies, loggedIn, sanitizeAndGeneratePath, saveCookies, uploadDropbox} from './util';
+import {getSharedLink, loadCookies, loggedIn, sanitizeAndGeneratePath, saveCookies, uploadDropbox} from '../checkin/util';
 
-export async function login(browser: Browser, dbx: Dropbox.Dropbox) {
+import {Password, Username} from './private';
+
+export async function login(browser: Browser) {
   const url = 'https://www.weibo.com/login.php';
   const page = await browser.newPage();
 
@@ -29,9 +30,6 @@ export async function login(browser: Browser, dbx: Dropbox.Dropbox) {
     ]);
   }
   await saveCookies(page);
-
-  await saveAndSend(page, dbx, url);
-
   console.log('[+] login succeeded');
 }
 
