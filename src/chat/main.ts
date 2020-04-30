@@ -9,20 +9,49 @@ import {login} from '../common/actions';
 import {LaunchConfig} from '../common/config';
 import {AccessToken} from '../common/private';
 
-import {MockJsResponseHeader, PathWeiboChat} from './constants';
+import {PathWeiboChat} from './constants';
 
 interface FromUser {
   'id': number;
   'screen_name': string;
 }
 interface Message {
+  'id': number;
   'from_user': FromUser;
   'media_type': 1|4;  // 1: image, 4:audio
   'time': number;
   fids: number[];
 }
 
+interface QueryResult {
+  lastReadMsgId: number;
+  messages: Message[];
+}
+
 (async () => {
+  /**
+   * http://stackoverflow.com/a/10997390/11236
+   */
+  function updateURLParameter(url: string, param: string, paramVal: string) {
+    let newAdditionalURL = '';
+    let tempArray = url.split('?');
+    let baseURL = tempArray[0];
+    let additionalURL = tempArray[1];
+    let temp = '';
+    if (additionalURL) {
+      tempArray = additionalURL.split('&');
+      for (let i = 0; i < tempArray.length; i++) {
+        if (tempArray[i].split('=')[0] != param) {
+          newAdditionalURL += temp + tempArray[i];
+          temp = '&';
+        }
+      }
+    }
+
+    let rows_txt = temp + '' + param + '=' + paramVal;
+    return baseURL + '?' + newAdditionalURL + rows_txt;
+  }
+
   const browser = await puppeteer.launch(LaunchConfig);
   const dbx = new Dropbox({accessToken: AccessToken, fetch: fetch});
 
@@ -122,101 +151,78 @@ interface Message {
   const chatUrl = 'https://api.weibo.com/chat/#/chat';
   const page = await browser.newPage();
 
-  await page.setRequestInterception(true);
-
-  page.on('request', async (r) => {
-    if (r.url().includes('chat/js/app.')) {
-      const patchedJs = fs.readFileSync(
-          'src/chat/patched-weibo-app.js');  // TODO better place to put
-      console.log(`intercepted... ${r.url()}`);
-      r.respond({
-        status: 200,
-        headers: MockJsResponseHeader,
-        contentType: 'text/javascript',
-        body: patchedJs,
-      });
-      // r.continue();
-    } else if (r.url().includes('query_messages.json')) {
-      const headers = r.headers();
-      const cookies = (await page.cookies())
-                          .map((cookie) => {
-                            return `${cookie.name}=${cookie.value}`;
-                          })
-                          .join('; ');
-
-      headers.cookie = cookies;
-      const options = {url: r.url(), headers: headers};
-
-      request.defaults({jar: true})(options).on('response', response => {
-        let body = '';
-        response.on('data', data => {
-          body += data;
-        });
-        response.on('end', () => {
-          const json = JSON.parse(body);
-          const messages: Message[] = json['messages'];
-          const hasMedia =
-              messages.some(m => m.media_type == 1 || m.media_type == 4);
-          // const hasMedia = messages.some(m => m.media_type == 4);
-          console.log(
-              `[+]getting ${messages.length} messages, has media: ${hasMedia}`);
-          if (hasMedia) {
-            messages.forEach(message => {
-              processMessage(message, headers);
-            });
-          }
-        });
-      });
-      r.continue();
-    } else {
-      r.continue();
-    }
-  });
+  async function queryMessages(
+      maxMsgId: number, count: number): Promise<Message[]> {
+    const json = await page.evaluate(
+        (maxMsgId: string, count: number) =>
+            <any>window
+                .fetch(
+                    `https://api.weibo.com/webim/groupchat/query_messages.json?convert_emoji=1&query_sender=1&count=${
+                        count}&id=3995755788489444&max_mid=${
+                        maxMsgId}&source=209678993&t=${Date.now()}`,
+                    {
+                      'headers': {
+                        'accept': 'application/json, text/plain, */*',
+                        'accept-language':
+                            'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+                        'cache-control': 'no-cache',
+                        'pragma': 'no-cache',
+                        'sec-fetch-dest': 'empty',
+                        'sec-fetch-mode': 'cors',
+                        'sec-fetch-site': 'same-origin'
+                      },
+                      'referrer': 'https://api.weibo.com/chat/',
+                      'referrerPolicy': 'strict-origin-when-cross-origin',
+                      'body': null,
+                      'method': 'GET',
+                      'mode': 'cors',
+                      'credentials': 'include'
+                    })
+                .then(response => response.json()),
+        maxMsgId, count);
+    return json['messages'];
+  }
 
   // click 置顶
   await page.goto(chatUrl);
   await page.waitForSelector('.toptag');
   await page.click('.toptag');
 
-  // scroll top once to trigger patched js setup
-  const scrollBarSelector =
-      '#drag-area > div > div.message > div.message-wrapper.flex-1.relative > div.__vuescroll.hasVBar > div.__rail-is-vertical > div > div';
-  await page.waitForSelector(scrollBarSelector);
-  console.log('scrollBar is there');
-  const scrollBar = await page.$(scrollBarSelector);
-  const boundingBox = (await scrollBar?.boundingBox())!;
-  await page.mouse.move(
-      boundingBox.x + boundingBox.width / 2,
-      boundingBox.y + boundingBox.height / 2);
-  await page.mouse.down();
-  await new Promise(r => setTimeout(r, 2000));
-  await page.mouse.move(0, -2366);
-  await new Promise(r => setTimeout(r, 2000));
-  await page.mouse.move(0, -2366);
-  await page.mouse.up();
+  let lastQueryMsgMinId = 4452425337833775;
+  const count = 50;
+  const intervalId = setInterval(async () => {
+    const messages = await queryMessages(lastQueryMsgMinId, count);
+    if (messages.length == 0) {
+      console.log(`[+] No more messages. closing...`);
+      clearInterval(intervalId);
+      await browser.close();
+      return;
+    }
+    lastQueryMsgMinId = messages.sort((m1, m2) => m1.id - m2.id)[0].id;
+    console.log(
+        `[+] Last msg id: ${lastQueryMsgMinId}, msg count: ${messages.length}`);
 
-  // sanity check
-  const scrollToTopFn: string = await page.evaluate(() => {
-    return (<any>window).hijackedScrollToTop.toString();
-  });
-  const scrollToTopParam: {} = await page.evaluate(() => {
-    return (<any>window).hijackedScrollToTopParam.toString();
-  });
-  console.log(`scrollToTopFn ${scrollToTopFn}, hijackedScrollToTopParam ${
-      scrollToTopParam}`);
-
-  const interval = setInterval(async () => {
-    console.log(`calling scrollToTop()..`);
-    try {
-      await page.evaluate(() => {
-        return (<any>window)
-            .hijackedScrollToTop.call((<any>window).hijackedScrollToTopParam);
+    const hasMedia = messages.some(m => m.media_type == 1 || m.media_type == 4);
+    console.log(
+        `[+]getting ${messages.length} messages, has media: ${hasMedia}`);
+    if (hasMedia) {
+      const cookies = (await page.cookies())
+                          .map((cookie) => {
+                            return `${cookie.name}=${cookie.value}`;
+                          })
+                          .join('; ');
+      messages.forEach(message => {
+        processMessage(message, {
+          'accept': 'application/json, text/plain, */*',
+          'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+          'cache-control': 'no-cache',
+          'pragma': 'no-cache',
+          'sec-fetch-dest': 'empty',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-origin',
+          'cookie': cookies,
+        });
       });
-    } catch (e) {
-      console.log(e);
-      console.log('[-] interval exception, clearing..');
-      clearInterval(interval);
-      browser.close().then(() => process.exit(1));
     }
   }, 2000);
 })();
