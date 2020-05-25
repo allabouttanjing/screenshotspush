@@ -32,6 +32,8 @@ interface QueryResult {
   const browser = await puppeteer.launch(LaunchConfig);
   const dbx = new Dropbox({ accessToken: AccessToken, fetch: fetch });
 
+  let existingFileHitCount = 0;
+
   await login(browser);
 
   function imageUrl(fid: number): string {
@@ -47,7 +49,10 @@ interface QueryResult {
   async function existsOnDropbox(path: string): Promise<boolean> {
     try {
       const metadata = await dbx.filesGetMetadata({ path: path });
-      console.log(`[+]already exists: ${metadata.path_display}`);
+      existingFileHitCount += 1;
+      console.log(
+        `[+]already exists: ${metadata.path_display}, hit count: ${existingFileHitCount}`
+      );
       return true;
     } catch (e) {
       console.log(`[+]${path} doesn't exist`);
@@ -182,9 +187,12 @@ interface QueryResult {
   const count = 50;
   const intervalId = setInterval(async () => {
     const messages = await queryMessages(lastQueryMsgMinId, count);
-    if (messages.length == 0) {
-      console.log(`[+] No more messages. closing...`);
+    if (existingFileHitCount > 100 || messages.length == 0) {
+      console.log(
+        `[+] No more messages or existing file hits ${existingFileHitCount} times. closing...`
+      );
       clearInterval(intervalId);
+      await page.close();
       await browser.close();
       return;
     }
