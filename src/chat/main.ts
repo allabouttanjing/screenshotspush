@@ -178,7 +178,7 @@ interface QueryResult {
   await page.waitForSelector('.toptag');
   await page.click('.toptag');
 
-  let lastQueryMsgMinId = 4452425337833775;
+  let lastQueryMsgMinId = 0;
   const count = 50;
   const intervalId = setInterval(async () => {
     const messages = await queryMessages(lastQueryMsgMinId, count);
