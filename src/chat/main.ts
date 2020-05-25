@@ -29,29 +29,6 @@ interface QueryResult {
 }
 
 (async () => {
-  /**
-   * http://stackoverflow.com/a/10997390/11236
-   */
-  function updateURLParameter(url: string, param: string, paramVal: string) {
-    let newAdditionalURL = '';
-    let tempArray = url.split('?');
-    let baseURL = tempArray[0];
-    let additionalURL = tempArray[1];
-    let temp = '';
-    if (additionalURL) {
-      tempArray = additionalURL.split('&');
-      for (let i = 0; i < tempArray.length; i++) {
-        if (tempArray[i].split('=')[0] != param) {
-          newAdditionalURL += temp + tempArray[i];
-          temp = '&';
-        }
-      }
-    }
-
-    let rows_txt = temp + '' + param + '=' + paramVal;
-    return baseURL + '?' + newAdditionalURL + rows_txt;
-  }
-
   const browser = await puppeteer.launch(LaunchConfig);
   const dbx = new Dropbox({ accessToken: AccessToken, fetch: fetch });
 
