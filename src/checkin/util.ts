@@ -1,13 +1,14 @@
 import Dropbox from 'dropbox';
 import fs from 'fs';
-import {Cookie, Page} from 'puppeteer';
-import {ExecutionTime, imageTypeSuffix, PathWeibo} from './constants';
+import { Cookie, Page } from 'puppeteer';
+import { ExecutionTime, imageTypeSuffix, PathWeibo } from './constants';
 
 export function sanitizeAndGeneratePath(path: string): string {
   const parts = path.split('/');
   const tail = parts[parts.length - 1];
-  return `${tail.split('?')[0]}-${ExecutionTime}-${+ new Date()}${
-      imageTypeSuffix}`;
+  return `${
+    tail.split('?')[0]
+  }-${ExecutionTime}-${+new Date()}${imageTypeSuffix}`;
 }
 
 export async function loggedIn(page: Page): Promise<boolean> {
@@ -30,8 +31,9 @@ export async function saveCookies(page: Page) {
 
 export async function loadCookies(page: Page) {
   try {
-    const cookies =
-        JSON.parse(fs.readFileSync('cookies').toString()) as Cookie[];
+    const cookies = JSON.parse(
+      fs.readFileSync('cookies').toString()
+    ) as Cookie[];
     console.log(`[+]loading cookies...`);
     console.log(`${cookies}`);
     await page.setCookie(...cookies);
@@ -42,10 +44,14 @@ export async function loadCookies(page: Page) {
 }
 
 export async function uploadDropbox(
-    dbx: Dropbox.Dropbox, path: string): Promise<void> {
+  dbx: Dropbox.Dropbox,
+  path: string
+): Promise<void> {
   try {
-    const response = await dbx.filesUpload(
-        {path: `${PathWeibo}/${path}`, contents: fs.readFileSync(`${path}`)});
+    const response = await dbx.filesUpload({
+      path: `${PathWeibo}/${path}`,
+      contents: fs.readFileSync(`${path}`),
+    });
     const name = response.name;
     console.log(`[+]uploading succeed: ${name}`);
   } catch (e) {
@@ -55,18 +61,22 @@ export async function uploadDropbox(
 }
 
 export async function getSharedLink(
-    dbx: Dropbox.Dropbox, path: string): Promise<string> {
+  dbx: Dropbox.Dropbox,
+  path: string
+): Promise<string> {
   try {
-    const sharingMetadata = await dbx.sharingCreateSharedLinkWithSettings(
-        {path: `${PathWeibo}/${path}`});
+    const sharingMetadata = await dbx.sharingCreateSharedLinkWithSettings({
+      path: `${PathWeibo}/${path}`,
+    });
     const link = sharingMetadata.url;
     console.log(`[+]link generated: ${link}`);
     return link as string;
   } catch (e) {
     console.error(`[-]link generation error`);
     console.error(e);
-    const sharingMetadata =
-        await dbx.sharingGetSharedLinks({path: `${PathWeibo}/${path}`});
+    const sharingMetadata = await dbx.sharingGetSharedLinks({
+      path: `${PathWeibo}/${path}`,
+    });
     const link = sharingMetadata.links[0].url;
     if (!!link) {
       console.log(`[+]link retrieved: ${link}`);
