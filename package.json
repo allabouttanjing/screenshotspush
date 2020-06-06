@@ -2,11 +2,7 @@
   "name": "screenshotspush",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "dependencies": {
-    "@types/isomorphic-fetch": "0.0.34",
-    "@types/request": "^2.48.4",
-    "@types/tmp": "^0.1.0",
     "dropbox": "^4.0.30",
     "isomorphic-fetch": "^2.2.1",
     "puppeteer": "^1.20.0",
@@ -15,17 +11,21 @@
     "tmp": "^0.1.0"
   },
   "devDependencies": {
+    "@types/isomorphic-fetch": "0.0.34",
     "@types/puppeteer": "^1.20.3",
+    "@types/request": "^2.48.5",
+    "@types/tmp": "^0.1.0",
     "typescript": "^3.9.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "weibo-chat": "node src/chat/main.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mor9anz/screenshotspush.git"
   },
-  "author": "morgan zhang",
+  "author": "morganz77",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mor9anz/screenshotspush/issues"
