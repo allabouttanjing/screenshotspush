@@ -96,6 +96,8 @@ interface QueryResult {
                   });
                   const name = response.name;
                   console.log(`[+]uploading image succeed: ${name}`);
+                  console.log(`[+]removing tmp file: ${tmpFile.name}`);
+                  fs.unlinkSync(tmpFile.name);
                 } catch (e) {
                   console.error(`[-]uploading image failed`);
                   console.error(e);
@@ -194,11 +196,11 @@ interface QueryResult {
       clearInterval(intervalId);
       await page.close();
       await browser.close();
-      return;
+      process.exit(0);
     }
     lastQueryMsgMinId = messages.sort((m1, m2) => m1.id - m2.id)[0].id;
     console.log(
-      `[+] Last msg id: ${lastQueryMsgMinId}, msg count: ${messages.length}`
+      `\n[+] Last msg id: ${lastQueryMsgMinId}, msg count: ${messages.length}`
     );
 
     const hasMedia = messages.some(
