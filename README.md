@@ -1,2 +1,2 @@
-# screenshotspush
-微博超话签到并发送截图
+# ts
+A monolithic repo for all the TypeScript code
