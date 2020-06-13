@@ -1,0 +1,20 @@
+{
+   "type": "sqlite",
+   "database": "songs",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/tjdb/entity/**/*.js"
+   ],
+   "migrations": [
+      "src/tjdb/migration/**/*.js"
+   ],
+   "subscribers": [
+      "src/tjdb/subscriber/**/*.js"
+   ],
+   "cli": {
+      "entitiesDir": "src/tjdb/entity",
+      "migrationsDir": "src/tjdb/migration",
+      "subscribersDir": "src/tjdb/subscriber"
+   }
+}
