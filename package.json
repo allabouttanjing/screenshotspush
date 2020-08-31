@@ -23,6 +23,7 @@
     "@types/request": "^2.48.5",
     "@types/tmp": "^0.1.0",
     "node-pre-gyp": "^0.15.0",
+    "prettier": "^2.1.1",
     "sqlite3": "^4.2.0",
     "typescript": "^3.9.3"
   },
@@ -39,5 +40,9 @@
   "bugs": {
     "url": "https://github.com/mor9anz/screenshotspush/issues"
   },
-  "homepage": "https://github.com/mor9anz/screenshotspush#readme"
+  "homepage": "https://github.com/mor9anz/screenshotspush#readme",
+  "prettier": {
+    "quoteProps": "preserve",
+    "singleQuote": true
+  }
 }
