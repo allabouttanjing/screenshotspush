@@ -6,7 +6,7 @@ export class NewImagesAndFrameAttrsTable1592089281864
     await queryRunner.query(`DROP TABLE IF EXISTS images`);
     await queryRunner.query(`
         CREATE TABLE IF NOT EXISTS images(
-            id integer PRIMARY KEY AUTOINCREMENT, 
+            id integer PRIMARY KEY AUTOINCREMENT NOT NULL, 
             data0 blob NOT NULL, 
             data1 blob NOT NULL, 
             data2 blob NOT NULL, 
@@ -20,11 +20,11 @@ export class NewImagesAndFrameAttrsTable1592089281864
         )
     `);
     await queryRunner.query(`
-        CREATE TABLE frame_attrs(
+        CREATE TABLE IF NOT EXISTS frame_attrs(
             song_id TEXT NOT NULL, 
             seconds_per_frame integer NOT NULL, 
             frame_number integer NOT NULL, 
-            hidden boolean DEFAULT(FALSE), 
+            hidden integer NOT NULL DEFAULT(0), 
             image_id integer NOT NULL, 
             PRIMARY KEY (song_id, seconds_per_frame, frame_number)
         )

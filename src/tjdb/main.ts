@@ -6,13 +6,36 @@ import { Connection, createConnection } from 'typeorm';
 
 import { Song } from './entity/Song';
 import { SongMetadata } from './entity/SongMetadata';
+import { ArgumentParser } from 'argparse';
+import { log, cleanupLogs, collator } from '../common/util';
+import * as fg from 'fast-glob';
+import path from 'path';
 
-const SONGS_DIR = process.env['SONGS_DIR'];
+function setupArgParser(): ArgumentParser {
+  const parser = new ArgumentParser({
+    version: '0.0.1',
+    addHelp: true,
+    description: 'Put generated bilibili files into sqlite db ',
+  });
 
-if (!SONGS_DIR) {
-  console.error('specify path to songs in SONG_DIR');
-  process.exit(1);
+  parser.addArgument(['-i', '--input_dir'], {
+    help:
+      'directory for generated file(s), use abs path. should always be the top level',
+    required: true,
+    type: String,
+  });
+
+  parser.addArgument(['-t', '--target_name'], {
+    help: 'name for the only video to be processed, only partial is needed',
+    type: String,
+  });
+  return parser;
 }
+
+const parser = setupArgParser();
+const args = parser.parseArgs();
+const inputRootDir: string = args['input_dir'];
+const targetName: string = args['target_name'];
 
 async function exists(connection: Connection, song: Song): Promise<boolean> {
   return (
@@ -25,22 +48,31 @@ async function exists(connection: Connection, song: Song): Promise<boolean> {
   );
 }
 
+cleanupLogs();
 const CHUNK_SIZE = 10;
 createConnection()
   .then(async (connection) => {
-    const names = fs.readdirSync(SONGS_DIR).filter((f) => f.endsWith('.aac'));
-    for (let name of names) {
-      const fullPath = `${SONGS_DIR}/${name}`;
-      const songId = md5File.sync(fullPath);
-      // console.log(name, songId);
+    log(`Reading from ${inputRootDir}...`, '[+]', true);
+    const inputFileAbsPaths = fg
+      .sync(`${inputRootDir}/**/*.aac`, {
+        ignore: ['**/frames/**'],
+      })
+      .filter((path) => path.includes(targetName))
+      .sort(collator.compare);
 
-      const buf: Buffer = fs.readFileSync(fullPath);
+    log(inputFileAbsPaths.join('\n'));
+
+    for (let inputFileAbsPath of inputFileAbsPaths) {
+      const inputFileName = path.basename(inputFileAbsPath);
+      const songId = md5File.sync(inputFileAbsPath);
+
+      const buf: Buffer = fs.readFileSync(inputFileAbsPath);
       const song = new Song();
       song.id = songId;
 
       const songExists = await exists(connection, song);
       if (songExists) {
-        console.info(`[x]alredy existis. skipping: ${name}`);
+        log(`Alredy existis. skipping: ${inputFileName}`);
         continue;
       }
 
@@ -54,8 +86,10 @@ createConnection()
         counter++;
       }
       if (counter > CHUNK_SIZE) {
-        console.error(
-          `Only ${CHUNK_SIZE} chunks are supported!\nchunk length ${counter}\nskip ${name}\ncontinuing to next...`
+        log(
+          `Only ${CHUNK_SIZE} chunks are supported!\nchunk length ${counter}\nskip ${inputFileName}\ncontinuing to next...`,
+          '[-]',
+          true
         );
         continue;
       }
@@ -66,11 +100,10 @@ createConnection()
       const metadata = new SongMetadata();
       metadata.id = songId;
       metadata.priority = 0;
-      metadata.title = name;
+      metadata.title = inputFileName;
       await connection.manager.save(metadata);
 
-      console.log(`saved ${name}`);
-      // process.exit();
+      log(`Saved ${inputFileName}`);
     }
   })
   .catch((error) => console.log(error));
