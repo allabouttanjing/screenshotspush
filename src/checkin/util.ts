@@ -31,6 +31,10 @@ export async function saveCookies(page: Page) {
 
 export async function loadCookies(page: Page) {
   try {
+    if(!await fs.existsSync('cookies')){
+      console.log(`[+]cookies don't exist...`);
+      return;
+    }
     const cookies = JSON.parse(
       fs.readFileSync('cookies').toString()
     ) as Cookie[];
