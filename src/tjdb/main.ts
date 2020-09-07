@@ -57,12 +57,13 @@ createConnection()
       .sync(`${inputRootDir}/**/*.aac`, {
         ignore: ['**/frames/**'],
       })
-      .filter((path) => path.includes(targetName))
+      .filter((path) => path.includes(targetName || ''))
       .sort(collator.compare);
 
-    log(inputFileAbsPaths.join('\n'));
+    log(inputFileAbsPaths.join('\n'), '[+]', true);
 
-    for (let inputFileAbsPath of inputFileAbsPaths) {
+    for (const [index, inputFileAbsPath] of inputFileAbsPaths.entries()) {
+      log(`Processing ${index} / ${inputFileAbsPaths.length}..`);
       const inputFileName = path.basename(inputFileAbsPath);
       const songId = md5File.sync(inputFileAbsPath);
 
