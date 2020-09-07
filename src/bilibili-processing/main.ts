@@ -3,6 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as child_process from 'child_process';
 import * as tmp from 'tmp';
+import { log, cleanupLogs, collator } from '../common/util';
 
 function setupArgParser(): ArgumentParser {
   const parser = new ArgumentParser({
@@ -51,37 +52,6 @@ const args = parser.parseArgs();
 const inputRootDir: string = args['input_dir'];
 const outputRootDir: string = args['output_dir'];
 const targetName: string = args['target_name'];
-
-// sort by numerical number
-const collator = new Intl.Collator(undefined, {
-  numeric: true,
-  sensitivity: 'base',
-});
-
-const ErrorLog = 'error.log';
-const OutputLog = 'output.log';
-function cleanupLogs(): void {
-  if (fs.existsSync(ErrorLog)) fs.truncateSync(ErrorLog);
-  if (fs.existsSync(OutputLog)) fs.truncateSync(OutputLog);
-}
-function log(
-  msg: string,
-  prefix: string = '[+]',
-  toStdout: boolean = false
-): void {
-  if (toStdout) {
-    console.log(`${prefix} ${msg}`);
-  }
-  const d = new Date();
-  if (prefix !== '[+]') {
-    fs.appendFileSync(ErrorLog, `${d.getHours()}:${d.getMinutes()} - ${msg}\n`);
-  } else {
-    fs.appendFileSync(
-      OutputLog,
-      `${d.getHours()}:${d.getMinutes()} - ${msg}\n`
-    );
-  }
-}
 
 function processLevel1(relativePathFromInputRoot: string): void {
   const level1AbsPath = path.join(inputRootDir, relativePathFromInputRoot);
