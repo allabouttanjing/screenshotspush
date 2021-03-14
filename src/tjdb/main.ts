@@ -13,19 +13,18 @@ import path from 'path';
 
 function setupArgParser(): ArgumentParser {
   const parser = new ArgumentParser({
-    version: '0.0.1',
-    addHelp: true,
+    add_help: true,
     description: 'Put generated bilibili files into sqlite db ',
   });
 
-  parser.addArgument(['-i', '--input_dir'], {
+  parser.add_argument('-i', '--input_dir', {
     help:
       'directory for generated file(s), use abs path. should always be the top level',
     required: true,
     type: String,
   });
 
-  parser.addArgument(['-t', '--target_name'], {
+  parser.add_argument('-t', '--target_name', {
     help: 'name for the only video to be processed, only partial is needed',
     type: String,
   });
@@ -33,7 +32,7 @@ function setupArgParser(): ArgumentParser {
 }
 
 const parser = setupArgParser();
-const args = parser.parseArgs();
+const args = parser.parse_args();
 const inputRootDir: string = args['input_dir'];
 const targetName: string = args['target_name'];
 

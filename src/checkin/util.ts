@@ -1,6 +1,7 @@
 import Dropbox from 'dropbox';
 import fs from 'fs';
-import { Cookie, Page } from 'puppeteer';
+// import { Cookie } from 'puppeteer';
+import { Page, Protocol } from 'puppeteer';
 import { ExecutionTime, imageTypeSuffix, PathWeibo } from './constants';
 
 export function sanitizeAndGeneratePath(path: string): string {
@@ -31,13 +32,13 @@ export async function saveCookies(page: Page) {
 
 export async function loadCookies(page: Page) {
   try {
-    if(!await fs.existsSync('cookies')){
+    if (!(await fs.existsSync('cookies'))) {
       console.log(`[+]cookies don't exist...`);
       return;
     }
     const cookies = JSON.parse(
       fs.readFileSync('cookies').toString()
-    ) as Cookie[];
+    ) as Protocol.Network.CookieParam[];
     console.log(`[+]loading cookies...`);
     console.log(`${cookies}`);
     await page.setCookie(...cookies);
@@ -56,7 +57,7 @@ export async function uploadDropbox(
       path: `${PathWeibo}/${path}`,
       contents: fs.readFileSync(`${path}`),
     });
-    const name = response.name;
+    const name = response.result.name;
     console.log(`[+]uploading succeed: ${name}`);
   } catch (e) {
     console.error(`[-]uploading failed`);
@@ -72,7 +73,7 @@ export async function getSharedLink(
     const sharingMetadata = await dbx.sharingCreateSharedLinkWithSettings({
       path: `${PathWeibo}/${path}`,
     });
-    const link = sharingMetadata.url;
+    const link = sharingMetadata.result.url;
     console.log(`[+]link generated: ${link}`);
     return link as string;
   } catch (e) {
@@ -81,7 +82,7 @@ export async function getSharedLink(
     const sharingMetadata = await dbx.sharingGetSharedLinks({
       path: `${PathWeibo}/${path}`,
     });
-    const link = sharingMetadata.links[0].url;
+    const link = sharingMetadata.result.links[0].url;
     if (!!link) {
       console.log(`[+]link retrieved: ${link}`);
     } else {

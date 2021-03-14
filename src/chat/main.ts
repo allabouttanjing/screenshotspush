@@ -51,7 +51,7 @@ interface QueryResult {
       const metadata = await dbx.filesGetMetadata({ path: path });
       existingFileHitCount += 1;
       console.log(
-        `[+]already exists: ${metadata.path_display}, hit count: ${existingFileHitCount}`
+        `[+]already exists: ${metadata.result.path_display}, hit count: ${existingFileHitCount}`
       );
       return true;
     } catch (e) {
@@ -94,7 +94,7 @@ interface QueryResult {
                     path: fullPath,
                     contents: fs.readFileSync(`${tmpFile.name}`),
                   });
-                  const name = response.name;
+                  const name = response.result.name;
                   console.log(`[+]uploading image succeed: ${name}`);
                   console.log(`[+]removing tmp file: ${tmpFile.name}`);
                   fs.unlinkSync(tmpFile.name);
@@ -127,7 +127,7 @@ interface QueryResult {
                     path: fullPath,
                     contents: fs.readFileSync(`${tmpFile.name}`),
                   });
-                  const name = response.name;
+                  const name = response.result.name;
                   console.log(`[+]uploading audio succeed: ${name}`);
                 } catch (e) {
                   console.error(`[-]uploading audio failed`);

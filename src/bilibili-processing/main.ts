@@ -7,31 +7,30 @@ import { log, cleanupLogs, collator } from '../common/util';
 
 function setupArgParser(): ArgumentParser {
   const parser = new ArgumentParser({
-    version: '0.0.1',
-    addHelp: true,
+    add_help: true,
     description: 'Processing downloaded files from bilibili',
   });
 
-  parser.addArgument(['-i', '--input_dir'], {
+  parser.add_argument('-i', '--input_dir', {
     help:
       'directory for downloaded file(s), use abs path. should always be the top level',
     required: true,
     type: String,
   });
 
-  parser.addArgument(['-o', '--output_dir'], {
+  parser.add_argument('-o', '--output_dir', {
     help:
       'directory for outputing/caching the processing results, use abs path. should always be the top level',
     required: true,
     type: String,
   });
 
-  parser.addArgument(['-t', '--target_name'], {
+  parser.add_argument('-t', '--target_name', {
     help: 'name for the only video to be processed, only partial is needed',
     type: String,
   });
 
-  parser.addArgument(['-d', '--dry_run'], {
+  parser.add_argument('-d', '--dry_run', {
     help:
       'has to be specified as "false" in order not to dry run (NOT USED FOR NOW)',
     type: (s: string) => {
@@ -41,13 +40,13 @@ function setupArgParser(): ArgumentParser {
         return true;
       }
     },
-    defaultValue: true,
+    default: true,
   });
   return parser;
 }
 
 const parser = setupArgParser();
-const args = parser.parseArgs();
+const args = parser.parse_args();
 //   console.dir(args);
 const inputRootDir: string = args['input_dir'];
 const outputRootDir: string = args['output_dir'];
@@ -230,14 +229,14 @@ function processFilesInsideDir(relativeDirFromInputRoot: string): void {
 function isLegitLevel1Name(name: string): boolean {
   const absPath = path.join(inputRootDir, name);
   const regex = /^av[0-9]{5}/;
-  return fs.statSync(absPath).isDirectory && regex.test(name);
+  return fs.statSync(absPath).isDirectory() && regex.test(name);
 }
 
 // e.g. p123-.../
 function isLegitLevel2Name(level1AbsPath: string, name: string): boolean {
   const absPath = path.join(level1AbsPath, name);
   const regex = /^p[0-9]{1,3}-/;
-  return fs.statSync(absPath).isDirectory && regex.test(name);
+  return fs.statSync(absPath).isDirectory() && regex.test(name);
 }
 
 function withProgressMonitor<T>(
