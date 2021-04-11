@@ -7,8 +7,8 @@ import * as tmp from 'tmp';
 
 import { login } from '../common/actions';
 import { LaunchConfig } from '../common/config';
+import { Logger } from '../common/logger';
 import { AccessToken } from '../common/private';
-import { log } from '../common/util';
 
 import { PathWeiboChat } from './constants';
 
@@ -32,6 +32,7 @@ interface QueryResult {
 (async () => {
   const browser = await puppeteer.launch(LaunchConfig);
   const dbx = new Dropbox({ accessToken: AccessToken, fetch: fetch });
+  const logger = new Logger({ writeToStdout: true });
 
   let existingFileHitCount = 0;
 
@@ -51,12 +52,12 @@ interface QueryResult {
     try {
       const metadata = await dbx.filesGetMetadata({ path: path });
       existingFileHitCount += 1;
-      log(
-        `already exists: ${metadata.result.path_display}, hit count: ${existingFileHitCount}`
+      logger.info(
+        `Already exists: ${metadata.result.path_display}, hit count: ${existingFileHitCount}`
       );
       return true;
     } catch (e) {
-      log(`${path} doesn't exist`);
+      logger.info(`${path} doesn't exist`);
       return false;
     }
   }
@@ -72,12 +73,12 @@ interface QueryResult {
           contents: fs.readFileSync(`${tmpFile.name}`),
         });
         const name = response.result.name;
-        log(`uploading image succeed: ${name}`);
-        log(`removing tmp file: ${tmpFile.name}`);
+        logger.info(`Uploading succeed: ${name}`);
+        logger.info(`Removing tmp file: ${tmpFile.name}`);
         fs.unlinkSync(tmpFile.name);
       } catch (e) {
-        log(`uploading image failed`, '[-]');
-        log(e && e.stack, '[-]');
+        logger.error(`Uploading failed`);
+        logger.error(e && e.stack);
       }
     }
   }
@@ -206,13 +207,16 @@ interface QueryResult {
   let messages = await queryMessages(lastQueryMsgMinId, count);
   while (existingFileHitCount <= 100 && messages.length > 0) {
     lastQueryMsgMinId = messages.sort((m1, m2) => m1.id - m2.id)[0].id;
-    log(`Last msg id: ${lastQueryMsgMinId}, msg count: ${messages.length}`);
+    logger.info(
+      `Last msg id: ${lastQueryMsgMinId}, msg count: ${messages.length}`
+    );
 
     const mediaMessages = messages.filter(
       (m) => m.media_type == 1 || m.media_type == 4
     );
-    log(
-      `${mediaMessages.length}/${messages.length} of the messages have media`
+    logger.info(
+      `${mediaMessages.length}/${messages.length} of the messages have media`,
+      { withNewline: true }
     );
     if (mediaMessages.length > 0) {
       const cookies = (await page.cookies())
@@ -222,7 +226,7 @@ interface QueryResult {
         .join('; ');
 
       for (const mediaMessage of mediaMessages) {
-        log(`processing ${JSON.stringify(mediaMessage)}`);
+        logger.info(`processing ${JSON.stringify(mediaMessage)}`);
         await processMessage(mediaMessage, {
           'accept': 'application/json, text/plain, */*',
           'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
@@ -238,7 +242,7 @@ interface QueryResult {
     messages = await queryMessages(lastQueryMsgMinId, count);
   }
 
-  log(
+  logger.info(
     `No more messages or existing file hits ${existingFileHitCount} times. closing...`
   );
   await page.close();
