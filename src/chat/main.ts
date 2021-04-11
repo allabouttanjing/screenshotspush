@@ -8,6 +8,7 @@ import * as tmp from 'tmp';
 import { login } from '../common/actions';
 import { LaunchConfig } from '../common/config';
 import { AccessToken } from '../common/private';
+import { log } from '../common/util';
 
 import { PathWeiboChat } from './constants';
 
@@ -50,34 +51,55 @@ interface QueryResult {
     try {
       const metadata = await dbx.filesGetMetadata({ path: path });
       existingFileHitCount += 1;
-      console.log(
-        `[+]already exists: ${metadata.result.path_display}, hit count: ${existingFileHitCount}`
+      log(
+        `already exists: ${metadata.result.path_display}, hit count: ${existingFileHitCount}`
       );
       return true;
     } catch (e) {
-      console.log(`[+]${path} doesn't exist`);
+      log(`${path} doesn't exist`);
       return false;
     }
   }
 
-  function processMessage(
+  async function uploadToDropboxIfNotExist(
+    dbxTargetPath: string,
+    tmpFile: tmp.FileResult
+  ): Promise<void> {
+    if (!(await existsOnDropbox(dbxTargetPath))) {
+      try {
+        const response = await dbx.filesUpload({
+          path: dbxTargetPath,
+          contents: fs.readFileSync(`${tmpFile.name}`),
+        });
+        const name = response.result.name;
+        log(`uploading image succeed: ${name}`);
+        log(`removing tmp file: ${tmpFile.name}`);
+        fs.unlinkSync(tmpFile.name);
+      } catch (e) {
+        log(`uploading image failed`, '[-]');
+        log(e && e.stack, '[-]');
+      }
+    }
+  }
+
+  async function processSingleMediaFile(
+    fid: number,
     message: Message,
     headers: Record<string, string>
-  ): void {
-    const fromUser = message.from_user;
-    const date = new Date(message.time * 1000);
-    const dateStr = date.toISOString().slice(0, 10);
-    const fids = message.fids;
-    const fileNamePrefix = `${fromUser.id}-${fromUser.screen_name}-${message.time}`;
-    switch (message.media_type) {
-      case 1: // image
-        fids.forEach((fid) => {
-          const tmpFile = tmp.fileSync();
+  ): Promise<void> {
+    return new Promise((resolve) => {
+      const fromUser = message.from_user;
+      const date = new Date(message.time * 1000);
+      const dateStr = date.toISOString().slice(0, 10);
+      const fileNamePrefix = `${fromUser.id}-${fromUser.screen_name}-${message.time}`;
+      const tmpFile = tmp.fileSync();
+      switch (message.media_type) {
+        case 1: // image
           let originalName = '';
           request
             .defaults({ jar: true })({
               url: imageUrl(fid),
-              headers: headers,
+              headers,
             })
             .on('response', (response) => {
               const headers = response.headers;
@@ -87,60 +109,51 @@ interface QueryResult {
                 : '';
             })
             .on('end', async () => {
-              const fullPath = `${PathWeiboChat}/${dateStr}/${fileNamePrefix}-${fid}-${originalName}`;
-              if (!(await existsOnDropbox(fullPath))) {
-                try {
-                  const response = await dbx.filesUpload({
-                    path: fullPath,
-                    contents: fs.readFileSync(`${tmpFile.name}`),
-                  });
-                  const name = response.result.name;
-                  console.log(`[+]uploading image succeed: ${name}`);
-                  console.log(`[+]removing tmp file: ${tmpFile.name}`);
-                  fs.unlinkSync(tmpFile.name);
-                } catch (e) {
-                  console.error(`[-]uploading image failed`);
-                  console.error(e);
-                }
-              }
+              const dbxTargetPath = `${PathWeiboChat}/${dateStr}/${fileNamePrefix}-${fid}-${originalName}`;
+              await uploadToDropboxIfNotExist(dbxTargetPath, tmpFile);
+              resolve();
             })
             .pipe(
               fs.createWriteStream(tmpFile.name, {
                 fd: tmpFile.fd,
               })
             );
-        });
-        break;
-      case 4: // audio
-        fids.forEach((fid) => {
-          const tmpFile = tmp.fileSync();
+          break;
+        case 4: // audio
           request
             .defaults({ jar: true })({
               url: audioUrl(fid),
               headers: headers,
             })
             .on('end', async () => {
-              const fullPath = `${PathWeiboChat}/${dateStr}/${fileNamePrefix}-${fid}.mpeg`;
-              if (!(await existsOnDropbox(fullPath))) {
-                try {
-                  const response = await dbx.filesUpload({
-                    path: fullPath,
-                    contents: fs.readFileSync(`${tmpFile.name}`),
-                  });
-                  const name = response.result.name;
-                  console.log(`[+]uploading audio succeed: ${name}`);
-                } catch (e) {
-                  console.error(`[-]uploading audio failed`);
-                  console.error(e);
-                }
-              }
+              const dbxTargetPath = `${PathWeiboChat}/${dateStr}/${fileNamePrefix}-${fid}.mpeg`;
+              await uploadToDropboxIfNotExist(dbxTargetPath, tmpFile);
+              resolve();
             })
             .pipe(
               fs.createWriteStream(tmpFile.name, {
                 fd: tmpFile.fd,
               })
             );
-        });
+          break;
+        default:
+          resolve();
+      }
+    });
+  }
+
+  async function processMessage(
+    message: Message,
+    headers: Record<string, string>
+  ): Promise<void> {
+    const fids = message.fids;
+    for (const fid of fids) {
+      await processSingleMediaFile(fid, message, headers);
+      await new Promise((res) =>
+        setTimeout(() => {
+          res(null);
+        }, 1500)
+      );
     }
   }
 
@@ -181,42 +194,36 @@ interface QueryResult {
   }
 
   // click 置顶
+  page.setDefaultTimeout(120000);
+  page.setDefaultNavigationTimeout(120000);
   await page.goto(chatUrl);
   await page.waitForSelector('.toptag');
   await page.click('.toptag');
 
   let lastQueryMsgMinId = 0;
   const count = 50;
-  const intervalId = setInterval(async () => {
-    const messages = await queryMessages(lastQueryMsgMinId, count);
-    if (existingFileHitCount > 100 || messages.length == 0) {
-      console.log(
-        `[+] No more messages or existing file hits ${existingFileHitCount} times. closing...`
-      );
-      clearInterval(intervalId);
-      await page.close();
-      await browser.close();
-      process.exit(0);
-    }
-    lastQueryMsgMinId = messages.sort((m1, m2) => m1.id - m2.id)[0].id;
-    console.log(
-      `\n[+] Last msg id: ${lastQueryMsgMinId}, msg count: ${messages.length}`
-    );
 
-    const hasMedia = messages.some(
+  let messages = await queryMessages(lastQueryMsgMinId, count);
+  while (existingFileHitCount <= 100 && messages.length > 0) {
+    lastQueryMsgMinId = messages.sort((m1, m2) => m1.id - m2.id)[0].id;
+    log(`Last msg id: ${lastQueryMsgMinId}, msg count: ${messages.length}`);
+
+    const mediaMessages = messages.filter(
       (m) => m.media_type == 1 || m.media_type == 4
     );
-    console.log(
-      `[+]getting ${messages.length} messages, has media: ${hasMedia}`
+    log(
+      `${mediaMessages.length}/${messages.length} of the messages have media`
     );
-    if (hasMedia) {
+    if (mediaMessages.length > 0) {
       const cookies = (await page.cookies())
         .map((cookie) => {
           return `${cookie.name}=${cookie.value}`;
         })
         .join('; ');
-      messages.forEach((message) => {
-        processMessage(message, {
+
+      for (const mediaMessage of mediaMessages) {
+        log(`processing ${JSON.stringify(mediaMessage)}`);
+        await processMessage(mediaMessage, {
           'accept': 'application/json, text/plain, */*',
           'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
           'cache-control': 'no-cache',
@@ -226,7 +233,15 @@ interface QueryResult {
           'sec-fetch-site': 'same-origin',
           'cookie': cookies,
         });
-      });
+      }
     }
-  }, 2500);
+    messages = await queryMessages(lastQueryMsgMinId, count);
+  }
+
+  log(
+    `No more messages or existing file hits ${existingFileHitCount} times. closing...`
+  );
+  await page.close();
+  await browser.close();
+  process.exit(0);
 })();
