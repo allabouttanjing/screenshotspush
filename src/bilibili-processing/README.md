@@ -1,6 +1,6 @@
 #### Processing videos, audios and frames from downloaded data
 
-##### main.js
+#### Usage
 ```bash
 walpha@MSI:~/dev/ts$ node src/bilibili-processing/main.js -h
 usage: main.js [-h] [-v] -i INPUT_DIR -o OUTPUT_DIR [-t TARGET_NAME]
@@ -28,4 +28,10 @@ Optional arguments:
 sample usage: 
 ```bash
 node src/bilibili-processing/main.js -o ~/path/to/bilibili-generated  -i /path/to/bilibili-downloaded
+```
+
+#### Misc
+```bash
+# cut between specific range. THE ORDER OF ARGUMENTS MATTERS!
+ffmpeg -i $in -ss 00:02:17.900  -to 00:06:27.000 -c copy $out
 ```
