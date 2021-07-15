@@ -24,7 +24,7 @@ class Logger {
       console.log(`[+] ${msg}`);
     }
     const d = new Date();
-    const timestamp = `${d.getFullYear()}-${d.getMonth()}-${d.getDay()} ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
+    const timestamp = `${d.getFullYear()}-${d.getMonth()}-${d.getDate()} ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
     fs.appendFileSync(
       this.outputLogPath,
       `${options?.withNewline ? '\n' : ''}${timestamp} - ${msg}\n`
