@@ -5,7 +5,6 @@ import puppeteer from 'puppeteer';
 import request from 'request';
 import * as tmp from 'tmp';
 
-import { login } from '../common/actions';
 import { LaunchConfig } from '../common/config';
 import { Logger } from '../common/logger';
 import { AccessToken } from '../common/private';
@@ -35,8 +34,6 @@ interface QueryResult {
   const logger = new Logger({ writeToStdout: true });
 
   let existingFileHitCount = 0;
-
-  await login(browser);
 
   function imageUrl(fid: number): string {
     return `https://upload.api.weibo.com/2/mss/msget?fid=${fid}&source=209678993&imageType=origin&ts=${
