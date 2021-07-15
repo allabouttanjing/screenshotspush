@@ -9,7 +9,7 @@ import { LaunchConfig } from '../common/config';
 import { Logger } from '../common/logger';
 import { AccessToken } from '../common/private';
 
-import { PathWeiboChat } from './constants';
+import { MaxDuplicateThreshold, PathWeiboChat } from './constants';
 
 interface FromUser {
   'id': number;
@@ -18,7 +18,7 @@ interface FromUser {
 interface Message {
   'id': number;
   'from_user': FromUser;
-  'media_type': 1 | 4; // 1: image, 4:audio
+  'media_type': 1 | 4 | 10; // 1: image, 4:audio, 10: video
   'time': number;
   fids: number[];
 }
@@ -43,6 +43,10 @@ interface QueryResult {
 
   function audioUrl(fid: number): string {
     return `https://api.weibo.com/amrdata/${fid}?source=209678993`;
+  }
+
+  function videoUrl(fid: number): string {
+    return `http://upload.api.weibo.com/2/mss/msget?source=209678993&fid=${fid}`;
   }
 
   async function existsOnDropbox(path: string): Promise<boolean> {
@@ -134,6 +138,23 @@ interface QueryResult {
               })
             );
           break;
+        case 10: // video
+          request
+            .defaults({ jar: true })({
+              url: videoUrl(fid),
+              headers: headers,
+            })
+            .on('end', async () => {
+              const dbxTargetPath = `${PathWeiboChat}/${dateStr}/${fileNamePrefix}-${fid}.mp4`;
+              await uploadToDropboxIfNotExist(dbxTargetPath, tmpFile);
+              resolve();
+            })
+            .pipe(
+              fs.createWriteStream(tmpFile.name, {
+                fd: tmpFile.fd,
+              })
+            );
+          break;
         default:
           resolve();
       }
@@ -202,14 +223,14 @@ interface QueryResult {
   const count = 50;
 
   let messages = await queryMessages(lastQueryMsgMinId, count);
-  while (existingFileHitCount <= 100 && messages.length > 0) {
+  while (existingFileHitCount <= MaxDuplicateThreshold && messages.length > 0) {
     lastQueryMsgMinId = messages.sort((m1, m2) => m1.id - m2.id)[0].id;
     logger.info(
       `Last msg id: ${lastQueryMsgMinId}, msg count: ${messages.length}`
     );
 
     const mediaMessages = messages.filter(
-      (m) => m.media_type == 1 || m.media_type == 4
+      (m) => m.media_type == 1 || m.media_type == 4 || m.media_type == 10
     );
     logger.info(
       `${mediaMessages.length}/${messages.length} of the messages have media`,
